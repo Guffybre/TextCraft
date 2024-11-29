@@ -51,7 +51,7 @@ Here’s a list of user environment variables you can adjust to tailor the setti
 | `TEXTCRAFT_REVIEW_PROMPT`    | `You are an expert writing assistant...`             | Lets you override the system prompt for the Review feature, ensuring it aligns with your goals. |
 | `TEXTCRAFT_PROOFREAD_PROMPT` | `You are a proofreading assistant...`             | Provides the flexibility to define your own system prompt for the Proofread feature.         |
 | `TEXTCRAFT_REWRITE_PROMPT`   | `You are an advanced language model...`             | Enables you to set a personalized system prompt for the Rewrite feature.                    |
-| `TEXTCRAFT_COMMENT_PROMPT`   | `You are a AI assistant...`             | Controls the system prompt for AI mentions in comments. |
+| `TEXTCRAFT_COMMENT_PROMPT`   | `You are an AI assistant...`             | Controls the system prompt for AI mentions in comments. |
 
 ## Generate
 Click the "Generate" button to open a task pane with a text box and a "Generate" button. Simply type your prompt in the text box (plaintext only) and press CTRL+Enter or click the button to generate a response. The AI will use any available RAG context and the contents of your Word document to craft its reply. Once the response is ready, it will be seamlessly converted from markdown into Word formatting.
