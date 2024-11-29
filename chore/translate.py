@@ -97,9 +97,6 @@ language_mapping = {
     "Vietnamese": "vi",
     "Welsh": "cy",
 }
-language_mapping = {
-    "Marathi": "mr"
-}
 
 # Updated resource files and their corresponding entries
 resource_files = {
