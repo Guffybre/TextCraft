@@ -20,44 +20,16 @@ namespace TextForge
         {
             try
             {
-                // For preventing unnecessary iteration of comments every time something changes in Word.
+                // For preventing unnecessary iteration of this function every time something changes in Word.
                 int numComments = Globals.ThisAddIn.Application.ActiveDocument.Comments.Count;
                 if (numComments == _prevNumComments) return;
 
-                var topLevelAIComments = GetTopLevelAIComments(CommonUtils.GetComments());
-                foreach (Comment c in topLevelAIComments)
-                {
-                    if (c.Replies.Count == 0) continue;
-                    if (c.Replies[c.Replies.Count].Author != ThisAddIn.Model && !_isDraftingComment)
-                    {
-                        _isDraftingComment = true;
+                if (await AICommentReplyTask())
+                    numComments++;
 
-                        List<ChatMessage> chatHistory = new List<ChatMessage>()
-                            {
-                                new UserChatMessage($@"Please review the following paragraph extracted from the Document: ""{CommonUtils.SubstringTokens(c.Range.Text, (int)(ThisAddIn.ContextLength * 0.2))}"""),
-                                new UserChatMessage($@"Based on the previous AI comments, suggest additional specific improvements to the paragraph, focusing on clarity, coherence, structure, grammar, and overall effectiveness. Ensure that your suggestions are detailed and aimed at improving the paragraph within the context of the entire Document.")
-                            };
-                        for (int i = 1; i <= c.Replies.Count; i++)
-                        {
-                            Comment reply = c.Replies[i];
-                            chatHistory.Add((i % 2 == 1) ? new UserChatMessage(reply.Range.Text) : new AssistantChatMessage(reply.Range.Text));
-                        }
-                        try
-                        {
-                            await AddComment(
-                                c.Replies,
-                                c.Range,
-                                RAGControl.AskQuestion(Forge.CommentSystemPrompt, chatHistory, CommonUtils.GetActiveDocument().Range())
-                            );
-                        } catch (OperationCanceledException ex)
-                        {
-                            CommonUtils.DisplayWarning(ex);
-                        }
-                        numComments++;
+                if (await UserMentionTask())
+                    numComments++;
 
-                        _isDraftingComment = false;
-                    }
-                }
                 _prevNumComments = numComments;
             }
             catch (Exception ex)
@@ -66,16 +38,177 @@ namespace TextForge
             }
         }
 
-        private static IEnumerable<Comment> GetTopLevelAIComments(Comments comments)
+        private static async Task<bool> AICommentReplyTask()
         {
-            List<Comment> topLevelAIComments = new List<Comment>();
-            foreach (Comment c in comments)
-                if (c.Ancestor == null && c.Author == ThisAddIn.Model)
-                    topLevelAIComments.Add(c);
-            return topLevelAIComments;
+            var comments = GetUnansweredAIComments(Globals.ThisAddIn.Application.ActiveDocument.Comments);
+            var doc = Globals.ThisAddIn.Application.ActiveDocument;
+            foreach (var comment in comments)
+            {
+                List<ChatMessage> chatHistory = new List<ChatMessage>() {
+                    new UserChatMessage($@"{Forge.CultureHelper.GetLocalizedString("[Review] chatHistory #1")}\n""{CommonUtils.SubstringTokens(comment.Range.Text, (int)(ThisAddIn.ContextLength * 0.2))}"""),
+                    new UserChatMessage(Forge.CultureHelper.GetLocalizedString("(CommentHandler.cs) [AICommentReplyTask] UserChatMessage #2"))
+                };
+                chatHistory.AddRange(GetCommentMessages(comment));
+                chatHistory.Add(new UserChatMessage(@$"Text in Focus:\n""{comment.Scope.Text}"""));
+
+                try
+                {
+                    if (_isDraftingComment) return false; // TODO: is this really necessary?
+                    _isDraftingComment = true;
+                    
+                    await AddComment(
+                        comment.Replies,
+                        comment.Range,
+                        RAGControl.AskQuestion(Forge.CommentSystemPrompt, chatHistory, Globals.ThisAddIn.Application.ActiveDocument.Range(), doc)
+                    );
+
+                    _isDraftingComment = false;
+                    return true;
+                }
+                catch (OperationCanceledException ex)
+                {
+                    CommonUtils.DisplayWarning(ex);
+                }
+            }
+            return false;
         }
 
-        public static async Task AddComment(Word.Comments comments, Word.Range range, AsyncCollectionResult<StreamingChatCompletionUpdate> streamingContent)
+        private static async Task<bool> UserMentionTask()
+        {
+            var comments = GetUnansweredMentionedComments(Globals.ThisAddIn.Application.ActiveDocument.Comments);
+            var doc = Globals.ThisAddIn.Application.ActiveDocument;
+            foreach (var comment in comments)
+            {
+                List<ChatMessage> chatHistory = new List<ChatMessage>();
+                chatHistory.AddRange(GetCommentMessagesWithoutMention(comment));
+                chatHistory.Add(new UserChatMessage(@$"Text in Focus:\n""{comment.Scope.Text}"""));
+                try
+                {
+                    if (_isDraftingComment) return false; // TODO: is this really necessary?
+                    _isDraftingComment = true;
+                    
+                    await AddComment(
+                        comment.Replies,
+                        comment.Range,
+                        RAGControl.AskQuestion(
+                            new SystemChatMessage(ThisAddIn.SystemPromptLocalization["(CommentHandler.cs) [AIUserMentionTask] UserMentionSystemPrompt"]),
+                            chatHistory,
+                            Globals.ThisAddIn.Application.ActiveDocument.Range(),
+                            doc
+                        )
+                    );
+                    
+                    _isDraftingComment = false;
+                    return true;
+                }
+                catch (OperationCanceledException ex)
+                {
+                    CommonUtils.DisplayWarning(ex);
+                }
+            }
+            return false;
+        }
+
+        private static IEnumerable<ChatMessage> GetCommentMessagesWithoutMention(Comment parentComment)
+        {
+            string modelName = $"@{ThisAddIn.Model}";
+
+            List<ChatMessage> chatHistory = new List<ChatMessage>()
+            {
+                new UserChatMessage(GetCleanedCommentText(parentComment, modelName))
+            };
+
+            Comments childrenComments = parentComment.Replies; // Includes parent comment
+            for (int i = 1; i <= childrenComments.Count; i++)
+            {
+                var comment = childrenComments[i];
+                string cleanText = GetCleanedCommentText(parentComment, modelName);
+                chatHistory.Add(
+                    (i % 2 == 1) ? new AssistantChatMessage(cleanText) : new UserChatMessage(cleanText)
+                );
+            }
+
+            return chatHistory;
+        }
+
+        private static string GetCleanedCommentText(Comment c, string modelName)
+        {
+            string commentText = c.Range.Text;
+            return commentText.Contains(modelName) ? commentText.Remove(commentText.IndexOf(modelName), modelName.Length).TrimStart() : commentText;
+        }
+
+        // Converts Word Comment object into a list of ChatMessage that can be fed into the OpenAI API
+        private static IEnumerable<ChatMessage> GetCommentMessages(Comment parentComment)
+        {
+            List<ChatMessage> chatHistory = new List<ChatMessage>()
+            {
+                new UserChatMessage(parentComment.Range.Text)
+            };
+            
+            Comments childrenComments = parentComment.Replies;
+            for (int i = 1; i <= childrenComments.Count; i++)
+            {
+                var comment = childrenComments[i];
+                chatHistory.Add(
+                    (i % 2 == 1) ? new AssistantChatMessage(comment.Range.Text) : new UserChatMessage(comment.Range.Text)
+                );
+            }
+
+            return chatHistory;
+        }
+
+        // Checks if the user mentions the AI with '@' character. Example: "@qwen2.5:1.5b"
+        private static IEnumerable<Comment> GetUnansweredMentionedComments(Comments allComments)
+        {
+            List<Comment> comments = new List<Comment>();
+            foreach (Comment c in allComments)
+                if (
+                    c.Ancestor == null &&
+                    ( c.Range.Text.Contains($"@{ThisAddIn.Model}") ? ( (c.Replies.Count == 0) || (c.Replies.Count > 0 && c.Replies[c.Replies.Count].Author != ThisAddIn.Model) ) : AreRepliesUnbalanced(c.Replies) )
+                )
+                    comments.Add(c);
+
+            return comments;
+        }
+
+        private static bool AreRepliesUnbalanced(Comments replies)
+        {
+            int userMentionCount = GetCommentMentionCount($"@{ThisAddIn.Model}", replies);
+            int aiAnswerCount = GetCommentAuthorCount(ThisAddIn.Model, replies);
+            return (userMentionCount > aiAnswerCount);
+        }
+
+        private static int GetCommentMentionCount(string mention, Comments comments)
+        {
+            int count = 0;
+            for (int i = 1; i <= comments.Count; i++)
+                if (comments[i].Range.Text != null && comments[i].Range.Text.Contains(mention)) count++;
+            return count;
+        }
+
+        private static int GetCommentAuthorCount(string author, Comments comments)
+        {
+            int count = 0;
+            for (int i = 1; i <= comments.Count; i++)
+                if (comments[i].Author == author) count++;
+            return count;
+        }
+
+        // Checks replies to comments generated by "Writing Tools->Review" action.
+        private static IEnumerable<Comment> GetUnansweredAIComments(Comments allComments)
+        {
+            List<Comment> comments = new List<Comment>();
+            foreach (Comment c in allComments)
+                if (c.Ancestor == null &&
+                    c.Author == ThisAddIn.Model &&
+                    ( c.Replies.Count > 0 && c.Replies[c.Replies.Count].Author != ThisAddIn.Model )
+                    )
+                    comments.Add(c);
+
+            return comments;
+        }
+
+        public static async Task AddComment(Comments comments, Range range, AsyncCollectionResult<StreamingChatCompletionUpdate> streamingContent)
         {
             Word.Comment c = comments.Add(range, string.Empty);
             c.Author = ThisAddIn.Model;
@@ -83,22 +216,29 @@ namespace TextForge
 
             StringBuilder comment = new StringBuilder();
             // Run the comment generation in a background thread
+
             await Task.Run(async () =>
             {
                 Forge.CancelButtonVisibility(true);
-                await foreach (var update in streamingContent.WithCancellation(ThisAddIn.CancellationTokenSource.Token))
+                try
                 {
-                    if (ThisAddIn.CancellationTokenSource.IsCancellationRequested)
-                        break;
-                    foreach (var content in update.ContentUpdate)
+                    await foreach (var update in streamingContent.WithCancellation(ThisAddIn.CancellationTokenSource.Token))
                     {
-                        commentRange.Collapse(Word.WdCollapseDirection.wdCollapseEnd); // Move to the end of the range
-                        commentRange.Text = content.Text; // Append new text
-                        commentRange = c.Range.Duplicate; // Update the range to include the new text
-                        comment.Append(content.Text);
+                        if (ThisAddIn.CancellationTokenSource.IsCancellationRequested)
+                            break;
+                        foreach (var content in update.ContentUpdate)
+                        {
+                            commentRange.Collapse(Word.WdCollapseDirection.wdCollapseEnd); // Move to the end of the range
+                            commentRange.Text = content.Text; // Append new text
+                            commentRange = c.Range.Duplicate; // Update the range to include the new text
+                            comment.Append(content.Text);
+                        }
                     }
+                } 
+                finally
+                {
+                    Forge.CancelButtonVisibility(false);
                 }
-                Forge.CancelButtonVisibility(false);
                 c.Range.Text = WordMarkdown.RemoveMarkdownSyntax(comment.ToString());
             });
         }

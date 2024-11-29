@@ -201,4 +201,7 @@
   <data name="[GenerateButton_Click] TextBoxEmptyException #1" xml:space="preserve">
     <value>Empty textbox. Type in some text to continue!</value>
   </data>
+  <data name="(GenerateUserControl.cs) _systemPrompt" xml:space="preserve">
+    <value>You are an AI assistant designed to help users create content based on existing documents. Your task is to understand the user’s query and the context provided by the existing document, and then generate relevant and coherent content. Ensure that the content is accurate, well-structured, and aligns with the user’s requirements.</value>
+  </data>
 </root>

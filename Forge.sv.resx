@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema"><xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="this.ForgeTab.Label"><value>Hantverk</value></data><data name="this.ToolsGroup.Label"><value>Verktyg</value></data><data name="this.GenerateButton.Label"><value>Generera</value></data><data name="this.GenerateButton.SuperTip"><value>Skapar skräddarsydda svar med hjälp av användarens prompt och innehållet i det aktuella dokumentet.</value></data><data name="this.DefaultCheckBox.Label"><value>Standard</value></data><data name="this.AboutButton.Label"><value>Om</value></data><data name="this.AboutButton.ScreenTip"><value>Ger detaljer om denna applikation.</value></data><data name="this.CancelButton.Label"><value>Avbryt</value></data><data name="this.CancelButton.ScreenTip"><value>Pausear textgenereringsprocessen.</value></data><data name="this.WritingToolsGallery.Label"><value>Skrivarverktyg</value></data><data name="this.WritingToolsGallery.SuperTip"><value>Förbättra ditt skrivande med AI-drivna verktyg för grammatik, stil och tydlighet.</value></data><data name="this.ReviewButton.Label"><value>Granska</value></data><data name="this.ReviewButton.SuperTip"><value>Förbättra ditt dokument med AI-drivna kommentarer och förslag.</value></data><data name="this.ProofreadButton.Label"><value>Korrekturläs</value></data><data name="this.ProofreadButton.SuperTip"><value>Kontrollera stavning, grammatik och stilfel för att polera ditt dokument.</value></data><data name="this.RewriteButton.Label"><value>Omskrivning</value></data><data name="this.RewriteButton.SuperTip"><value>Revidera och förbättra din text med AI-drivna förslag.</value></data><data name="this.SettingsGroup.Label"><value>Inställningar</value></data><data name="this.RAGControlButton.Label"><value>RAG-kontroll</value></data><data name="this.RAGControlButton.SuperTip"><value>Hantera filer inom Retrieval Augmentation Generation (RAG) systemet.</value></data><data name="this.ModelListDropDown.Label"><value>Modellista</value></data><data name="this.ModelListDropDown.SuperTip"><value>Välj en språkmodell för användning i TextCraft.</value></data><data name="this.DefaultCheckBox.SuperTip"><value>Ställ in standard språkmodell för TextCraft.</value></data><data name="this.OptionsGroup.Label"><value>Alternativ</value></data><data name="this.InfoGroup.Label"><value>Info</value></data><data name="(ThisAddIn.cs) [InitializeAddIn] ArgumentException #1"><value>Inbäddad modell saknas. Vänligen installera den för att fortsätta!</value></data><data name="[WritingToolsGallery_ButtonClick] ArgumentOutOfRangeException #1"><value>Vald knapp erkänns inte.</value></data><data name="[ReviewButton_Click] MessageBox #1 (text)"><value>Granskning färdig! Inga kommentarer behövs för detta dokument.</value></data><data name="[ReviewButton_Click] MessageBox #1 (caption)"><value>Åtgärd slutförd</value></data><data name="(ModelProperties.cs) [GetContextLength] OllamaMissingContextWindowException #1"><value>Gick inte att hämta kontextlängden för {0}!</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Text"><value>Vill du tillåta TextCraft att få åtkomst till följande internetresurs?</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Caption"><value>Internetåtkomst</value></data><data name="(WordMarkdown.cs) [ApplyMarkdownFormatting] ArgumentOutofRangeException #1"><value>Okänt formattyp för Markdown-bearbetning!</value></data><data name="(WordMarkdown.cs) [GetCodeBlockAtIndex] ApplicationException #1"><value>Markdown-kodblock hittades inte vid index {0}!</value></data><data name="(WordMarkdown.cs) [ApplyImageFormatting] ArgumentException #1"><value>Ogiltigt URL-format</value></data><data name="(WordMarkdown.cs) [ApplyHeadingFormatting] ArgumentException #1"><value>Ogiltig Markdown-rubrik: måste innehålla 1 till 6 '#' tecken.</value></data><data name="[AnalyzeText] InvalidRangeException #1"><value>Ingen text vald för analys!</value></data><data name="this.CommentSystemPrompt"><value>Du är en expert skrivassistent och redaktör, specialiserad på att förbättra tydlighet, koherens och påverkan av text inom ett dokument. Du analyserar text kritiskt och ger konstruktiv feedback för att förbättra den övergripande kvaliteten.</value></data><data name="(CommentHandler.cs) [AICommentReplyTask] UserChatMessage #2"><value>Baserat på de tidigare AI-kommentarerna, föreslå ytterligare specifika förbättringar till stycket, med fokus på tydlighet, koherens, struktur, grammatik och övergripande effektivitet. Säkerställ att dina förslag är detaljerade och syftar till att förbättra stycket inom kontexten av hela dokumentet.</value></data><data name="[ProofreadButton_Click] SystemPrompt"><value>Du är en korrekturläsningsassistent. Din uppgift är att rätta till eventuella stavnings-, grammatik-, interpunkterings- eller stilfel i den angivna texten. Gör endast nödvändiga ändringar direkt i texten. Om texten redan är korrekt och inte kräver några ändringar, upprepa helt enkelt texten som den är utan att ge förklaringar eller kommentarer.</value></data><data name="[ProofreadButton_Click] UserPrompt"><value>Vänligen korrekturläs följande text. Gör nödvändiga korrigeringar direkt i texten utan att lägga till några förklaringar eller kommentarer. Om texten är korrekt och inte behöver ändras, upprepa den exakt som den är:</value></data><data name="[RewriteButton_Click] SystemPrompt"><value>Du är en avancerad språkmodell som har till uppgift att skriva om text som tillhandahålls av användaren. Du bör fokusera på att förbättra tydlighet, förbättra flödet och upprätthålla den ursprungliga meningen i texten. Dina svar ska strikt bestå av den omskrivna texten utan ytterligare förklaringar eller kommentarer.</value></data><data name="[RewriteButton_Click] UserPrompt"><value>Vänligen skriv om följande text:</value></data><data name="[ReviewButton_Click] UserPrompt"><value>Som en expert skrivassistent, föreslå specifika förbättringar till stycket, med fokus på tydlighet, koherens, struktur, grammatik och övergripande effektivitet. Säkerställ att dina förslag är detaljerade och syftar till att förbättra stycket inom kontexten av hela dokumentet.</value></data><data name="[Review] chatHistory #1"><value>Vänligen granska följande stycke extraherat från dokumentet:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #1"><value>Dokumentinnehåll:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #2"><value>RAG-kontext:</value></data><data name="(CommentHandler.cs) [AIUserMentionTask] UserMentionSystemPrompt"><value>Du är en AI-assistent inbäddad i ett dokument, som svarar på användarfrågor om specifika textval. Närma dig varje förfrågan med empati och en mentoranda, sätta dig in i den person som ber om hjälp. Tänk dig att du är en omtänksam, kunnig vän som erbjuder insiktsfull och praktisk vägledning. Ditt mål är inte bara att svara på deras fråga utan också att ge djupare förståelse, erbjuda rationella råd som hjälper dem att förbättra och växa. Använd all tillgänglig kontext från dokumentet eller relaterade resurser för att berika ditt svar och göra det så hjälpsamt som möjligt. Håll dina råd enkla, samtalande och tydliga, undvik formatering eller jargong, och fokusera på att leverera handlingsbara insikter som vägleder användaren mot bättre lösningar eller förbättringar.</value></data></root>

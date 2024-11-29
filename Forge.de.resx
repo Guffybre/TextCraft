@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema"><xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="this.ForgeTab.Label"><value>Handwerk</value></data><data name="this.ToolsGroup.Label"><value>Werkzeuge</value></data><data name="this.GenerateButton.Label"><value>Generieren</value></data><data name="this.GenerateButton.SuperTip"><value>Erstellt maßgeschneiderte Antworten unter Verwendung der Eingabe des Benutzers und des Inhalts des aktuellen Dokuments.</value></data><data name="this.DefaultCheckBox.Label"><value>Standard</value></data><data name="this.AboutButton.Label"><value>Über</value></data><data name="this.AboutButton.ScreenTip"><value>Bietet Details zu dieser Anwendung.</value></data><data name="this.CancelButton.Label"><value>Abbrechen</value></data><data name="this.CancelButton.ScreenTip"><value>Stoppt den Textgenerierungsprozess.</value></data><data name="this.WritingToolsGallery.Label"><value>Schreibwerkzeuge</value></data><data name="this.WritingToolsGallery.SuperTip"><value>Verbessern Sie Ihr Schreiben mit KI-unterstützten Werkzeugen für Grammatik, Stil und Klarheit.</value></data><data name="this.ReviewButton.Label"><value>Überprüfung</value></data><data name="this.ReviewButton.SuperTip"><value>Verbessern Sie Ihr Dokument mit KI-gesteuerten Kommentaren und Vorschlägen.</value></data><data name="this.ProofreadButton.Label"><value>Korrekturlesen</value></data><data name="this.ProofreadButton.SuperTip"><value>Überprüfen Sie auf Rechtschreib-, Grammatik- und Stilfehler, um Ihr Dokument zu verfeinern.</value></data><data name="this.RewriteButton.Label"><value>Umschreiben</value></data><data name="this.RewriteButton.SuperTip"><value>Überarbeiten und verbessern Sie Ihren Text mit KI-gestützten Vorschlägen.</value></data><data name="this.SettingsGroup.Label"><value>Einstellungen</value></data><data name="this.RAGControlButton.Label"><value>RAG-Kontrolle</value></data><data name="this.RAGControlButton.SuperTip"><value>Verwaltet Dateien innerhalb des Retrieval Augmentation Generation (RAG)-Systems.</value></data><data name="this.ModelListDropDown.Label"><value>Modellübersicht</value></data><data name="this.ModelListDropDown.SuperTip"><value>Wählen Sie ein Sprachmodell für die Verwendung in TextCraft aus.</value></data><data name="this.DefaultCheckBox.SuperTip"><value>Stellen Sie das Standard-Sprachmodell für TextCraft ein.</value></data><data name="this.OptionsGroup.Label"><value>Optionen</value></data><data name="this.InfoGroup.Label"><value>Info</value></data><data name="(ThisAddIn.cs) [InitializeAddIn] ArgumentException #1"><value>Eingebettetes Modell fehlt. Bitte installieren Sie es, um fortzufahren!</value></data><data name="[WritingToolsGallery_ButtonClick] ArgumentOutOfRangeException #1"><value>Ausgewählte Schaltfläche nicht erkannt.</value></data><data name="[ReviewButton_Click] MessageBox #1 (text)"><value>Überprüfung abgeschlossen! Keine Kommentare für dieses Dokument erforderlich.</value></data><data name="[ReviewButton_Click] MessageBox #1 (caption)"><value>Aktion abgeschlossen</value></data><data name="(ModelProperties.cs) [GetContextLength] OllamaMissingContextWindowException #1"><value>Kann die Kontextlänge für {0} nicht abrufen!</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Text"><value>Möchten Sie TextCraft erlauben, auf die folgende Internetressource zuzugreifen?</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Caption"><value>Internetzugang</value></data><data name="(WordMarkdown.cs) [ApplyMarkdownFormatting] ArgumentOutofRangeException #1"><value>Unbekannter Formattyp für Markdown-Verarbeitung!</value></data><data name="(WordMarkdown.cs) [GetCodeBlockAtIndex] ApplicationException #1"><value>Markdown-Codeblock an Index {0} nicht gefunden!</value></data><data name="(WordMarkdown.cs) [ApplyImageFormatting] ArgumentException #1"><value>Ungültiges URL-Format</value></data><data name="(WordMarkdown.cs) [ApplyHeadingFormatting] ArgumentException #1"><value>Ungültige Markdown-Überschrift: muss 1 bis 6 '#' Zeichen enthalten.</value></data><data name="[AnalyzeText] InvalidRangeException #1"><value>Kein Text für die Analyse ausgewählt!</value></data><data name="this.CommentSystemPrompt"><value>Sie sind ein erfahrener Schreibassistent und Redakteur, spezialisiert auf die Verbesserung der Klarheit, Kohärenz und Wirkung von Texten innerhalb eines Dokuments. Sie analysieren Texte kritisch und geben konstruktives Feedback, um die Gesamtqualität zu verbessern.</value></data><data name="(CommentHandler.cs) [AICommentReplyTask] UserChatMessage #2"><value>Basierend auf den vorherigen KI-Kommentaren schlagen Sie zusätzliche spezifische Verbesserungen für den Absatz vor, wobei Sie sich auf Klarheit, Kohärenz, Struktur, Grammatik und Gesamteffektivität konzentrieren. Stellen Sie sicher, dass Ihre Vorschläge detailliert sind und darauf abzielen, den Absatz im Kontext des gesamten Dokuments zu verbessern.</value></data><data name="[ProofreadButton_Click] SystemPrompt"><value>Sie sind ein Korrekturleseassistent. Ihre Aufgabe ist es, alle Rechtschreib-, Grammatik-, Interpunktions- oder Stilfehler im bereitgestellten Text zu korrigieren. Nehmen Sie nur notwendige Änderungen direkt im Text vor. Wenn der Text bereits korrekt ist und keine Änderungen benötigt, wiederholen Sie den Text einfach so, wie er ist, ohne Erklärungen oder Kommentare anzufügen.</value></data><data name="[ProofreadButton_Click] UserPrompt"><value>Bitte korrigieren Sie den folgenden Text. Nehmen Sie alle notwendigen Korrekturen direkt im Text vor, ohne Erklärungen oder Kommentare hinzuzufügen. Wenn der Text korrekt ist und keine Änderungen benötigt, wiederholen Sie ihn bitte genau so, wie er ist:</value></data><data name="[RewriteButton_Click] SystemPrompt"><value>Sie sind ein fortgeschrittenes Sprachmodell, das mit dem Umschreiben von Texten beauftragt ist, die vom Benutzer bereitgestellt werden. Sie sollten sich darauf konzentrieren, die Klarheit zu verbessern, den Fluss zu optimieren und die ursprüngliche Bedeutung des Textes beizubehalten. Ihre Antworten sollten ausschließlich aus dem umgeschriebenen Text bestehen, ohne zusätzliche Erklärungen oder Kommentare.</value></data><data name="[RewriteButton_Click] UserPrompt"><value>Bitte schreiben Sie den folgenden Text um:</value></data><data name="[ReviewButton_Click] UserPrompt"><value>Als erfahrener Schreibassistent schlagen Sie spezifische Verbesserungen für den Absatz vor, wobei Sie sich auf Klarheit, Kohärenz, Struktur, Grammatik und Gesamteffektivität konzentrieren. Stellen Sie sicher, dass Ihre Vorschläge detailliert sind und darauf abzielen, den Absatz im Kontext des gesamten Dokuments zu verbessern.</value></data><data name="[Review] chatHistory #1"><value>Bitte überprüfen Sie den folgenden Absatz, der aus dem Dokument extrahiert wurde:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #1"><value>Dokumentinhalt:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #2"><value>RAG-Kontext:</value></data><data name="(CommentHandler.cs) [AIUserMentionTask] UserMentionSystemPrompt"><value>Sie sind ein KI-Assistent, der in ein Dokument eingebettet ist und auf Benutzerfragen zu bestimmten Textauswahlen reagiert. Gehen Sie jede Anfrage mit Empathie und der Denkweise eines Mentors an, indem Sie sich in die Lage der Person versetzen, die um Hilfe bittet. Stellen Sie sich vor, Sie sind ein nachdenklicher, sachkundiger Freund, der aufschlussreiche, praktische Ratschläge bietet. Ihr Ziel ist es, nicht nur ihre Frage zu beantworten, sondern auch ein tieferes Verständnis zu vermitteln, indem Sie rationale Ratschläge geben, die ihnen helfen, sich zu verbessern und zu wachsen. Nutzen Sie alle zur Verfügung stehenden Informationen aus dem Dokument oder verwandten Ressourcen, um Ihre Antwort zu bereichern und so hilfreich wie möglich zu sein. Halten Sie Ihre Ratschläge einfach, gesprächig und klar, vermeiden Sie Formatierungen oder Fachjargon, und konzentrieren Sie sich darauf, umsetzbare Erkenntnisse zu liefern, die den Benutzer zu besseren Lösungen oder Verbesserungen führen.</value></data></root>

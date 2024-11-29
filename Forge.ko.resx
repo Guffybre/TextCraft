@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema"><xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="this.ForgeTab.Label"><value>제작</value></data><data name="this.ToolsGroup.Label"><value>도구</value></data><data name="this.GenerateButton.Label"><value>생성</value></data><data name="this.GenerateButton.SuperTip"><value>사용자의 프롬프트와 현재 문서의 내용을 사용하여 맞춤형 응답을 생성합니다.</value></data><data name="this.DefaultCheckBox.Label"><value>기본값</value></data><data name="this.AboutButton.Label"><value>정보</value></data><data name="this.AboutButton.ScreenTip"><value>이 애플리케이션에 대한 세부정보를 제공합니다.</value></data><data name="this.CancelButton.Label"><value>취소</value></data><data name="this.CancelButton.ScreenTip"><value>텍스트 생성 프로세스를 중단합니다.</value></data><data name="this.WritingToolsGallery.Label"><value>글쓰기 도구</value></data><data name="this.WritingToolsGallery.SuperTip"><value>문법, 스타일 및 명확성을 위한 AI 기반 도구로 글쓰기를 향상시키세요.</value></data><data name="this.ReviewButton.Label"><value>검토</value></data><data name="this.ReviewButton.SuperTip"><value>AI 기반 주석 및 제안으로 문서를 향상시키세요.</value></data><data name="this.ProofreadButton.Label"><value>교정</value></data><data name="this.ProofreadButton.SuperTip"><value>스펠링, 문법 및 스타일 오류를 확인하여 문서를 다듬습니다.</value></data><data name="this.RewriteButton.Label"><value>재작성</value></data><data name="this.RewriteButton.SuperTip"><value>AI 기반 제안으로 텍스트를 수정하고 향상시킵니다.</value></data><data name="this.SettingsGroup.Label"><value>설정</value></data><data name="this.RAGControlButton.Label"><value>RAG 제어</value></data><data name="this.RAGControlButton.SuperTip"><value>검색 보강 생성(RAG) 시스템 내 파일을 관리합니다.</value></data><data name="this.ModelListDropDown.Label"><value>모델 목록</value></data><data name="this.ModelListDropDown.SuperTip"><value>TextCraft에서 사용할 언어 모델을 선택합니다.</value></data><data name="this.DefaultCheckBox.SuperTip"><value>TextCraft의 기본 언어 모델을 설정합니다.</value></data><data name="this.OptionsGroup.Label"><value>옵션</value></data><data name="this.InfoGroup.Label"><value>정보</value></data><data name="(ThisAddIn.cs) [InitializeAddIn] ArgumentException #1"><value>모델이 누락되었습니다. 계속 진행하려면 설치하세요!</value></data><data name="[WritingToolsGallery_ButtonClick] ArgumentOutOfRangeException #1"><value>선택된 버튼이 인식되지 않았습니다.</value></data><data name="[ReviewButton_Click] MessageBox #1 (text)"><value>검토 완료! 이 문서에 대한 추가 댓글이 필요하지 않습니다.</value></data><data name="[ReviewButton_Click] MessageBox #1 (caption)"><value>작업 완료</value></data><data name="(ModelProperties.cs) [GetContextLength] OllamaMissingContextWindowException #1"><value>{0}에 대한 맥락 길이를 가져올 수 없습니다!</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Text"><value>TextCraft가 다음 인터넷 리소스에 접근하도록 허용하시겠습니까?</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Caption"><value>인터넷 접근</value></data><data name="(WordMarkdown.cs) [ApplyMarkdownFormatting] ArgumentOutofRangeException #1"><value>Markdown 처리에 대한 알 수 없는 형식 유형입니다!</value></data><data name="(WordMarkdown.cs) [GetCodeBlockAtIndex] ApplicationException #1"><value>인덱스 {0}에서 Markdown 코드 블록을 찾을 수 없습니다!</value></data><data name="(WordMarkdown.cs) [ApplyImageFormatting] ArgumentException #1"><value>유효하지 않은 URL 형식</value></data><data name="(WordMarkdown.cs) [ApplyHeadingFormatting] ArgumentException #1"><value>유효하지 않은 Markdown 제목: 1에서 6개의 '#' 문자를 포함해야 합니다.</value></data><data name="[AnalyzeText] InvalidRangeException #1"><value>분석을 위한 선택된 텍스트가 없습니다!</value></data><data name="this.CommentSystemPrompt"><value>당신은 텍스트의 명확성, 일관성 및 영향력을 향상시키는 전문가 글쓰기 도우미이자 편집자입니다. 당신은 텍스트를 비판적으로 분석하고 전반적인 품질을 개선하기 위한 건설적인 피드백을 제공합니다.</value></data><data name="(CommentHandler.cs) [AICommentReplyTask] UserChatMessage #2"><value>이전 AI 댓글을 바탕으로 문단에 대한 추가적인 구체적 개선 사항을 제안하되, 명확성, 일관성, 구조, 문법 및 전반적인 효과성에 초점을 맞추세요. 당신의 제안은 상세해야 하며, 문서 전체의 맥락 내에서 문단을 개선하는 데 목표를 두어야 합니다.</value></data><data name="[ProofreadButton_Click] SystemPrompt"><value>당신은 교정 도우미입니다. 당신의 업무는 제공된 텍스트에서 철자, 문법, 구두점 또는 스타일 오류를 수정하는 것입니다. 필요한 변경만 텍스트에 직접 수행해 주세요. 텍스트가 이미 올바르며 변경이 필요하지 않다면, 설명이나 댓글 없이 있는 그대로 반복하세요.</value></data><data name="[ProofreadButton_Click] UserPrompt"><value>다음 텍스트를 교정해 주세요. 설명이나 댓글을 추가하지 않고 텍스트에 필요한 수정 사항을 직접 적용해 주세요. 텍스트가 올바르며 변경이 필요 없다면, 있는 그대로 정확히 반복하세요:</value></data><data name="[RewriteButton_Click] SystemPrompt"><value>당신은 사용자가 제공한 텍스트를 재작성하는 고급 언어 모델입니다. 당신은 명확성을 향상시키고 흐름을 개선하며 텍스트의 원래 의미를 유지하는 데 집중해야 합니다. 당신의 응답은 추가적인 설명이나 댓글 없이 재작성된 텍스트로만 이루어져야 합니다.</value></data><data name="[RewriteButton_Click] UserPrompt"><value>다음 텍스트를 재작성해 주세요:</value></data><data name="[ReviewButton_Click] UserPrompt"><value>전문 글쓰기 도우미로서 문단에 대한 구체적인 개선 사항을 제안하되, 명확성, 일관성, 구조, 문법 및 전반적인 효과성에 초점을 맞추세요. 당신의 제안은 상세해야 하며, 문서 전체의 맥락 내에서 문단을 개선하는 데 목표를 두어야 합니다.</value></data><data name="[Review] chatHistory #1"><value>문서에서 발췌한 다음 문단을 검토해 주세요:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #1"><value>문서 내용:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #2"><value>RAG 맥락:</value></data><data name="(CommentHandler.cs) [AIUserMentionTask] UserMentionSystemPrompt"><value>당신은 문서에 내장된 AI 도우미로, 특정 텍스트 선택에 대한 사용자 질문에 응답합니다. 각 질문에 대해 공감과 멘토의 마음가짐으로 접근하여 도움을 요청하는 사람의 입장이 되어보세요. 당신은 사려 깊고 지식이 풍부한 친구처럼 통찰력 있고 실용적인 안내를 제공해야 합니다. 당신의 목표는 질문에 답하는 것뿐만 아니라 더 깊은 이해를 제공하고, 그들이 개선하고 성장하도록 돕는 합리적인 조언을 제공하는 것입니다. 문서나 관련 리소스에서 제공된 모든 맥락을 활용하여 응답을 풍부하게 하여 가능한 한 유용하게 만드세요. 당신의 조언은 간단하고 대화식이며 명확해야 하며, 형식이나 전문 용어를 피하고 사용자에게 더 나은 솔루션이나 개선으로 안내하는 실행 가능한 통찰력을 전달하는 데 초점을 맞추세요.</value></data></root>

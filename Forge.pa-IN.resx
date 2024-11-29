@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema"><xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="this.ForgeTab.Label"><value>ਕਲਾ</value></data><data name="this.ToolsGroup.Label"><value>ਸੰਦ</value></data><data name="this.GenerateButton.Label"><value>ਉਤਪੰਨ ਕਰੋ</value></data><data name="this.GenerateButton.SuperTip"><value>ਉਪਭੋਗਤਾ ਦੀ ਪ੍ਰੰਪਟ ਅਤੇ ਵਰਤਮਾਨ ਦਸਤਾਵੇਜ਼ ਦੇ ਸਮੱਗਰੀ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਕਸਟਮ ਜਵਾਬ ਪੈਦਾ ਕਰਦਾ ਹੈ।</value></data><data name="this.DefaultCheckBox.Label"><value>ਡਿਫਾਲਟ</value></data><data name="this.AboutButton.Label"><value>ਬਾਰੇ</value></data><data name="this.AboutButton.ScreenTip"><value>ਇਸ ਐਪਲੀਕੇਸ਼ਨ ਬਾਰੇ ਵੇਰਵੇ ਪ੍ਰਦਾਨ ਕਰਦਾ ਹੈ।</value></data><data name="this.CancelButton.Label"><value>ਰੱਦ ਕਰੋ</value></data><data name="this.CancelButton.ScreenTip"><value>ਲਿਖਾਈ ਦੀ ਪੈਦਾ ਕਰਨ ਦੀ ਪ੍ਰਕਿਰਿਆ ਨੂੰ ਰੋਕਦਾ ਹੈ।</value></data><data name="this.WritingToolsGallery.Label"><value>ਲਿਖਾਈ ਦੇ ਸੰਦ</value></data><data name="this.WritingToolsGallery.SuperTip"><value>ਵਿਆਕਰਣ, ਸ਼ੈਲੀ, ਅਤੇ ਸਪੱਸ਼ਟਤਾ ਲਈ AI-ਪਾਵਰਡ ਸੰਦਾਂ ਨਾਲ ਆਪਣੀ ਲਿਖਾਈ ਨੂੰ ਸੁਧਾਰੋ।</value></data><data name="this.ReviewButton.Label"><value>ਸਮੀਖਿਆ</value></data><data name="this.ReviewButton.SuperTip"><value>AI-ਚਲਿਤ ਟਿੱਪਣੀਆਂ ਅਤੇ ਸੁਝਾਵਾਂ ਨਾਲ ਆਪਣੇ ਦਸਤਾਵੇਜ਼ ਨੂੰ ਸੁਧਾਰੋ।</value></data><data name="this.ProofreadButton.Label"><value>ਪ੍ਰੂਫਰੀਡ</value></data><data name="this.ProofreadButton.SuperTip"><value>ਆਪਣੇ ਦਸਤਾਵੇਜ਼ ਨੂੰ ਪ੍ਰਸੰਸਕ ਕਰਨ ਲਈ ਉਚਾਰਨ, ਵਿਆਕਰਣ, ਅਤੇ ਸ਼ੈਲੀ ਦੀਆਂ ਗਲਤੀਆਂ ਦੀ ਜਾਂਚ ਕਰੋ।</value></data><data name="this.RewriteButton.Label"><value>ਦੁਬਾਰਾ ਲਿਖੋ</value></data><data name="this.RewriteButton.SuperTip"><value>ਆਪਣੇ ਟੇਕਸਟ ਨੂੰ ਏਆਈ-ਪਾਵਰਡ ਸੁਝਾਵਾਂ ਨਾਲ ਤਿਆਰ ਅਤੇ ਸੁਧਾਰੋ।</value></data><data name="this.SettingsGroup.Label"><value>ਸੇਟਿੰਗਸ</value></data><data name="this.RAGControlButton.Label"><value>RAG ਕੰਟਰੋਲ</value></data><data name="this.RAGControlButton.SuperTip"><value>ਰੀਟ੍ਰੀਵਲ ਔਗਮੇਟੇਸ਼ਨ ਜਨਰੇਸ਼ਨ (RAG) ਪ੍ਰਣਾਲੀ ਵਿਚ ਫਾਈਲਾਂ ਦਾ ਪ੍ਰਬੰਧ ਕਰਦਾ ਹੈ।</value></data><data name="this.ModelListDropDown.Label"><value>ਮਾਡਲ ਦੀ ਸੁਚੀ</value></data><data name="this.ModelListDropDown.SuperTip"><value>ਟੈਕਸਟਕ੍ਰਾਫਟ ਵਿੱਚ ਵਰਤੋਂ ਲਈ ਇੱਕ ਭਾਸ਼ਾ ਮਾਡਲ ਚੁਣੋ।</value></data><data name="this.DefaultCheckBox.SuperTip"><value>ਟੈਕਸਟਕ੍ਰਾਫਟ ਲਈ ਡਿਫਾਲਟ ਭਾਸ਼ਾ ਮਾਡਲ ਸੈਟ ਕਰੋ।</value></data><data name="this.OptionsGroup.Label"><value>ਵਿਕਲਪ</value></data><data name="this.InfoGroup.Label"><value>ਜਾਣਕਾਰੀ</value></data><data name="(ThisAddIn.cs) [InitializeAddIn] ArgumentException #1"><value>ਮਾਡਲ ਲਾਪਤਾ ਹੈ। ਚਾਲੂ ਕਰਨ ਲਈ ਕਿਰਪਾ ਕਰਕੇ ਇਸ ਨੂੰ ਇੰਸਟਾਲ ਕਰੋ!</value></data><data name="[WritingToolsGallery_ButtonClick] ArgumentOutOfRangeException #1"><value>ਚੁਣਿਆ ਬਟਨ ਪਛਾਣਿਆ ਨਹੀਂ ਗਿਆ।</value></data><data name="[ReviewButton_Click] MessageBox #1 (text)"><value>ਸਮੀਖਿਆ ਪੂਰੀ! ਇਸ ਦਸਤਾਵੇਜ਼ ਲਈ ਕੋਈ ਟਿੱਪਣੀਆਂ ਨਹੀਂ.</value></data><data name="[ReviewButton_Click] MessageBox #1 (caption)"><value>ਕੰਮ ਪੂਰਾ</value></data><data name="(ModelProperties.cs) [GetContextLength] OllamaMissingContextWindowException #1"><value>{0} ਲਈ ਕਾਂਟੈਕਸਟ ਲੰਬਾਈ ਪ੍ਰਾਪਤ ਕਰن ਵਿੱਚ ਅਸਮਰਥ!</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Text"><value>ਕੀ ਤੁਸੀਂ ਟੈਕਸਟਕ੍ਰਾਫਟ ਨੂੰ ਦਰਜੇਬੰਦ ਸਰੋਤ ਤੱਕ ਪਹੁੰਚ ਕਰਨ ਦੀ ਆਗਿਆ ਦੇਣਾ ਚਾਹੁੰਦੇ ਹੋ?</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Caption"><value>ਇੰਟਰਨੇਟ ਪਹੁੰਚ</value></data><data name="(WordMarkdown.cs) [ApplyMarkdownFormatting] ArgumentOutofRangeException #1"><value>ਮਾਰਕੀਡਾਊਨ ਪ੍ਰੋਸੈਸਿੰਗ ਲਈ ਅਣਸਪੱਸ਼ਟ ਫਾਰਮੈਟ ਪ੍ਰਕਾਰ!</value></data><data name="(WordMarkdown.cs) [GetCodeBlockAtIndex] ApplicationException #1"><value>ਇੰਡੈਕਸ {0} 'ਤੇ ਮਾਰਕੀਡਾਊਨ ਕੋਡ ਬਲਾਕ ਨਹੀਂ ਮਿਲਾ!</value></data><data name="(WordMarkdown.cs) [ApplyImageFormatting] ArgumentException #1"><value>ਅਯੋਗ URL ਫਾਰਮੈਟ</value></data><data name="(WordMarkdown.cs) [ApplyHeadingFormatting] ArgumentException #1"><value>ਅਯੋਗ ਮਾਰਕੀਡਾਊਨ ਸਿਰਲੇਖ: 1 ਤੋਂ 6 '#' ਅੱਖਰਾਂ ਨੂੰ ਸ਼ਾਮਿਲ ਕਰਨਾ ਜ਼ਰੂਰੀ ਹੈ।</value></data><data name="[AnalyzeText] InvalidRangeException #1"><value>ਵਿਸ਼ਲੇਸ਼ਣ ਲਈ ਕੋਈ ਲਿਖਤ ਚੁਣੇ ਨਹੀਂ ਗਏ!</value></data><data name="this.CommentSystemPrompt"><value>ਤੁਸੀਂ ਇੱਕ ਮਾਹਿਰ ਲਿਖਾਈ ਸਹਾਇਕ ਅਤੇ ਸੋਧਕ ਹੋ, ਜੋ ਦਸਤਾਵੇਜ਼ ਵਿੱਚ ਲਿਖਾਈ ਦੀ ਸਪੱਸ਼ਟਤਾ, ਸੰવિધਾਨਤਾ, ਅਤੇ ਪ੍ਰਭਾਵ ਨੂੰ ਸੁਧਾਰਨ ਲਈ ਵਿਸ਼ੇਸ਼ਤਿਆ ਰੱਖਦਾ ਹੈ। ਤੁਸੀਂ ਲਿਖਤ ਨੂੰ ਗੰਭੀਰਤਾ ਨਾਲ ਵਿਸ਼ਲੇਸ਼ਣ ਕਰਦੇ ਹੋ ਅਤੇ ਕੁੱਲ ਗੁਣਵੱਤਾ ਨੂੰ ਸੁਧਾਰਨ ਲਈ ਨਿਰਮਾਤਮਕ ਫੀਡਬੈਕ ਪ੍ਰਦਾਨ ਕਰਦੇ ਹੋ।</value></data><data name="(CommentHandler.cs) [AICommentReplyTask] UserChatMessage #2"><value>ਪਿਛਲੇ ਏਆਈ ਟਿੱਪਣੀਆਂ ਦੇ ਆਧਾਰ 'ਤੇ, ਪੈਰਾਗ੍ਰਾਫ ਵਿੱਚ ਸਪੱਸ਼ਟਤਾ, ਸੰਵਿਧਾਨਤਾ, ਢਾਂਚਾ, ਵਿਆਕਰਣ, ਅਤੇ ਕੁੱਲ ਪ੍ਰਭਾਵਿਤਤਾ 'ਤੇ ਕੇਂਦਰਤ ਹੋਕੇ ਵਾਧੂ ਵਿਸ਼ੇਸ਼ ਸੁਧਾਰਾਂ ਦੀ ਸੁਝਾਅ ਕਰੋ। ਇਹ ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਤੁਹਾਡੇ ਸੁਝਾਅ ਵਕੁੱਛ ਅਤੇ ਦਸਤਾਵੇਜ਼ ਦੇ ਸੰਦਰਭ ਵਿੱਚ ਪੈਰਾਗ੍ਰਾਫ ਨੂੰ ਸੁਧਾਰਨ ਦਾ ਲਕਸ਼ ਰੱਖਦੇ ਹਨ।</value></data><data name="[ProofreadButton_Click] SystemPrompt"><value>ਤੁਸੀਂ ਇੱਕ ਪ੍ਰੂਫਰੀਡਿੰਗ ਸਹਾਇਕ ਹੋ। ਤੁਹਾਡਾ ਕੰਮ ਦੇਈ ਗਈ ਲਿਖਤ ਵਿੱਚ ਸਪੈਲਿੰਗ, ਵਿਆਕਰਣ, ਵਿਸ਼ੇਸ਼ਣ ਜਾਂ ਸ਼ੈਲੀ ਦੀਆਂ ਗਲਤੀਆਂ ਨੂੰ ٹھਿਕ ਕਰਨਾ ਹੈ। ਸਿਰਫ ਲਿਖਤ 'ਚ ਜਰੂਰੀ ਬਦਲਾਅ ਕਰੋ। ਜੇਕਰ ਲਿਖਤ ਪਹਿਲਾਂ ਹੀ ਠੀਕ ਹੈ ਅਤੇ ਕਿਸੇ ਬਦਲਾਅ ਦੀ ਲੋੜ ਨਹੀਂ ਹੈ, ਤਾਂ ਸਿਰਫ ਇਸ ਨੂੰ ਉਸੇ ਰੂਪ ਵਿੱਚ ਦੁਹਰਾਓ।</value></data><data name="[ProofreadButton_Click] UserPrompt"><value>ਕਿਰਪਾ ਕਰਕੇ ਹੇਠਾਂ ਦਿੱਤੀ ਲਿਖਤ ਦੀ ਪ੍ਰੂਫਰੀਡ ਕਰੋ।ਕਿਰਪਾ ਕਰਕੇ ਸਿਫਾਰਸ਼ੀ ਟਿੱਪਣੀਆਂ ਜਾਂ ਟਿੱਪਣੀਆਂ ਦੇ ਬਿਨਾਂ ਲਿਖਤ ਵਿੱਚ ਜਰੂਰੀ ਸੁਧਾਰ ਕਰੋ। ਜੇਕਰ ਲਿਖਤ ਠੀਕ ਹੈ ਅਤੇ ਕਿਸੇ ਬਦਲਾਅ ਦੀ ਲੋੜ ਨਹੀਂ ਹੈ, ਤਾਂ ਸਿਰਫ ਇਸ ਨੂੰ ਉਸੇ ਰੂਪ ਵਿੱਚ ਦੁਹਰਾਓ:</value></data><data name="[RewriteButton_Click] SystemPrompt"><value>ਤੁਸੀਂ ਇੱਕ ਉਤਕ੍ਰਿਸ਼ਟ ਭਾਸ਼ਾ ਮਾਡਲ ਹੋ ਜੋ ਉਪਭੋਗਤਾ ਦੁਆਰਾ ਪ੍ਰਦਾਨ ਕੀਤੀ ਲਿਖਤ ਨੂੰ ਦੁਬਾਰਾ ਲਿਖਣ ਲਈ ਜ਼ਿੰਮੇਵਾਰ ਹੈ। ਤੁਹਾਨੂੰ ਸਪੱਸ਼ਟਤਾ ਨੂੰ ਸੁਧਾਰਨ, ਸਟ੍ਰਕਚਰ ਨੂੰ ਬੈਹਤਰੀਨ ਬਣਾਉਣ ਅਤੇ ਲਿਖਤ ਦੇ ਮੂਲ ਮਤਲਬ ਨੂੰ ਬਰਕਰਾਰ ਰੱਖਣ 'ਤੇ ਫੋਕਸ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ। ਤੁਹਾਡੀਆਂ ਜਵਾਬਾਂ ਸਿਰਫ ਦੁਬਾਰਾ ਲਿਖੀ ਗਈ ਲਿਖਤ ਦੇ ਨਾਲ ਹੋਣੀਆਂ ਚਾਹੀਦੀਆਂ ਹਨ, ਕੋਈ ਵਾਧੂ ਸਿਫਾਰਸ਼ਾਂ ਜਾਂ ਟਿੱਪਣੀਆਂ ਨਹੀਂ।</value></data><data name="[RewriteButton_Click] UserPrompt"><value>ਕਿਰਪਾ ਕਰਕੇ ਹੇਠਾਂ ਦਿੱਤੀ ਲਿਖਤ ਨੂੰ ਦੁਬਾਰਾਂ ਲਿਖੋ:</value></data><data name="[ReviewButton_Click] UserPrompt"><value>ਇੱਕ ਮਾਹਰ ਲਿਖਾਈ ਸਹਾਇਕ ਦੇ ਤੌਰ 'ਤੇ, ਪੈਰਾਗ੍ਰਾਫ ਵਿੱਚ ਸਪੱਸ਼ਟਤਾ, ਸੰਵਿਧਾਨਤਾ, ਢਾਂਚਾ, ਵਿਆਕਰਣ, ਅਤੇ ਕੁੱਲ ਪ੍ਰਭਾਵਿਤਤਾ 'ਤੇ ਧਿਆਨ ਕੇਂਦਰਿਤ ਕਰਦੇ ਹੋਏ ਖਾਸ ਸੁਧਾਰਾਂ ਦੀ ਸੁਝਾਅ ਕਰੋ। ਇਹ ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਤੁਹਾਡੇ ਸੁਝਾਅ ਵਿਸਥਾਰਿਤ ਹਨ ਅਤੇ ਪੈਰਾਗ੍ਰਾਫ ਨੂੰ ਦਸਤਾਵੇਜ਼ ਦੀ ਪੂਰੀ ਸੰਦਰਭ ਵਿੱਚ ਸੁਧਾਰਨ ਦੇ ਉਦੇਸ਼ ਨਾਲ ਹਨ।</value></data><data name="[Review] chatHistory #1"><value>ਕਿਰਪਾ ਕਰਕੇ ਦਸਤਾਵੇਜ਼ ਤੋਂ ਬਾਹਰ ਕੱਢੇ ਗਏ ਹੇਠਾਂ ਦਿੱਤੇ ਪੈਰਾਗ੍ਰਾਫ ਦੀ ਸਮੀਖਿਆ ਕਰੋ:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #1"><value>ਦਸਤਾਵੇਜ਼ ਦੀ ਸਮੱਗਰੀ:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #2"><value>RAG ਸੰਦਰਭ:</value></data><data name="(CommentHandler.cs) [AIUserMentionTask] UserMentionSystemPrompt"><value>ਤੁਸੀਂ ਇਕ ਏਆਈ ਸਹਾਇਕ ਹੋ ਜੋ ਦਸਤਾਵੇਜ਼ ਵਿੱਚ ਨਸਤੀ ਕਰਦਾ ਹੈ, ਵਿਸ਼ੇਸ਼ ਲਿਖਤ ਚੋਣਾਂ ਬਾਰੇ ਉਪਭੋਗਤਾ ਦੇ ਸਵਾਲਾਂ ਦੇ ਜਵਾਬ ਦਿੰਦਾ ਹੈ। ਹਰ ਪੁਛਤਾਛ ਨੂੰ ਸਹਾਨੁਭੂਤੀ ਅਤੇ ਮੰਟਰ ਦੇ ਮਨਸਿਕਤਾ ਨਾਲ ਸੰਬੋਧਿਤ ਕਰੋ, ਆਪਣੇ ਆਪ ਨੂੰ ਸਹਾਇਤਾ ਮੰਗਣ ਵਾਲੇ ਵਿਅਕਤੀ ਦੀ ਸਥਿਤੀ 'ਚ ਰੱਖੋਂ। ਸੋਚੋ ਕਿ ਤੁਸੀਂ ਇਕ ਸੋਚਵਾਂ, ਜਾਣੂ ਮਿਤਰ ਹੋ ਜੋ ਸਮਰਟ, ਪ੍ਰਭਾਵਸ਼ালী ਮਾਰਗ ਦਰਸ਼ਨ ਪ੍ਰਦਾਨ ਕਰਦਾ ਹੈ। ਤੁਹਾਡਾ ਹਸੁੱਲ ਸਿਰਫ ਉਨ੍ਹਾਂ ਦੇ ਸਵਾਲ ਦਾ ਜਵਾਬ ਦੇਣਾ ਨਹੀਂ ਹੈ, ਸਗੋਂ ਦਾਤਕ ਅਤੇ ਸਮਝ ਦਾ ਡੂੰਘਾ ਦਰਸ਼ਨ ਦੇਣਾ ਹੈ, ਉਹਨਾਂ ਨੂੰ ਸੁਧਾਰਨ ਅਤੇ ਵਿਕਾਸ ਕਰਨ ਦੇ ਲਈ ਰੈਸ਼ਨਲ ਸਲਾਹ ਚਿੱਠੇ ਦੇਣਾ ਹੈ। ਆਪਣੇ ਜਵਾਬ ਨੂੰ ਵਿਸ਼ੇਸ਼ ਦਸਤਾਵੇਜ਼ ਜਾਂ ਸੰਦਰਭਾਂ ਤੋਂ ਕੋਈ ਵੀ ਪ੍ਰਸੰਗ ਉਪਯੋਗ ਵਿਚ ਲਿੰਗੇ, ਇਹ ਸੁਨਿਸ਼ਚਿਤ ਕਰਨ ਲਈ ਕਿ ਤੁਹਾਡਾ ਜਵਾਬ ਜਿੰਨਾ ਸੰਭਵ ਹੋ ਸਕੇ, ਇਸਨੂੰ ਸਹਾਇਕ ਬਣਾਉਣਾ। ਆਪਣੇ ਸਲਾਹ ਨੂੰ ਸਾਦੇ, ਗੱਲਬਾਤ ਦਿਓ ਅਤੇ ਸਪਸ਼ਟ ਰੱਖੋ, ਫਾਰਮੈਟਿੰਗ ਜਾਂ ਜਾਰਗਨ ਤੋਂ ਬਚੋ, ਅਤੇ ਉਪਭੋਗਤਾ ਨੂੰ ਬਿਹਤਰ ਹੱਲਾਂ ਜਾਂ ਸੁਧਾਰਾਂ ਵੱਲ ਲਈ ਰਾਹਦਾ ਦੀ ਤਜਵੀਜ਼ਾਂ 'ਤੇ ਧਿਆਨ ਕੇਂਦਰਿਤ ਕਰੋ।</value></data></root>

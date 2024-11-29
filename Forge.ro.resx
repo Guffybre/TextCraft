@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema"><xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="this.ForgeTab.Label"><value>Creatie</value></data><data name="this.ToolsGroup.Label"><value>Unelte</value></data><data name="this.GenerateButton.Label"><value>Generare</value></data><data name="this.GenerateButton.SuperTip"><value>Creează răspunsuri personalizate folosind promptul utilizatorului și conținutul documentului actual.</value></data><data name="this.DefaultCheckBox.Label"><value>Implicit</value></data><data name="this.AboutButton.Label"><value>Despre</value></data><data name="this.AboutButton.ScreenTip"><value>Oferă detalii despre această aplicație.</value></data><data name="this.CancelButton.Label"><value>Anulează</value></data><data name="this.CancelButton.ScreenTip"><value>Oprește procesul de generare a textului.</value></data><data name="this.WritingToolsGallery.Label"><value>Unelte de scriere</value></data><data name="this.WritingToolsGallery.SuperTip"><value>Îmbunătățește-ți scrisul cu unelte alimentate de AI pentru gramatică, stil și claritate.</value></data><data name="this.ReviewButton.Label"><value>Recenzie</value></data><data name="this.ReviewButton.SuperTip"><value>Îmbunătățește-ți documentul cu comentarii și sugestii bazate pe AI.</value></data><data name="this.ProofreadButton.Label"><value>Revizuire</value></data><data name="this.ProofreadButton.SuperTip"><value>Verifică pentru erori de ortografie, gramatică și stil pentru a-ți rafina documentul.</value></data><data name="this.RewriteButton.Label"><value>Rescriere</value></data><data name="this.RewriteButton.SuperTip"><value>Revizuiește și îmbunătățește-ți textul cu sugestii bazate pe AI.</value></data><data name="this.SettingsGroup.Label"><value>Setări</value></data><data name="this.RAGControlButton.Label"><value>Control RAG</value></data><data name="this.RAGControlButton.SuperTip"><value>Gestionează fișierele din sistemul de Generare prin Augmentare a Recuperării (RAG).</value></data><data name="this.ModelListDropDown.Label"><value>Lista de modele</value></data><data name="this.ModelListDropDown.SuperTip"><value>Alege un model de limbaj pentru utilizare în TextCraft.</value></data><data name="this.DefaultCheckBox.SuperTip"><value>Setează modelul de limbaj implicit pentru TextCraft.</value></data><data name="this.OptionsGroup.Label"><value>Opțiuni</value></data><data name="this.InfoGroup.Label"><value>Informații</value></data><data name="(ThisAddIn.cs) [InitializeAddIn] ArgumentException #1"><value>Modelul de încorporare lipsește. Te rog să-l instalezi pentru a continua!</value></data><data name="[WritingToolsGallery_ButtonClick] ArgumentOutOfRangeException #1"><value>Butonul selectat nu este recunoscut.</value></data><data name="[ReviewButton_Click] MessageBox #1 (text)"><value>Recenzia completă! Nu sunt necesare comentarii pentru acest document.</value></data><data name="[ReviewButton_Click] MessageBox #1 (caption)"><value>Acțiune finalizată</value></data><data name="(ModelProperties.cs) [GetContextLength] OllamaMissingContextWindowException #1"><value>Imposibil de obținut lungimea contextului pentru {0}!</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Text"><value>Vrei să permiți TextCraft să acceseze următoarea resursă de internet?</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Caption"><value>Acces la Internet</value></data><data name="(WordMarkdown.cs) [ApplyMarkdownFormatting] ArgumentOutofRangeException #1"><value>Tip de format necunoscut pentru procesarea Markdown!</value></data><data name="(WordMarkdown.cs) [GetCodeBlockAtIndex] ApplicationException #1"><value>Blocul de cod Markdown nu a fost găsit la indexul {0}!</value></data><data name="(WordMarkdown.cs) [ApplyImageFormatting] ArgumentException #1"><value>Format URL invalid</value></data><data name="(WordMarkdown.cs) [ApplyHeadingFormatting] ArgumentException #1"><value>Titlu Markdown invalid: trebuie să conțină 1 până la 6 caractere '#'.</value></data><data name="[AnalyzeText] InvalidRangeException #1"><value>Niciun text selectat pentru analiză!</value></data><data name="this.CommentSystemPrompt"><value>Ești un asistent de scriere expert și editor, specializat în îmbunătățirea clarității, coerenței și impactului textului dintr-un document. Analizezi textul critic și oferi feedback constructiv pentru a îmbunătăți calitatea generală.</value></data><data name="(CommentHandler.cs) [AICommentReplyTask] UserChatMessage #2"><value>Pe baza comentariilor anterioare ale AI, sugerează îmbunătățiri suplimentare specifice pentru paragraf, axându-te pe claritate, coerență, structură, gramatică și eficacitate generală. Asigură-te că sugestiile tale sunt detaliate și menite să îmbunătățească paragraful în contextul întregului document.</value></data><data name="[ProofreadButton_Click] SystemPrompt"><value>Ești un asistent de corectare. Sarcina ta este să corectezi orice erori de ortografie, gramatică, punctuație sau stil în textul furnizat. Fă doar modificările necesare direct în text. Dacă textul este deja corect și nu necesită modificări, repetă-l pur și simplu așa cum este, fără a oferi explicații sau comentarii.</value></data><data name="[ProofreadButton_Click] UserPrompt"><value>Te rog să corectezi următorul text. Fă orice corecturi necesare direct în text, fără a adăuga explicații sau comentarii. Dacă textul este corect și nu necesită modificări, repetă-l exact așa cum este:</value></data><data name="[RewriteButton_Click] SystemPrompt"><value>Ești un model de limbaj avansat îndrituit să rescrie textul furnizat de utilizator. Ar trebui să te concentrezi pe îmbunătățirea clarității, a fluxului și menținerea sensului original al textului. Răspunsurile tale ar trebui să constea strict din textul rescris, fără explicații sau comentarii suplimentare.</value></data><data name="[RewriteButton_Click] UserPrompt"><value>Te rog să rescrii următorul text:</value></data><data name="[ReviewButton_Click] UserPrompt"><value>Ca asistent de scriere expert, sugerează îmbunătățiri specifice pentru paragraf, axându-te pe claritate, coerență, structură, gramatică și eficacitate generală. Asigură-te că sugestiile tale sunt detaliate și menite să îmbunătățească paragraful în contextul întregului document.</value></data><data name="[Review] chatHistory #1"><value>Te rog să revizuiești următorul paragraf extras din document:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #1"><value>Conținutul documentului:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #2"><value>Context RAG:</value></data><data name="(CommentHandler.cs) [AIUserMentionTask] UserMentionSystemPrompt"><value>Ești un asistent AI încorporat într-un document, răspunzând la întrebările utilizatorilor despre selecții specifice de text. Abordează fiecare întrebare cu empatie și mentalitatea unui mentor, punându-te în locul persoanei care cere ajutor. Imaginează-ți că ești un prieten gânditor și bine informat care oferă sfaturi practice și perspicace. Scopul tău este să nu doar răspunzi la întrebarea lor, ci și să oferi o înțelegere mai profundă, oferind sfaturi raționale care îi ajută să se îmbunătățească și să crească. Folosește orice context disponibil din document sau resursele aferente pentru a-ți îmbogăți răspunsul, făcându-l cât mai util posibil. Menține sfaturile tale simple, conversaționale și clare, evitând formatarea sau jargonul, și concentrează-te pe furnizarea de informații acționabile care ghidează utilizatorul către soluții sau îmbunătățiri mai bune.</value></data></root>

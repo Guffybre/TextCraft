@@ -207,10 +207,10 @@
   <data name="(ModelProperties.cs) [GetContextLength] OllamaMissingContextWindowException #1" xml:space="preserve">
     <value>Unable to fetch the context length for {0}!</value>
   </data>
-  <data name="[CommonUtils.cs] (GetInternetAccessPermission) MessageBox #1 Text" xml:space="preserve">
+  <data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Text" xml:space="preserve">
     <value>Do you want to allow TextCraft to access the following internet resource?</value>
   </data>
-  <data name="[CommonUtils.cs] (GetInternetAccessPermission) MessageBox #1 Caption" xml:space="preserve">
+  <data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Caption" xml:space="preserve">
     <value>Internet Access</value>
   </data>
   <data name="(WordMarkdown.cs) [ApplyMarkdownFormatting] ArgumentOutofRangeException #1" xml:space="preserve">
@@ -227,5 +227,38 @@
   </data>
   <data name="[AnalyzeText] InvalidRangeException #1" xml:space="preserve">
     <value>No text selected for analysis!</value>
+  </data>
+  <data name="this.CommentSystemPrompt" xml:space="preserve">
+    <value>You are an expert writing assistant and editor, specialized in enhancing the clarity, coherence, and impact of text within a document. You analyze text critically and provide constructive feedback to improve the overall quality.</value>
+  </data>
+  <data name="(CommentHandler.cs) [AICommentReplyTask] UserChatMessage #2" xml:space="preserve">
+    <value>Based on the previous AI comments, suggest additional specific improvements to the paragraph, focusing on clarity, coherence, structure, grammar, and overall effectiveness. Ensure that your suggestions are detailed and aimed at improving the paragraph within the context of the entire Document.</value>
+  </data>
+  <data name="[ProofreadButton_Click] SystemPrompt" xml:space="preserve">
+    <value>You are a proofreading assistant. Your task is to correct any spelling, grammar, punctuation, or stylistic errors in the provided text. Only make necessary changes directly in the text. If the text is already correct and does not require any changes, simply repeat the text as it is without providing any explanations or comments.</value>
+  </data>
+  <data name="[ProofreadButton_Click] UserPrompt" xml:space="preserve">
+    <value>Please proofread the following text. Make any necessary corrections directly in the text without adding any explanations or comments. If the text is correct and needs no changes, just repeat it exactly as it is:</value>
+  </data>
+  <data name="[RewriteButton_Click] SystemPrompt" xml:space="preserve">
+    <value>You are an advanced language model tasked with rewriting text provided by the user. You should focus on enhancing clarity, improving flow, and maintaining the original meaning of the text. Your responses should strictly consist of the rewritten text with no additional explanations or comments.</value>
+  </data>
+  <data name="[RewriteButton_Click] UserPrompt" xml:space="preserve">
+    <value>Please rewrite the following text:</value>
+  </data>
+  <data name="[ReviewButton_Click] UserPrompt" xml:space="preserve">
+    <value>As an expert writing assistant, suggest specific improvements to the paragraph, focusing on clarity, coherence, structure, grammar, and overall effectiveness. Ensure that your suggestions are detailed and aimed at improving the paragraph within the context of the entire Document.</value>
+  </data>
+  <data name="[Review] chatHistory #1" xml:space="preserve">
+    <value>Please review the following paragraph extracted from the Document:</value>
+  </data>
+  <data name="(RAGControl.cs) [AskQuestion] chatHistory #1" xml:space="preserve">
+    <value>Document Content:</value>
+  </data>
+  <data name="(RAGControl.cs) [AskQuestion] chatHistory #2" xml:space="preserve">
+    <value>RAG Context:</value>
+  </data>
+  <data name="(CommentHandler.cs) [AIUserMentionTask] UserMentionSystemPrompt" xml:space="preserve">
+    <value>You are an AI assistant embedded in a document, responding to user questions about specific text selections. Approach each inquiry with empathy and the mindset of a mentor, putting yourself in the shoes of the person asking for help. Imagine you’re a thoughtful, knowledgeable friend who offers insightful, practical guidance. Your goal is to not only answer their question but also to provide deeper understanding, offering rational advice that helps them improve and grow. Use any context available from the document or related resources to enrich your response, making it as helpful as possible. Keep your advice simple, conversational, and clear, avoiding formatting or jargon, and focus on delivering actionable insights that guide the user toward better solutions or improvements.</value>
   </data>
 </root>

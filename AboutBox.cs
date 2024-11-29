@@ -13,9 +13,9 @@ namespace TextForge
             try
             {
                 InitializeComponent();
-                this.Text = $"{_cultureHelper.GetLocalizedString("[AboutBox()] this.Text")} {AssemblyTitle}";
+                this.Text = string.Format(_cultureHelper.GetLocalizedString("[AboutBox()] this.Text"), AssemblyTitle);
                 this.labelProductName.Text = AssemblyProduct;
-                this.labelVersion.Text = $"{_cultureHelper.GetLocalizedString("[AboutBox()] this.labelVersion.Text")} {AssemblyVersion}";
+                this.labelVersion.Text = string.Format(_cultureHelper.GetLocalizedString("[AboutBox()] this.labelVersion.Text"), AssemblyVersion);
                 this.labelCopyright.Text = AssemblyCopyright;
                 this.labelCompanyName.Text = AssemblyCompany;
                 this.LicenseTextBox.Text = Properties.Resources.THIRD_PARTY;

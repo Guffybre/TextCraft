@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema"><xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="FileListBox.AccessibleDescription"><value>Показва файловете, включени в контекста на RAG.</value></data><data name="FileListBox.AccessibleName"><value>Файлове на RAG</value></data><data name="RemoveButton.AccessibleDescription"><value>Премахва избрания файл от списъка.</value></data><data name="RemoveButton.AccessibleName"><value>Бутон за премахване на файл</value></data><data name="RemoveButton.Text"><value>Премахване</value></data><data name="AddButton.AccessibleDescription"><value>Добавя избраните файлове в системата RAG за допълнителна обработка.</value></data><data name="AddButton.AccessibleName"><value>Бутон за добавяне на файлове</value></data><data name="AddButton.Text"><value>Добавяне</value></data><data name="progressBar1.AccessibleDescription"><value>Показва колко от процеса на извличане и генериране е завършен.</value></data><data name="progressBar1.AccessibleName"><value>Напредък в процеса на RAG</value></data><data name="$this.AccessibleDescription"><value>Може да добавя или премахва файлове от контекста на RAG.</value></data><data name="$this.AccessibleName"><value>Управление на RAG</value></data><data name="[AddButton_Click] OpenFileDialog #1 Title"><value>Изберете файлове за RAG</value></data><data name="[ReadPdfFileAsync] InvalidDataException #1"><value>Неуспешно отключване на PDF файла поради неправилна парола.</value></data></root>

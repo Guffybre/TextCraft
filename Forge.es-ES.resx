@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema"><xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="this.ForgeTab.Label"><value>Crear</value></data><data name="this.ToolsGroup.Label"><value>Herramientas</value></data><data name="this.GenerateButton.Label"><value>Generar</value></data><data name="this.GenerateButton.SuperTip"><value>Crea respuestas personalizadas utilizando el aviso del usuario y el contenido del documento actual.</value></data><data name="this.DefaultCheckBox.Label"><value>Predeterminado</value></data><data name="this.AboutButton.Label"><value>Acerca de</value></data><data name="this.AboutButton.ScreenTip"><value>Proporciona detalles sobre esta aplicación.</value></data><data name="this.CancelButton.Label"><value>Cancelar</value></data><data name="this.CancelButton.ScreenTip"><value>Detiene el proceso de generación de texto.</value></data><data name="this.WritingToolsGallery.Label"><value>Herramientas de Escritura</value></data><data name="this.WritingToolsGallery.SuperTip"><value>Mejora tu escritura con herramientas impulsadas por IA para gramática, estilo y claridad.</value></data><data name="this.ReviewButton.Label"><value>Revisar</value></data><data name="this.ReviewButton.SuperTip"><value>Mejora tu documento con comentarios y sugerencias impulsadas por IA.</value></data><data name="this.ProofreadButton.Label"><value>Revisar</value></data><data name="this.ProofreadButton.SuperTip"><value>Revisa errores de ortografía, gramática y estilo para pulir tu documento.</value></data><data name="this.RewriteButton.Label"><value>Reescribir</value></data><data name="this.RewriteButton.SuperTip"><value>Revisa y mejora tu texto con sugerencias impulsadas por IA.</value></data><data name="this.SettingsGroup.Label"><value>Configuración</value></data><data name="this.RAGControlButton.Label"><value>Control de RAG</value></data><data name="this.RAGControlButton.SuperTip"><value>Gestiona archivos dentro del sistema de Generación de Aumento de Recuperación (RAG).</value></data><data name="this.ModelListDropDown.Label"><value>Lista de Modelos</value></data><data name="this.ModelListDropDown.SuperTip"><value>Selecciona un modelo de lenguaje para usar en TextCraft.</value></data><data name="this.DefaultCheckBox.SuperTip"><value>Establece el modelo de lenguaje predeterminado para TextCraft.</value></data><data name="this.OptionsGroup.Label"><value>Opciones</value></data><data name="this.InfoGroup.Label"><value>Información</value></data><data name="(ThisAddIn.cs) [InitializeAddIn] ArgumentException #1"><value>¡Modelo de incrustación faltante. Por favor instálalo para continuar!</value></data><data name="[WritingToolsGallery_ButtonClick] ArgumentOutOfRangeException #1"><value>Botón seleccionado no reconocido.</value></data><data name="[ReviewButton_Click] MessageBox #1 (text)"><value>¡Revisión completa! No se necesitan comentarios para este documento.</value></data><data name="[ReviewButton_Click] MessageBox #1 (caption)"><value>Acción Completada</value></data><data name="(ModelProperties.cs) [GetContextLength] OllamaMissingContextWindowException #1"><value>¡No se puede obtener la longitud del contexto para {0}!</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Text"><value>¿Quieres permitir que TextCraft acceda al siguiente recurso de internet?</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Caption"><value>Acceso a Internet</value></data><data name="(WordMarkdown.cs) [ApplyMarkdownFormatting] ArgumentOutofRangeException #1"><value>¡Tipo de formato desconocido para el procesamiento de Markdown!</value></data><data name="(WordMarkdown.cs) [GetCodeBlockAtIndex] ApplicationException #1"><value>¡Bloque de código Markdown no encontrado en el índice {0}!</value></data><data name="(WordMarkdown.cs) [ApplyImageFormatting] ArgumentException #1"><value>Formato de URL no válido</value></data><data name="(WordMarkdown.cs) [ApplyHeadingFormatting] ArgumentException #1"><value>Encabezado de Markdown no válido: debe contener de 1 a 6 caracteres '#'.</value></data><data name="[AnalyzeText] InvalidRangeException #1"><value>¡No se ha seleccionado texto para análisis!</value></data><data name="this.CommentSystemPrompt"><value>Eres un asistente y editor experto en escritura, especializado en mejorar la claridad, coherencia e impacto del texto dentro de un documento. Analizas el texto críticamente y proporcionas comentarios constructivos para mejorar la calidad general.</value></data><data name="(CommentHandler.cs) [AICommentReplyTask] UserChatMessage #2"><value>Basado en los comentarios anteriores de IA, sugiere mejoras específicas adicionales para el párrafo, enfocándote en claridad, coherencia, estructura, gramática y efectividad general. Asegúrate de que tus sugerencias sean detalladas y estén destinadas a mejorar el párrafo dentro del contexto de todo el Documento.</value></data><data name="[ProofreadButton_Click] SystemPrompt"><value>Eres un asistente de corrección. Tu tarea es corregir cualquier error de ortografía, gramática, puntuación o estilo en el texto proporcionado. Realiza solo los cambios necesarios directamente en el texto. Si el texto ya es correcto y no requiere cambios, simplemente repite el texto tal cual sin ofrecer explicaciones o comentarios.</value></data><data name="[ProofreadButton_Click] UserPrompt"><value>Por favor, revisa el siguiente texto. Haz las correcciones necesarias directamente en el texto sin añadir explicaciones o comentarios. Si el texto es correcto y no requiere cambios, simplemente repítelo exactamente como está:</value></data><data name="[RewriteButton_Click] SystemPrompt"><value>Eres un modelo de lenguaje avanzado encargado de reescribir el texto proporcionado por el usuario. Debes centrarte en mejorar la claridad, mejorar el flujo y mantener el significado original del texto. Tus respuestas deben consistir estrictamente en el texto reescrito sin explicaciones o comentarios adicionales.</value></data><data name="[RewriteButton_Click] UserPrompt"><value>Por favor, reescribe el siguiente texto:</value></data><data name="[ReviewButton_Click] UserPrompt"><value>Como asistente experto en escritura, sugiere mejoras específicas para el párrafo, enfocándote en claridad, coherencia, estructura, gramática y efectividad general. Asegúrate de que tus sugerencias sean detalladas y estén destinadas a mejorar el párrafo dentro del contexto de todo el Documento.</value></data><data name="[Review] chatHistory #1"><value>Por favor, revisa el siguiente párrafo extraído del Documento:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #1"><value>Contenido del Documento:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #2"><value>Contexto RAG:</value></data><data name="(CommentHandler.cs) [AIUserMentionTask] UserMentionSystemPrompt"><value>Eres un asistente de IA incrustado en un documento, respondiendo a preguntas del usuario sobre selecciones de texto específicas. Aborda cada consulta con empatía y la mentalidad de un mentor, poniéndote en el lugar de la persona que pide ayuda. Imagina que eres un amigo considerado y conocedor que ofrece orientación práctica y perspicaz. Tu objetivo es no solo responder a su pregunta, sino también proporcionar una comprensión más profunda, ofreciendo consejos racionales que les ayuden a mejorar y crecer. Utiliza cualquier contexto disponible del documento o recursos relacionados para enriquecer tu respuesta, haciéndola lo más útil posible. Mantén tus consejos simples, conversacionales y claros, evitando formateos o jerga, y céntrate en ofrecer ideas prácticas que guíen al usuario hacia mejores soluciones o mejoras.</value></data></root>

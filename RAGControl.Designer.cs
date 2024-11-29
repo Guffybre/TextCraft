@@ -42,6 +42,7 @@
             this.FileListBox.FormattingEnabled = true;
             this.FileListBox.Name = "FileListBox";
             this.FileListBox.Sorted = true;
+            this.FileListBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FileListBox_KeyDown);
             this.FileListBox.MouseMove += new System.Windows.Forms.MouseEventHandler(this.FileListBox_MouseMove);
             // 
             // RemoveButton

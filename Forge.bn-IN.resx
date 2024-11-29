@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema"><xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="this.ForgeTab.Label"><value>তৈরির</value></data><data name="this.ToolsGroup.Label"><value>সরঞ্জাম</value></data><data name="this.GenerateButton.Label"><value>উত্পন্ন করুন</value></data><data name="this.GenerateButton.SuperTip"><value>ব্যবহারকারীর প্রম্পট এবং বর্তমান দলিলের বিষয়বস্তু ব্যবহার করে নজরদারি করে প্রতিক্রিয়াসমূহ তৈরি করে।</value></data><data name="this.DefaultCheckBox.Label"><value>ডিফল্ট</value></data><data name="this.AboutButton.Label"><value>সম্পর্কে</value></data><data name="this.AboutButton.ScreenTip"><value>এই অ্যাপ্লিকেশনটির বিস্তারিত তথ্য প্রদান করে।</value></data><data name="this.CancelButton.Label"><value>বাতিল করুন</value></data><data name="this.CancelButton.ScreenTip"><value>পাঠ্য তৈরি প্রক্রিয়া বন্ধ করে।</value></data><data name="this.WritingToolsGallery.Label"><value>লেখার সরঞ্জাম</value></data><data name="this.WritingToolsGallery.SuperTip"><value>ব্যাকরণ, শৈলী এবং পরিষ্কারত্বের জন্য এআই-চালিত সরঞ্জাম ব্যবহার করে আপনার লেখার উন্নতি করুন।</value></data><data name="this.ReviewButton.Label"><value>পর্যালোচনা</value></data><data name="this.ReviewButton.SuperTip"><value>এআই-চালিত মন্তব্য এবং প্রস্তাবনাগুলির সাহায্যে আপনার দলিলের সংশোধন করুন।</value></data><data name="this.ProofreadButton.Label"><value>প্রুফরিড</value></data><data name="this.ProofreadButton.SuperTip"><value>আপনার দস্তাবেজকে প polish করতে বানান, ব্যাকরণ এবং শৈলীর ত্রুটি পরীক্ষা করুন।</value></data><data name="this.RewriteButton.Label"><value>পুনঃলিখন করুন</value></data><data name="this.RewriteButton.SuperTip"><value>এআই-চালিত প্রস্তাবনার সাহায্যে আপনার পাঠ্য পুনর্বিবেচনা এবং উন্নত করুন।</value></data><data name="this.SettingsGroup.Label"><value>সেটিংস</value></data><data name="this.RAGControlButton.Label"><value>রেগ নিয়ন্ত্রণ</value></data><data name="this.RAGControlButton.SuperTip"><value>তথ্য পুনরুদ্ধার বৃদ্ধি উৎপাদন (RAG) সিস্টেমে ফাইল পরিচালনা করুন।</value></data><data name="this.ModelListDropDown.Label"><value>মডেল তালিকা</value></data><data name="this.ModelListDropDown.SuperTip"><value>টেক্সটক্রাফটে ব্যবহারের জন্য একটি ভাষার মডেল নির্বাচন করুন।</value></data><data name="this.DefaultCheckBox.SuperTip"><value>টেক্সটক্রাফটের জন্য ডিফল্ট ভাষার মডেল সেট করুন।</value></data><data name="this.OptionsGroup.Label"><value>বিকল্পগুলি</value></data><data name="this.InfoGroup.Label"><value>তথ্য</value></data><data name="(ThisAddIn.cs) [InitializeAddIn] ArgumentException #1"><value>এমবেড মডেল অনুপস্থিত। এগিয়ে যেতে দয়া করে এটি স্থাপন করুন!</value></data><data name="[WritingToolsGallery_ButtonClick] ArgumentOutOfRangeException #1"><value>নির্বাচিত বোতাম চিনতে সক্ষম নয়।</value></data><data name="[ReviewButton_Click] MessageBox #1 (text)"><value>পর্যালোচনা সম্পন্ন! এই দস্তাবেজের জন্য কোন মন্তব্যের প্রয়োজন নেই।</value></data><data name="[ReviewButton_Click] MessageBox #1 (caption)"><value>কাজ সম্পন্ন</value></data><data name="(ModelProperties.cs) [GetContextLength] OllamaMissingContextWindowException #1"><value>{0} এর জন্য প্রসঙ্গের দৈর্ঘ্য আনতে অক্ষম!</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Text"><value>আপনি কি টেক্সটক্রাফটকে নিম্নলিখিত ইন্টারনেট সম্পদে প্রবেশের অনুমতি দিতে চান?</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Caption"><value>ইন্টারনেট অ্যাক্সেস</value></data><data name="(WordMarkdown.cs) [ApplyMarkdownFormatting] ArgumentOutofRangeException #1"><value>মার্কডাউন প্রক্রিয়াকরণের জন্য অজানা ফরম্যাট টাইপ!</value></data><data name="(WordMarkdown.cs) [GetCodeBlockAtIndex] ApplicationException #1"><value>ইনডেক্স {0} তে মার্কডাউন কোড ব্লক পাওয়া যায়নি!</value></data><data name="(WordMarkdown.cs) [ApplyImageFormatting] ArgumentException #1"><value>অবৈধ ইউআরএল ফরম্যাট</value></data><data name="(WordMarkdown.cs) [ApplyHeadingFormatting] ArgumentException #1"><value>অবৈধ মার্কডাউন শিরোনাম: ১ থেকে ৬ '#' অক্ষর থাকতে হবে।</value></data><data name="[AnalyzeText] InvalidRangeException #1"><value>বিশ্লেষণের জন্য কোন পাঠ্য নির্বাচিত নেই!</value></data><data name="this.CommentSystemPrompt"><value>আপনি একজন বিশেষজ্ঞ লেখার সহকারী এবং সম্পাদক, যারা একটি দস্তাবেজের মধ্যে পরিষ্কারতা, সম্পর্ক এবং প্রভাব উন্নতি করতে বিশেষজ্ঞ। আপনি পাঠ্যকে সমালোচনামূলকভাবে বিশ্লেষণ করেন এবং সামগ্রিক গুণমান উন্নত করতে গঠনমূলক প্রতিক্রিয়া প্রদান করেন।</value></data><data name="(CommentHandler.cs) [AICommentReplyTask] UserChatMessage #2"><value>পূর্ববর্তী এআই মন্তব্যের উপর ভিত্তি করে, প্যারা গ্রাফের জন্য স্পষ্ট উন্নতির জন্য অতিরিক্ত নির্দিষ্ট প্রস্তাবনার সুপারিশ করুন, পরিষ্কারতা, সম্পর্ক, গঠন, ব্যাকরণ এবং সামগ্রিক কার্যকারিতা নিয়ে দৃষ্টি নিবদ্ধ করুন। আপনার প্রস্তাবনাগুলি বিস্তারিত হওয়া উচিত এবং সম্পূর্ণ দস্তাবেজের প্রেক্ষাপটে প্যারা গ্রাফের উন্নতির দিকে অগ্রসর হওয়া উচিত।</value></data><data name="[ProofreadButton_Click] SystemPrompt"><value>আপনি একজন প্রুফরিডিং সহকারী। আপনার কাজ হল প্রদত্ত পাঠ্যে বানান, ব্যাকরণ, পunctuation, বা শৈলীর ত্রুটি সংশোধন করা। শুধুমাত্র পাঠ্যের সরাসরি প্রয়োজনীয় পরিবর্তন করুন। যদি পাঠ্য ইতিমধ্যেই সঠিক এবং কোন পরিবর্তনের প্রয়োজন না হয়, তবে ব্যাখ্যা বা মন্তব্য না করেই পাঠ্যটিকে ঠিক যেভাবে আছে সেভাবে পুনরাবৃত্তি করুন।</value></data><data name="[ProofreadButton_Click] UserPrompt"><value>দয়া করে নিম্নলিখিত পাঠ্যটি প্রুফরিড করুন। কোন প্রয়োজনীয় সংশোধনগুলি সরাসরি পাঠ্যে করুন ব্যাখ্যা বা মন্তব্য যুক্ত না করে। যদি পাঠ্য সঠিক এবং কোন পরিবর্তনের প্রয়োজন না হয়, তবে এটি ঠিক যেভাবে আছে সেভাবে পুনরাবৃত্তি করুন:</value></data><data name="[RewriteButton_Click] SystemPrompt"><value>আপনি একজন উন্নত ভাষা মডেল যিনি ব্যবহারকারীর দ্বারা প্রদত্ত পাঠ্য পুনর্লিখন করতে কাজ করছেন। আপনি পরিষ্কারতা বাড়ানো, প্রবাহ উন্নত করা এবং পাঠ্যের মূল অর্থ বজায় রাখার উপর মনোযোগ কেন্দ্রীভূত করবেন। আপনার প্রতিক্রিয়াগুলি শুধুমাত্র পুনর্লিখিত পাঠ্য নিয়ে গঠিত হওয়া উচিত, কোন অতিরিক্ত ব্যাখ্যা বা মন্তব্য ছাড়া।</value></data><data name="[RewriteButton_Click] UserPrompt"><value>দয়া করে নিম্নলিখিত পাঠ্যটি পুনঃলিখন করুন:</value></data><data name="[ReviewButton_Click] UserPrompt"><value>একজন বিশেষজ্ঞ লেখার সহকারী হিসেবে, প্যারা গ্রাফের জন্য নির্দিষ্ট উন্নতির সুপারিশ করুন, পরিষ্কারতা, সম্পর্ক, গঠন, ব্যাকরণ এবং সামগ্রিক কার্যকারিতার উপর মনোযোগ দিন। নিশ্চিত করুন যে আপনার প্রস্তাবগুলি বিস্তারিত এবং সম্পূর্ণ দস্তাবেজের প্রেক্ষাপটে প্যারা গ্রাফের উন্নতির দিকে অগ্রসর।</value></data><data name="[Review] chatHistory #1"><value>দয়া করে নিম্নলিখিত প্যারা গ্রাফটি পর্যালোচনা করুন যা দস্তাবেজ থেকে বের করা হয়েছে:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #1"><value>দস্তাবেজের বিষয়বস্তু:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #2"><value>রাগ প্রসঙ্গ:</value></data><data name="(CommentHandler.cs) [AIUserMentionTask] UserMentionSystemPrompt"><value>আপনি একটি দস্তাবেজে এমবেডেড একটি এআই সহায়ক, ব্যবহারকারীর প্রশ্নের উত্তর দিচ্ছেন নির্দিষ্ট পাঠ্য নির্বাচনগুলির উপর। প্রতিটি অনুসন্ধানে সহানুভূতি এবং একজন উপদেষ্টার মনোভাব নিয়ে যোগাযোগ করুন, সেই ব্যক্তির জুতোতে নিজেকে রাখুন যিনি সাহায্যের জন্য জিজ্ঞাসা করছেন। আপনি একজন চিন্তাশীল, জ্ঞানী বন্ধুর মতো কল্পনা করুন যে অন্তর্দৃষ্টি, সাধারণনৈতিক নির্দেশনা প্রদান করে। আপনার লক্ষ্য হচ্ছে কেবল তাদের প্রশ্নের উত্তর দেওয়া নয়, বরং গভীরতর বোঝাপড়া প্রদান করা, তাদের উন্নতি এবং বৃদ্ধির দিকে সহায়ক উপদেশ দেওয়া। আপনার প্রতিক্রিয়া সমৃদ্ধ করতে দস্তাবেজ বা সম্পর্কিত সম্পদের থেকে উপলব্ধ যেকোন প্রসঙ্গ ব্যবহার করুন, এটিকে যত সহায়ক সম্ভাব্য করে তুলুন। আপনার উপদেশ সরল, কথোপকথনমূলক এবং পরিষ্কার হওয়া উচিত, গঠন বা জার্গন এড়িয়ে চলুন এবং ব্যবহারকারীকে উন্নতির জন্য বা ভাল সমাধানে গাইড করার লক্ষ্যে কার্যকরী অন্তর্দৃষ্টি প্রদান করুন।</value></data></root>

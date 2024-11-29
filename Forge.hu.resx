@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema"><xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="this.ForgeTab.Label"><value>Kézművesség</value></data><data name="this.ToolsGroup.Label"><value>Eszközök</value></data><data name="this.GenerateButton.Label"><value>Generál</value></data><data name="this.GenerateButton.SuperTip"><value>Személyre szabott válaszokat hoz létre a felhasználó kérésére és a jelenlegi dokumentum tartalmára alapozva.</value></data><data name="this.DefaultCheckBox.Label"><value>Alapértelmezett</value></data><data name="this.AboutButton.Label"><value>Információ</value></data><data name="this.AboutButton.ScreenTip"><value>Részleteket szolgáltat erről az alkalmazásról.</value></data><data name="this.CancelButton.Label"><value>Megszakít</value></data><data name="this.CancelButton.ScreenTip"><value>Megállítja a szöveggenerálási folyamatot.</value></data><data name="this.WritingToolsGallery.Label"><value>Írási Eszközök</value></data><data name="this.WritingToolsGallery.SuperTip"><value>Fejleszd írásodat AI-alapú eszközökkel a nyelvtan, stílus és érthetőség terén.</value></data><data name="this.ReviewButton.Label"><value>Ellenőriz</value></data><data name="this.ReviewButton.SuperTip"><value>Fejleszd dokumentumodat AI-alapú megjegyzésekkel és javaslatokkal.</value></data><data name="this.ProofreadButton.Label"><value>Nyelvtanellenőrzés</value></data><data name="this.ProofreadButton.SuperTip"><value>Ellenőrizd a helyesírási, nyelvtani és stílusbeli hibákat a dokumentum simításához.</value></data><data name="this.RewriteButton.Label"><value>Átírás</value></data><data name="this.RewriteButton.SuperTip"><value>Felülvizsgáld és fejleszd a szöveget AI-alapú javaslatokkal.</value></data><data name="this.SettingsGroup.Label"><value>Beállítások</value></data><data name="this.RAGControlButton.Label"><value>RAG Irányítás</value></data><data name="this.RAGControlButton.SuperTip"><value>Fájlok kezelése a Retrieval Augmentation Generation (RAG) rendszerben.</value></data><data name="this.ModelListDropDown.Label"><value>Modell Lista</value></data><data name="this.ModelListDropDown.SuperTip"><value>Válassz egy nyelvi modellt a TextCraft használatához.</value></data><data name="this.DefaultCheckBox.SuperTip"><value>Állítsd be a TextCraft alapértelmezett nyelvi modelljét.</value></data><data name="this.OptionsGroup.Label"><value>Opciók</value></data><data name="this.InfoGroup.Label"><value>Információ</value></data><data name="(ThisAddIn.cs) [InitializeAddIn] ArgumentException #1"><value>Hiányzik a modell beágyazása. Kérlek, telepítsd azt a folytatáshoz!</value></data><data name="[WritingToolsGallery_ButtonClick] ArgumentOutOfRangeException #1"><value>Kiválasztott gomb nem ismerhető fel.</value></data><data name="[ReviewButton_Click] MessageBox #1 (text)"><value>Az ellenőrzés befejeződött! Ez a dokumentum nem igényel megjegyzéseket.</value></data><data name="[ReviewButton_Click] MessageBox #1 (caption)"><value>Tevékenység befejezve</value></data><data name="(ModelProperties.cs) [GetContextLength] OllamaMissingContextWindowException #1"><value>Nem sikerült lekérni a {0} kontextus hosszát!</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Text"><value>Szeretnéd-e engedélyezni a TextCraft számára a következő internetforráshoz való hozzáférést?</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Caption"><value>Internet-hozzáférés</value></data><data name="(WordMarkdown.cs) [ApplyMarkdownFormatting] ArgumentOutofRangeException #1"><value>Ismeretlen formátum típus a Markdown feldolgozáshoz!</value></data><data name="(WordMarkdown.cs) [GetCodeBlockAtIndex] ApplicationException #1"><value>A Markdown kódblokk nem található az {0} indexnél!</value></data><data name="(WordMarkdown.cs) [ApplyImageFormatting] ArgumentException #1"><value>Érvénytelen URL formátum</value></data><data name="(WordMarkdown.cs) [ApplyHeadingFormatting] ArgumentException #1"><value>Érvénytelen Markdown fejléc: 1-6 '#' karaktert kell tartalmaznia.</value></data><data name="[AnalyzeText] InvalidRangeException #1"><value>Nincs kijelölt szöveg az elemzéshez!</value></data><data name="this.CommentSystemPrompt"><value>Te egy szakértő írást támogató asszisztens és szerkesztő vagy, aki a dokumentumban lévő szöveg érthetőségének, összefüggésének és hatásának javítására specializálódott. Kritikus szemmel elemzed a szöveget, és építő jellegű visszajelzéseket adsz a teljes minőség javítása érdekében.</value></data><data name="(CommentHandler.cs) [AICommentReplyTask] UserChatMessage #2"><value>Az előző AI megjegyzések alapján javasolj további konkrét fejlesztéseket a bekezdéshez, összpontosíts a tisztaságra, összefüggésre, struktúrára, nyelvtanra és általános hatékonyságra. Győződj meg róla, hogy javaslataid részletesek, és a teljes dokumentum kontextusában a bekezdés javítására irányulnak.</value></data><data name="[ProofreadButton_Click] SystemPrompt"><value>Te egy nyelvtan ellenőrző asszisztens vagy. A feladatod, hogy javítsd a megadott szövegben előforduló hibákat, beleértve a helyesírást, nyelvtant, írásjelek vagy stilisztikai hibákat. Csak a szükséges változtatásokat végezd el a szövegben. Ha a szöveg már helyes, és nem igényel módosítást, egyszerűen ismételd meg a szöveget anélkül, hogy magyarázatokat vagy megjegyzéseket fűznél hozzá.</value></data><data name="[ProofreadButton_Click] UserPrompt"><value>Kérlek, ellenőrizd a következő szöveget. Végezze el a szükséges korrekciókat közvetlenül a szövegben, anélkül, hogy magyarázatokat vagy megjegyzéseket fűznél hozzá. Ha a szöveg helyes, és nem igényel módosítást, egyszerűen ismételd meg pontosan úgy, ahogy van:</value></data><data name="[RewriteButton_Click] SystemPrompt"><value>Te egy fejlett nyelvi modell vagy, akinek feladata a felhasználó által megadott szöveg átírása. Fókuszálj a tisztaság fejlesztésére, a folyamat javítására, és az eredeti jelentés megőrzésére. A válaszaidnak kizárólag az átírt szöveget kell tartalmazniuk, további magyarázatok vagy megjegyzések nélkül.</value></data><data name="[RewriteButton_Click] UserPrompt"><value>Kérlek, írd át a következő szöveget:</value></data><data name="[ReviewButton_Click] UserPrompt"><value>Mint szakértő írást támogató asszisztens, javasolj konkrét fejlesztéseket a bekezdéshez, összpontosítva a tisztaságra, összefüggésre, struktúrára, nyelvtanra és általános hatékonyságra. Győződj meg róla, hogy a javaslataid részletesek, és a teljes dokumentum kontextusában a bekezdés javítására irányulnak.</value></data><data name="[Review] chatHistory #1"><value>Kérlek, tedd áttekintés alá a következő bekezdést, amely a dokumentumból származik:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #1"><value>Dokumentum Tartalom:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #2"><value>RAG Kontextus:</value></data><data name="(CommentHandler.cs) [AIUserMentionTask] UserMentionSystemPrompt"><value>Te egy AI asszisztens vagy, aki egy dokumentumban van integrálva, válaszolva a felhasználók kérdéseire a konkrét szövegrészekkel kapcsolatban. Minden kérdésre empátiával és mentor szemlélettel válaszolj, belehelyezkedve abba a helyzetbe, aki segítséget kér. Képzeld el, hogy egy figyelmes, tudós barát vagy, aki hasznos, praktikus útmutatást nyújt. Célod nem csupán a kérdés megválaszolása, hanem a mélyebb megértés biztosítása is, racionális tanácsot adva, amely segít nekik fejlődni. Használj fel minden elérhető kontextust a dokumentumból vagy kapcsolódó forrásokból, hogy gazdagabbá tedd a válaszodat, a lehető leghasznosabbá téve azt. Tartsd a tanácsaidat egyszerűnek, beszélgető stílusúnak és világosnak, kerüld a formázást vagy zsargont, és fókuszálj a hasznos belátások szállítására, amelyek segítik a felhasználót a jobb megoldások vagy fejlesztések felé.</value></data></root>

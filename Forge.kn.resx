@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema"><xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="this.ForgeTab.Label"><value>ಶಿಲ್ಪ</value></data><data name="this.ToolsGroup.Label"><value>ಸಾಧನೆಗಳು</value></data><data name="this.GenerateButton.Label"><value>ರಚಿಸಿ</value></data><data name="this.GenerateButton.SuperTip"><value>ಬಳಕೆದಾರೆನದ ಸೂಚನೆಯ ಮತ್ತು ಪ್ರಸ್ತುತ ದಾಖಲೆ ಕನ್ಟೆಂಟ್ ಬಳಸಿಕೊಂಡು ಸುಮಾರು ಉತ್ತರಗಳನ್ನು ರಚಿಸುತ್ತದೆ.</value></data><data name="this.DefaultCheckBox.Label"><value>ಡೀಫಾಲ್ಟ್</value></data><data name="this.AboutButton.Label"><value>ಕುರಿತು</value></data><data name="this.AboutButton.ScreenTip"><value>ಈ ಅಪ್ಲಿಕೇಶನ್ ಬಗ್ಗೆ ವಿವರಗಳನ್ನು ಒದಗಿಸುತ್ತದೆ.</value></data><data name="this.CancelButton.Label"><value>ರದ್ದುಗೊಳಿಸಿ</value></data><data name="this.CancelButton.ScreenTip"><value>ಪಠ್ಯ ಉತ್ಪಾದನಾ ಪ್ರಕ್ರಿಯೆಯನ್ನು ನಿಲ್ಲಿಸುತ್ತದೆ.</value></data><data name="this.WritingToolsGallery.Label"><value>ಬರೆಯುವ ಸಾಧನೆಗಳು</value></data><data name="this.WritingToolsGallery.SuperTip"><value>ವ್ಯಾಕರಣ, ಶ್ರೇಣಿ ಮತ್ತು ಸ್ಪಷ್ಟತೆಯಿಗಾಗಿ AI ಪ್ರಾಯೋಜಿತ ಸಾಧನೆಗಳನ್ನು ಬಳಸಿಕೊಂಡು ನಿಮ್ಮ ಬರವಣಿಗೆಯನ್ನು ಸುಧಾರಿಸುತ್ತವೆ.</value></data><data name="this.ReviewButton.Label"><value>ಪೇಕ್ವುನೆ</value></data><data name="this.ReviewButton.SuperTip"><value>AI-ಚಾಲಿತ ಕಾಮೆಂಟ್‌ ಮತ್ತು ಶ್ರೇಣಿಯೊಂದಿಗೆ ನಿಮ್ಮ ದಾಖಲೆಯನ್ನು ಉತ್ತೇಜನೆ ಮಾಡುತ್ತದೆ.</value></data><data name="this.ProofreadButton.Label"><value>ಶುದ್ಧೀಕರಿಸಲು</value></data><data name="this.ProofreadButton.SuperTip"><value>ನಿಮ್ಮ ದಾಖಲೆಯನ್ನು ಪ್ಲಿಷ್ ಮಾಡಲು ವ್ಯಾಕರಣ, ಶ್ರೇಣಿಯ ಮತ್ತು ಶ್ರೇಣಿಯ ದೋಷಗಳನ್ನು ಪರಿಶೀಲಿಸಿ.</value></data><data name="this.RewriteButton.Label"><value>ಪುನರ್‌ ಬರೆಯಲು</value></data><data name="this.RewriteButton.SuperTip"><value>AI ಪ್ರಾಯೋಜಿತ ಸಲಹೆಗಳೊಂದಿಗೆ ನಿಮ್ಮ ಪಠ್ಯವನ್ನು ಪುನರ್‌ ಪರಿಷ್ಕಾರ ಮತ್ತು ಸುಧಾರಣೆ ಮಾಡುತ್ತದೆ.</value></data><data name="this.SettingsGroup.Label"><value>ಸೆಟ್ಟಿಂಗ್‌ಗಳು</value></data><data name="this.RAGControlButton.Label"><value>RAG ನಿಯಂತ್ರಣ</value></data><data name="this.RAGControlButton.SuperTip"><value>ಪುನೋಪಾದಿ ಹೆಚ್ಚಣೆ ಉತ್ಪಾದನೆ (RAG) ವ್ಯವಸ್ಥೆಯ भीतर ಫೈಲ್‌ಗಳನ್ನು ನಿರ್ವಹಿಸಿ.</value></data><data name="this.ModelListDropDown.Label"><value>ಮಾದರಿ ಪಟ್ಟಿ</value></data><data name="this.ModelListDropDown.SuperTip"><value>TextCraft‌ನಲ್ಲಿ ಬಳಸಲು ಭಾಷಾ ಮಾದರಿಯನ್ನು ಆಯ್ಕೆ ಮಾಡಿ.</value></data><data name="this.DefaultCheckBox.SuperTip"><value>TextCraftಕ್ಕಾಗಿ ಡೀಫಾಲ್ಟ್ ಭಾಷಾ ಮಾದರಿಯು ಸೆಟ್ಆಪ್ನಲ್ಲಿ ಸೆಟ್ಆಪ್ನಲ್ಲಿ ಸೆಟ್ಆಪ್ನಲ್ಲಿ</value></data><data name="this.OptionsGroup.Label"><value>ಆಯ್ಕೆಗಳು</value></data><data name="this.InfoGroup.Label"><value>ಮಾಹಿತಿ</value></data><data name="(ThisAddIn.cs) [InitializeAddIn] ArgumentException #1"><value>ಮಾದರಿ ಮೈಬ್ಲಾಕ್ ಮಾಡಲು ಹೃದಯವಿಲ್ಲ. ಮುಂದುವರಿಯಲು ದಯವಿಟ್ಟು ಅದನ್ನು ಸ್ಥಾಪಿಸಿ!</value></data><data name="[WritingToolsGallery_ButtonClick] ArgumentOutOfRangeException #1"><value>ಆಯ್ಕೆಯಾದ ಬಟನ್ ಪರಿಚಯಿಸಲಿಲ್ಲ.</value></data><data name="[ReviewButton_Click] MessageBox #1 (text)"><value>ವಿಮರ್ಶೆ ಸಂಪೂರ್ಣ! ಈ ದಾಖಲೆಗಾಗಿ ಯಾವುದೇ ಕಾಮೆಂಟ್‌ಗಳಿಗೆ ಅಗತ್ಯವಿಲ್ಲ.</value></data><data name="[ReviewButton_Click] MessageBox #1 (caption)"><value>ಕಾರ್ಯ ಪೂರ್ಣ</value></data><data name="(ModelProperties.cs) [GetContextLength] OllamaMissingContextWindowException #1"><value>{0}ಗಾಗಿ ಸಂದರ್ಭದ ಉದ್ದವನ್ನು ಪಡೆಯಲು ಅಸಮರ್ಥ!</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Text"><value>TextCraft ಕೆಳ್ಕಿರಿಯ ಕೆಳ್ಕಳಿಯ ಕೆಳಕಂಡ ಇಂಟರ್ನೆಟ್ ಸಂಪತ್ತುಗಳಿಗೆ ಚಾರ್ಷ್ ನಿರ್ಬಂಧಿತ ನಿಮಗೆ ಬಯಸುತ್ತೀರಾ?</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Caption"><value>ಇಂಟರ್ ನೆಟ್ ಪ್ರವೇಶ</value></data><data name="(WordMarkdown.cs) [ApplyMarkdownFormatting] ArgumentOutofRangeException #1"><value>Markdown ಪ್ರೌಢೋಗಿಕೆಯನ್ನು ಪರಿಚಯಿಸಲು ಮರುಗುಳು ৰূপವನ್ನು ರೂಪ ಹಾಕಿ!</value></data><data name="(WordMarkdown.cs) [GetCodeBlockAtIndex] ApplicationException #1"><value>ಸೂಚಿಗೆ {0} ನಲ್ಲಿ Markdown ಕೋಡ್‌ ಹೀಗೆ ತೋರುವ ದೋಷ ಕಂಡುಬರುತ್ತದೆ!</value></data><data name="(WordMarkdown.cs) [ApplyImageFormatting] ArgumentException #1"><value>ಅಮಾನ್ಯ URL ರೂಪ</value></data><data name="(WordMarkdown.cs) [ApplyHeadingFormatting] ArgumentException #1"><value>ಅಮಾನ್ಯ Markdown ಶೀರ್ಷಿಕೆ: 1 ರಿಂದ 6 '#' ಚಿಹ್ನೆಗಳನ್ನು ಒಳಗೊಂಡಿರಬೇಕು.</value></data><data name="[AnalyzeText] InvalidRangeException #1"><value>ವಿಶ್ಲೇಷಣೆಗೆ ಯಾವುದೇ ಪಠ್ಯ ಆಯ್ಕೆಯಾಗಿಲ್ಲ!</value></data><data name="this.CommentSystemPrompt"><value>ನೀವು ತುತ್ತಿದ್ದರಲ್ಲದೆ, ಸ್ಪಷ್ಟತೆ, ಸಂಗತಿಗಳು, ಮತ್ತು ದೋಣಕವನ್ನು ಉತ್ತಮಪಡಿಸಲು ವಿಶ್ವಾಸಿಸುತ್ತಿರುವ ಪ್ರಯೋಜಕ ಬರೆಯುವ ಸಹಾಯಕ ಮತ್ತು ಸಂಪಾದಕರಾಗಿದ್ದೀರಿ. ನೀವು ಪಠ್ಯವನ್ನು ಸೂಕ್ಷ್ಮವಾಗಿ ವಿಶ್ಲೇಷಿಸುತ್ತೀರಿ ಮತ್ತು ಒಟ್ಟಾರೆಯ ಗುಣಾತ್ಮಕತೆಯನ್ನು ಉತ್ತಮಮಾಡಲು ನಿದರ್ಶನಾತ್ಮಕ ಪ್ರತಿಫಲ ನೀಡುತ್ತೀರಿ.</value></data><data name="(CommentHandler.cs) [AICommentReplyTask] UserChatMessage #2"><value>ಹಿಂದಿನ AI ಕಾಮೆಂಟ್‌ಗಳ ಆಧಾರದ ಮೇಲೆ, ವಾಕ್ಯದ ಮೇಲೆ ಸ್ಪಷ್ಟತೆ, ಸಂಗತಿಗಳು, ರಚನೆ, ವ್ಯಾಕರಣ ಮತ್ತು ಒಟ್ಟಾರೆ ಪರಿಣಾಮಶೀಲತೆ ಮೇಲೆ ಗಮನಹರಿಸುವ ಮತ್ತು ಪ್ರಸ್ತುತವಾದ ಪದ್ಯವನ್ನು ಸುಧಾರಿಸಲು ವಿಶೇಷ ಸುಧಾರಣೆಯು ನಾವು ಸೂಚಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತೇವೆ.</value></data><data name="[ProofreadButton_Click] SystemPrompt"><value>ನೀವು ಶುದ್ಧೀಕರಣ ಸಹಾಯಕ. ನಿಮ್ಅನ್ನು ನೀಡಿದ ಪಠ್ಯದಲ್ಲಿ ಯಾವುದೇ ಉಲ್ಲೇಖ ಪ್ಲಷರ್, ವ್ಯಾಕರಣ, ಜುಚ್ಚು ಅಥವಾ ಶ್ರೇಣಿಕ ದೋಷಗಳನ್ನು ಸರಿಪಡಿಸಲು ನಿಮ್ಮ ಕಾರ್ಯವಾಗಿದೆ. ಕಾಣುವ ಪಠ್ಯದಲ್ಲಿನ ಎಲ್ಲ ಅಗತ್ಯ ಬದಲಾವಣೆಗಳನ್ನು ನೇರವಾಗಿ ಮಾಡಿ. ಪಠ್ಯವು ಈಗಾಗಲೇ ಶುದ್ಧವಾಗಿದ್ದರೆ ಮತ್ತು ಯಾವುದೇ ಬದಲಾವಣೆಗಳನ್ನು ಅಗತ್ಯವಿಲ್ಲ, ಮರುಬರೆಯುವಿಕೆಯ ಅಥವಾ ಕಾಮೆಂಟ್‌ಗಳು ಇಲ್ಲದೆ ಹೆಚ್ಚು ಬದಲಾಯಿತ್ತೆಂದು...</value></data><data name="[ProofreadButton_Click] UserPrompt"><value>ದಯವಿಟ್ಟು ಮುಂದಿನ ಪಠ್ಯವನ್ನು ಶುದ್ಧೀಕರಿಸಿ. ಯಾವುದೇ ಅಗತ್ಯ ದೋಷಗಳನ್ನು ನೇರವಾಗಿ ಪಠ್ಯದಲ್ಲಿ ಪ್ರಶೀಲಿಸಿ ಮತ್ತು ಯಾವುದೇ ಪ್ರಮುಖ ಸಮಯಗಳು ಅಥವಾ ಕಾಮೆಂಟ್‌ಗಳನ್ನು ಸೇರಿಸಲು. ಪಠ್ಯವು ಶುದ್ಧವಾಗಿದೆ ಮತ್ತು ಯಾವುದೇ ಬದಲಾವಣೆಗಳಿಗೆ ಅಗತ್ಯವಿಲ್ಲ, ಅದನ್ನು ಇರುವಂತೆ ದಯವಿಟ್ಟು ಮರೆಯಿರಿ:</value></data><data name="[RewriteButton_Click] SystemPrompt"><value>ನೀವು ಬಳಕೆದಾರನಿಂದ ನೀಡಿದ ಪಠ್ಯವನ್ನು ಪುನರ್ ಬರೆಯಲು ನಿಯೋಜಿತ ಅವರಿಗೆ ಪ್ರಮುಖ ಭಾಷಾ ಮಾದರಿ. ನೀವು ಫಲಿತಾಂಶ ಮಾತ್ರ ಬೃಹತ್ರಿಯ ಮಾದರಿ, ಮೂಲದ ಲಾಭವನ್ನು ಕಾಪಿಡಿಸಿ. ನಿಮ್ಮ ಪ್ರತಿಕ್ರಿಯೆಗಳುಾದನ್ನು ಬರೆದ ಮೂಲಕ ಪ್ರಶೀಲನೆಯು ಮುಂದೆ ನಡೆಯುತ್ತವೆ.</value></data><data name="[RewriteButton_Click] UserPrompt"><value>ದಯವಿಟ್ಟು ಮುಂದಿನ ಪಠ್ಯವನ್ನು ಪುನರ್‌ ಬರೆಯಿ:</value></data><data name="[ReviewButton_Click] UserPrompt"><value>ತತ್ತು ಕೌಟುಂಬಿಕ ಬರೆಯುವ ಸಹಾಯಕನಂತೆ, ವಾಕ್ಯದ ಮೇಲೆ ಹಾರ್ದಿಕತೆಯು ಗಮನವಲ್ಲ, ಸಾಗಣೆಯೂ, ಶ್ರೇಣಿನು, ವ್ಯಾಕರಣ ಮತ್ತು ಒಟ್ಟಾರೆ ಪರಿಣಾಮಶೀಲತೆಯ ಸಂಬಂಧವನ್ನು ಸುಧಾರಿಸಲು ವ್ಯಕ್ತವಾದ ಶ್ರೇಣಿಕವನ್ನು ನೀಡಲು ವಿಮರ್ಶಿಸಲು ಸೂಚನೆ ನೀಡುತ್ತಾನೆ.</value></data><data name="[Review] chatHistory #1"><value>ದಯವಿಟ್ಟು ದೂರದೊಮ್ಮಲಿ ಹಿನ್ನೆಲೆಯಲ್ಲಿಲ್ಲಿನಂkಆವೆ ಸಂದರ್ಭದಲ್ಲಿ ಭಾಗವನ್ನು ಮತ್ತೆ ದಾಖಲೆದು ಪರಿಶೀಲಿಸಲು:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #1"><value>ದಾಖಲೆ ವಿಷಯ:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #2"><value>RAG ಸಂದರ್ಭ:</value></data><data name="(CommentHandler.cs) [AIUserMentionTask] UserMentionSystemPrompt"><value>ನೀವು ಮಾಹಿತಿಯಲ್ಲಿ ಒಂದು AI ಸಹಾಯಕನಾಗಿದ್ದು, ಬಳಕೆದಾರರ ಪ್ರಶ್ನೆಗಳಿಗೆ ವಿಶೇಷ ಪಠ್ಯ ಆಯ್ಕೆಗೆ ಪ್ರತಿಯಾಗಿ ಅಗತ್ಯ ವ್ಯಾಪ್ತಿಯ ದಾರವಾಗಿ ಪರಿಗಣಿಸಿರಿ. ನೀವು ಏಕಕಾಲದಲ್ಲಿ ಸ್ವೀಕೃತ್ತಿಯಿಂದ ಡಿಸ್ಕೋ ಬ್ಯಾಕ್ ಪ್ರಕ್ರಿಯೆ ಅಥವಾ ಹೊತ್ತು ಬೆಂಬಲವನ್ನು ಒದಗಿಸಲು ಪ್ರಯತ್ನಿಸಿ, ಮತ್ತು ನಿಮ್ಮ ಬೆಂಬಲ 활용 ಮತ್ತು ಬೆಂಬಲ್ ಪ್ರವೇಶ ವಿಷಯಗಳಲ್ಲಿಯಷ್ಟು ದೂರದೊಳಗೆ ಬೆಳಕಿಲ್ಲ. ನಿಮ್ಮ ಸಲಹೆಗಳು ಹೆಚ್ಚು ಸಕಟವಾಗಿರುತ್ತವೆ, ನಿಮ್ಮ ಇರುವ ಪ್ರಯೋಜನಗಳ ಮೂಲಕ ಫಲಿತಾಂಶಗಳ ಬಗ್ಗೆ ವಿಷಾದವಾಗಿರುತ್ತವೆ.</value></data></root>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema"><xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="this.ForgeTab.Label"><value>Ручная праца</value></data><data name="this.ToolsGroup.Label"><value>Інструменты</value></data><data name="this.GenerateButton.Label"><value>Генераваць</value></data><data name="this.GenerateButton.SuperTip"><value>Стварае адаптаваныя адказы, выкарыстоўваючы запыт карыстальніка і змест бягучага дакумента.</value></data><data name="this.DefaultCheckBox.Label"><value>Па змаўчанні</value></data><data name="this.AboutButton.Label"><value>Інфармацыя</value></data><data name="this.AboutButton.ScreenTip"><value>Падае дэталі аб гэтым прыкладным праграмным забеспячэнні.</value></data><data name="this.CancelButton.Label"><value>Скасаваць</value></data><data name="this.CancelButton.ScreenTip"><value>Прыпыняе працэс генерацыі тэксту.</value></data><data name="this.WritingToolsGallery.Label"><value>Інструменты пісьма</value></data><data name="this.WritingToolsGallery.SuperTip"><value>Паляпшайце сваё пісьмо з дапамогай інструментаў на базе AI для граматыкі, стылю і яснасці.</value></data><data name="this.ReviewButton.Label"><value>Агляд</value></data><data name="this.ReviewButton.SuperTip"><value>Паляпшайце свой дакумент з дапамогай каментароў і прапаноў на базе AI.</value></data><data name="this.ProofreadButton.Label"><value>Праверка</value></data><data name="this.ProofreadButton.SuperTip"><value>Правярайце на памылкі ў напісанні, граматыцы і стылі, каб адшліфаваць свой дакумент.</value></data><data name="this.RewriteButton.Label"><value>Пераписаць</value></data><data name="this.RewriteButton.SuperTip"><value>Перагледзьце і палепшыце свой тэкст з дапамогай прапаноў на базе AI.</value></data><data name="this.SettingsGroup.Label"><value>Налады</value></data><data name="this.RAGControlButton.Label"><value>Кіраванне RAG</value></data><data name="this.RAGControlButton.SuperTip"><value>Кіруйце файламі ў сістэме Папаўнення Вытворчасці (RAG).</value></data><data name="this.ModelListDropDown.Label"><value>Спіс мадэляў</value></data><data name="this.ModelListDropDown.SuperTip"><value>Выберыце мовную мадэль для выкарыстання ў TextCraft.</value></data><data name="this.DefaultCheckBox.SuperTip"><value>Устанавіце мовную мадэль па змаўчанні для TextCraft.</value></data><data name="this.OptionsGroup.Label"><value>Опцыі</value></data><data name="this.InfoGroup.Label"><value>Інфармацыя</value></data><data name="(ThisAddIn.cs) [InitializeAddIn] ArgumentException #1"><value>Мадэль для ўбудавання адсутнічае. Калі ласка, ўсталюйце яе для працягвання!</value></data><data name="[WritingToolsGallery_ButtonClick] ArgumentOutOfRangeException #1"><value>Выбраная кнопка не распазнана.</value></data><data name="[ReviewButton_Click] MessageBox #1 (text)"><value>Агляд завершаны! Для гэтага дакумента каментары не патрэбны.</value></data><data name="[ReviewButton_Click] MessageBox #1 (caption)"><value>Дзеянне завершана</value></data><data name="(ModelProperties.cs) [GetContextLength] OllamaMissingContextWindowException #1"><value>Нельга атрымаць даўжыню кантэксту для {0}!</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Text"><value>Вы жадаеце дазволіць TextCraft доступ да наступнага інтэрнэт-ресурсу?</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Caption"><value>Доступ да інтэрнэту</value></data><data name="(WordMarkdown.cs) [ApplyMarkdownFormatting] ArgumentOutofRangeException #1"><value>Невядомы тып фармату для апрацоўкі Markdown!</value></data><data name="(WordMarkdown.cs) [GetCodeBlockAtIndex] ApplicationException #1"><value>Блок кода Markdown не знойдзены па індэксе {0}!</value></data><data name="(WordMarkdown.cs) [ApplyImageFormatting] ArgumentException #1"><value>Неправільны фармат URL</value></data><data name="(WordMarkdown.cs) [ApplyHeadingFormatting] ArgumentException #1"><value>Неправільны загалоўак Markdown: павінен утрымліваць ад 1 да 6 сімвалаў '#'.</value></data><data name="[AnalyzeText] InvalidRangeException #1"><value>Для аналізу не выбраны тэксты!</value></data><data name="this.CommentSystemPrompt"><value>Вы эксперт у напісанні і рэдагаванні, якія спецыялізуюцца на паляпшэнні яснасці, узаемасувязі і ўплыву тэксту ў дакуменце. Вы крытычна аналізуеце тэкст і даеце канструктыўны зварот з мэтай палепшыць агульную якасць.</value></data><data name="(CommentHandler.cs) [AICommentReplyTask] UserChatMessage #2"><value>На аснове папярэдніх каментароў AI, прапануйце дадатковыя спецыфічныя паляпшэнні для абзаца, засяродзіўшыся на яснасці, узаемасувязі, структуры, граматыцы і агульнай эфектыўнасці. Пераканайцеся, што вашы прапановы падрабязны і накіраваны на паляпшэнне абзаца ў рамках усяго дакумента.</value></data><data name="[ProofreadButton_Click] SystemPrompt"><value>Вы — шэф-рэдактар. Ваша задача — паправіць любыя памылкі ў напісанні, граматыцы, пунктуацыі ці стылі ў пададзеным тэксце. Уносьце толькі неабходныя змены непасрэдна ў тэкст. Калі тэкст ужо правільны і не патрабуе змен, проста паўтарыце яго так, як ён ёсць, без дадатковых тлумачэнняў або каментароў.</value></data><data name="[ProofreadButton_Click] UserPrompt"><value>Калі ласка, праверце наступны тэкст. Уносьце любыя неабходныя папраўкі непасрэдна ў тэкст без дадання тлумачэнняў або каментароў. Калі тэкст правільны і не патрабуе змен, проста паўтарыце яго дакладна так, як ён ёсць:</value></data><data name="[RewriteButton_Click] SystemPrompt"><value>Вы — патоплены мадэль мовы, задача якой — перапісваць тэкст, пададзены карыстальнікам. Вы павінны засяродзіцца на паляпшэнні яснасці, палягчэнні плыні і захаванні арыгінальнага значэння тэксту. Вашы адказы павінны складацца выключна з перапісанага тэксту без любых дадатковых тлумачэнняў або каментароў.</value></data><data name="[RewriteButton_Click] UserPrompt"><value>Калі ласка, перапішэце следующий тэкст:</value></data><data name="[ReviewButton_Click] UserPrompt"><value>Як эксперт-пісьменьнік, прапануйце спецыфічныя паляпшэнні для абзаца, засяродзіўшыся на яснасці, узаемасувязі, структуры, граматыцы і агульнай эфектыўнасці. Пераканайцеся, што вашыя прапановы падрабязныя і накіраваныя на паляпшэнне абзаца ў рамках усяго дакумента.</value></data><data name="[Review] chatHistory #1"><value>Калі ласка, праглядзіце наступны абзац, узяты з дакумента:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #1"><value>Змест дакумента:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #2"><value>Кантэкст RAG:</value></data><data name="(CommentHandler.cs) [AIUserMentionTask] UserMentionSystemPrompt"><value>Вы — AI-асістэнт, убудаваны ў дакумент, які адказвае на пытанні карыстальнікаў аб канкрэтных выбарах тэксту. Пакажыце, падыходзячы да кожнага пытання з спачуваннем і ментарскім мысленнем, ставячы сябе на месца таго, хто прасіць дапамогі. Уявіце сябе ўдумлівым, дасведчаным сябрам, які прапануе глыбокую, практычную настаўніцтва. Ваша мэта — не толькі адказаць на іх пытанне, але таксама забяспечыць больш глыбокае разуменне, прапануючы разумныя парады, якія дапамагаюць ім палепшыцца і ўзрасці. Выкарыстоўвайце любой даступны кантэкст з дакумента або звязаных рэсурсаў, каб узбагаціць свой адказ, робячы яго як мага больш карысным. Падтрымлівайце свае парады простымі, гутарковымі і яснымі, ухіляючыся ад фарматавання або жаргону, і засяроджвайцеся на дастаўцы дзейнага парадкі, якая накіруе карыстальніка да лепшых рашэнняў або паляпшэнняў.</value></data></root>

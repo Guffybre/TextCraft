@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Globalization;
+using System.Net;
 using System.Net.Http;
 using System.Resources;
 using System.Windows.Forms;
@@ -11,11 +12,44 @@ namespace TextForge
 {
     internal class CommonUtils
     {
+        private class RememberAccessChoice
+        {
+            private Dictionary<string, bool> _rememberAccess = new Dictionary<string, bool>();
+            
+            public bool IsGrantedAccess(string website)
+            {
+                bool result;
+                _rememberAccess.TryGetValue(website, out result);
+                return result;
+            }
+
+            public void Grant(string website)
+            {
+                _rememberAccess[website] = true;
+            }
+
+            public void Revoke(string website)
+            {
+                _rememberAccess[website] = false;
+            }
+        }
+
         public static readonly HttpClient client = new HttpClient();
+        private static RememberAccessChoice _accessChoice = new RememberAccessChoice();
+
+        public static void ConfigureTLS()
+        {
+            ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls13;
+        }
 
         public static void DisplayError(Exception ex)
         {
             MessageBox.Show(ex.Message, ex.GetType().Name, MessageBoxButtons.OK, MessageBoxIcon.Error);
+        }
+
+        public static void DisplayError(string messageIntro, Exception ex)
+        {
+            MessageBox.Show($"{messageIntro}: {ex.Message}", ex.GetType().Name, MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
         public static void DisplayWarning(Exception ex)
@@ -28,10 +62,25 @@ namespace TextForge
             MessageBox.Show(ex.Message, ex.GetType().Name, MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
-        public static bool GetInternetAccessPermission(string url)
+        public static bool GetInternetAccessPermission(Uri url)
         {
-            var result = MessageBox.Show($"{Forge.CultureHelper.GetLocalizedString("[CommonUtils.cs] (GetInternetAccessPermission) MessageBox #1 Text")}{Environment.NewLine}{url}", Forge.CultureHelper.GetLocalizedString("[CommonUtils.cs] (GetInternetAccessPermission) MessageBox #1 Caption"), MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
-            return result == DialogResult.Yes;
+            if (_accessChoice.IsGrantedAccess(url.ToString()))
+            {
+                return true;
+            }
+            else
+            {
+                var result = MessageBox.Show(
+                    $"{Forge.CultureHelper.GetLocalizedString("(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Text")}{Environment.NewLine}{url}",
+                    Forge.CultureHelper.GetLocalizedString("(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Caption"), MessageBoxButtons.YesNo, MessageBoxIcon.Warning
+                );
+                if (result == DialogResult.Yes)
+                {
+                    _accessChoice.Grant(url.ToString());
+                    return true;
+                }
+                return false;
+            }
         }
 
         public static Word.Application GetApplication()

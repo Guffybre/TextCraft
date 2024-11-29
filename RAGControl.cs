@@ -6,9 +6,11 @@ using System.ComponentModel;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using OpenAI.Chat;
+using OpenAI.Images;
 using UglyToad.PdfPig;
 using UglyToad.PdfPig.Content;
 using UglyToad.PdfPig.DocumentLayoutAnalysis.PageSegmenter;
@@ -24,14 +26,15 @@ namespace TextForge
         public static readonly int CHUNK_LEN = CommonUtils.TokensToCharCount(256);
 
         // Private
+        private static readonly CultureLocalizationHelper _cultureHelper = new CultureLocalizationHelper("TextForge.RAGControl", typeof(RAGControl).Assembly);
         private ToolTip _fileToolTip = new ToolTip();
         private Queue<string> _removalQueue = new Queue<string>();
         private ConcurrentDictionary<int, int> _indexFileCount = new ConcurrentDictionary<int, int>();
         private BindingList<KeyValuePair<string, string>> _fileList; // Use KeyValuePair for label and filename
         private HyperVectorDB.HyperVectorDB _db;
         private bool _isIndexing;
+        private float preciseProgressBar = 0;
         private readonly object progressBarLock = new object();
-        private static readonly CultureLocalizationHelper _cultureHelper = new CultureLocalizationHelper("TextForge.RAGControl", typeof(RAGControl).Assembly);
 
         public RAGControl()
         {
@@ -97,23 +100,22 @@ namespace TextForge
                         }
 
                         ChangeProgressBarVisibility(true);
+                        
+                        int dictCount = _indexFileCount.Count;
+                        _indexFileCount.TryAdd(dictCount, filesToIndex.Count);
+                        lock (progressBarLock)
                         {
-                            int dictCount = _indexFileCount.Count;
-                            _indexFileCount.TryAdd(dictCount, filesToIndex.Count);
-                            lock (progressBarLock)
-                            {
-                                SetProgressBarValue(GetProgressBarValue() / (dictCount + 1));
-                            }
-
-                            foreach (var filePath in filesToIndex)
-                            {
-                                await IndexDocumentAsync(filePath);
-                            }
-
-                            int temp;
-                            _indexFileCount.TryRemove(dictCount, out temp);
+                            SetProgressBarValue(GetProgressBarValue() / (dictCount + 1));
                         }
-                        await ChangeProgressBarVisibilityAfterSleep(5, false);
+
+                        foreach (var filePath in filesToIndex)
+                            await IndexDocumentAsync(filePath);
+
+                        int temp;
+                        _indexFileCount.TryRemove(dictCount, out temp);
+
+                        if (_indexFileCount.Count == 0)
+                            await ChangeProgressBarVisibilityAfterSleep(2, false);
                     }
                 }
             }
@@ -127,19 +129,22 @@ namespace TextForge
         {
             try
             {
-                string selectedDocument = FileListBox.SelectedItem.ToString();
-                if (_isIndexing)
-                {
-                    if (!_removalQueue.Contains(selectedDocument))
-                        _removalQueue.Enqueue(selectedDocument);
-                }
-                else
-                {
-                    RemoveDocument(selectedDocument);
-                }
-                _fileList.RemoveAt(FileListBox.SelectedIndex);
-                AutoHideRemoveButton();
-            } catch (Exception ex)
+                RemoveSelectedDocument();
+            }
+            catch (Exception ex)
+            {
+                CommonUtils.DisplayError(ex);
+            }
+        }
+
+        private void FileListBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            try
+            {
+                if (e.KeyCode == Keys.Delete && FileListBox.Items.Count > 0)
+                    RemoveSelectedDocument();
+            }
+            catch (Exception ex)
             {
                 CommonUtils.DisplayError(ex);
             }
@@ -147,27 +152,44 @@ namespace TextForge
 
         private void FileListBox_MouseMove(object sender, MouseEventArgs e)
         {
-            // Get the index of the item under the mouse cursor
-            int index = FileListBox.IndexFromPoint(e.Location);
-            if (index != ListBox.NoMatches)
+            try
             {
-                // Get the KeyValuePair (label, file path) for the item
-                var item = (KeyValuePair<string, string>)FileListBox.Items[index];
+                // Get the index of the item under the mouse cursor
+                int index = FileListBox.IndexFromPoint(e.Location);
+                if (index != ListBox.NoMatches)
+                {
+                    // Get the KeyValuePair (label, file path) for the item
+                    var item = (KeyValuePair<string, string>)FileListBox.Items[index];
 
-                // Show the file path in the tooltip
-                _fileToolTip.SetToolTip(FileListBox, item.Value);
+                    // Show the file path in the tooltip
+                    _fileToolTip.SetToolTip(FileListBox, item.Value);
+                }
+                else
+                {
+                    // Clear the tooltip if not hovering over an item
+                    _fileToolTip.SetToolTip(FileListBox, string.Empty);
+                }
             }
-            else
+            catch (Exception ex)
             {
-                // Clear the tooltip if not hovering over an item
-                _fileToolTip.SetToolTip(FileListBox, string.Empty);
+                CommonUtils.DisplayError(ex);
             }
         }
 
-        private void AutoHideRemoveButton()
+        private void RemoveSelectedDocument()
         {
-            if (_fileList.Count == 0)
-                RemoveButton.Enabled = false;
+            string selectedDocument = FileListBox.SelectedItem.ToString();
+            if (_isIndexing)
+            {
+                if (!_removalQueue.Contains(selectedDocument))
+                    _removalQueue.Enqueue(selectedDocument);
+            }
+            else
+            {
+                DeleteDocument(selectedDocument);
+            }
+            _fileList.RemoveAt(FileListBox.SelectedIndex);
+            AutoHideRemoveButton();
         }
 
         private async Task IndexDocumentAsync(string filePath)
@@ -176,7 +198,8 @@ namespace TextForge
             try
             {
                 fileContent = await ReadPdfFileAsync(filePath, CHUNK_LEN);
-            } catch
+            }
+            catch
             {
                 this.Invoke((MethodInvoker)delegate
                 {
@@ -197,18 +220,41 @@ namespace TextForge
             await Task.Run(() => {
                 _isIndexing = true;
 
-                foreach (var content in fileContent)
-                    AddDocument(filePath, content);
-                
-                this.Invoke((MethodInvoker)delegate
+                int fileContentCount = fileContent.Count();
+                int progressBarIncrement = (int)(fileContentCount * 0.1);
+                for (int i = 0; i < fileContentCount; i++)
                 {
-                    UpdateProgressBar(1);
-                });
+                    AddDocument(filePath, fileContent.ElementAt(i));
+                    if (i % progressBarIncrement == 0)
+                    {
+                        this.Invoke((MethodInvoker)delegate
+                        {
+                            UpdateProgressBar((float)progressBarIncrement / fileContentCount);
+                        });
+                    }
+                }
+
                 _isIndexing = false;
 
                 // Process any queued removal requests
                 ProcessRemovalQueue();
             });
+        }
+
+        private bool AddDocument(string filePath, string content)
+        {
+            return _db.IndexDocument(filePath, content);
+        }
+
+        private bool DeleteDocument(string filePath)
+        {
+            return _db.DeleteIndex(filePath);
+        }
+
+        private void AutoHideRemoveButton()
+        {
+            if (_fileList.Count == 0)
+                RemoveButton.Enabled = false;
         }
 
         private async Task ChangeProgressBarVisibilityAfterSleep(int seconds, bool val)
@@ -228,16 +274,18 @@ namespace TextForge
 
         private void ResetProgressBar()
         {
+            preciseProgressBar = 0;
             SetProgressBarValue(0);
         }
 
         private float GetProgressBarValue()
         {
-            return this.progressBar1.Value / ((float) this.progressBar1.Maximum);
+            return this.progressBar1.Value / ((float)this.progressBar1.Maximum);
         }
 
         private void SetProgressBarValue(float val)
         {
+            preciseProgressBar = val;
             this.progressBar1.Value = (int)(val * this.progressBar1.Maximum);
         }
 
@@ -245,15 +293,14 @@ namespace TextForge
         {
             lock (progressBarLock)
             {
-                int fileCount = GetIndexFileCount();
+                int maxProgress = this.progressBar1.Maximum;
+                preciseProgressBar += val / GetIndexFileCount();
 
                 // Clipping
-                int maxProgress = this.progressBar1.Maximum;
-                int incrementVal = (int)((val * maxProgress) / fileCount);
-                if (incrementVal + this.progressBar1.Value > maxProgress)
-                    this.progressBar1.Value = maxProgress;
+                if (preciseProgressBar > 1)
+                    SetProgressBarValue(1);
                 else
-                    this.progressBar1.Value += incrementVal;
+                    SetProgressBarValue(preciseProgressBar);
             }
         }
 
@@ -279,7 +326,7 @@ namespace TextForge
                 // If the document is found, attempt to remove it
                 if (fileEntry.Key != null)
                 {
-                    if (!RemoveDocument(documentToRemove)) // Try removing the document
+                    if (!DeleteDocument(documentToRemove)) // Try removing the document
                     {
                         // If removal fails, re-enqueue the document and stop processing
                         _removalQueue.Enqueue(documentToRemove);
@@ -287,16 +334,6 @@ namespace TextForge
                     }
                 }
             }
-        }
-
-        private bool AddDocument(string filePath, string content)
-        {
-            return _db.IndexDocument(filePath, content);
-        }
-
-        private bool RemoveDocument(string filePath)
-        {
-            return _db.DeleteIndex(filePath);
         }
 
         public static async Task<IEnumerable<string>> ReadPdfFileAsync(string filePath, int chunkLen)
@@ -371,7 +408,8 @@ namespace TextForge
 
         private static void IterateInnerPdfFile(ref PdfDocument doc, ref List<string> chunks, int chunkLen)
         {
-            foreach (var page in doc.GetPages())
+            var pages = doc.GetPages();
+            foreach (var page in pages)
             {
                 var blocks = DocstrumBoundingBoxes.Instance.GetBlocks(page.GetWords());
                 foreach (var block in blocks)
@@ -391,6 +429,31 @@ namespace TextForge
 
         // UTILS
         public static AsyncCollectionResult<StreamingChatCompletionUpdate> AskQuestion(SystemChatMessage systemPrompt, IEnumerable<ChatMessage> messages, Word.Range context, Word.Document doc = null)
+        {
+            var chatHistory = ProcessInformation(systemPrompt, messages, context);
+
+            ChatClient client = new ChatClient(ThisAddIn.Model, new ApiKeyCredential(ThisAddIn.ApiKey), ThisAddIn.ClientOptions);
+
+            // https://github.com/ollama/ollama/pull/6504
+            return client.CompleteChatStreamingAsync(
+                chatHistory,
+                null,
+                ThisAddIn.CancellationTokenSource.Token
+            );
+        }
+        public static Task<ClientResult<GeneratedImage>> AskQuestionForImage(SystemChatMessage systemPrompt, IEnumerable<ChatMessage> messages, Word.Range context, Word.Document doc = null)
+        {
+            var chatHistory = ProcessInformation(systemPrompt, messages, context);
+
+            ImageClient client = new ImageClient(ThisAddIn.Model, new ApiKeyCredential(ThisAddIn.ApiKey), ThisAddIn.ClientOptions);
+
+            return client.GenerateImageAsync(
+                ModelProperties.ConvertChatHistoryToString(chatHistory),
+                new ImageGenerationOptions() { ResponseFormat = GeneratedImageFormat.Bytes },
+                ThisAddIn.CancellationTokenSource.Token
+            );
+        }
+        private static List<ChatMessage> ProcessInformation(SystemChatMessage systemPrompt, IEnumerable<ChatMessage> messages, Word.Range context, Word.Document doc = null)
         {
             if (doc == null)
                 doc = context.Document;
@@ -413,19 +476,13 @@ namespace TextForge
             List<ChatMessage> chatHistory = new List<ChatMessage>()
             {
                 systemPrompt,
-                new UserChatMessage($@"Document Content: ""{CommonUtils.SubstringTokens(document, (int)(ThisAddIn.ContextLength * constraints["document_content"]))}""")
+                new UserChatMessage($@"{Forge.CultureHelper.GetLocalizedString("(RAGControl.cs) [AskQuestion] chatHistory #1")}\n""{CommonUtils.SubstringTokens(document, (int)(ThisAddIn.ContextLength * constraints["document_content"]))}""")
             };
             if (ragQuery != string.Empty)
-                chatHistory.Add(new UserChatMessage($@"RAG Context: ""{ragQuery}"""));
+                chatHistory.Add(new UserChatMessage($@"{Forge.CultureHelper.GetLocalizedString("(RAGControl.cs) [AskQuestion] chatHistory #2")}\n""{ragQuery}"""));
             chatHistory.AddRange(messages);
 
-            ChatClient client = new ChatClient(ThisAddIn.Model, new ApiKeyCredential(ThisAddIn.ApiKey), ThisAddIn.ClientOptions);
-            // https://github.com/ollama/ollama/pull/6504
-            return client.CompleteChatStreamingAsync(
-                chatHistory,
-                new ChatCompletionOptions() { MaxOutputTokenCount = ThisAddIn.ContextLength },
-                ThisAddIn.CancellationTokenSource.Token
-            );
+            return chatHistory;
         }
 
         private static int GetUserPromptLen(IEnumerable<ChatMessage> messageList)
@@ -438,7 +495,7 @@ namespace TextForge
 
         public static Dictionary<string, float> OptimizeConstraint(float maxPercentage, int contextLength, int promptTokenLen, int documentContentTokenLen)
         {
-            Dictionary<string, float> constraintPairs = new Dictionary<string, float>();
+            Dictionary<string, float> constraintPairs = new();
             if (promptTokenLen >= contextLength * 0.9)
             {
                 constraintPairs["rag_context"] = 0f;

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema"><xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="this.ForgeTab.Label"><value>Handwierk</value></data><data name="this.ToolsGroup.Label"><value>Tools</value></data><data name="this.GenerateButton.Label"><value>Generéieren</value></data><data name="this.GenerateButton.SuperTip"><value>Erstellt maßgeschneiderte Äntwerten mat der Auffro vun de Benotzer an dem Inhalt vum aktuelle Dokument.</value></data><data name="this.DefaultCheckBox.Label"><value>Standard</value></data><data name="this.AboutButton.Label"><value>Iwwer</value></data><data name="this.AboutButton.ScreenTip"><value>Gitt Detailer iwwer dës Applikatioun.</value></data><data name="this.CancelButton.Label"><value>Annuléieren</value></data><data name="this.CancelButton.ScreenTip"><value>Halt den Textgeneratiounsprozess an.</value></data><data name="this.WritingToolsGallery.Label"><value>Schreiftools</value></data><data name="this.WritingToolsGallery.SuperTip"><value>verbesseren Iech Schreiwen mat KI gestuften Tools fir Grammatik, Stil a Klärung.</value></data><data name="this.ReviewButton.Label"><value>Iwwerpréiften</value></data><data name="this.ReviewButton.SuperTip"><value>Verbessert Äert Dokument mat KI-gestuerzten Kommentaren an Empfeelungen.</value></data><data name="this.ProofreadButton.Label"><value>Korrektur liesen</value></data><data name="this.ProofreadButton.SuperTip"><value>Kontrolléiert op Rechtschreiwung, Grammatik a Stilfehler fir Äert Dokument ze poléieren.</value></data><data name="this.RewriteButton.Label"><value>nei schreiwen</value></data><data name="this.RewriteButton.SuperTip"><value>Reviséiert an verbesst Ären Text mat KI-gestuerften Empfeelungen.</value></data><data name="this.SettingsGroup.Label"><value>Astellungen</value></data><data name="this.RAGControlButton.Label"><value>RAG Kontroll</value></data><data name="this.RAGControlButton.SuperTip"><value>Verwalt Dateien innerhalb vum Retrieval Augmentation Generation (RAG) System.</value></data><data name="this.ModelListDropDown.Label"><value>Modell Lëscht</value></data><data name="this.ModelListDropDown.SuperTip"><value>Wielt e Sproochmodell zur Benotzung an TextCraft.</value></data><data name="this.DefaultCheckBox.SuperTip"><value>Setzt de Standard Sproochmodell fir TextCraft.</value></data><data name="this.OptionsGroup.Label"><value>Optiounen</value></data><data name="this.InfoGroup.Label"><value>Info</value></data><data name="(ThisAddIn.cs) [InitializeAddIn] ArgumentException #1"><value>Embed Modell feelt. Bitte installéiert et fir weider ze maachen!</value></data><data name="[WritingToolsGallery_ButtonClick] ArgumentOutOfRangeException #1"><value>Gewielten Knopf net erkennbar.</value></data><data name="[ReviewButton_Click] MessageBox #1 (text)"><value>Iwwerpréifung komplett! Keng Kommentaren néideg fir dëst Dokument.</value></data><data name="[ReviewButton_Click] MessageBox #1 (caption)"><value>Aktioun ofgeschloss</value></data><data name="(ModelProperties.cs) [GetContextLength] OllamaMissingContextWindowException #1"><value>Net fäeg den Kontextlängt fir {0} ze kréien!</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Text"><value>Wëllt Dir TextCraft erlaaben d'folgend Internetressource zezugreifen?</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Caption"><value>Internet Zougang</value></data><data name="(WordMarkdown.cs) [ApplyMarkdownFormatting] ArgumentOutofRangeException #1"><value>Onbekannt Formattyp fir Markdown-Verarbeitung!</value></data><data name="(WordMarkdown.cs) [GetCodeBlockAtIndex] ApplicationException #1"><value>Markdown Code Block net am Index {0} fonnt!</value></data><data name="(WordMarkdown.cs) [ApplyImageFormatting] ArgumentException #1"><value>Ongëlteg URL Format</value></data><data name="(WordMarkdown.cs) [ApplyHeadingFormatting] ArgumentException #1"><value>Ongëlteg Markdown Uheading: muss 1 bis 6 '#' Charakterer enthalen.</value></data><data name="[AnalyzeText] InvalidRangeException #1"><value>Keen Text ausgewielt fir Analyse!</value></data><data name="this.CommentSystemPrompt"><value>Dir sidd e Fäerdeg Schreiwufer an Editor, spezialiséiert op d'Klärung, Kohärenz, an d'Wierkung vum Text an engem Dokument ze verbesseren. Dir analysert Text kritesch an dës konstruktiv Feedback fir d'allgemeng Qualitéit ze amélioréieren.</value></data><data name="(CommentHandler.cs) [AICommentReplyTask] UserChatMessage #2"><value>Baséiert op den virege KI Kommentaren, schlägt spezifesch zousätzlech Verbesserungen fir den Partition vir, mat Schëwerpunkt op Klärung, Kohärenz, Struktur, Grammatik, an allgemeng Effektivitéit. Ənervlət datt Äert Vorschléi detailléiert sinn a fir d'Paragraph ze verbesseren am Kontext vum gesamte Dokument.</value></data><data name="[ProofreadButton_Click] SystemPrompt"><value>Dir sidd e Korrekturlesen Assistent. Äre Aufgabe ass et, all Rechtschreiwung, Grammatik, Interpunktion, oder stilistesch Féler am geliwwerte Text ze korrigéieren. Maacht just déi néideg Ännerunge direkt am Text. Wann den Text schonn korrekt ass an net fir Ännerungen brauch, widderhëlt einfach de Text wéi et ass ouni all Erklärungen oder Kommentaren ze ginn.</value></data><data name="[ProofreadButton_Click] UserPrompt"><value>W.e.g. korrigéiert den folgende Text. Maacht déngt néideg Korrekturen direkt am Text ouni fir Erklärungen oder Kommentaren ze addéieren. Wann den Text korrekt ass an net fir Ännerungen brauch, widderhëlt et just genee wéi et ass:</value></data><data name="[RewriteButton_Click] SystemPrompt"><value>Dir sidd e fortgeschratt Sproochmodell, deem seng Oppgab ass, Text um Benotzer ze schreift. Dir sollt sech op d'Klärung, d'Floss ze verbesseren an d'original Sënn vum Text ze behalen. Äre Réponse sollte strikt aus dem neischreiwwen Text bestehen ouni zousätzlech Erklärungen oder Kommentaren.</value></data><data name="[RewriteButton_Click] UserPrompt"><value>W.e.g. schreift den folgende Text nei:</value></data><data name="[ReviewButton_Click] UserPrompt"><value>Als e Fäerdeg Schreiwufer, schlägt spezifesch Verbesserungen fir d'Paragraph, mat Schëwerpunkt op Klärung, Kohärenz, Struktur, Grammatik, an allgemeng Effektivitéit. Änerlegt datt Är Vorschléi detailléiert sinn an d'Paragraph am Kontext vum gesamte Dokument ze verbesseren.</value></data><data name="[Review] chatHistory #1"><value>W.e.g. iwwerpréift den folgende Paragraph, deen aus dem Dokument extrahéiert gouf:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #1"><value>Dokument Inhalt:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #2"><value>RAG Kontext:</value></data><data name="(CommentHandler.cs) [AIUserMentionTask] UserMentionSystemPrompt"><value>Dir sidd e KI-Assistent, deen an engem Dokument integréiert ass, deen op Benotzefroën zu spezifesch Textwahlen äntwert. Är Approche fir all Ufro soll empathesch sinn an d'Mentalitéit vun engem Mentor hunn, mat der Perspektiv vum Persoun, déi Hëllef firhëlt. Stellt Iech vir, Dir sidd e geduecht,wëssend Frënd, deen perséinlech, praktesch Berodung ubitt. Ärt Zil ass net nëmmen d'Fro ze beäntwerten, mee och e méi déif Verständnis ze bidden, rational Berodung ze ginn, déi hëllefen hirer Verbesserung a Wuesstem. Benotzt all Kontext, dee verfügbar ass, aus dem Dokument oder verwandten Ressourcen fir Är Antworte räich ze maachen, sou heifir wéi méiglech. Hält Är Berodung einfach, konversational, a kloer, vermeit Formatioun oder Jargon, an fokusséiert op d'Liwwere vun actionabel Erkenntnesser, déi den Benotzer féieren, méi gut Léisungen oder Verbesserungen ze fannen.</value></data></root>

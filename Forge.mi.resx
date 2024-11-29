@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema"><xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="this.ForgeTab.Label"><value>Whakaahua</value></data><data name="this.ToolsGroup.Label"><value>Tūtohu</value></data><data name="this.GenerateButton.Label"><value>Whakawhanake</value></data><data name="this.GenerateButton.SuperTip"><value>Ka hangaia ngā whakautu e pā ana ki te tono a te kaiwhakamahi me ngā ihirangi o te tuhinga i pā.</value></data><data name="this.DefaultCheckBox.Label"><value>Tauākī</value></data><data name="this.AboutButton.Label"><value>Mō</value></data><data name="this.AboutButton.ScreenTip"><value>Ka tukua kōrero e pā ana ki tēnei tono.</value></data><data name="this.CancelButton.Label"><value>Whakatūpato</value></data><data name="this.CancelButton.ScreenTip"><value>Ka whakamutu i te tukanga hanga tuhinga.</value></data><data name="this.WritingToolsGallery.Label"><value>Patua Tūtohu</value></data><data name="this.WritingToolsGallery.SuperTip"><value>Whakanuihia tō tuhinga me ngā taputapu āwhina-i te AI mō te rōrahi, te aratau, me te māramatanga.</value></data><data name="this.ReviewButton.Label"><value>Arotake</value></data><data name="this.ReviewButton.SuperTip"><value>Whakanuihia tō tuhinga me ngā kōrero me ngā tūtohu e hāngai ana i te AI.</value></data><data name="this.ProofreadButton.Label"><value>Tirohia</value></data><data name="this.ProofreadButton.SuperTip"><value>Tirohia ngā hapa tuhinga, rōrahi, me ngā hapa aratau hei whakapai i tāu tuhinga.</value></data><data name="this.RewriteButton.Label"><value>Tīpakohia</value></data><data name="this.RewriteButton.SuperTip"><value>Whakatakotohia anō, whakaurangi, me te whakanui i tāu tuhinga me ngā tūtohu e hāngai ana i te AI.</value></data><data name="this.SettingsGroup.Label"><value>Tautuhinga</value></data><data name="this.RAGControlButton.Label"><value>RAG Whakahaere</value></data><data name="this.RAGControlButton.SuperTip"><value>Whakahaerehia ngā kōnae i roto i te pūnaha Whakawhanaungatanga Whakaari (RAG).</value></data><data name="this.ModelListDropDown.Label"><value>Rārangi tauira</value></data><data name="this.ModelListDropDown.SuperTip"><value>Tīpakohia he tauira reo hei whakamahi i TextCraft.</value></data><data name="this.DefaultCheckBox.SuperTip"><value>Tautuhia te tauira reo poka i roto i te TextCraft.</value></data><data name="this.OptionsGroup.Label"><value>Kōwhiringa</value></data><data name="this.InfoGroup.Label"><value>Pūrongo</value></data><data name="(ThisAddIn.cs) [InitializeAddIn] ArgumentException #1"><value>Kāore e kitea te tauira whakaurunga. Tēnā tāuta ia hei haere whakamua!</value></data><data name="[WritingToolsGallery_ButtonClick] ArgumentOutOfRangeException #1"><value>Kāore e mōhiotia te pātene i tīpakohia.</value></data><data name="[ReviewButton_Click] MessageBox #1 (text)"><value>Kua oti te arotake! Kāore e hiahiatia he kōrero mō tēnei tuhinga.</value></data><data name="[ReviewButton_Click] MessageBox #1 (caption)"><value>Whakamutunga Kōwhiri</value></data><data name="(ModelProperties.cs) [GetContextLength] OllamaMissingContextWindowException #1"><value>Kāore e taea te tiki i te roa o te horopaki mō {0}!</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Text"><value>Kei te hiahia koe ki te tuku i a TextCraft ki te uru ki te rauemi ipurangi e whai ake nei?</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Caption"><value>Uru ki te Ipurangi</value></data><data name="(WordMarkdown.cs) [ApplyMarkdownFormatting] ArgumentOutofRangeException #1"><value>Kāore e mōhiotia te mōhiohio mō te tikanga Markdown!</value></data><data name="(WordMarkdown.cs) [GetCodeBlockAtIndex] ApplicationException #1"><value>Kāore e kitea te pūtake waehere Markdown i te taura {0}!</value></data><data name="(WordMarkdown.cs) [ApplyImageFormatting] ArgumentException #1"><value>He mōhiohio URL hē</value></data><data name="(WordMarkdown.cs) [ApplyHeadingFormatting] ArgumentException #1"><value>He tītohu Markdown hē: me whai i te 1 ki te 6 '#' tohu.</value></data><data name="[AnalyzeText] InvalidRangeException #1"><value>Kāore he tuhinga i tīpakohia mō te arotake!</value></data><data name="this.CommentSystemPrompt"><value>Ko koe he kaiawhina tuhinga ngaio me te whakatika, e tūhura ana i te māramatanga, te coherence, me te pānga o te tuhinga i roto i te tuhinga. Ka tātaritia e koe te tuhinga me te whakaaro āheinga, ka tuku kōrero whaihua hei whakapai i te kounga whānui.</value></data><data name="(CommentHandler.cs) [AICommentReplyTask] UserChatMessage #2"><value>I runga i ngā kōrero AI o mua, tukuna ngā whakapai motuhake anō ki te parawhakahaere, e aro ana ki te māramatanga, te coherence, te hanga, te rōrahi, me te pānga whānui. Me kākahu e watea ana āu whakatau e whakahōutia ana ki te parawhakahaere i roto i te horopaki o te Tuhinga katoa.</value></data><data name="[ProofreadButton_Click] SystemPrompt"><value>Ko koe he kaiawhina tirotiro. Ko tāu mahi he whakatika i ngā hapa rōrahi, tuhinga, tohu, rānei i roto i te tuhinga i tukuna. Whakamahia noa he whakarerekētanga e hiahiatia ana i roto i te tuhinga. Mēnā he tika te tuhinga kāore he hiahiatanga, hurihia anō te tuhinga pēnā i reira.</value></data><data name="[ProofreadButton_Click] UserPrompt"><value>Tena whakamāori i tēnei tuhinga. Whakamahia ngā whakarerekētanga e hiahiatia ana i roto i te tuhinga me te kore e tāpiri i ngā whakamārama, kōrero, rānei. Mēnā he tika te tuhinga kāore e hiahiatia ngā whakarerekētanga, anō hoki te tuhinga i tāngihia.</value></data><data name="[RewriteButton_Click] SystemPrompt"><value>Ko koe he tauira reo whānui kua tāpua ki te whakatikatika tuhinga e tukuna ana e te kaiwhakamahi. Me aro tō whakaaro ki te whakanui i te māramatanga, te whakapai ake i te rere, me te pupuri i te tikanga tuhinga. Me noho ngā whakautu i raro i te haki o ngā tuhinga hōhonu me te kore e whai i ngā whakaaturanga, tūtohu rānei.</value></data><data name="[RewriteButton_Click] UserPrompt"><value>Tena whakaritehia tēnei tuhinga:</value></data><data name="[ReviewButton_Click] UserPrompt"><value>Hei kaiawhina tuhinga ngaio, tuku kōrero motuhake mo ngā whakapai ki te parawhakahaere, e aro ana ki te māramatanga, te coherence, te hanga, te rōrahi, me te pānga whānui. Me kākahu e watea ana āu whakatau e whakahōutia ana ki te parawhakahaere i roto i te horopaki o te Tuhinga katoa.</value></data><data name="[Review] chatHistory #1"><value>Tena arotakehia tēnei parawhakahaere i tango mai i te Tuhinga:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #1"><value>Ihirangi Tuhinga:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #2"><value>RAG Horopaki:</value></data><data name="(CommentHandler.cs) [AIUserMentionTask] UserMentionSystemPrompt"><value>Ko koe he kaiawhina AI kua tāpua ki roto i te tuhinga, e whakahoki ana ki ngā pātai a te kaiwhakamahi e pā ana ki ngā kōpaki tuhinga motuhake. Whakamaharatangaia ia pātai me te manaaki me te whakaaro kāinga, kia noho i te tūāhua o te tāngata e tono ana mō te awhina. Whakaarohia hei hoa mohio, kei reira te whakaaroaro, kei reira te tohungatanga, e tuku ana i ngā tohutohu tirohanga me ngā arataki. Ko tāu whāinga ehara i te mea ko te tuku i te whakautu kei te tono, engari ko te tuku i te māramatanga wātea, e tuku ana i ngā tohutohu mātai hei āwhina i te kaiwhakamahi ki te whakapai me te tipu. Whakamahia ngā kōrero e wātea ana i te tuhinga, i ngā rauemi e pā ana hei whakanui tonu i tō whakautu, me te paku, me te huihuinga, me te mārama, kāore e raru te tikanga e tāpiri ki te āwhina mō ngā pānga e tuku mai ana ki ngā rongoā paiētahi ki te whakapai kāore e raru ai.</value></data></root>

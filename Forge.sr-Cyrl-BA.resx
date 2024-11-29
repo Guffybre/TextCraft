@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema"><xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="this.ForgeTab.Label"><value>Ручни рад</value></data><data name="this.ToolsGroup.Label"><value>Алати</value></data><data name="this.GenerateButton.Label"><value>Генериши</value></data><data name="this.GenerateButton.SuperTip"><value>Креира прилагођене одговоре користећи корисников упит и садржај тренутног документа.</value></data><data name="this.DefaultCheckBox.Label"><value>Задано</value></data><data name="this.AboutButton.Label"><value>О</value></data><data name="this.AboutButton.ScreenTip"><value>Пружа детаље о овој апликацији.</value></data><data name="this.CancelButton.Label"><value>Откажи</value></data><data name="this.CancelButton.ScreenTip"><value>Прекида процес генерисања текста.</value></data><data name="this.WritingToolsGallery.Label"><value>Алати за писање</value></data><data name="this.WritingToolsGallery.SuperTip"><value>Побољшајте своје писање уз алате подржане вештачком интелигенцијом за граматику, стил и јасноћу.</value></data><data name="this.ReviewButton.Label"><value>Преглед</value></data><data name="this.ReviewButton.SuperTip"><value>Унапредите свој документ уз коментаре и предлоге које управља вештачка интелигенција.</value></data><data name="this.ProofreadButton.Label"><value>Корекција</value></data><data name="this.ProofreadButton.SuperTip"><value>Проверите правопис, граматичке и стилске грешке како бисте улепшали свој документ.</value></data><data name="this.RewriteButton.Label"><value>Препиши</value></data><data name="this.RewriteButton.SuperTip"><value>Ревидирајте и унапредите свој текст уз предлоге подршке вештачке интелигенције.</value></data><data name="this.SettingsGroup.Label"><value>Подешавања</value></data><data name="this.RAGControlButton.Label"><value>РАГ Контрола</value></data><data name="this.RAGControlButton.SuperTip"><value>Управљање фајловима у систему Ретривал Огаментација Генерација (РАГ).</value></data><data name="this.ModelListDropDown.Label"><value>Листа модела</value></data><data name="this.ModelListDropDown.SuperTip"><value>Изаберите језички модел за употребу у TextCraft.</value></data><data name="this.DefaultCheckBox.SuperTip"><value>Подесите задани језички модел за TextCraft.</value></data><data name="this.OptionsGroup.Label"><value>Опције</value></data><data name="this.InfoGroup.Label"><value>Информације</value></data><data name="(ThisAddIn.cs) [InitializeAddIn] ArgumentException #1"><value>Недостаје уграђени модел. Молимо инсталирајте га да бисте наставили!</value></data><data name="[WritingToolsGallery_ButtonClick] ArgumentOutOfRangeException #1"><value>Изабрани тастер није распознат.</value></data><data name="[ReviewButton_Click] MessageBox #1 (text)"><value>Преглед комплетан! За овај документ нису потребни коментари.</value></data><data name="[ReviewButton_Click] MessageBox #1 (caption)"><value>Акција завршена</value></data><data name="(ModelProperties.cs) [GetContextLength] OllamaMissingContextWindowException #1"><value>Никако не може да се добије дужина контекста за {0}!</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Text"><value>Да ли желите да дозволите TextCraft-у да приступи следећем интернет ресурсу?</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Caption"><value>Приступ интернету</value></data><data name="(WordMarkdown.cs) [ApplyMarkdownFormatting] ArgumentOutofRangeException #1"><value>Непозната врста формата за обраду Маркдовна!</value></data><data name="(WordMarkdown.cs) [GetCodeBlockAtIndex] ApplicationException #1"><value>Блок кодa Маркдовнa није пронађен на индексу {0}!</value></data><data name="(WordMarkdown.cs) [ApplyImageFormatting] ArgumentException #1"><value>Неважећи формат URL-а</value></data><data name="(WordMarkdown.cs) [ApplyHeadingFormatting] ArgumentException #1"><value>Неважећа Маркдовн заглавље: мора садржавати од 1 до 6 '#' карактера.</value></data><data name="[AnalyzeText] InvalidRangeException #1"><value>Нису одабрани текстови за анализу!</value></data><data name="this.CommentSystemPrompt"><value>Ви сте експерт за писање и уредник, специјализовани у побољшању јасноће, кохерентности и утицаја текста у документу. Критички анализирате текст и пружате конструктивне повратне информације за унапређење укупног квалитета.</value></data><data name="(CommentHandler.cs) [AICommentReplyTask] UserChatMessage #2"><value>На основу претходних коментара вештачке интелигенције, предложите додатна специфична побољшања параграфу, фокусирајући се на јасноћу, кохерентност, структуру, граматику и укупну ефективност. Осигурајте да су ваши предлози детаљни и усмерени на побољшање параграфа у контексту целог документа.</value></data><data name="[ProofreadButton_Click] SystemPrompt"><value>Ви сте асистент за корекцију. Ваш задатак је исправити све правописне, граматичке, интерпункцијске или стилске грешке у пруженом тексту. Извршите само неопходне измене директно у тексту. Ако је текст већ исправан и не захтева измене, само поновите текст као што јесте без давања објашњења или коментара.</value></data><data name="[ProofreadButton_Click] UserPrompt"><value>Молимо вас да коригујете следећи текст. Извршите све потребне исправке директно у тексту без додавања било каквих објашњења или коментара. Ако је текст исправан и не захтева промене, само га поновите тачно какав јесте:</value></data><data name="[RewriteButton_Click] SystemPrompt"><value>Ви сте напредни језички модел задат за преписивање текста који је корисник пружио. Требало би да се фокусирате на побољшавање јасноће, побољшање тока и одржавање оригиналног значења текста. Ваши одговори би требало да се састоје искључиво од преписаног текста без додатних објашњења или коментара.</value></data><data name="[RewriteButton_Click] UserPrompt"><value>Молимо вас да препишете следећи текст:</value></data><data name="[ReviewButton_Click] UserPrompt"><value>Као стручни асистент за писање, предложите конкретна побољшања параграфу, фокусирајући се на јасноћу, кохерентност, структуру, граматику и укупну ефективност. Осигурајте да су ваши предлози детаљни и усмерени на побољшање параграфа у контексту целог документа.</value></data><data name="[Review] chatHistory #1"><value>Молимо вас да прегледате следећи параграф из документa:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #1"><value>Садржај документа:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #2"><value>РАГ контекст:</value></data><data name="(CommentHandler.cs) [AIUserMentionTask] UserMentionSystemPrompt"><value>Ви сте вештачка интелигенција асистент уграђена у документ, која одговара на питања корисника о специфичним деловима текста. Приступите сваком упиту с емпатијом и менторским менталитетом, ставите се у положај особе која тражи помоћ. Замислите да сте обазриви, образовани пријатељ који нуди увиди и практичне смернице. Ваш циљ је не само да одговорите на њихово питање, већ и да пружите дубље разумевање, нудећи разумне савете који им помажу да се унапреде и расту. Користите све доступне контексте из документа или сродних ресурса да обогатите свој одговор, чинећи га што кориснијим. Задржите своје савете једноставним, разговорним и јасним, избегавајући форматирање или жаргон, и фокусирајте се на испоруку остваривих увида који усмеравају корисника ка бољим решењима или побољшањима.</value></data></root>

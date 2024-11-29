@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema"><xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="this.ForgeTab.Label"><value>Egiteko</value></data><data name="this.ToolsGroup.Label"><value>Tresnak</value></data><data name="this.GenerateButton.Label"><value>Sortu</value></data><data name="this.GenerateButton.SuperTip"><value>Errespondaketa pertsonalizatuak sortzen ditu erabiltzailearen eskaerarekin eta uneko dokumentuaren edukiarekin.</value></data><data name="this.DefaultCheckBox.Label"><value>Lehengai</value></data><data name="this.AboutButton.Label"><value>Honi buruz</value></data><data name="this.AboutButton.ScreenTip"><value>Aplikazio honi buruzko xehetasunak ematen ditu.</value></data><data name="this.CancelButton.Label"><value>Ezeztatu</value></data><data name="this.CancelButton.ScreenTip"><value>Testu sortze prozesua gelditzen du.</value></data><data name="this.WritingToolsGallery.Label"><value>Idazteko Tresnak</value></data><data name="this.WritingToolsGallery.SuperTip"><value>Indartu zure idazketa AI-oinarritutako tresnekin gramatikan, estiloan eta argitasunean.</value></data><data name="this.ReviewButton.Label"><value>Aztertu</value></data><data name="this.ReviewButton.SuperTip"><value>Indartu zure dokumentua AI-driven iruzkin eta iradokizunez.</value></data><data name="this.ProofreadButton.Label"><value>Arau uneko</value></data><data name="this.ProofreadButton.SuperTip"><value>Idatzi ezker, gramatika eta estilo akatsak egiaztatzeko zure dokumentua distiratsuago egiteko.</value></data><data name="this.RewriteButton.Label"><value>Idatzi berriz</value></data><data name="this.RewriteButton.SuperTip"><value>Birbideratu eta indartu zure testua AI-oinarritutako iradokizunekin.</value></data><data name="this.SettingsGroup.Label"><value>Ezarpenak</value></data><data name="this.RAGControlButton.Label"><value>RAG Kontrola</value></data><data name="this.RAGControlButton.SuperTip"><value>Ekarpen Handitzearen (RAG) sisteman fitxategiak kudeatzen ditu.</value></data><data name="this.ModelListDropDown.Label"><value>Modelo Zerrenda</value></data><data name="this.ModelListDropDown.SuperTip"><value>TestuSortzerako erabilgai den hizkuntza modelo bat aukeratu.</value></data><data name="this.DefaultCheckBox.SuperTip"><value>TestuSortzerako lehengai hizkuntza modelo bat ezarri.</value></data><data name="this.OptionsGroup.Label"><value>Aukerak</value></data><data name="this.InfoGroup.Label"><value>Informazioa</value></data><data name="(ThisAddIn.cs) [InitializeAddIn] ArgumentException #1"><value>Txertatutako modelo falta. Mesedez, instalatu aurrera jarraitzeko!</value></data><data name="[WritingToolsGallery_ButtonClick] ArgumentOutOfRangeException #1"><value>Hautatutako botoia ez da onartzen.</value></data><data name="[ReviewButton_Click] MessageBox #1 (text)"><value>Azterketa amaituta! Ez da iruzkinik behar dokumentu honentzat.</value></data><data name="[ReviewButton_Click] MessageBox #1 (caption)"><value>Ekintza Amaituta</value></data><data name="(ModelProperties.cs) [GetContextLength] OllamaMissingContextWindowException #1"><value>Ez da posible {0}-rako testuingurua lortzea!</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Text"><value>Gai al zara TestuSortzari interneteko baliabide honetara sartzen uzteko?</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Caption"><value>Interneterako Sarbidea</value></data><data name="(WordMarkdown.cs) [ApplyMarkdownFormatting] ArgumentOutofRangeException #1"><value>Markdown prozesaketarako ezezaguna formatua!</value></data><data name="(WordMarkdown.cs) [GetCodeBlockAtIndex] ApplicationException #1"><value>Markdown kode bloke ez da aurkitu {0} indeksan!</value></data><data name="(WordMarkdown.cs) [ApplyImageFormatting] ArgumentException #1"><value>URL formatu baliogabea</value></data><data name="(WordMarkdown.cs) [ApplyHeadingFormatting] ArgumentException #1"><value>Markdown izenburua baliogabea: 1 eta 6 '#' karaktere izan behar ditu.</value></data><data name="[AnalyzeText] InvalidRangeException #1"><value>Ez da testurik hautatu analisiarako!</value></data><data name="this.CommentSystemPrompt"><value>Idazteko laguntzaile aditu bat zara, dokumentu baten testuaren argitasuna, koherentzia eta eragina hobetzeko espezializatua. Testua kritikoaz aztertzen duzu eta kalitatea hobetzeko iradokizun eraikitzaileak ematen dituzu.</value></data><data name="(CommentHandler.cs) [AICommentReplyTask] UserChatMessage #2"><value>AI iruzkin aurrekoen arabera, iradokizun zehatzak proposatu testu-paragrafoari, argitasunean, koherentziaren, egituraren, gramatikan eta eraginkortasun orokorrean arreta jarriz. Zure iradokizunak xehetasun handikoak izan behar dute eta dokumentu osoaren testuinguruan paragrafoa hobetzea xede dutenak.</value></data><data name="[ProofreadButton_Click] SystemPrompt"><value>Zu egiaztatze-laguntzaile bat zara. Zure lana emandako testuan akats ortografiko, gramatika, puntuazioa edo estilo akatsak zuzentzea da. Beharrezko aldaketak zuzenean testuan egin. Testua jada zuzena bada eta aldaketarik ez badu behar, testua bere osotasunean errepikatu.</value></data><data name="[ProofreadButton_Click] UserPrompt"><value>Mesedez, egiaztatu honako testua. Beharrezko zuzenketak zuzenean testuan egin, inolako iruzkinik edo azalpenik gehitu gabe. Testua zuzena bada eta aldaketarik ez bada beharrik, errepikatu zehazki nola dagoen:</value></data><data name="[RewriteButton_Click] SystemPrompt"><value>Aditu bat zara testua birformulatzeko, erabiltzaileak emandako testua. Argitasuna hobetzea, fluxua hobetzea eta testuaren jatorrizko esanahia mantentzea da zure helburua. Zure erantzunak testua biridazkitakoekin murriztu behar dira, inolako iruzkinik edo azalpenik gabe.</value></data><data name="[RewriteButton_Click] UserPrompt"><value>Mesedez, idatzi berriz honako testua:</value></data><data name="[ReviewButton_Click] UserPrompt"><value>Idazteko aditua izanik, iradokizun zehatzak proposatu paragrafoari, argitasunean, koherentziaren, egituraren, gramatikan eta eraginkortasun orokorrean arreta jarriz. Zure iradokizunak xehetasun handikoak izan behar dute eta dokumentu osoaren testuinguruan paragrafoa hobetzea xede dutenak.</value></data><data name="[Review] chatHistory #1"><value>Mesedez, aztertu honako paragrafoa Dokumentutik ateratakoa:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #1"><value>Dokumentu-edukia:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #2"><value>RAG Testuingurua:</value></data><data name="(CommentHandler.cs) [AIUserMentionTask] UserMentionSystemPrompt"><value>Zuri dokumentu batean txertatutako AI laguntzaile bat zara, erabiltzailearen galderak testu zehatzen inguruan erantzuten. Galdera bakoitzari enpatiarekin eta irakasle baten pentsamoldearekin heltzen zaio, laguntza eskatzen duen pertsonaren tokian jarriz. Iratzartzen duzu pentsatzaile, ezagutzaz beteriko lagun bat, informazio praktikoa eta ikuspuntu interesgarriak eskaintzen. Zure helburua ez da bakarrik galderari erantzutea, baizik eta ulermen sakonagoa ematea, arrazoizko aholkularitza emanez, pertsona honek hobetzen eta hazten laguntzeko. Hornitutako testu dokumentutik edo lotutako baliabideetatik kontestua erabiliz, zure erantzuna aberastuta, ahalik eta lagungarriena izatea. Zure aholkuak sinpleak, elkarrizketa modukoak eta garbiak izan behar dute, formatatze edo jargonik saihestuz, eta erabiltzaileak hobeak diren irtenbideak edo hobekuntzak lortzeko gidatuko duten iradokizun praktikoak eskaintzen jarri.</value></data></root>

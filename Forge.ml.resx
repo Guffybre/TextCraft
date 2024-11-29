@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema"><xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="this.ForgeTab.Label"><value>Craft</value></data><data name="this.ToolsGroup.Label"><value>Tools</value></data><data name="this.GenerateButton.Label"><value>Generate</value></data><data name="this.GenerateButton.SuperTip"><value>ഉപയോക്താവിന്റെ പ്രോംപ്റ്റും നിലവിലുള്ള ഡോക്യുമെന്റിന്റെ ഉള്ളടക്കവും ഉപയോഗിച്ചുകൊണ്ട് നിങ്ങൾക്കൊരു ആനുകൂല്യമായ പ്രതികരണങ്ങൾ സൃഷ്ടിക്കുന്നു.</value></data><data name="this.DefaultCheckBox.Label"><value>ഡീഫോൾട്ട്</value></data><data name="this.AboutButton.Label"><value>About</value></data><data name="this.AboutButton.ScreenTip"><value>ഈ അപ്ലിക്കേഷന്റെ വിശദാംശങ്ങൾ നൽകുന്നു.</value></data><data name="this.CancelButton.Label"><value>റദ്ദാക്കുക</value></data><data name="this.CancelButton.ScreenTip"><value>വാചകം സൃഷ്ടിക്കുന്ന പ്രക്രിയ നിർത്തുന്നു.</value></data><data name="this.WritingToolsGallery.Label"><value>എഴുത്തിന് ഉപകരണങ്ങൾ</value></data><data name="this.WritingToolsGallery.SuperTip"><value>വ്യാകരണം, ശൈലി, ಮತ್ತು വ്യക്തിത്വം മെച്ചപ്പെടുത്തുന്നതിനായി AI സംവിധാനങ്ങളുമായുള്ള ഉപകരണങ്ങൾ ഉപയോഗിക്കുക.</value></data><data name="this.ReviewButton.Label"><value>Preview</value></data><data name="this.ReviewButton.SuperTip"><value>AI-driven അഭിപ്രായങ്ങൾക്കും നിർദ്ദേശങ്ങൾക്കും കത്തുവയ്ക്കുന്നു.</value></data><data name="this.ProofreadButton.Label"><value>Proofread</value></data><data name="this.ProofreadButton.SuperTip"><value>നിങ്ങളുടെ രേഖ പ polish ചെയ്യാൻ സംശയ, വ്യാകരണം, അല്ലെങ്കിൽ ശൈലിയുടെ പിശകുകൾ പരിശോധിക്കുന്നു.</value></data><data name="this.RewriteButton.Label"><value>Rewrite</value></data><data name="this.RewriteButton.SuperTip"><value>AI-powered നിർദ്ദേശങ്ങളോടെ നിങ്ങളുടെ കാര്യങ്ങൾ വീര്യപ്പെടുത്തുകയും മെച്ചപ്പെടുത്തുകയും ചെയ്യുക.</value></data><data name="this.SettingsGroup.Label"><value>ക്രമീകരണങ്ങൾ</value></data><data name="this.RAGControlButton.Label"><value>RAG നിയന്ത്രണം</value></data><data name="this.RAGControlButton.SuperTip"><value>Retrieval Augmentation Generation (RAG) സംവിധാനം മധ്യത്തിൽ ഫയലുകൾ നിയന്ത്രിക്കുക.</value></data><data name="this.ModelListDropDown.Label"><value>മോഡൽ പട്ടിക</value></data><data name="this.ModelListDropDown.SuperTip"><value>TextCraft ൽ ഉപയോഗിക്കാൻ ഭാഷാ മോഡ് തിരഞ്ഞെടുക്കുക.</value></data><data name="this.DefaultCheckBox.SuperTip"><value>TextCraft ന് ആഫലാജ്യമുള്ള ഭാഷാ മോഡ് ക്രമീകരിക്കുക.</value></data><data name="this.OptionsGroup.Label"><value>വൃത്തി</value></data><data name="this.InfoGroup.Label"><value>വിവരങ്ങൾ</value></data><data name="(ThisAddIn.cs) [InitializeAddIn] ArgumentException #1"><value>Embed മോഡൽ നഷ്ടമാണ്. ദയവായി തുടരാൻ ഇൻസ്റ്റാൾ ചെയ്യുക!</value></data><data name="[WritingToolsGallery_ButtonClick] ArgumentOutOfRangeException #1"><value>തിരഞ്ഞെടുക്കപ്പെട്ട ബട്ടൺ തിരിച്ചറിയാൻ പരാജയപ്പെട്ടു.</value></data><data name="[ReviewButton_Click] MessageBox #1 (text)"><value>വിശകലനശേഷം! ഈ രേഖയ്ക്ക് ഏതെങ്കിലും അഭിപ്രായങ്ങൾ വേണ്ടതില്ല.</value></data><data name="[ReviewButton_Click] MessageBox #1 (caption)"><value>ക്രിയാവിഷയങ്ങൾ പൂർത്തി</value></data><data name="(ModelProperties.cs) [GetContextLength] OllamaMissingContextWindowException #1"><value>{0} വേണ്ടി പ്രത്യേകിച്ചായ വികാരം അറഗിയിലേക്ക് വരാൻ സാധ്യമല്ല!</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Text"><value>TextCraft നെ താഴെ പറയുന്ന ഇന്റർനെറ്റ് ഉറവിടത്തിലേക്ക് ആക്സസ് ചെയ്യാൻ അനുവദിക്കണോ?</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Caption"><value>ഇന്റർനെറ്റ് ആക്സസ്</value></data><data name="(WordMarkdown.cs) [ApplyMarkdownFormatting] ArgumentOutofRangeException #1"><value>Markdown പ്രോസസിംഗിന് അജ്ഞാതമായ രൂപഭേദം!</value></data><data name="(WordMarkdown.cs) [GetCodeBlockAtIndex] ApplicationException #1"><value>Markdown കോഡ് ബ്ലോക്ക് കണക്കിൽ {0} ൽ കണ്ടില്ല!</value></data><data name="(WordMarkdown.cs) [ApplyImageFormatting] ArgumentException #1"><value>തെറ്റായ URL രൂപഭേദം</value></data><data name="(WordMarkdown.cs) [ApplyHeadingFormatting] ArgumentException #1"><value>തെറ്റായ Markdown തലക്കെട്ട്: 1 മുതൽ 6 '#' അക്ഷരങ്ങൾ അടങ്ങിയിരിക്കണം.</value></data><data name="[AnalyzeText] InvalidRangeException #1"><value>വിശകലനത്തിന് തിരഞ്ഞെടുത്ത കേൾക്കാനുള്ള ഒന്നുമില്ല!</value></data><data name="this.CommentSystemPrompt"><value>നിങ്ങൾ 'കാര്യമാവുന്നു', структурৰাকാര്യം എഴുതുന്ന തുടങ്ങും, текста. ഇപ്പോഴത്തെ, компенсировать качества.</value></data><data name="(CommentHandler.cs) [AICommentReplyTask] UserChatMessage #2"><value /></data><data name="[ProofreadButton_Click] SystemPrompt"><value>നിങ്ങളുടെ നോട്ടിലേക്കുവന്ന സാഹചര്യത്തിൽ, കൃത്യമായ എന്തെങ്കിലും മാറ്റങ്ങൾ മാത്രം ചെയ്യുക.</value></data><data name="[ProofreadButton_Click] UserPrompt"><value>ദയവായി താഴെ പറയുന്ന എഴുത്ത് ഇ പ്രകാരം ദരുധാം:</value></data><data name="[RewriteButton_Click] SystemPrompt"><value>തുടരുന്ന ഉപയോഗസാഹിത്യ രൂപീകൃതത്തിൽ, കൃത്യമായ വ്യക്തീത്വം, നിലാഖനം, സംവേദ്യംയും വേണ്ടതിന്.</value></data><data name="[RewriteButton_Click] UserPrompt"><value>ദയവായി താഴെ പറയുന്ന സംഭാഷണം:</value></data><data name="[ReviewButton_Click] UserPrompt"><value>эксперт, ранее находившегося యొక్క കേരളാ ഭാഗമായി, уже, егита.»</value></data><data name="[Review] chatHistory #1"><value>ദയവായി ലഭ്യമായ സ്ഥാനം സമൂഹിയണമെന്ന് അത്തകേ ഹയർ ദരു.</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #1"><value>ഡോക്യുമെന്റിന്റെ ഉള്ളടക്കം:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #2"><value>RAG വിവരം:</value></data><data name="(CommentHandler.cs) [AIUserMentionTask] UserMentionSystemPrompt"><value>നിങ്ങൾ ഒരു AI സഹായി ആണ്, ആറായിരം ചോദ്യങ്ങൾക്കായി പ്രവർത്തിക്കുന്നൂപയോഗിക്കുന്ന മുഖ്യകൗട്ട്, ഉപയോക്താക്കളുടെ ചോദ്യം ശമനം.</value></data></root>

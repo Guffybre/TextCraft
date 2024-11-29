@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema"><xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="this.ForgeTab.Label"><value>Ceàird</value></data><data name="this.ToolsGroup.Label"><value>Innealan</value></data><data name="this.GenerateButton.Label"><value>Cruthaich</value></data><data name="this.GenerateButton.SuperTip"><value>Cruthaich freagairtean freagairteach a’ cleachdadh freagairtean an’utilisateur agus stuth an sgrìobhainn làthair.</value></data><data name="this.DefaultCheckBox.Label"><value>Àbhaisteach</value></data><data name="this.AboutButton.Label"><value>Mu</value></data><data name="this.AboutButton.ScreenTip"><value>Thoir seachad fiosrachadh mu dheidhinn an aplacaid seo.</value></data><data name="this.CancelButton.Label"><value>Cuir às</value></data><data name="this.CancelButton.ScreenTip"><value>Builichs a’ phròiseas gineadh teacsa.</value></data><data name="this.WritingToolsGallery.Label"><value>Innealan sgrìobhaidh</value></data><data name="this.WritingToolsGallery.SuperTip"><value>Neartaich do sgrìobhadh le innealan air an togail le AI airson gramaire, stoidhle, agus shoilleireachd.</value></data><data name="this.ReviewButton.Label"><value>Ath-sgrùdadh</value></data><data name="this.ReviewButton.SuperTip"><value>Neartaich do sgrìobhainn le freagairtean agus molaidhean air an stiùireadh le AI.</value></data><data name="this.ProofreadButton.Label"><value>Dèan dearbhadh</value></data><data name="this.ProofreadButton.SuperTip"><value>Thoir sùil air mhearachdan litreach, gramaire, agus stoidhle gus do sgrìobhainn a lòghdachadh.</value></data><data name="this.RewriteButton.Label"><value>Ath-sgrìobh</value></data><data name="this.RewriteButton.SuperTip"><value>Ath-sgrùdadh agus neartaich do theacsa le molaidhean air an stiùireadh le AI.</value></data><data name="this.SettingsGroup.Label"><value>Settins</value></data><data name="this.RAGControlButton.Label"><value>Smachd RAG</value></data><data name="this.RAGControlButton.SuperTip"><value>Stiùir do faidhlichean ann an Siostam Gineadh Leudachaidh Àrdachaidh (RAG).</value></data><data name="this.ModelListDropDown.Label"><value>Liosta Modail</value></data><data name="this.ModelListDropDown.SuperTip"><value>Tagh modail cànain airson a chleachdadh ann an TextCraft.</value></data><data name="this.DefaultCheckBox.SuperTip"><value>Sèidh am modail cànain àbhaisteach airson TextCraft.</value></data><data name="this.OptionsGroup.Label"><value>Roghainnean</value></data><data name="this.InfoGroup.Label"><value>Fiosrachadh</value></data><data name="(ThisAddIn.cs) [InitializeAddIn] ArgumentException #1"><value>Tha am modail air a chur a-steach air a chall. Thoir a-steach e airson leantainn!</value></data><data name="[WritingToolsGallery_ButtonClick] ArgumentOutOfRangeException #1"><value>Chan eilear a’ freagairt ris a’ phutan taghte.</value></data><data name="[ReviewButton_Click] MessageBox #1 (text)"><value>Tha ath-sgrùdadh crìochnaichte! Chan eil freagairtean a dhìth air a’ sgrìobhainn seo.</value></data><data name="[ReviewButton_Click] MessageBox #1 (caption)"><value>Gabhail ris an gnìomh</value></data><data name="(ModelProperties.cs) [GetContextLength] OllamaMissingContextWindowException #1"><value>Chan urrainn dha faighinn thall air a’ cho-mheud airson {0}!</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Text"><value>A bheil thu airson leigeil le TextCraft faighinn gu an ghoireas eadar-lìn a leanas?</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Caption"><value>Ruigsinneachd Eadar-lìn</value></data><data name="(WordMarkdown.cs) [ApplyMarkdownFormatting] ArgumentOutofRangeException #1"><value>Seòrsa cruth neo-aithnichte airson pròiseas Markdown!</value></data><data name="(WordMarkdown.cs) [GetCodeBlockAtIndex] ApplicationException #1"><value>Chaidh bloca còd Markdown a lorg aig an ìre {0}!</value></data><data name="(WordMarkdown.cs) [ApplyImageFormatting] ArgumentException #1"><value>Cruth URL neo-valid</value></data><data name="(WordMarkdown.cs) [ApplyHeadingFormatting] ArgumentException #1"><value>Neach tiotal Markdown neo-valid: feumaidh a bhith ann an 1 gu 6 '#' caractaran.</value></data><data name="[AnalyzeText] InvalidRangeException #1"><value>Chan eil teacsa air a thaghadh airson anailis!</value></data><data name="this.CommentSystemPrompt"><value>Tha thu nad chuideachadh sgrìobhaidh eòlach agus deasaiche, air a shònrachadh ann an neartachadh soilleir, freagairteachd, agus buaidh teacsa ann an sgrìobhainn. Tha thu a’ rannsachadh teacsa gu cruthachail agus a’ toirt seachad fiosan bunaiteach airson adhartachadh na càileachd.</value></data><data name="(CommentHandler.cs) [AICommentReplyTask] UserChatMessage #2"><value>A rèir na freagairtean AI roimhe, molaibh leasachaidhean sònraichte eile don phàragraf, a’ cuimseachadh air soilleir, freagairteachd, structar, gramaire, agus èifeachdas gu h-iomlan. Dèan cinnteach gu bheil do mholtaí mionaideach agus air an dèanamh gu bhith a’ neartachadh an phàragraf taobh a-staigh co-theacsa na Sgrìobhainn gu lèir.</value></data><data name="[ProofreadButton_Click] SystemPrompt"><value>Tha thu nad chuideachadh dearbhaidh. Tha do dhleastanas a’ chaochlaidhean sheachad, gramaire, freagairtean, no mearachdan stiùiridh anns a’ theacsa air a thoirt seachad. Dèan atharrachaidhean a tha freagairteach ann an teacsa. Ma tha an teacsa ceàrr agus nach eil feum air atharrachaidhean sam bith, dìreach repàrr ceàrr mar a tha e gun a bhith a’ toirt seachad sam bith freagairtean no mion-atharrachadh.</value></data><data name="[ProofreadButton_Click] UserPrompt"><value>Feuch an cuir thu an teacsa seo na dhòrna. Dèan atharrachaidhean a tha freagairteach gu dìreach ann an teacsa gun a bhith a’ cur a-steach freagairtean no mion-acf. Ma tha an teacsa ceart agus nach eil feum air atharrachaidhean, dìreach repàrr e gu h-iomlan mar a tha e:</value></data><data name="[RewriteButton_Click] SystemPrompt"><value>Tha thu nad mhodail cànain adhartach a tha air a thoirt seachad le teacsa a thèid a thoirt seachad le an neach-cleachdaidh. Bu chòir dhut a bhith na bheachdail a’ dìon soilleir, adhartachadh ruith, agus a’ cur an comasàirde na fuaimean. Bu chòir do freagairtean a bhith a’ toirt air adhart dìreach am teacsa ath-sgrìobhaidh gun a bhith a’ cur freagairtean no mion-an dràsta.</value></data><data name="[RewriteButton_Click] UserPrompt"><value>Feuch an ath-sgrìobh thu an teacsa seo:</value></data><data name="[ReviewButton_Click] UserPrompt"><value>Mar chuideachadh sgrìobhaidh eòlasach, molaibh leasachaidhean sònraichte don phàragraf, a’ cuimseachadh air soilleir, freagairteachd, structar, gramaire, agus èifeachdas gu h-iomlan. Dèan cinnteach gu bheil do mholtaí mionaideach agus air an dèanamh gu bhith a’ neartachadh an phàragraf taobh a-staigh co-theacsa na Sgrìobhainn gu lèir.</value></data><data name="[Review] chatHistory #1"><value>Feuch an dèan thu ath-sgrùdadh air an phàragraf a chaidh a thogail bhon Sgrìobhainn:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #1"><value>Susbaint an sgrìobhainn:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #2"><value>Àrainneachd RAG:</value></data><data name="(CommentHandler.cs) [AIUserMentionTask] UserMentionSystemPrompt"><value>Tha thu nad chuideachadh AI a tha air a dhearbhadh ann an sgrìobhainn, a’ freagairt freagairtean luchd-cleachdaidh mu dheireadh mu dhotaichean sònraichte de theacsa. Lean gach ceist le fois agus smuain mar thaidhrin, a’ cuir thu fhèin ann an loidhne an duine a tha a’ faighneachd. Thoir fa-near gu bheil thu nad charaid eòlach, faidhleachd a’ toirt seachad fiosrachadh maiy ga'au. Is e do thaigh an ais-eaglais co-dhiù freagairtean a sholarachadh freagairtean freagairteach, is e an taigh a tha freagairteach agus a’ dèanamh freagairtean freagairteach</value></data></root>

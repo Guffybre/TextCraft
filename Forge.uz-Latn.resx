@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema"><xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="this.ForgeTab.Label"><value>Qo'l san'ati</value></data><data name="this.ToolsGroup.Label"><value>Vositalar</value></data><data name="this.GenerateButton.Label"><value>Yaratish</value></data><data name="this.GenerateButton.SuperTip"><value>Foydalanuvchi taklifiga va hozirgi hujjat mazmuniga asoslangan maxsus javoblarni yaratadi.</value></data><data name="this.DefaultCheckBox.Label"><value>Standart</value></data><data name="this.AboutButton.Label"><value>Xaqida</value></data><data name="this.AboutButton.ScreenTip"><value>Ushbu dastur haqida ma'lumot beradi.</value></data><data name="this.CancelButton.Label"><value>Bekor qilish</value></data><data name="this.CancelButton.ScreenTip"><value>Matn yaratish jarayonini to'xtatadi.</value></data><data name="this.WritingToolsGallery.Label"><value>Yozish Vositalari</value></data><data name="this.WritingToolsGallery.SuperTip"><value>Grammatika, uslub va aniq so'zlash uchun AI yordamida yozishingizni rivojlantiring.</value></data><data name="this.ReviewButton.Label"><value>Ko'rib chiqish</value></data><data name="this.ReviewButton.SuperTip"><value>Hujjatni AI yordamida izohlar va takliflar bilan boyitadi.</value></data><data name="this.ProofreadButton.Label"><value>Tekshirish</value></data><data name="this.ProofreadButton.SuperTip"><value>Hujjatni yaxshilash uchun imlo, grammatika va uslub xatolarini tekshiring.</value></data><data name="this.RewriteButton.Label"><value>Qayta yozish</value></data><data name="this.RewriteButton.SuperTip"><value>Matningizni AI yordamida takliflar bilan ko'rib chiqing va yaxshilang.</value></data><data name="this.SettingsGroup.Label"><value>Sozlamalar</value></data><data name="this.RAGControlButton.Label"><value>RAG Boshqaruv</value></data><data name="this.RAGControlButton.SuperTip"><value>Qayta olishni oshirish ishlab chiqarish (RAG) tizimi ichidagi fayllarni boshqaradi.</value></data><data name="this.ModelListDropDown.Label"><value>Model Ro'yxati</value></data><data name="this.ModelListDropDown.SuperTip"><value>TextCraft'da foydalanish uchun til modelini tanlang.</value></data><data name="this.DefaultCheckBox.SuperTip"><value>TextCraft uchun standart til modelini o'rnating.</value></data><data name="this.OptionsGroup.Label"><value>variantlar</value></data><data name="this.InfoGroup.Label"><value>Ma'lumot</value></data><data name="(ThisAddIn.cs) [InitializeAddIn] ArgumentException #1"><value>Model yo'q. Iltimos, davom etish uchun uni o'rnating!</value></data><data name="[WritingToolsGallery_ButtonClick] ArgumentOutOfRangeException #1"><value>Tanlangan tugma tanilmaydi.</value></data><data name="[ReviewButton_Click] MessageBox #1 (text)"><value>Ko'rib chiqish tugallandi! Ushbu hujjat uchun izohlar kerak emas.</value></data><data name="[ReviewButton_Click] MessageBox #1 (caption)"><value>Harakat Bajarildi</value></data><data name="(ModelProperties.cs) [GetContextLength] OllamaMissingContextWindowException #1"><value>{0} uchun kontekst uzunligini olib bo'lmadi!</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Text"><value>TextCraft'ga quyidagi internet manziliga kirishga ruxsat bermoqchimisiz?</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Caption"><value>Internetga kirish</value></data><data name="(WordMarkdown.cs) [ApplyMarkdownFormatting] ArgumentOutofRangeException #1"><value>Markdown ishlov berishda noma'lum format turi!</value></data><data name="(WordMarkdown.cs) [GetCodeBlockAtIndex] ApplicationException #1"><value>{0} indeksida Markdown kod bloki topilmadi!</value></data><data name="(WordMarkdown.cs) [ApplyImageFormatting] ArgumentException #1"><value>Noto'g'ri URL formati</value></data><data name="(WordMarkdown.cs) [ApplyHeadingFormatting] ArgumentException #1"><value>Noto'g'ri Markdown sarlavhasi: 1 dan 6 gacha '#' belgilarini o'z ichiga olishi kerak.</value></data><data name="[AnalyzeText] InvalidRangeException #1"><value>Tahlil uchun tanlangan matn yo'q!</value></data><data name="this.CommentSystemPrompt"><value>Siz matnni yaxshilash, aniqlik, izchillik va ta'sirini oshirishda ixtisoslashgan mutaxassis yozish yordamchisi va tahrirchisiz. Siz matnni tanqidiy tahlil qilasiz va umumiy sifatni yaxshilash uchun konstruktiv fikrlar berasiz.</value></data><data name="(CommentHandler.cs) [AICommentReplyTask] UserChatMessage #2"><value>Oldingi AI izohlaridan kelib chiqib, paragrafa aniqlik, izchillik, tuzilish, grammatika va umumiy samaradorlikni hisobga olgan holda qo'shimcha aniq yaxshilanishlar taklif qiling. Takliflaringiz batafsil bo'lishi kerak va butun hujjat konteksti doirasida paragraflarni yaxshilashga qaratilgan bo'lishi kerak.</value></data><data name="[ProofreadButton_Click] SystemPrompt"><value>Siz tekshirish yordamchisisiz. Sizning vazifangiz taqdim etilgan matndagi imlo, grammatika, punksiya yoki uslub xatolarini tuzatishdan iborat. Matnda ishlatilgan o'zgarishlarni bevosita amalga oshiring. Agar matn to'g'ri bo'lsa va o'zgartirish talab qilmasa, shunchaki matnni qanday borligini qayta takrorlang, izohlar yoki fikrlar bermasdan.</value></data><data name="[ProofreadButton_Click] UserPrompt"><value>Iltimos, quyidagi matnni tahrir qiling. Har qanday zarur o'zgarishlarni bevosita matn ichida qiling, izohlar yoki fikrlar qo'shmasdan. Agar matn to'g'ri va o'zgartirish kerak bo'lmasa, shunchaki uni aynan shunday takrorlang:</value></data><data name="[RewriteButton_Click] SystemPrompt"><value>Siz foydalanuvchi tomonidan taqdim etilgan matnni qayta yozish vazifasi yuklangan ilg'or til modelisiz. Aniqlikni oshirish, oqimni yaxshilash va matnning asl ma'nosini saqlashga e'tibor berishingiz kerak. Sizning javoblaringiz faqat qayta yozilgan matndan iborat bo'lishi kerak, hech qanday qo'shimcha izoh yoki fikrlar yo'q.</value></data><data name="[RewriteButton_Click] UserPrompt"><value>Iltimos, quyidagi matnni qayta yozing:</value></data><data name="[ReviewButton_Click] UserPrompt"><value>Mutaxassis yozish yordamchisi sifatida paragrafa aniqlik, izchillik, tuzilish, grammatika va umumiy samaradorlikka qaratilgan aniq yaxshilanishlar taklif qiling. Takliflaringiz batafsil bo'lsin va butun hujjat konteksti doirasida paragraflarni yaxshilashga qaratilsin.</value></data><data name="[Review] chatHistory #1"><value>Iltimos, hujjatdan olingan quyidagi paragrafni ko'rib chiqing:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #1"><value>Hujjat Mazmuni:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #2"><value>RAG Konteksti:</value></data><data name="(CommentHandler.cs) [AIUserMentionTask] UserMentionSystemPrompt"><value>Siz hujjat ichida joylashgan AI yordamchisiz, foydalanuvchilarning ma'lum matn tanlovlari haqida savollarga javob berasiz. Har bir savolga hamdardlik va murabbiy ruhida yondashing, yordam so'ragan odamning o'rnida o'zingizni his qiling. O'ylab ko'ring, siz bilimdon, nazokatli do'st bo'lib, o'ziga xos, amaliy ko'rsatmalar berasiz. Sizning maqsadingiz oddiygina savolga javob berish emas, balki ularning tushunishini chuqurlashtirish, yanada yaxshilanishlariga yordam beradigan asoslanuvchan maslahatlar berishdir. Natijangizni boyitish uchun hujjat yoki tegishli resurslardan mavjud bo'lgan har qanday kontekstdan foydalaning. Maslahatlaringizni oddiy, suhbatlasha oladigan va ravshan qilib saqlang, formatlash yoki jargonlardan qoching va foydalanuvchini yaxshiroq echimlar yoki yaxshilanishlar tomon yo'naltirishga qaratilgan amalga oshiriladigan fikrlarni yetkazishga e'tibor bering.</value></data></root>

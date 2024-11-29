@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema"><xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="this.ForgeTab.Label"><value>Zanaat</value></data><data name="this.ToolsGroup.Label"><value>Araçlar</value></data><data name="this.GenerateButton.Label"><value>Oluştur</value></data><data name="this.GenerateButton.SuperTip"><value>Kullanıcının isteği ve mevcut belgenin içeriğini kullanarak özel yanıtlar oluşturur.</value></data><data name="this.DefaultCheckBox.Label"><value>Varsayılan</value></data><data name="this.AboutButton.Label"><value>Hakkında</value></data><data name="this.AboutButton.ScreenTip"><value>Bu uygulama hakkında detaylar sunar.</value></data><data name="this.CancelButton.Label"><value>İptal</value></data><data name="this.CancelButton.ScreenTip"><value>Metin oluşturma sürecini durdurur.</value></data><data name="this.WritingToolsGallery.Label"><value>Yazım Araçları</value></data><data name="this.WritingToolsGallery.SuperTip"><value>Yazımınızı dilbilgisi, stil ve açıklık için AI destekli araçlarla geliştirin.</value></data><data name="this.ReviewButton.Label"><value>Gözden Geçir</value></data><data name="this.ReviewButton.SuperTip"><value>Belgenizi AI destekli yorumlar ve önerilerle geliştirin.</value></data><data name="this.ProofreadButton.Label"><value>Düzelt</value></data><data name="this.ProofreadButton.SuperTip"><value>Belgenizi parlatmak için yazım, dilbilgisi ve stil hatalarını kontrol edin.</value></data><data name="this.RewriteButton.Label"><value>Yeniden Yaz</value></data><data name="this.RewriteButton.SuperTip"><value>Metninizi AI destekli önerilerle gözden geçirip geliştirin.</value></data><data name="this.SettingsGroup.Label"><value>Ayarlar</value></data><data name="this.RAGControlButton.Label"><value>RAG Kontrolü</value></data><data name="this.RAGControlButton.SuperTip"><value>Geri Alma Artırma Üretimi (RAG) sistemindeki dosyaları yönetin.</value></data><data name="this.ModelListDropDown.Label"><value>Model Listesi</value></data><data name="this.ModelListDropDown.SuperTip"><value>TextCraft için kullanmak üzere bir dil modeli seçin.</value></data><data name="this.DefaultCheckBox.SuperTip"><value>TextCraft için varsayılan dil modelini ayarlayın.</value></data><data name="this.OptionsGroup.Label"><value>Seçenekler</value></data><data name="this.InfoGroup.Label"><value>Bilgi</value></data><data name="(ThisAddIn.cs) [InitializeAddIn] ArgumentException #1"><value>Model eksik. Devam etmek için lütfen yükleyin!</value></data><data name="[WritingToolsGallery_ButtonClick] ArgumentOutOfRangeException #1"><value>Seçilen buton tanınmadı.</value></data><data name="[ReviewButton_Click] MessageBox #1 (text)"><value>Gözden geçirme tamamlandı! Bu belge için yorum gerekmez.</value></data><data name="[ReviewButton_Click] MessageBox #1 (caption)"><value>İşlem Tamamlandı</value></data><data name="(ModelProperties.cs) [GetContextLength] OllamaMissingContextWindowException #1"><value>{0} için bağlam uzunluğunu almak mümkün değil!</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Text"><value>TextCraft'ın aşağıdaki internet kaynağına erişmesine izin vermek istiyor musunuz?</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Caption"><value>İnternet Erişimi</value></data><data name="(WordMarkdown.cs) [ApplyMarkdownFormatting] ArgumentOutofRangeException #1"><value>Markdown işleme için bilinmeyen format türü!</value></data><data name="(WordMarkdown.cs) [GetCodeBlockAtIndex] ApplicationException #1"><value>İndeks {0}'de Markdown kod bloğu bulunamadı!</value></data><data name="(WordMarkdown.cs) [ApplyImageFormatting] ArgumentException #1"><value>Geçersiz URL formatı</value></data><data name="(WordMarkdown.cs) [ApplyHeadingFormatting] ArgumentException #1"><value>Geçersiz Markdown başlığı: 1 ila 6 '#' karakteri içermelidir.</value></data><data name="[AnalyzeText] InvalidRangeException #1"><value>Analiz için seçilmiş metin yok!</value></data><data name="this.CommentSystemPrompt"><value>Siz bir uzman yazım yardımcı ve editörüsünüz; dokümandaki metinlerin açıklığını, tutarlılığını ve etkisini artırma konusunda uzmanlaştınız. Metinleri eleştirel bir şekilde analiz eder ve genel kalitesini artırmak için yapıcı geri bildirim sağlarsınız.</value></data><data name="(CommentHandler.cs) [AICommentReplyTask] UserChatMessage #2"><value>Önceki AI yorumlarına dayanarak, paragrafın açıklık, tutarlılık, yapı, dilbilgisi ve genel etkinlik üzerine ek spesifik iyileştirmeler önerin. Önerilerinizin ayrıntılı olduğundan ve paragrafı belgenin genel bağlamında geliştirmeye yönelik olduğundan emin olun.</value></data><data name="[ProofreadButton_Click] SystemPrompt"><value>Siz bir düzeltme asistanısınız. Gönderilen metindeki yazım, dilbilgisi, noktalama veya stil hatalarını düzeltmekle görevlisiniz. Sadece metin içinde gerekli olan değişiklikleri yapın. Metin zaten doğruysa ve herhangi bir değişikliğe ihtiyaç yoksa, sadece metni olduğu gibi tekrarlayın, herhangi bir açıklama veya yorum eklemeden.</value></data><data name="[ProofreadButton_Click] UserPrompt"><value>Lütfen aşağıdaki metni düzeltin. Gerekli düzeltmeleri metnin içinde herhangi bir açıklama veya yorum eklemeden gerçekleştirin. Metin doğruysa ve değişikliğe ihtiyaç yoksa, sadece olduğu gibi tekrar edin:</value></data><data name="[RewriteButton_Click] SystemPrompt"><value>Siz, kullanıcı tarafından sağlanan metni yeniden yazmakla görevli bir gelişmiş dil modelisiniz. Açıklığı artırmaya, akışı iyileştirmeye ve metnin orijinal anlamını korumaya odaklanmalısınız. Yanıtlarınız yalnızca yeniden yazılmış metni içermeli, ek açıklama veya yorum içermemelidir.</value></data><data name="[RewriteButton_Click] UserPrompt"><value>Lütfen aşağıdaki metni yeniden yazın:</value></data><data name="[ReviewButton_Click] UserPrompt"><value>Bir uzman yazım asistanı olarak, paragrafın açıklık, tutarlılık, yapı, dilbilgisi ve genel etkinliği üzerine spesifik iyileştirmeler önerin. Önerilerinizin ayrıntılı ve belgenin genel bağlamında paragrafı geliştirmeye yönelik olduğundan emin olun.</value></data><data name="[Review] chatHistory #1"><value>Lütfen belgeden çıkarılan aşağıdaki paragrafı gözden geçirin:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #1"><value>Belge İçeriği:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #2"><value>RAG Bağlamı:</value></data><data name="(CommentHandler.cs) [AIUserMentionTask] UserMentionSystemPrompt"><value>Siz, kullanıcı sorularına belirli metin seçimleriyle ilgili yanıt veren belgede gömülü bir AI asistanısınız. Her soruya empatiyle ve bir mentör zihniyetiyle yaklaşın, yardım isteyen kişinin yerine kendinizi koyun. Düşünceli, bilgili bir arkadaş gibi hareket edin ve içgörülü, pratik rehberlik sunun. Amacınız yalnızca sorularını yanıtlamak değil, aynı zamanda daha derin bir anlayış sağlamak, onlara gelişmelerine yardımcı olacak rasyonel tavsiyeler sunmaktır. Cevabınızı zenginleştirmek için belgede veya ilgili kaynaklarda mevcut bağlamı kullanın, mümkün olduğunca yardımcı olmaya çalışın. Tavsiyelerinizi basit, sohbet tarzında ve açık tutun, biçimlendirme veya jargon kullanmaktan kaçının ve kullanıcıyı daha iyi çözümler veya iyileştirmeler konusunda yönlendiren eyleme geçilebilir içgörüler sunmaya odaklanın.</value></data></root>

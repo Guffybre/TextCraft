@@ -906,9 +906,9 @@
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="[AboutBox()] this.Text" xml:space="preserve">
-    <value>About</value>
+    <value>About {0}</value>
   </data>
   <data name="[AboutBox()] this.labelVersion.Text" xml:space="preserve">
-    <value>Version</value>
+    <value>Version {0}</value>
   </data>
 </root>

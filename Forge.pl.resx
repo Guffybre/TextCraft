@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema"><xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="this.ForgeTab.Label"><value>Rzemiosło</value></data><data name="this.ToolsGroup.Label"><value>Narzędzia</value></data><data name="this.GenerateButton.Label"><value>Generuj</value></data><data name="this.GenerateButton.SuperTip"><value>Tworzy dostosowane odpowiedzi wykorzystując podpowiedź użytkownika oraz treść bieżącego dokumentu.</value></data><data name="this.DefaultCheckBox.Label"><value>Domyślny</value></data><data name="this.AboutButton.Label"><value>O</value></data><data name="this.AboutButton.ScreenTip"><value>Podaje szczegóły dotyczące tej aplikacji.</value></data><data name="this.CancelButton.Label"><value>Anuluj</value></data><data name="this.CancelButton.ScreenTip"><value>Zatrzymuje proces generacji tekstu.</value></data><data name="this.WritingToolsGallery.Label"><value>Narzędzia do pisania</value></data><data name="this.WritingToolsGallery.SuperTip"><value>Ulepsz swoje pisanie za pomocą narzędzi zasilanych AI, które poprawiają gramatykę, styl i klarowność.</value></data><data name="this.ReviewButton.Label"><value>Przegląd</value></data><data name="this.ReviewButton.SuperTip"><value>Ulepsz swój dokument dzięki komentarzom i sugestiom opartym na AI.</value></data><data name="this.ProofreadButton.Label"><value>Korekta</value></data><data name="this.ProofreadButton.SuperTip"><value>Sprawdza pisownię, gramatykę i błędy stylistyczne, aby poprawić twój dokument.</value></data><data name="this.RewriteButton.Label"><value>Przepisz</value></data><data name="this.RewriteButton.SuperTip"><value>Zrewiduj i popraw swój tekst przy użyciu sugestii opartych na AI.</value></data><data name="this.SettingsGroup.Label"><value>Ustawienia</value></data><data name="this.RAGControlButton.Label"><value>Kontrola RAG</value></data><data name="this.RAGControlButton.SuperTip"><value>Zarządzaj plikami w systemie Augmentacji Wyszukiwania i Generacji (RAG).</value></data><data name="this.ModelListDropDown.Label"><value>Lista modeli</value></data><data name="this.ModelListDropDown.SuperTip"><value>Wybierz model językowy do użycia w TextCraft.</value></data><data name="this.DefaultCheckBox.SuperTip"><value>Ustaw domyślny model językowy dla TextCraft.</value></data><data name="this.OptionsGroup.Label"><value>Opcje</value></data><data name="this.InfoGroup.Label"><value>Info</value></data><data name="(ThisAddIn.cs) [InitializeAddIn] ArgumentException #1"><value>Model osadzony brak. Proszę go zainstalować, aby kontynuować!</value></data><data name="[WritingToolsGallery_ButtonClick] ArgumentOutOfRangeException #1"><value>Wybrany przycisk nie został rozpoznany.</value></data><data name="[ReviewButton_Click] MessageBox #1 (text)"><value>Przegląd zakończony! Nie potrzebne są komentarze do tego dokumentu.</value></data><data name="[ReviewButton_Click] MessageBox #1 (caption)"><value>Akcja zakończona</value></data><data name="(ModelProperties.cs) [GetContextLength] OllamaMissingContextWindowException #1"><value>Nie można pobrać długości kontekstu dla {0}!</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Text"><value>Czy chcesz zezwolić TextCraft na dostęp do następującego zasobu internetowego?</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Caption"><value>Dostęp do Internetu</value></data><data name="(WordMarkdown.cs) [ApplyMarkdownFormatting] ArgumentOutofRangeException #1"><value>Nieznany typ formatu do przetwarzania Markdown!</value></data><data name="(WordMarkdown.cs) [GetCodeBlockAtIndex] ApplicationException #1"><value>Blok kodu Markdown nie został znaleziony w indeksie {0}!</value></data><data name="(WordMarkdown.cs) [ApplyImageFormatting] ArgumentException #1"><value>Nieprawidłowy format URL</value></data><data name="(WordMarkdown.cs) [ApplyHeadingFormatting] ArgumentException #1"><value>Nieprawidłowy nagłówek Markdown: musi zawierać od 1 do 6 znaków '#'.</value></data><data name="[AnalyzeText] InvalidRangeException #1"><value>Nie wybrano tekstu do analizy!</value></data><data name="this.CommentSystemPrompt"><value>Jesteś ekspertem w pisaniu i redakcji, specjalizującym się w poprawie klarowności, spójności i wpływu tekstu w dokumencie. Krytycznie analizujesz tekst i dostarczasz konstruktywnej informacji zwrotnej, aby poprawić ogólną jakość.</value></data><data name="(CommentHandler.cs) [AICommentReplyTask] UserChatMessage #2"><value>Na podstawie wcześniejszych komentarzy AI, zasugeruj dodatkowe konkretne ulepszenia do akapitu, koncentrując się na klarowności, spójności, strukturze, gramatyce i ogólnej skuteczności. Upewnij się, że Twoje sugestie są szczegółowe i mają na celu poprawę akapitu w kontekście całego dokumentu.</value></data><data name="[ProofreadButton_Click] SystemPrompt"><value>Jesteś asystentem w zakresie korekty. Twoim zadaniem jest poprawienie wszelkich błędów w pisowni, gramatyce, interpunkcji lub stylu w dostarczonym tekście. Wprowadzaj tylko niezbędne zmiany bezpośrednio w tekście. Jeśli tekst jest już poprawny i nie wymaga zmian, po prostu powtórz tekst takim, jaki jest, bez żadnych wyjaśnień ani uwag.</value></data><data name="[ProofreadButton_Click] UserPrompt"><value>Proszę poprawić poniższy tekst. Wprowadź wszelkie niezbędne poprawki bezpośrednio w tekście bez dodawania wyjaśnień ani uwag. Jeśli tekst jest poprawny i nie wymaga zmian, powtórz go dokładnie tak, jak jest:</value></data><data name="[RewriteButton_Click] SystemPrompt"><value>Jesteś zaawansowanym modelem językowym, którego zadaniem jest przepisanie tekstu dostarczonego przez użytkownika. Powinieneś skupić się na poprawie klarowności, poprawie przepływu i zachowaniu pierwotnego znaczenia tekstu. Twoje odpowiedzi powinny składać się wyłącznie z przepisane tekstu, bez dodatkowych wyjaśnień ani uwag.</value></data><data name="[RewriteButton_Click] UserPrompt"><value>Proszę przepisać poniższy tekst:</value></data><data name="[ReviewButton_Click] UserPrompt"><value>Jako ekspert w pisaniu, zaproponuj konkretne ulepszenia do akapitu, koncentrując się na klarowności, spójności, strukturze, gramatyce i ogólnej skuteczności. Upewnij się, że Twoje sugestie są szczegółowe i mają na celu poprawę akapitu w kontekście całego dokumentu.</value></data><data name="[Review] chatHistory #1"><value>Proszę ocenić poniższy akapit wyjęty z dokumentu:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #1"><value>Zawartość dokumentu:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #2"><value>Kontekst RAG:</value></data><data name="(CommentHandler.cs) [AIUserMentionTask] UserMentionSystemPrompt"><value>Jesteś asystentem AI osadzonym w dokumencie, odpowiadającym na pytania użytkowników dotyczące konkretnych fragmentów tekstu. Podchodź do każdego zapytania z empatią i myśleniem mentora, stawiając się w sytuacji osoby proszącej o pomoc. Wyobraź sobie, że jesteś myślącym, dobrze poinformowanym przyjacielem, który oferuje wnikliwe i praktyczne wskazówki. Twoim celem jest nie tylko odpowiedzenie na ich pytanie, ale także zapewnienie głębszego zrozumienia, oferując racjonalne porady, które pomagają im poprawić się i rozwijać. Użyj wszelkich dostępnych kontekstów z dokumentu lub pokrewnych zasobów, aby wzbogacić swoją odpowiedź, czyniąc ją jak najbardziej pomocną. Utrzymuj swoje zalecenia w prosty, konwersacyjny i jasny sposób, unikaj formatowania lub żargonu, a skup się na dostarczaniu praktycznych wskazówek, które prowadzą użytkownika do lepszych rozwiązań lub ulepszeń.</value></data></root>

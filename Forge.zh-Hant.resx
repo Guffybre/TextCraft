@@ -1,110 +1,50 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<root>
-  <!-- 
-    Microsoft ResX Schema 
-    
-    Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
-    associated with the data types.
-    
-    Example:
-    
-    ... ado.net/XML headers & schema ...
-    <resheader name="resmimetype">text/microsoft-resx</resheader>
-    <resheader name="version">2.0</resheader>
-    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
-    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
-    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
-    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
-    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
-        <value>[base64 mime encoded serialized .NET Framework object]</value>
-    </data>
-    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
-        <comment>This is a comment</comment>
-    </data>
-                
-    There are any number of "resheader" rows that contain simple 
-    name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
-    mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
-    extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
-    read any of the formats listed below.
-    
-    mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
-            : and then encoded with base64 encoding.
-    
-    mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
-            : and then encoded with base64 encoding.
-
-    mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
-            : using a System.ComponentModel.TypeConverter
-            : and then encoded with base64 encoding.
-    -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
-    <xsd:element name="root" msdata:IsDataSet="true">
-      <xsd:complexType>
-        <xsd:choice maxOccurs="unbounded">
-          <xsd:element name="metadata">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" />
-              </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-              <xsd:attribute ref="xml:space" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="assembly">
-            <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string" />
-              <xsd:attribute name="name" type="xsd:string" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="data">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-              <xsd:attribute ref="xml:space" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="resheader">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
-            </xsd:complexType>
-          </xsd:element>
-        </xsd:choice>
-      </xsd:complexType>
-    </xsd:element>
-  </xsd:schema>
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema"><xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
   <resheader name="resmimetype">
     <value>text/microsoft-resx</value>
   </resheader>
@@ -117,115 +57,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="this.ForgeTab.Label" xml:space="preserve">
-    <value>製作</value>
-  </data>
-  <data name="this.ToolsGroup.Label" xml:space="preserve">
-    <value>工具</value>
-  </data>
-  <data name="this.GenerateButton.Label" xml:space="preserve">
-    <value>生成</value>
-  </data>
-  <data name="this.GenerateButton.SuperTip" xml:space="preserve">
-    <value>根據使用者的提示和當前文件內容生成量身定制的回應。</value>
-  </data>
-  <data name="this.DefaultCheckBox.Label" xml:space="preserve">
-    <value>預設</value>
-  </data>
-  <data name="this.AboutButton.Label" xml:space="preserve">
-    <value>關於</value>
-  </data>
-  <data name="this.AboutButton.ScreenTip" xml:space="preserve">
-    <value>提供有關此應用程式的詳細資料</value>
-  </data>
-  <data name="this.CancelButton.Label" xml:space="preserve">
-    <value>取消</value>
-  </data>
-  <data name="this.CancelButton.ScreenTip" xml:space="preserve">
-    <value>終止文本生成過程</value>
-  </data>
-  <data name="this.WritingToolsGallery.Label" xml:space="preserve">
-    <value>寫作工具</value>
-  </data>
-  <data name="this.WritingToolsGallery.SuperTip" xml:space="preserve">
-    <value>使用 AI 驅動的工具來提升您的寫作，改善文法、風格和清晰度。</value>
-  </data>
-  <data name="this.ReviewButton.Label" xml:space="preserve">
-    <value>審查</value>
-  </data>
-  <data name="this.ReviewButton.SuperTip" xml:space="preserve">
-    <value>使用 AI 驅動的評論和建議來提升您的文件。</value>
-  </data>
-  <data name="this.ProofreadButton.Label" xml:space="preserve">
-    <value>校對</value>
-  </data>
-  <data name="this.ProofreadButton.SuperTip" xml:space="preserve">
-    <value>檢查拼寫、語法和風格錯誤，以完善您的文件。</value>
-  </data>
-  <data name="this.RewriteButton.Label" xml:space="preserve">
-    <value>重寫</value>
-  </data>
-  <data name="this.RewriteButton.SuperTip" xml:space="preserve">
-    <value>使用 AI 驅動的建議來修訂和提升您的文本。</value>
-  </data>
-  <data name="this.SettingsGroup.Label" xml:space="preserve">
-    <value>設定</value>
-  </data>
-  <data name="this.RAGControlButton.Label" xml:space="preserve">
-    <value>RAG 控制</value>
-  </data>
-  <data name="this.RAGControlButton.SuperTip" xml:space="preserve">
-    <value>管理檔案在檢索增強生成 (RAG) 系統中。</value>
-  </data>
-  <data name="this.ModelListDropDown.Label" xml:space="preserve">
-    <value>模型清單</value>
-  </data>
-  <data name="this.ModelListDropDown.SuperTip" xml:space="preserve">
-    <value>選擇要在 TextCraft 中使用的語言模型。</value>
-  </data>
-  <data name="this.DefaultCheckBox.SuperTip" xml:space="preserve">
-    <value>為 TextCraft 設定預設語言模型</value>
-  </data>
-  <data name="this.OptionsGroup.Label" xml:space="preserve">
-    <value>選項</value>
-  </data>
-  <data name="this.InfoGroup.Label" xml:space="preserve">
-    <value>資訊</value>
-  </data>
-  <data name="(ThisAddIn.cs) [InitializeAddIn] ArgumentException #1" xml:space="preserve">
-    <value>嵌入模型缺失。請安裝後繼續！</value>
-  </data>
-  <data name="[WritingToolsGallery_ButtonClick] ArgumentOutOfRangeException #1" xml:space="preserve">
-    <value>選取的按鈕無法識別</value>
-  </data>
-  <data name="[ReviewButton_Click] MessageBox #1 (text)" xml:space="preserve">
-    <value>審查完成！此文件不需要任何評論。</value>
-  </data>
-  <data name="[ReviewButton_Click] MessageBox #1 (caption)" xml:space="preserve">
-    <value>操作完成</value>
-  </data>
-  <data name="(ModelProperties.cs) [GetContextLength] OllamaMissingContextWindowException #1" xml:space="preserve">
-    <value>無法取得 {0} 的上下文長度！</value>
-  </data>
-  <data name="[CommonUtils.cs] (GetInternetAccessPermission) MessageBox #1 Text" xml:space="preserve">
-    <value>您是否要允許 TextCraft 存取以下網路資源？</value>
-  </data>
-  <data name="[CommonUtils.cs] (GetInternetAccessPermission) MessageBox #1 Caption" xml:space="preserve">
-    <value>網路存取</value>
-  </data>
-  <data name="(WordMarkdown.cs) [ApplyMarkdownFormatting] ArgumentOutofRangeException #1" xml:space="preserve">
-    <value>未知的 Markdown 處理格式類型！</value>
-  </data>
-  <data name="(WordMarkdown.cs) [GetCodeBlockAtIndex] ApplicationException #1" xml:space="preserve">
-    <value>在索引 {0} 未找到 Markdown 代碼區塊！</value>
-  </data>
-  <data name="(WordMarkdown.cs) [ApplyImageFormatting] ArgumentException #1" xml:space="preserve">
-    <value>無效的 URL 格式</value>
-  </data>
-  <data name="(WordMarkdown.cs) [ApplyHeadingFormatting] ArgumentException #1" xml:space="preserve">
-    <value>無效的 Markdown 標題：必須包含 1 到 6 個 '#' 字符。</value>
-  </data>
-  <data name="[AnalyzeText] InvalidRangeException #1" xml:space="preserve">
-    <value>未選取任何文字進行分析！</value>
-  </data>
-</root>
+<data name="this.ForgeTab.Label"><value>工藝</value></data><data name="this.ToolsGroup.Label"><value>工具</value></data><data name="this.GenerateButton.Label"><value>生成</value></data><data name="this.GenerateButton.SuperTip"><value>使用用戶的提示和當前文檔的內容生成量身定制的響應。</value></data><data name="this.DefaultCheckBox.Label"><value>默認</value></data><data name="this.AboutButton.Label"><value>關於</value></data><data name="this.AboutButton.ScreenTip"><value>提供有關該應用程序的詳細信息。</value></data><data name="this.CancelButton.Label"><value>取消</value></data><data name="this.CancelButton.ScreenTip"><value>停止文本生成過程。</value></data><data name="this.WritingToolsGallery.Label"><value>寫作工具</value></data><data name="this.WritingToolsGallery.SuperTip"><value>通過人工智能驅動的工具增強您的寫作，提升語法、風格和清晰度。</value></data><data name="this.ReviewButton.Label"><value>審核</value></data><data name="this.ReviewButton.SuperTip"><value>通過人工智能驅動的評論和建議增強您的文檔。</value></data><data name="this.ProofreadButton.Label"><value>校對</value></data><data name="this.ProofreadButton.SuperTip"><value>檢查拼寫、語法和風格錯誤，以潤色您的文檔。</value></data><data name="this.RewriteButton.Label"><value>重寫</value></data><data name="this.RewriteButton.SuperTip"><value>通過人工智能驅動的建議修改和增強您的文本。</value></data><data name="this.SettingsGroup.Label"><value>設置</value></data><data name="this.RAGControlButton.Label"><value>RAG 控制</value></data><data name="this.RAGControlButton.SuperTip"><value>管理檢索增強生成 (RAG) 系統內的文件。</value></data><data name="this.ModelListDropDown.Label"><value>模型列表</value></data><data name="this.ModelListDropDown.SuperTip"><value>選擇用於 TextCraft 的語言模型。</value></data><data name="this.DefaultCheckBox.SuperTip"><value>設置 TextCraft 的默認語言模型。</value></data><data name="this.OptionsGroup.Label"><value>選項</value></data><data name="this.InfoGroup.Label"><value>信息</value></data><data name="(ThisAddIn.cs) [InitializeAddIn] ArgumentException #1"><value>嵌入的模型丟失。請安裝以繼續！</value></data><data name="[WritingToolsGallery_ButtonClick] ArgumentOutOfRangeException #1"><value>未識別選定的按鈕。</value></data><data name="[ReviewButton_Click] MessageBox #1 (text)"><value>審核完成！此文檔不需要評論。</value></data><data name="[ReviewButton_Click] MessageBox #1 (caption)"><value>操作完成</value></data><data name="(ModelProperties.cs) [GetContextLength] OllamaMissingContextWindowException #1"><value>無法獲取 {0} 的上下文長度！</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Text"><value>您想允許 TextCraft 訪問以下互聯網資源嗎？</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Caption"><value>互聯網訪問</value></data><data name="(WordMarkdown.cs) [ApplyMarkdownFormatting] ArgumentOutofRangeException #1"><value>Markdown 處理未知格式類型！</value></data><data name="(WordMarkdown.cs) [GetCodeBlockAtIndex] ApplicationException #1"><value>在索引 {0} 處未找到 Markdown 代碼塊！</value></data><data name="(WordMarkdown.cs) [ApplyImageFormatting] ArgumentException #1"><value>無效的 URL 格式</value></data><data name="(WordMarkdown.cs) [ApplyHeadingFormatting] ArgumentException #1"><value>無效的 Markdown 標題：必須包含 1 到 6 個 '#' 字符。</value></data><data name="[AnalyzeText] InvalidRangeException #1"><value>未選擇文本進行分析！</value></data><data name="this.CommentSystemPrompt"><value>您是一個專業的寫作助手和編輯，專注於增強文本的清晰性、一致性和影響力。您會對文本進行批判性分析，並提供建設性反饋以改善整體質量。</value></data><data name="(CommentHandler.cs) [AICommentReplyTask] UserChatMessage #2"><value>根據之前的人工智能評論，建議對段落進行額外具體的改進，重點在於清晰性、一致性、結構、語法和整體有效性。確保您的建議詳細且旨在提高段落在整個文檔中的上下文。</value></data><data name="[ProofreadButton_Click] SystemPrompt"><value>您是一位校對助手。你的任務是糾正提供文本中的任何拼寫、語法、標點或風格錯誤。只直接在文本中進行必要的更改。如果文本已正確且不需要任何更改，只需重複該文本，而不提供任何解釋或評論。</value></data><data name="[ProofreadButton_Click] UserPrompt"><value>請校對以下文本。直接在文本中進行任何必要的更改，而不添加任何解釋或評論。如果文本正確且無需更改，請按原樣重複它：</value></data><data name="[RewriteButton_Click] SystemPrompt"><value>您是一個高級語言模型，負責重寫用戶提供的文本。您應該專注於增強清晰度、改善流暢性，並保持文本的原始意義。您的回應應嚴格由重寫的文本組成，並且不附加任何解釋或評論。</value></data><data name="[RewriteButton_Click] UserPrompt"><value>請重寫以下文本：</value></data><data name="[ReviewButton_Click] UserPrompt"><value>作為一名專業的寫作助手，對段落提出具體改進的建議，重點在於清晰性、一致性、結構、語法和整體有效性。確保您的建議詳細且旨在改善段落在整個文檔中的上下文。</value></data><data name="[Review] chatHistory #1"><value>請審核從文檔中提取的以下段落：</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #1"><value>文檔內容：</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #2"><value>RAG 上下文：</value></data><data name="(CommentHandler.cs) [AIUserMentionTask] UserMentionSystemPrompt"><value>您是嵌入文檔中的人工智能助手，負責回答用戶關於特定文本選擇的問題。以同理心和導師的心態來處理每個詢問，將自己置於尋求幫助的人的位置。想像一下，您是一位深思熟慮且知識淵博的朋友，提供有見地的實用指導。您的目標不僅是回答他們的問題，還是提供更深入的理解，提供理性的建議幫助他們改善和成長。使用文檔或相關資源的任何上下文來豐富您的回應，使其盡可能有幫助。保持您的建議簡單、對話式和清晰，避免使用格式或行話，專注於提供指導用戶朝著更好解決方案或改進的可操作見解。</value></data></root>

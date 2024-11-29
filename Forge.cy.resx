@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema"><xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="this.ForgeTab.Label"><value>Crefft</value></data><data name="this.ToolsGroup.Label"><value>Offer</value></data><data name="this.GenerateButton.Label"><value>Cynhyrchu</value></data><data name="this.GenerateButton.SuperTip"><value>Mae'n creu ymatebion addas gan ddefnyddio'r prompt gan y defnyddiwr a chynnwys y ddogfen bresennol.</value></data><data name="this.DefaultCheckBox.Label"><value>Diofyn</value></data><data name="this.AboutButton.Label"><value>Am</value></data><data name="this.AboutButton.ScreenTip"><value>Mae'n darparu manylion am y cais hwn.</value></data><data name="this.CancelButton.Label"><value>Diddymu</value></data><data name="this.CancelButton.ScreenTip"><value>Mae'n stopio'r broses cynhyrchu testun.</value></data><data name="this.WritingToolsGallery.Label"><value>Offer Ysgrifennu</value></data><data name="this.WritingToolsGallery.SuperTip"><value>Gwella dy ysgrifennu gyda chynhyrchion pwerus AI ar gyfer gramadeg, steil, a chlariaeth.</value></data><data name="this.ReviewButton.Label"><value>Adolygu</value></data><data name="this.ReviewButton.SuperTip"><value>Gwella dy ddogfen gyda sylwadau a chynigion wedi'u gyrru gan AI.</value></data><data name="this.ProofreadButton.Label"><value>Proffwydo</value></data><data name="this.ProofreadButton.SuperTip"><value>Gwirio am wallau sillafu, gramadeg, a steil i wella dy ddogfen.</value></data><data name="this.RewriteButton.Label"><value>Ailysgrifennu</value></data><data name="this.RewriteButton.SuperTip"><value>Diweddaru a gwella dy destun gyda chynigion wedi'u gyrru gan AI.</value></data><data name="this.SettingsGroup.Label"><value>Gwybodaeth</value></data><data name="this.RAGControlButton.Label"><value>Rheolaeth RAG</value></data><data name="this.RAGControlButton.SuperTip"><value>Rheoli ffeiliau o fewn y system Adfer Gwella Cynhyrchu (RAG).</value></data><data name="this.ModelListDropDown.Label"><value>Rhestr Model</value></data><data name="this.ModelListDropDown.SuperTip"><value>Dewis model iaith ar gyfer defnydd yn TextCraft.</value></data><data name="this.DefaultCheckBox.SuperTip"><value>Gosod y model iaith diofyn ar gyfer TextCraft.</value></data><data name="this.OptionsGroup.Label"><value>Dewisiadau</value></data><data name="this.InfoGroup.Label"><value>Gwybodaeth</value></data><data name="(ThisAddIn.cs) [InitializeAddIn] ArgumentException #1"><value>Mae'r model wedi'i embeds missing. Os gwelwch yn dda ei osod i ddod ymlaen!</value></data><data name="[WritingToolsGallery_ButtonClick] ArgumentOutOfRangeException #1"><value>Ni chydnabyddir y botwm a ddewiswyd.</value></data><data name="[ReviewButton_Click] MessageBox #1 (text)"><value>Adolygiad wedi'i gwblhau! Nid oes angen sylwadau ar gyfer y ddogfen hon.</value></data><data name="[ReviewButton_Click] MessageBox #1 (caption)"><value>Gweithred wedi'i chwblhau</value></data><data name="(ModelProperties.cs) [GetContextLength] OllamaMissingContextWindowException #1"><value>Ni ellir dod o hyd i hyd y cyd-destun ar gyfer {0}!</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Text"><value>Oes gennych chi eisiau i ganiatáu i TextCraft gael mynediad i'r adnodd rhyngrwyd canlynol?</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Caption"><value>Mynediad Rhyngrwyd</value></data><data name="(WordMarkdown.cs) [ApplyMarkdownFormatting] ArgumentOutofRangeException #1"><value>Math fformat anhysbys ar gyfer prosesu Markdown!</value></data><data name="(WordMarkdown.cs) [GetCodeBlockAtIndex] ApplicationException #1"><value>Bloc cod Markdown heb ei ddarganfod yn yr indi {0}!</value></data><data name="(WordMarkdown.cs) [ApplyImageFormatting] ArgumentException #1"><value>Fformat URL annilys</value></data><data name="(WordMarkdown.cs) [ApplyHeadingFormatting] ArgumentException #1"><value>Penawd Markdown annilys: mae'n rhaid cynnwys 1 i 6 '#' cymeriadau.</value></data><data name="[AnalyzeText] InvalidRangeException #1"><value>Nid oes testun wedi'i ddewis ar gyfer dadansoddi!</value></data><data name="this.CommentSystemPrompt"><value>Rydych chi'n gynorthwy-ydd ysgrifennu arbenigol a golygydd, sydd wedi'i hymnaru ar wella clirdeb, cydgysylltiad, a chynnydd testun o fewn dogfen. Rydych chi'n dadansoddi testun yn feirniadol ac yn darparu adborth adeiladol i wella ansawdd cyffredinol.</value></data><data name="(CommentHandler.cs) [AICommentReplyTask] UserChatMessage #2"><value>Yn seiliedig ar y sylwadau AI blaenorol, awgrymwch welliannau penodol ychwanegol i'r paragraff, gan ganolbwyntio ar glirdeb, cydgysylltiad, strwythur, gramadeg, a chynhwysedd cyffredinol. Sicrhewch fod eich awgrymiadau'n fanwl ac wedi'u cyfeirio at wella'r paragraff yn y cyd-destun o'r Ddogfen gyfan.</value></data><data name="[ProofreadButton_Click] SystemPrompt"><value>Rydych chi'n gynorthwy-ydd gwanwyn. Mae dy dasg i gywiro unrhyw wallau sillafu, gramadeg, pwyntiad, neu arddull yn y testun a roddwyd. Gwnewch newidau angenrheidiol yn uniongyrchol yn y testun. Os yw'r testun yn gywir ac nad oes angen newidion, dyma ailddarllen y testun fel y mae heb ddarparu unrhyw esboniadau nac ymatebion.</value></data><data name="[ProofreadButton_Click] UserPrompt"><value>Os gwelwch yn dda, gwnewch gwanwyn y testun canlynol. Gwnewch unrhyw newidiadau angenrheidiol yn uniongyrchol yn y testun heb ychwanegu unrhyw esboniadau nac ymatebion. Os yw'r testun yn gywir ac nad oes angen newidion, dyma ei adleisio'n fanwl fel y mae:</value></data><data name="[RewriteButton_Click] SystemPrompt"><value>Rydych chi'n fodel iaith uwch yn gyfrifol am ailddarllen testun a ddarperir gan y defnyddiwr. Dylech ganolbwyntio ar wella clirdeb, gwelliant, a chadw'r ystyr gwreiddiol o'r testun. Dylai eich ymatebion fod yn benodol i'r testun a phrisgawiadaeth heb unrhyw esboniadau nac ymatebion ychwanegol.</value></data><data name="[RewriteButton_Click] UserPrompt"><value>Os gwelwch yn dda, ailddarllen y testun canlynol:</value></data><data name="[ReviewButton_Click] UserPrompt"><value>Fel cynorthwy-ydd ysgrifennu arbenigol, awgrymwch welliannau penodol i'r paragraff, gan ganolbwyntio ar glirdeb, cydgysylltiad, strwythur, gramadeg, a chynhwysedd cyffredinol. Sicrhewch fod eich awgrymiadau'n fanwl ac wedi'u cyfeirio at wella'r paragraff yn y cyd-destun o'r Ddogfen gyfan.</value></data><data name="[Review] chatHistory #1"><value>Os gwelwch yn dda adolygwch y paragraff canlynol a dynnwyd o'r Ddogfen:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #1"><value>Cynnwys Dogfen:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #2"><value>Cyd-destun RAG:</value></data><data name="(CommentHandler.cs) [AIUserMentionTask] UserMentionSystemPrompt"><value>Rydych chi'n gynorthwy-i AI wedi'i fewnosod yn ddogfen, yn ymateb i gwestiynau defnyddiwr ynghylch dewis penodol o destun. Ymdrechwch ym mhob ymholiad gyda chydymdeimlad a meddwl fel mentoriaid, gan ddod yn amlwg fel y person sy'n gofyn am gymorth. Dyma chi'n ffrind meddylgar ac ymarferol, sydd ag arweiniad proffesiynol a defnyddiol. Mae dy nod yw nid yn unig ateb eu cwestiwn ond hefyd rhoi dealltwriaeth ddyfnach, gan gynnig cyngor rhesymegol sy'n eu helpu i wella a thyfu. Defnyddiwch unrhyw gyd-destun sydd ar gael o'r ddogfen neu adnoddau perthnasol i gyfoethogi dy ymateb, gan sicrhau ei fod mor ddefnyddiol â phosibl. Cadwch dy gyngor yn syml, anffurfiol, a chlir, gan osgoi fformatio neu jargof, a chanolbwyntio ar ddarparu mewnwelediadau gweithredol sy'n arwain y defnyddiwr tuag at well rhaglenni neu welliannau.</value></data></root>

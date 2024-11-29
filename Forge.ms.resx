@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema"><xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="this.ForgeTab.Label"><value>Kerajinan</value></data><data name="this.ToolsGroup.Label"><value>Alat</value></data><data name="this.GenerateButton.Label"><value>Hasilkan</value></data><data name="this.GenerateButton.SuperTip"><value>Membuat respons yang disesuaikan menggunakan prompt pengguna dan kandungan dokumen semasa.</value></data><data name="this.DefaultCheckBox.Label"><value>Lalai</value></data><data name="this.AboutButton.Label"><value>Mengenai</value></data><data name="this.AboutButton.ScreenTip"><value>Memberikan butiran tentang aplikasi ini.</value></data><data name="this.CancelButton.Label"><value>Batal</value></data><data name="this.CancelButton.ScreenTip"><value>Menghentikan proses penjanaan teks.</value></data><data name="this.WritingToolsGallery.Label"><value>Alat Menulis</value></data><data name="this.WritingToolsGallery.SuperTip"><value>Tingkatkan penulisan anda dengan alat berkuasa AI untuk tatabahasa, gaya, dan kejelasan.</value></data><data name="this.ReviewButton.Label"><value>Tinjau</value></data><data name="this.ReviewButton.SuperTip"><value>Tingkatkan dokumen anda dengan komen dan cadangan yang didorong AI.</value></data><data name="this.ProofreadButton.Label"><value>Semak</value></data><data name="this.ProofreadButton.SuperTip"><value>Periksa kesalahan ejaan, tatabahasa, dan gaya untuk memperkemaskan dokumen anda.</value></data><data name="this.RewriteButton.Label"><value>Tulis Semula</value></data><data name="this.RewriteButton.SuperTip"><value>Semak dan tingkatkan teks anda dengan cadangan berkuasa AI.</value></data><data name="this.SettingsGroup.Label"><value>Tetapan</value></data><data name="this.RAGControlButton.Label"><value>Kawalan RAG</value></data><data name="this.RAGControlButton.SuperTip"><value>Mengurus fail dalam sistem Pengukuhan Pengambilan Generasi (RAG).</value></data><data name="this.ModelListDropDown.Label"><value>Senarai Model</value></data><data name="this.ModelListDropDown.SuperTip"><value>Pilih model bahasa untuk digunakan dalam TextCraft.</value></data><data name="this.DefaultCheckBox.SuperTip"><value>Tetapkan model bahasa lalai untuk TextCraft.</value></data><data name="this.OptionsGroup.Label"><value>Pilihan</value></data><data name="this.InfoGroup.Label"><value>Info</value></data><data name="(ThisAddIn.cs) [InitializeAddIn] ArgumentException #1"><value>Model yang disemat tidak ada. Sila pasang untuk meneruskan!</value></data><data name="[WritingToolsGallery_ButtonClick] ArgumentOutOfRangeException #1"><value>Butang yang dipilih tidak dikenali.</value></data><data name="[ReviewButton_Click] MessageBox #1 (text)"><value>Tinjauan lengkap! Tiada komen diperlukan untuk dokumen ini.</value></data><data name="[ReviewButton_Click] MessageBox #1 (caption)"><value>Tindakan Selesai</value></data><data name="(ModelProperties.cs) [GetContextLength] OllamaMissingContextWindowException #1"><value>Tidak dapat mengambil panjang konteks untuk {0}!</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Text"><value>Adakah anda ingin membenarkan TextCraft mengakses sumber internet berikut?</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Caption"><value>Akses Internet</value></data><data name="(WordMarkdown.cs) [ApplyMarkdownFormatting] ArgumentOutofRangeException #1"><value>Jenis format tidak diketahui untuk pemprosesan Markdown!</value></data><data name="(WordMarkdown.cs) [GetCodeBlockAtIndex] ApplicationException #1"><value>Blok kod Markdown tidak ditemui di indeks {0}!</value></data><data name="(WordMarkdown.cs) [ApplyImageFormatting] ArgumentException #1"><value>Format URL tidak sah</value></data><data name="(WordMarkdown.cs) [ApplyHeadingFormatting] ArgumentException #1"><value>Tajuk Markdown tidak sah: mesti mengandungi 1 hingga 6 karakter '#' .</value></data><data name="[AnalyzeText] InvalidRangeException #1"><value>Tiada teks dipilih untuk analisis!</value></data><data name="this.CommentSystemPrompt"><value>Anda adalah pembantu penulisan pakar dan editor, khusus dalam meningkatkan kejelasan, koherensi, dan impak teks dalam dokumen. Anda menganalisis teks dengan kritikal dan memberikan maklum balas membina untuk meningkatkan kualiti keseluruhan.</value></data><data name="(CommentHandler.cs) [AICommentReplyTask] UserChatMessage #2"><value>Berdasarkan komen AI sebelumnya, cadangkan penambahbaikan khusus tambahan untuk perenggan, fokus pada kejelasan, koherensi, struktur, tatabahasa, dan keberkesanan keseluruhan. Pastikan cadangan anda terperinci dan bertujuan untuk meningkatkan perenggan dalam konteks keseluruhan Dokumen.</value></data><data name="[ProofreadButton_Click] SystemPrompt"><value>Anda adalah pembantu penyuntingan. Tugas anda adalah untuk membetulkan sebarang kesalahan ejaan, tatabahasa, tanda baca, atau gaya dalam teks yang disediakan. Hanya buat perubahan perlu secara langsung dalam teks. Jika teks sudah betul dan tidak memerlukan perubahan, ulangi sahaja teks itu seperti sedia ada tanpa memberikan sebarang penjelasan atau komen.</value></data><data name="[ProofreadButton_Click] UserPrompt"><value>Sila semak teks berikut. Lakukan sebarang pembetulan yang diperlukan secara langsung dalam teks tanpa menambah sebarang penjelasan atau komen. Jika teks betul dan tidak memerlukan perubahan, hanya ulangi ia seperti sedia ada:</value></data><data name="[RewriteButton_Click] SystemPrompt"><value>Anda adalah model bahasa lanjutan yang ditugaskan untuk menulis semula teks yang disediakan oleh pengguna. Anda harus memfokuskan kepada meningkatkan kejelasan, memperbaiki aliran, dan mengekalkan makna asal teks. Jawapan anda seharusnya hanya terdiri daripada teks yang ditulis semula tanpa sebarang penjelasan atau komen tambahan.</value></data><data name="[RewriteButton_Click] UserPrompt"><value>Sila tulis semula teks berikut:</value></data><data name="[ReviewButton_Click] UserPrompt"><value>Sebagai pembantu penulisan pakar, cadangkan penambahbaikan khusus untuk perenggan, fokus pada kejelasan, koherensi, struktur, tatabahasa, dan keberkesanan keseluruhan. Pastikan cadangan anda terperinci dan bertujuan untuk meningkatkan perenggan dalam konteks keseluruhan Dokumen.</value></data><data name="[Review] chatHistory #1"><value>Sila semak perenggan berikut yang diekstrak dari Dokumen:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #1"><value>Kandungan Dokumen:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #2"><value>Konteks RAG:</value></data><data name="(CommentHandler.cs) [AIUserMentionTask] UserMentionSystemPrompt"><value>Anda adalah pembantu AI yang disemat dalam dokumen, bertindak balas terhadap soalan pengguna tentang pemilihan teks tertentu. Dekati setiap pertanyaan dengan empati dan minda seorang mentor, meletakkan diri anda dalam kasut orang yang meminta bantuan. Bayangkan anda adalah seorang teman yang pemikir dan berpengetahuan yang menawarkan panduan yang memberi makna, praktikal. Matlamat anda adalah untuk tidak hanya menjawab soalan mereka tetapi juga untuk memberikan pemahaman yang lebih mendalam, menawarkan nasihat rasional yang membantu mereka memperbaiki dan berkembang. Gunakan sebarang konteks yang ada daripada dokumen atau sumber berkaitan untuk memperkayakan jawapan anda, menjadikannya seberguna mungkin. Pastikan nasihat anda mudah, perbualan, dan jelas, mengelakkan format atau jargon, dan fokus pada memberikan panduan yang boleh dilaksanakan yang membantu pengguna ke arah penyelesaian atau peningkatan yang lebih baik.</value></data></root>

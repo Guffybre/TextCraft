@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema"><xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="this.ForgeTab.Label"><value>ចែកចាយ</value></data><data name="this.ToolsGroup.Label"><value>ឧបករណ៍</value></data><data name="this.GenerateButton.Label"><value>បង្កើត</value></data><data name="this.GenerateButton.SuperTip"><value>បង្កើតចម្លើយបានត្រូវគ្នាដោយប្រើការស្នើសុំរបស់អ្នកប្រើ និងមាតិកាដែលមានសារៈសំខាន់។</value></data><data name="this.DefaultCheckBox.Label"><value>ដើមទេខ</value></data><data name="this.AboutButton.Label"><value>អំពី</value></data><data name="this.AboutButton.ScreenTip"><value>ផ្តល់ព័ត៌មានលម្អិតអំពីកម្មវិធីនេះ។</value></data><data name="this.CancelButton.Label"><value>មិនយល់ព្រម</value></data><data name="this.CancelButton.ScreenTip"><value>ឈប់ដំណើរការបង្កើតអត្ថបទ។</value></data><data name="this.WritingToolsGallery.Label"><value>ឧបករណ៍សរសេរ</value></data><data name="this.WritingToolsGallery.SuperTip"><value>បង្កើនសរសេររបស់អ្នកដោយឧបករណ៍ AI សំរាប់ការធ្វើវីជ្ជមានប្រកបដោយភាពច្បាស់ និងសកម្មភាព។</value></data><data name="this.ReviewButton.Label"><value>ការត្រួតពិនិត្ត</value></data><data name="this.ReviewButton.SuperTip"><value>បង្កើនឯកសាររបស់អ្នកដោយមូលដ្ឋាន AI និងការណែនាំ។</value></data><data name="this.ProofreadButton.Label"><value>សម្រួល</value></data><data name="this.ProofreadButton.SuperTip"><value>ពិនិត្យការកំហុសដំណើរការវេយចនា និងភាពថាល្បូងដើម្បីដោះស្រាយឯកសាររបស់អ្នក។</value></data><data name="this.RewriteButton.Label"><value>សរសេរឡើងវិញ</value></data><data name="this.RewriteButton.SuperTip"><value>កែលម្អ និងបង្កើនអត្ថបទរបស់អ្នកជាមួយការណែនាំ AI។</value></data><data name="this.SettingsGroup.Label"><value>ការកំណត់</value></data><data name="this.RAGControlButton.Label"><value>ការត្រួតគ្រប់គ្រង RAG</value></data><data name="this.RAGControlButton.SuperTip"><value>គ្រប់គ្រងឯកសារក្នុងប្រព័ន្ធការប្រែប្រជា RAG (Retrieval Augmentation Generation)។</value></data><data name="this.ModelListDropDown.Label"><value>បញ្ជីម៉ូដែល</value></data><data name="this.ModelListDropDown.SuperTip"><value>ជ្រើសរើសម៉ូដែលភាសាសម្រាប់ប្រើនៅក្នុង TextCraft។</value></data><data name="this.DefaultCheckBox.SuperTip"><value>កំណត់ម៉ូដែលភាសាដើមសម្រាប់ TextCraft។</value></data><data name="this.OptionsGroup.Label"><value>ជម្រើស</value></data><data name="this.InfoGroup.Label"><value>ព័ត៌មាន</value></data><data name="(ThisAddIn.cs) [InitializeAddIn] ArgumentException #1"><value>ម៉ូដែលស្ថិតនៅក្រោមមិនមាន។ សូមតម្លើងវាសម្រាប់ចាប់ផ្តើម!</value></data><data name="[WritingToolsGallery_ButtonClick] ArgumentOutOfRangeException #1"><value>ប៊ូតុងដែលបានជ្រើសមិនត្រូវបានស្គាល់។</value></data><data name="[ReviewButton_Click] MessageBox #1 (text)"><value>ការត្រួតពិនិត្យបានបញ្ចប់! គ្មានការគូសសំណើសម្រាប់ឯកសារនេះ។</value></data><data name="[ReviewButton_Click] MessageBox #1 (caption)"><value>ការបំពេញសកម្មភាព</value></data><data name="(ModelProperties.cs) [GetContextLength] OllamaMissingContextWindowException #1"><value>មិនអាចទាញយក ប្រវែងបរិបទសម្រាប់ {0}!</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Text"><value>តើអ្នកចង់អនុញ្ញាតឱ្យ TextCraft ចូលដាក់ធនធានអ៊ីនធឺណេតខាងក្រោមទេ?</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Caption"><value>ចូលដ vàoអ៊ីនធឺណេត</value></data><data name="(WordMarkdown.cs) [ApplyMarkdownFormatting] ArgumentOutofRangeException #1"><value>ប្រភេទទ្រង់ទ្រាយមិនស្គាល់សម្រាប់ការប្រែប្រជា Markdown!</value></data><data name="(WordMarkdown.cs) [GetCodeBlockAtIndex] ApplicationException #1"><value>ក៏ នៅមិនមានប្លុកកូដ Markdown នៅក្នុងឌីគឌី {0}!</value></data><data name="(WordMarkdown.cs) [ApplyImageFormatting] ArgumentException #1"><value>ទ្រង់ទ្រាយ URL មិនត្រឹមត្រូវ</value></data><data name="(WordMarkdown.cs) [ApplyHeadingFormatting] ArgumentException #1"><value>ក្បាល Markdown មិនត្រឹមត្រូវ: ត្រូវតែលក់ពី 1 ដល់ 6 '#' តារាង។</value></data><data name="[AnalyzeText] InvalidRangeException #1"><value>គ្មានអត្ថបទដែលបានជ្រើសសម្រាប់ការវិភាគ!</value></data><data name="this.CommentSystemPrompt"><value>អ្នកគឺជាការជួយសរសេរ និងកែសម្រួលវេយចនាដែលមានជំនាញពាក់ព័ន្ធលើការធ្វើឱ្យច្បាស់ រៀបចំ និងបង្កើនប្រសិទ្ធភាពនៃអត្ថបទនៅក្នុងឯកសារ។ អ្នកវិភាគអត្ថបទយ៉ាងច្បាស់ និងផ្តល់មតិអនុញ្ញាតដើម្បីធ្វើឱ្យមានគុណភាពទាំងមូល។</value></data><data name="(CommentHandler.cs) [AICommentReplyTask] UserChatMessage #2"><value>យោងទៅតាមមតិ AI មុននេះ សូមផ្តល់ការកែលម្អដែលមានជាក់លាក់បន្ថែមទៅអត្ថបទ ពាក់ព័ន្ធនឹងភាពច្បាស់ ហើយកំណត់លក្ខណៈ បំណុល និងប្រសិទ្ធភាពទាំងមូល។ សូមមានការណែនាំរបស់អ្នកលម្អិត និងមើលទៅរកការបង្កើនប្រសិទ្ធភាពនៃអត្ថបទនៅក្នុងសេចក្តីថ្លែងថានៅក្នុងឯកសារទាំងមូល។</value></data><data name="[ProofreadButton_Click] SystemPrompt"><value>អ្នកគឺជាអ្នកជួយបញ្ជីពិនិត្យ។ ព្រឹត្តិការណ៍របស់អ្នកគឺជាការកែសម្រួលកំហុសអក្សរសាស្រ្ត របស់អ្នកសរសេរ។ សូមធ្វើការផ្លាស់ប្តូរពីប្រយោគដែលទាក់ទងជាមួយអត្ថបទនោះទេ។ បើមានអត្ថបទធ្វើត្រឹមត្រូវហើយមិនត្រូវការកែលម្អ វាសូមធ្វើការបញ្ជាក់ក្រអូបមិនប្រើសំឡេងឬការយល់ឈុត។</value></data><data name="[ProofreadButton_Click] UserPrompt"><value>សូមពិនិត្យអត្ថបទខាងក្រោម។ សូមធ្វើការធ្វើការកែសម្រួលមិនប្រើការបេញមតិនិងអត្ថបទ ដែលពិតជាមិនត្រឹមត្រូវ។ ប្រសិនបើអត្ថបទត្រឹមត្រូវ ហើយមិនត្រូវផ្លាស់ប្តូរ សូមវាយកឡើងវិញដូចដែលវាគឺដូចជាវា។</value></data><data name="[RewriteButton_Click] SystemPrompt"><value>អ្នកគឺជាម៉ូដែលភាសាប្រែ ប្រជុំនឹងការផ្នត់អត្ថបទដែលបានផ្តល់ដោយអ្នកប្រើ។ អ្នកគួរតែផ្តោតលើការបង្កើនភាពច្បាស់ លើការចលនាយ៉ាងពេញលេញ និងរក្សាតម្លៃដើមនៃអត្ថបទ។ ផលិតផលរបស់អ្នកគួរតែជាអត្ថបទដែលបានសរសេរឡើងវិញប៉ុណ្ណោះដោយគ្មានការនិយាយឬសម្ភាសទៀត។</value></data><data name="[RewriteButton_Click] UserPrompt"><value>សូមសម្រេចអត្ថបទខាងក្រោម:</value></data><data name="[ReviewButton_Click] UserPrompt"><value>ដូចជា គ្រូជួយសរសេរ សូមផ្តល់ការកែលម្អជាក់លាក់ទៅលើអត្ថបទ ពាក់ព័ន្ធនឹងភាពច្បាស់ អាចប្រើប្រាស់ពាណិជ្ជកម្ម និងយុត្តិធម៌។ សូមធ្វើការណែនាំរបស់អ្នកផ្តល់ជូនន័យសំខាន់។</value></data><data name="[Review] chatHistory #1"><value>សូមពិនិត្យអត្ថបទខាងក្រោមបានយកពីឯកសារ៖</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #1"><value>មាតិកាឯកសារ៖</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #2"><value>បរិបទ RAG៖</value></data><data name="(CommentHandler.cs) [AIUserMentionTask] UserMentionSystemPrompt"><value>អ្នកគឺជាជំនួយ AI ដែលបានបញ្ចូលក្នុងឯកសារ។ បង្ហាញទៅហើយមកទៅ​ការសួរបញ្ហាអំពីអត្ថបទចំនួនគ្រប់គ្រង។ ដំណើរការរាជទ្រព្យការបណ្ដuidor និងខ្លួនឯងវិញចិន។ គោលបំណងរបស់អ្នកគឺមិនត្រឹមតែឆ្លើយតបនឹងសំណួររបស់ពួកគេ ប៉ុន្តែផ្តល់ការយល់ដឹងជ្រាស់ជ្រួលលាស់នាង។ ប្រើពណ៌នាដែលបានស្នាក់នៅពីឯកសារឬធនធានដែលពាក់ព័ន្ធសន្មត់ជាពិសេសសង្ខេប។</value></data></root>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema"><xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="this.ForgeTab.Label"><value>Craft</value></data><data name="this.ToolsGroup.Label"><value>Tools</value></data><data name="this.GenerateButton.Label"><value>Generate</value></data><data name="this.GenerateButton.SuperTip"><value>ব্যৱহাৰকাৰীৰ প্ৰম্পট আৰু বৰ্তমান দলিলৰ বিষয়বস্তু ব্যৱহাৰ কৰি ব্যক্তিগত উত্তৰ সৃষ্টি কৰে।</value></data><data name="this.DefaultCheckBox.Label"><value>ডিফল্ট</value></data><data name="this.AboutButton.Label"><value>About</value></data><data name="this.AboutButton.ScreenTip"><value>এই আবেদনটোৰ বিষয়ে বিশদ তথ্য প্ৰদান কৰে।</value></data><data name="this.CancelButton.Label"><value>বাতিল কৰক</value></data><data name="this.CancelButton.ScreenTip"><value>পাঠ্য উৎপাদন প্ৰক্ৰিয়া ৰোধ কৰে।</value></data><data name="this.WritingToolsGallery.Label"><value>লেখাৰ টুল</value></data><data name="this.WritingToolsGallery.SuperTip"><value>ব্যাকৰণ, শৈলী, আৰু স্পষ্টতাৰ বাবে AI-শক্তি থকা টুলৰ সৈতে আপোনাৰ লেখাক উন্নত কৰক।</value></data><data name="this.ReviewButton.Label"><value>পুনৰীক্ষণ</value></data><data name="this.ReviewButton.SuperTip"><value>AI-চালিত মন্ত্ৰণা তথা প্ৰস্তাৱৰ সৈতে আপোনাৰ দলিল উন্নত কৰক।</value></data><data name="this.ProofreadButton.Label"><value>সংশোধন</value></data><data name="this.ProofreadButton.SuperTip"><value>আপোনাৰ দলিল পৰিষ্কাৰ কৰিবলৈ বানান, ব্যাকৰণ, আৰু শৈলী পৰীক্ষা কৰক।</value></data><data name="this.RewriteButton.Label"><value>পুনঃলিখন</value></data><data name="this.RewriteButton.SuperTip"><value>AI-শক্তি থকা প্ৰস্তাৱৰ সৈতে আপোনাৰ পাঠ্য সংশোধন আৰু উন্নত কৰক।</value></data><data name="this.SettingsGroup.Label"><value>ছেটিংছ</value></data><data name="this.RAGControlButton.Label"><value>RAG নিয়ন্ত্ৰণ</value></data><data name="this.RAGControlButton.SuperTip"><value>উদ্ধাৰ বৃদ্ধি উৎপাদন (RAG) প্ৰণালীৰ ভিতৰত ফাইলসমূহ পৰিচালনা কৰক।</value></data><data name="this.ModelListDropDown.Label"><value>মডেল তালিকা</value></data><data name="this.ModelListDropDown.SuperTip"><value>TextCraftত ব্যৱহাৰৰ বাবে এটা ভাষা মডেল নিৰ্বাচন কৰক।</value></data><data name="this.DefaultCheckBox.SuperTip"><value>TextCraftৰ বাবে ডিফল্ট ভাষা মডেল স্থাপন কৰক।</value></data><data name="this.OptionsGroup.Label"><value>বিকল্প</value></data><data name="this.InfoGroup.Label"><value>তথ্য</value></data><data name="(ThisAddIn.cs) [InitializeAddIn] ArgumentException #1"><value>মডেল অনুপস্থিত। পাছত আগুৱাই যাবলৈ অনুগ্ৰহ কৰি ইয়াক ইনষ্টল কৰক!</value></data><data name="[WritingToolsGallery_ButtonClick] ArgumentOutOfRangeException #1"><value>নিৰ্বাচিত বুটাম চিহ্নিত নহ'ব।</value></data><data name="[ReviewButton_Click] MessageBox #1 (text)"><value>পুনৰীক্ষণ সম্পূৰ্ণ! এই দলিলৰ বাবে কোনো মন্তব্যৰ প্ৰয়োজন নাই।</value></data><data name="[ReviewButton_Click] MessageBox #1 (caption)"><value>কৰ্ম সম্পন্ন হৈছে</value></data><data name="(ModelProperties.cs) [GetContextLength] OllamaMissingContextWindowException #1"><value>{0}ৰ বাবে প্ৰসংগ দীঘলীৰ তথ্য অহা নাছিল!</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Text"><value>আপোনাৰ কি TextCraftক তলত উল্লেখ কৰা ইণ্টৰনেট উৎসত প্ৰৱেশ কৰিবলৈ অনুমতি দিব?</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Caption"><value>ইণ্টাৰনেট প্ৰৱেশ</value></data><data name="(WordMarkdown.cs) [ApplyMarkdownFormatting] ArgumentOutofRangeException #1"><value>Markdown প্ৰক্ৰিয়া বাবে অজ্ঞাত ফৰ্মেট প্ৰকাৰ!</value></data><data name="(WordMarkdown.cs) [GetCodeBlockAtIndex] ApplicationException #1"><value>সূচক {0}ত Markdown কোড ব্লক পোৱা নগ’ল!</value></data><data name="(WordMarkdown.cs) [ApplyImageFormatting] ArgumentException #1"><value>অবৈধ URL ফৰ্মেট</value></data><data name="(WordMarkdown.cs) [ApplyHeadingFormatting] ArgumentException #1"><value>অবৈধ Markdown শিৰোনাম: 1ৰ পৰা 6টাৰ '#' চৰিত্ৰ বৈশিষ্ট্য অৰ্থে থাকিব লাগিব।</value></data><data name="[AnalyzeText] InvalidRangeException #1"><value>বিশ্লেষণৰ বাবে কোনো পাঠ্য নিৰ্বাচন কৰা হোৱা নাই!</value></data><data name="this.CommentSystemPrompt"><value>আপুনি এখন বিশেষজ্ঞ লেখাৰ সহায়ক আৰু সম্পাদক, যি গুণগত উন্নতি, আন্তঃসংযোগ, আৰু বিষয়বস্তুৰ প্ৰভাৱ বৃদ্ধিত বিশেষজ্ঞ। আপুনি পাঠ্যক সমালোচনামূলকভাৱে বিশ্লেষণ কৰে আৰু মেৰাল উন্নয়ন কৰে।</value></data><data name="(CommentHandler.cs) [AICommentReplyTask] UserChatMessage #2"><value>গেল এআই মন্তব্যৰ ভিত্তিত, অনুগ্ৰহ কৰি অনুচ্ছেদটো সাৱলীলতা, আন্তঃসংযোগ, কাঠামো, ব্যাকৰণ, আৰু মুঠ গুণগততা বিদ্যমান গুণৰ ওপৰত কেন্দ্ৰীভূত কৰি বিশেষ অগ্ৰগতিৰ প্ৰস্তাৱ প্ৰদান কৰক।</value></data><data name="[ProofreadButton_Click] SystemPrompt"><value>আপুনি এখন প্ৰুফৰিডিং সহায়ক। আপোনাৰ কাৰ্য হলো যি সৰল পাঠ্যত বানান, ব্যাকৰণ, অক্ষৰ, বা শৈলীসমূহৰ ভুল ঠিক কৰা। সঠিক কৰাটো সুধাৰা।</value></data><data name="[ProofreadButton_Click] UserPrompt"><value>অনুগ্ৰহ কৰি তলৰ পাঠ্যটোৰ প্ৰুফৰিডিং কৰক। যি যি পৰুৱা-উপলব্ধ হৈছে সাৰবে।</value></data><data name="[RewriteButton_Click] SystemPrompt"><value>আপুনি বৰ্তমানৰ পাঠ্যক পুনঃলিখনৰ বাবে নিযুক্ত এক আধুনিক ভাষা মডেল। আপোনাৰ লক্ষ্য হল সাঁথৰ সাৰলতা উন্নত কৰা।</value></data><data name="[RewriteButton_Click] UserPrompt"><value>অনুগ্ৰহ কৰি তলৰ পাঠ্যটো পুনঃলিখন কৰক:</value></data><data name="[ReviewButton_Click] UserPrompt"><value>এক বিশেষজ্ঞ লেখাৰ সহায়ক হিচাপে, অনুচ্ছেদটো সাৱলীলতা, আন্তঃসংযোগ, কাঠামো, ব্যাকৰণ, আৰু মুঠ গুণগততা বিদ্যমান গুণৰ ওপৰত কেন্দ্ৰীভূত কৰি বিশেষ অগ্ৰগতিৰ প্ৰস্তাৱ প্ৰদান কৰক।</value></data><data name="[Review] chatHistory #1"><value>অনুগ্ৰহ কৰি তলৰ অনুচ্ছেদটো পুনৰীক্ষণ কৰক।</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #1"><value>দলিলৰ বিষয়:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #2"><value>RAG প্ৰসংগ:</value></data><data name="(CommentHandler.cs) [AIUserMentionTask] UserMentionSystemPrompt"><value>আপুনি এখন AI সহ যি দলিলৰ ভিতৰত সংযুক্ত আছে, আপোনাৰ ব্যবহারকাৰীৰ প্ৰশ্নসমূহৰ উত্তৰ দিব।</value></data></root>

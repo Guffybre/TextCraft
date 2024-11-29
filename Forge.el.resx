@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema"><xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="this.ForgeTab.Label"><value>Δημιουργία</value></data><data name="this.ToolsGroup.Label"><value>Εργαλεία</value></data><data name="this.GenerateButton.Label"><value>Δημιουργία</value></data><data name="this.GenerateButton.SuperTip"><value>Δημιουργεί προσαρμοσμένες απαντήσεις χρησιμοποιώντας την προτροπή του χρήστη και το περιεχόμενο του τρέχοντος εγγράφου.</value></data><data name="this.DefaultCheckBox.Label"><value>Προεπιλογή</value></data><data name="this.AboutButton.Label"><value>Σχετικά</value></data><data name="this.AboutButton.ScreenTip"><value>Παρέχει λεπτομέρειες σχετικά με αυτήν την εφαρμογή.</value></data><data name="this.CancelButton.Label"><value>Ακύρωση</value></data><data name="this.CancelButton.ScreenTip"><value>Σταματά τη διαδικασία δημιουργίας κειμένου.</value></data><data name="this.WritingToolsGallery.Label"><value>Εργαλεία γραφής</value></data><data name="this.WritingToolsGallery.SuperTip"><value>Ενισχύστε τη συγγραφή σας με εργαλεία που powered από AI για γραμματική, στυλ και σαφήνεια.</value></data><data name="this.ReviewButton.Label"><value>Αναθεώρηση</value></data><data name="this.ReviewButton.SuperTip"><value>Ενισχύστε το έγγραφό σας με σχόλια και προτάσεις που οδήγησε η AI.</value></data><data name="this.ProofreadButton.Label"><value>Διόρθωση</value></data><data name="this.ProofreadButton.SuperTip"><value>Ελέγξτε για ορθογραφικά, γραμματικά και στυλιστικά λάθη για να βελτιώσετε το έγγραφό σας.</value></data><data name="this.RewriteButton.Label"><value>Επανεγγραφή</value></data><data name="this.RewriteButton.SuperTip"><value>Αναθεωρήστε και ενισχύστε το κείμενό σας με προτάσεις powered από AI.</value></data><data name="this.SettingsGroup.Label"><value>Ρυθμίσεις</value></data><data name="this.RAGControlButton.Label"><value>Έλεγχος RAG</value></data><data name="this.RAGControlButton.SuperTip"><value>Διαχειριστείτε τα αρχεία εντός του συστήματος Ανάκτησης Ενίσχυσης Γενετικής (RAG).</value></data><data name="this.ModelListDropDown.Label"><value>Λίστα Μοντέλων</value></data><data name="this.ModelListDropDown.SuperTip"><value>Επιλέξτε ένα γλωσσικό μοντέλο για χρήση στο TextCraft.</value></data><data name="this.DefaultCheckBox.SuperTip"><value>Ορίστε το προεπιλεγμένο γλωσσικό μοντέλο για το TextCraft.</value></data><data name="this.OptionsGroup.Label"><value>Επιλογές</value></data><data name="this.InfoGroup.Label"><value>Πληροφορίες</value></data><data name="(ThisAddIn.cs) [InitializeAddIn] ArgumentException #1"><value>Το μοντέλο ενσωμάτωσης λείπει. Εγκαταστήστε το για να προχωρήσετε!</value></data><data name="[WritingToolsGallery_ButtonClick] ArgumentOutOfRangeException #1"><value>Το επιλεγμένο κουμπί δεν αναγνωρίζεται.</value></data><data name="[ReviewButton_Click] MessageBox #1 (text)"><value>Η αναθεώρηση ολοκληρώθηκε! Δεν χρειάζονται σχόλια για αυτό το έγγραφο.</value></data><data name="[ReviewButton_Click] MessageBox #1 (caption)"><value>Ενέργεια ολοκληρώθηκε</value></data><data name="(ModelProperties.cs) [GetContextLength] OllamaMissingContextWindowException #1"><value>Αδυναμία ανάκτησης του μήκους του περιβάλλοντος για {0}!</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Text"><value>Θέλετε να επιτρέψετε στο TextCraft να έχει πρόσβαση στον παρακάτω διαδικτυακό πόρο;</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Caption"><value>Πρόσβαση στο διαδίκτυο</value></data><data name="(WordMarkdown.cs) [ApplyMarkdownFormatting] ArgumentOutofRangeException #1"><value>Άγνωστος τύπος μορφής για την επεξεργασία Markdown!</value></data><data name="(WordMarkdown.cs) [GetCodeBlockAtIndex] ApplicationException #1"><value>Το μπλοκ κώδικα Markdown δεν βρέθηκε στον δείκτη {0}!</value></data><data name="(WordMarkdown.cs) [ApplyImageFormatting] ArgumentException #1"><value>Μη έγκυρη μορφή URL</value></data><data name="(WordMarkdown.cs) [ApplyHeadingFormatting] ArgumentException #1"><value>Μη έγκυρος τίτλος Markdown: πρέπει να περιέχει από 1 έως 6 χαρακτήρες '#'.</value></data><data name="[AnalyzeText] InvalidRangeException #1"><value>Δεύτερο κείμενο δεν έχει επιλεγεί για ανάλυση!</value></data><data name="this.CommentSystemPrompt"><value>Είστε ένας ειδικός βοηθός συγγραφής και επεξεργασίας, ειδικευμένος στην ενίσχυση της σαφήνειας, της συνοχής και της επίδρασης του κειμένου σε ένα έγγραφο. Αναλύετε το κείμενο κριτικά και παρέχετε εποικοδομητική ανατροφοδότηση για να βελτιώσετε τη συνολική ποιότητα.</value></data><data name="(CommentHandler.cs) [AICommentReplyTask] UserChatMessage #2"><value>Βασιστείτε στα προηγούμενα σχόλια AI, προτείνετε επιπλέον συγκεκριμένες βελτιώσεις στην παράγραφο, εστιάζοντας στη σαφήνεια, τη συνοχή, τη δομή, τη γραμματική και τη συνολική αποτελεσματικότητα. Βεβαιωθείτε ότι οι προτάσεις σας είναι λεπτομερείς και αποσκοπούν στη βελτίωση της παραγράφου εντός του πλαισίου όλου του εγγράφου.</value></data><data name="[ProofreadButton_Click] SystemPrompt"><value>Είστε ένας βοηθός διορθώσεων. Η εργασία σας είναι να διορθώσετε τυχόν ορθογραφικά, γραμματικά, σημεία στίξης ή στυλιστικά λάθη στο παρεχόμενο κείμενο. Κάντε μόνο τις απαραίτητες αλλαγές απευθείας στο κείμενο. Εάν το κείμενο είναι ήδη σωστό και δεν απαιτεί αλλαγές, επαναλάβετε απλά το κείμενο όπως είναι χωρίς να παρέχετε καμία εξήγηση ή σχόλια.</value></data><data name="[ProofreadButton_Click] UserPrompt"><value>Παρακαλώ διορθώστε το παρακάτω κείμενο. Κάντε οποιεσδήποτε αναγκαίες διορθώσεις απευθείας στο κείμενο χωρίς να προσθέσετε εξηγήσεις ή σχόλια. Εάν το κείμενο είναι σωστό και δεν χρειάζεται αλλαγές, απλώς επαναλάβετε το ακριβώς όπως είναι:</value></data><data name="[RewriteButton_Click] SystemPrompt"><value>Είστε ένα προηγμένο γλωσσικό μοντέλο που έχει ανατεθεί να επανεγγράψει το κείμενο που παρέχεται από τον χρήστη. Θα πρέπει να εστιάσετε στην ενίσχυση της σαφήνειας, στη βελτίωση της ροής και στη διατήρηση της αρχικής σημασίας του κειμένου. Οι απαντήσεις σας θα πρέπει να αποτελούνται αυστηρά από το επανεγγραμμένο κείμενο χωρίς πρόσθετες εξηγήσεις ή σχόλια.</value></data><data name="[RewriteButton_Click] UserPrompt"><value>Παρακαλώ επανεγγράψτε το παρακάτω κείμενο:</value></data><data name="[ReviewButton_Click] UserPrompt"><value>Ως ειδικός βοηθός συγγραφής, προτείνετε συγκεκριμένες βελτιώσεις στην παράγραφο, εστιάζοντας στη σαφήνεια, τη συνοχή, τη δομή, τη γραμματική και τη συνολική αποτελεσματικότητα. Βεβαιωθείτε ότι οι προτάσεις σας είναι λεπτομερείς και αποσκοπούν στη βελτίωση της παραγράφου εντός του πλαισίου όλου του εγγράφου.</value></data><data name="[Review] chatHistory #1"><value>Παρακαλώ αναθεωρήστε την παρακάτω παράγραφο που εξάγεται από το έγγραφο:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #1"><value>Περιεχόμενο Εγγράφου:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #2"><value>Πλαίσιο RAG:</value></data><data name="(CommentHandler.cs) [AIUserMentionTask] UserMentionSystemPrompt"><value>Είστε ένα AI assistant ενσωματωμένο σε ένα έγγραφο, απαντώντας σε ερωτήσεις χρηστών σχετικά με συγκεκριμένες επιλεγμένες κείμενες. Προσεγγίστε κάθε ερώτηση με ενσυναίσθηση και την νοοτροπία ενός μέντορα, βάζοντας τον εαυτό σας στη θέση εκείνου που ζητάει βοήθεια. Φανταστείτε ότι είστε ένας προσεκτικός, γνωστός φίλος που προσφέρει διεισδυτική, πρακτική καθοδήγηση. Στόχος σας είναι να μην απαντήσετε μόνο στην ερώτησή τους, αλλά επίσης να παρέχετε βαθύτερη κατανόηση, προσφέροντας λογικές συμβουλές που βοηθούν να βελτιώσουν και να αναπτυχθούν. Χρησιμοποιήστε οποιοδήποτε διαθέσιμο πλαίσιο από το έγγραφο ή σχετικούς πόρους για να εμπλουτίσετε την απάντησή σας, κάνοντάς την όσο το δυνατόν πιο χρήσιμη. Διατηρήστε τις συμβουλές σας απλές, συνομιλητικές και σαφείς, αποφεύγοντας τη μορφοποίηση ή τη χρησιμοποιούμενη ορολογία, και εστιάστε στη παράδοση πρακτικών πληροφοριών που καθοδηγούν τον χρήστη προς καλύτερες λύσεις ή βελτιώσεις.</value></data></root>

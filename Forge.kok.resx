@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema"><xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="this.ForgeTab.Label"><value>Craft</value></data><data name="this.ToolsGroup.Label"><value>Tools</value></data><data name="this.GenerateButton.Label"><value>Generate</value></data><data name="this.GenerateButton.SuperTip"><value>वापरकर्त्याच्या संकेत आणि वर्तमान दस्तावेज़ाच्या सामग्रीचा वापर करून वैयक्तिकृत प्रतिसाद निर्माण करते.</value></data><data name="this.DefaultCheckBox.Label"><value>डिफॉल्ट</value></data><data name="this.AboutButton.Label"><value>माहिती</value></data><data name="this.AboutButton.ScreenTip"><value>या अनुप्रयोगाबद्दल तपशील प्रदान करते.</value></data><data name="this.CancelButton.Label"><value>रद्द करा</value></data><data name="this.CancelButton.ScreenTip"><value>मजकूर निर्माण प्रक्रियेला थांबवते.</value></data><data name="this.WritingToolsGallery.Label"><value>लेखन साधने</value></data><data name="this.WritingToolsGallery.SuperTip"><value>व्याकरण, शैली, आणि स्पष्टतेसाठी AI-संचालित साधनांसह तुमचे लेखन वाढवा.</value></data><data name="this.ReviewButton.Label"><value>पुनरावलोकन</value></data><data name="this.ReviewButton.SuperTip"><value>AI-चालित टिप्पण्या आणि सुचनांसह तुमच्या दस्तऐवजाला सुधारित करा.</value></data><data name="this.ProofreadButton.Label"><value>प्रूफरीड</value></data><data name="this.ProofreadButton.SuperTip"><value>तुमच्या दस्तऐवजाला परिष्कृत करण्यासाठी वर्तनी, व्याकरण, आणि शैलीच्या चुकांची तपासणी करा.</value></data><data name="this.RewriteButton.Label"><value>पुन्हा लिहा</value></data><data name="this.RewriteButton.SuperTip"><value>AI-संचालित सुचनांसह तुमचा मजकूर पुनरावलोकन आणि सुधारित करा.</value></data><data name="this.SettingsGroup.Label"><value>सेटिंग्ज</value></data><data name="this.RAGControlButton.Label"><value>RAG नियंत्रण</value></data><data name="this.RAGControlButton.SuperTip"><value>पुनर्प्राप्ती वर्धन पीढी (RAG) प्रणालीमध्ये फाइल्स व्यवस्थापित करा.</value></data><data name="this.ModelListDropDown.Label"><value>मॉडेल सूची</value></data><data name="this.ModelListDropDown.SuperTip"><value>TextCraft मध्ये वापरण्यासाठी एक भाषा मॉडेल निवडा.</value></data><data name="this.DefaultCheckBox.SuperTip"><value>TextCraft साठी डिफॉल्ट भाषा मॉडेल सेट करा.</value></data><data name="this.OptionsGroup.Label"><value>पर्याय</value></data><data name="this.InfoGroup.Label"><value>माहिती</value></data><data name="(ThisAddIn.cs) [InitializeAddIn] ArgumentException #1"><value>इम्बेड मॉडल गहाळ आहे. पुढे जाण्यासाठी कृपया ते स्थापित करा!</value></data><data name="[WritingToolsGallery_ButtonClick] ArgumentOutOfRangeException #1"><value>निवडलेला बटण मान्य केले नाही.</value></data><data name="[ReviewButton_Click] MessageBox #1 (text)"><value>पुनरावलोकन पूर्ण! या दस्तऐवजासाठी कोणतीही टिप्पणी आवश्यक नाही.</value></data><data name="[ReviewButton_Click] MessageBox #1 (caption)"><value>क्रिया पूर्ण</value></data><data name="(ModelProperties.cs) [GetContextLength] OllamaMissingContextWindowException #1"><value>{0} साठी संदर्भ लांबी प्राप्त करू शकत नाही!</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Text"><value>TextCraft ला खालील इंटरनेट संसाधणावर प्रवेश देण्याची तुम्हाला इच्छा आहे का?</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Caption"><value>इंटरनेट प्रवेश</value></data><data name="(WordMarkdown.cs) [ApplyMarkdownFormatting] ArgumentOutofRangeException #1"><value>Markdown प्रक्रियेसाठी अज्ञात फॉरमॅट प्रकार!</value></data><data name="(WordMarkdown.cs) [GetCodeBlockAtIndex] ApplicationException #1"><value>इंडेक्स {0} वर Markdown कोड ब्लॉक सापडला नाही!</value></data><data name="(WordMarkdown.cs) [ApplyImageFormatting] ArgumentException #1"><value>अमान्य URL फॉरमॅट</value></data><data name="(WordMarkdown.cs) [ApplyHeadingFormatting] ArgumentException #1"><value>अमान्य Markdown शीर्षक: 1 ते 6 '#' वर्णांनी भरलेले असावे.</value></data><data name="[AnalyzeText] InvalidRangeException #1"><value>विश्लेषणासाठी कोणताही मजकूर निवडला गेला नाही!</value></data><data name="this.CommentSystemPrompt"><value>तुम्ही एक तज्ञ लेखन सहाय्यक आणि संपादक आहात, एक दस्तऐवजामध्ये मजकूराची स्पष्टता, एकसंधता, आणि परिणाम सुधारण्यात विशेषत: कार्यरत. तुम्ही मजकूराचे कठोर विश्लेषण करता आणि एकूण गुणवत्ते सुधारण्यासाठी रचनात्मक अभिप्राय प्रदान करता.</value></data><data name="(CommentHandler.cs) [AICommentReplyTask] UserChatMessage #2"><value>मागील AI टिप्पण्यांच्या आधारे, स्पष्टता, एकसंधता, संरचना, व्याकरण, आणि एकूण प्रभावीपणावर लक्ष केंद्रित करून अनुच्छेदाला अतिरिक्त विशिष्ट सुधारणा सुचवा. तुमच्या सुचनांचा तपशील असा असावा की त्या संपूर्ण दस्तावेजाच्या संदर्भात अनुच्छेद सुधारणेला उद्दिष्ट ठेवतील.</value></data><data name="[ProofreadButton_Click] SystemPrompt"><value>तुम्ही एक प्रूफरीडिंग सहाय्यक आहात. तुमचे कार्य दिलेल्या मजकूरातील कोणत्याही वर्तनी, व्याकरण, अंतःसंबंध आणि शैलीच्या चुका दुरुस्त करणे आहे. फक्त मजकूरात थेट आवश्यक बदल करा. जर मजकूर आधीच योग्य असेल आणि कोणत्याही बदलाची आवश्यकता नसेल, तर फक्त ते तसेच पुन्हा द्या, कोणतीही स्पष्टीकरण किंवा टिप्पणी न देता.</value></data><data name="[ProofreadButton_Click] UserPrompt"><value>कृपया खालील मजकूर प्रूफरीड करा. थेट मजकूरात आवश्यक दुरुस्त्या करा, कोणतीही स्पष्टीकरण किंवा टिप्पण्या न देता. जर मजकूर योग्य असेल आणि कोणत्याही बदलाची आवश्यकता नसेल, तर फक्त त्याला तसंच पुनरावत करा:</value></data><data name="[RewriteButton_Click] SystemPrompt"><value>तुम्ही एक उन्नत भाषा मॉडेल आहात, वापरकर्त्याने दिलेल्या मजकूराचे पुनर्लेखन करण्याचे कार्य दिलेले आहे. तुम्ही स्पष्टता वाढविण्यावर, प्रवाह सुधारण्यावर, आणि मजकूराच्या मूळ अर्थाचे पालन करण्यावर लक्ष केंद्रित केले पाहिजे. तुमचे उत्तर फक्त पुनर्लिखित मजकूर समाविष्ट करावेत, कोणतीही अतिरिक्त स्पष्टीकरण किंवा टिप्पणी न देता.</value></data><data name="[RewriteButton_Click] UserPrompt"><value>कृपया खालील मजकूर पुन्हा लिहा:</value></data><data name="[ReviewButton_Click] UserPrompt"><value>एक तज्ञ लेखन सहाय्यक म्हणून, स्पष्टता, एकसंधता, संरचना, व्याकरण, आणि एकूण प्रभावीपणावर लक्ष केंद्रित करून अनुच्छेदासाठी विशिष्ट सुधारणा सुचवा. तुमच्या सुचनांचा तपशील असा असावा की त्या संपूर्ण दस्तावेजाच्या संदर्भात अनुच्छेद सुधारण्यात मदत करतील.</value></data><data name="[Review] chatHistory #1"><value>कृपया दस्तावेजातून काढलेला हा अनुच्छेद पुनरावलोकन करा:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #1"><value>दस्तऐवज सामग्री:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #2"><value>RAG संदर्भ:</value></data><data name="(CommentHandler.cs) [AIUserMentionTask] UserMentionSystemPrompt"><value>तुम्ही एक AI सहाय्यक आहात जो दस्तावेजामध्ये समाविष्ट आहे, वापरकर्त्याच्या विशिष्ट मजकूर निवडीसाठी प्रश्नांना उत्तर देताना. प्रत्येक चौकशीस सहानुभूती आणि मार्गदर्शकाची मानसिकता घेऊन सामोरे जा, मदतीसाठी विचारणाऱ्या व्यक्तीच्या वाट्याने स्वतःला ठेवा. कल्पना करा की तुम्ही विचारशील, ज्ञानवापर करणारा मित्र आहात जो अंतर्दृष्टीपूर्ण, व्यावहारिक मार्गदर्शन देतो. तुमचा उद्देश केवळ त्यांच्या प्रश्नाचे उत्तर देणेच नाही तर त्यांना अधिक गयाळ समजून घेणे आहे, त्यांनी सुधारत आणि वाढण्यात मदत करणारे तर्कसंगत सल्ला देणे आहे. तुमच्या प्रतिसादास समृद्ध करण्यासाठी दस्तऐवज किंवा संबंधित संसाधनांमधून उपलब्ध असलेला कोणताही संदर्भ वापरा, तितकेच उपयोगी बनविण्यासाठी. तुमच्या सल्ल्यात साधी, संवादात्मक आणि स्पष्ट ठेवा, फॉरमॅटिंग किंवा जर्गन टाळा, आणि कार्यक्षम अंतर्दृष्टी प्रदान करण्यावर लक्ष केंद्रित करा, ज्यामुळे वापरकर्त्याला चांगल्या उपायांपर्यंत किंवा सुधारणा करण्याकडे मार्गदर्शीत करू शकता.</value></data></root>

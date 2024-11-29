@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema"><xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="this.ForgeTab.Label"><value>Thủ công</value></data><data name="this.ToolsGroup.Label"><value>Công cụ</value></data><data name="this.GenerateButton.Label"><value>Tạo ra</value></data><data name="this.GenerateButton.SuperTip"><value>Tạo phản hồi tùy chỉnh dựa trên yêu cầu của người dùng và nội dung của tài liệu hiện tại.</value></data><data name="this.DefaultCheckBox.Label"><value>Mặc định</value></data><data name="this.AboutButton.Label"><value>Giới thiệu</value></data><data name="this.AboutButton.ScreenTip"><value>Cung cấp chi tiết về ứng dụng này.</value></data><data name="this.CancelButton.Label"><value>Hủy</value></data><data name="this.CancelButton.ScreenTip"><value>Ngừng quá trình tạo văn bản.</value></data><data name="this.WritingToolsGallery.Label"><value>Công Cụ Viết</value></data><data name="this.WritingToolsGallery.SuperTip"><value>Nâng cao kỹ năng viết của bạn với các công cụ hỗ trợ AI về ngữ pháp, phong cách và sự rõ ràng.</value></data><data name="this.ReviewButton.Label"><value>Xem lại</value></data><data name="this.ReviewButton.SuperTip"><value>Nâng cao tài liệu của bạn với các nhận xét và gợi ý do AI cung cấp.</value></data><data name="this.ProofreadButton.Label"><value>Đọc lại</value></data><data name="this.ProofreadButton.SuperTip"><value>Kiểm tra lỗi chính tả, ngữ pháp và phong cách để làm đẹp tài liệu của bạn.</value></data><data name="this.RewriteButton.Label"><value>Viết lại</value></data><data name="this.RewriteButton.SuperTip"><value>Xem xét và cải thiện văn bản của bạn với các gợi ý do AI cung cấp.</value></data><data name="this.SettingsGroup.Label"><value>Cài đặt</value></data><data name="this.RAGControlButton.Label"><value>Kiểm soát RAG</value></data><data name="this.RAGControlButton.SuperTip"><value>Quản lý tệp trong hệ thống Tăng cường Lấy dữ liệu (RAG).</value></data><data name="this.ModelListDropDown.Label"><value>Danh sách Mô hình</value></data><data name="this.ModelListDropDown.SuperTip"><value>Chọn một mô hình ngôn ngữ để sử dụng trong TextCraft.</value></data><data name="this.DefaultCheckBox.SuperTip"><value>Đặt mô hình ngôn ngữ mặc định cho TextCraft.</value></data><data name="this.OptionsGroup.Label"><value>Tùy chọn</value></data><data name="this.InfoGroup.Label"><value>Thông tin</value></data><data name="(ThisAddIn.cs) [InitializeAddIn] ArgumentException #1"><value>Mô hình nhúng thiếu. Vui lòng cài đặt nó để tiếp tục!</value></data><data name="[WritingToolsGallery_ButtonClick] ArgumentOutOfRangeException #1"><value>Nút đã chọn không được nhận diện.</value></data><data name="[ReviewButton_Click] MessageBox #1 (text)"><value>Xem lại hoàn tất! Không cần nhận xét cho tài liệu này.</value></data><data name="[ReviewButton_Click] MessageBox #1 (caption)"><value>Hành động đã hoàn tất</value></data><data name="(ModelProperties.cs) [GetContextLength] OllamaMissingContextWindowException #1"><value>Không thể lấy chiều dài ngữ cảnh cho {0}!</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Text"><value>Bạn có muốn cho phép TextCraft truy cập vào tài nguyên internet sau không?</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Caption"><value>Truy cập Internet</value></data><data name="(WordMarkdown.cs) [ApplyMarkdownFormatting] ArgumentOutofRangeException #1"><value>Loại định dạng không xác định cho xử lý Markdown!</value></data><data name="(WordMarkdown.cs) [GetCodeBlockAtIndex] ApplicationException #1"><value>Khối mã Markdown không được tìm thấy tại chỉ mục {0}!</value></data><data name="(WordMarkdown.cs) [ApplyImageFormatting] ArgumentException #1"><value>Định dạng URL không hợp lệ</value></data><data name="(WordMarkdown.cs) [ApplyHeadingFormatting] ArgumentException #1"><value>Tiêu đề Markdown không hợp lệ: phải chứa từ 1 đến 6 ký tự '#'.</value></data><data name="[AnalyzeText] InvalidRangeException #1"><value>Không có văn bản nào được chọn để phân tích!</value></data><data name="this.CommentSystemPrompt"><value>Bạn là một trợ lý viết lách và biên tập viên chuyên nghiệp, chuyên về việc nâng cao sự rõ ràng, mạch lạc và tác động của văn bản trong một tài liệu. Bạn phân tích văn bản một cách nghiêm túc và cung cấp phản hồi mang tính xây dựng để cải thiện chất lượng tổng thể.</value></data><data name="(CommentHandler.cs) [AICommentReplyTask] UserChatMessage #2"><value>Dựa trên các nhận xét AI trước đó, gợi ý những cải tiến cụ thể bổ sung cho đoạn văn, tập trung vào sự rõ ràng, mạch lạc, cấu trúc, ngữ pháp và hiệu quả tổng thể. Đảm bảo rằng các gợi ý của bạn là chi tiết và nhằm cải thiện đoạn văn trong ngữ cảnh của toàn bộ tài liệu.</value></data><data name="[ProofreadButton_Click] SystemPrompt"><value>Bạn là một trợ lý đọc lại. Nhiệm vụ của bạn là sửa chữa bất kỳ lỗi chính tả, ngữ pháp, dấu câu hoặc phong cách nào trong văn bản cung cấp. Chỉ thực hiện những thay đổi cần thiết trực tiếp trong văn bản. Nếu văn bản đã chính xác và không cần thay đổi nào, chỉ cần lặp lại văn bản như nó là mà không cung cấp bất kỳ giải thích hoặc nhận xét nào.</value></data><data name="[ProofreadButton_Click] UserPrompt"><value>Vui lòng đọc lại văn bản sau. Thực hiện mọi sửa đổi cần thiết trực tiếp trong văn bản mà không thêm bất kỳ giải thích hoặc nhận xét nào. Nếu văn bản đã chính xác và không cần thay đổi, chỉ cần lặp lại nó đúng như nó là:</value></data><data name="[RewriteButton_Click] SystemPrompt"><value>Bạn là một mô hình ngôn ngữ nâng cao có nhiệm vụ viết lại văn bản do người dùng cung cấp. Bạn nên tập trung vào việc nâng cao sự rõ ràng, cải thiện dòng chảy, và duy trì ý nghĩa gốc của văn bản. Câu trả lời của bạn nên chỉ bao gồm văn bản được viết lại mà không có thêm bất kỳ giải thích hoặc nhận xét nào.</value></data><data name="[RewriteButton_Click] UserPrompt"><value>Vui lòng viết lại văn bản sau:</value></data><data name="[ReviewButton_Click] UserPrompt"><value>Là một trợ lý viết lách chuyên nghiệp, hãy gợi ý những cải tiến cụ thể cho đoạn văn, tập trung vào sự rõ ràng, mạch lạc, cấu trúc, ngữ pháp và hiệu quả tổng thể. Đảm bảo rằng các gợi ý của bạn là chi tiết và nhằm cải thiện đoạn văn trong ngữ cảnh của toàn bộ tài liệu.</value></data><data name="[Review] chatHistory #1"><value>Vui lòng xem lại đoạn văn sau được trích xuất từ tài liệu:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #1"><value>Nội dung Tài liệu:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #2"><value>Ngữ cảnh RAG:</value></data><data name="(CommentHandler.cs) [AIUserMentionTask] UserMentionSystemPrompt"><value>Bạn là một trợ lý AI được tích hợp trong một tài liệu, trả lời các câu hỏi của người dùng về các lựa chọn văn bản cụ thể. Tiếp cận từng câu hỏi với sự đồng cảm và tâm lý của một người thầy, đặt mình vào vị trí của người hỏi giúp đỡ. Hãy tưởng tượng rằng bạn là một người bạn chu đáo, hiểu biết, cung cấp sự hướng dẫn sâu sắc và hữu ích. Mục tiêu của bạn không chỉ là trả lời câu hỏi mà còn cung cấp hiểu biết sâu sắc hơn, đưa ra lời khuyên hợp lý giúp họ cải thiện và phát triển. Sử dụng bất kỳ ngữ cảnh nào có sẵn từ tài liệu hoặc các nguồn liên quan để làm phong phú thêm phản hồi của bạn, khiến nó hữu ích nhất có thể. Giữ cho lời khuyên của bạn đơn giản, thân mật và rõ ràng, tránh định dạng hoặc từ ngữ chuyên ngành, và tập trung vào việc cung cấp các hiểu biết có thể hành động giúp người dùng hướng đến các giải pháp hoặc cải tiến tốt hơn.</value></data></root>

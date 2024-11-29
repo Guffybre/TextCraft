@@ -275,7 +275,7 @@ namespace TextForge
         }
 
         // TODO: Support nested ordered/unordered list
-         private static void ApplyMarkdownFormatting(Word.Range commentRange, string fullMarkdownText, RegexSyntaxFilter.Number formatType)
+        private static void ApplyMarkdownFormatting(Word.Range commentRange, string fullMarkdownText, RegexSyntaxFilter.Number formatType)
         {
             // Determine the appropriate regex based on the format type
             Regex regex = formatType switch
@@ -371,7 +371,7 @@ namespace TextForge
                         formatRange.SetRange(startIndex, startIndex);
 
                         string imageUrl = match.Groups[2].Value;
-                        if (CommonUtils.GetInternetAccessPermission(imageUrl))
+                        if (CommonUtils.GetInternetAccessPermission(new Uri(imageUrl)))
                             ApplyImageFormatting(formatRange, imageUrl);
                         offset += length; // Adjust the offset to account for the removed text
                         break;
@@ -522,7 +522,7 @@ namespace TextForge
         {
             string language = match.Groups[1].Value;
             string code = match.Groups[2].Value;
-            
+
             formatRange.SetRange(searchIndex - offset, searchIndex - offset + code.Length);
             ApplySyntaxHighlighting(formatRange, language, code);
 

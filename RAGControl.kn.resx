@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema"><xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="FileListBox.AccessibleDescription"><value>RAG ಸಂದರ್ಭದಲ್ಲಿರುವ ಫೈಲ್‌ಗಳನ್ನು ತೋಡು.</value></data><data name="FileListBox.AccessibleName"><value>RAG ಫೈಲ್‌ಗಳು</value></data><data name="RemoveButton.AccessibleDescription"><value>ಆಯ್ಕೆ ಮಾಡಿದ ಫೈಲ್ ಅನ್ನು ಪಟ್ಟಿಯಿಂದ ತೆಗೆದುಹಾಕುತ್ತದೆ.</value></data><data name="RemoveButton.AccessibleName"><value>ಫೈಲ್ ತೆಗೆದುಹಾಕುವ ಬಟನ್</value></data><data name="RemoveButton.Text"><value>ತೆಗೆದುಹಾಕಿ</value></data><data name="AddButton.AccessibleDescription"><value>ಆಯ್ಕೆ ಮಾಡಿದ ಫೈಲ್‌ಗಳನ್ನು ಮುಂದಿನ ಪ್ರಕ್ರಿಯೆಯಿಗಾಗಿ RAG ವ್ಯವಸ್ಥೆಗೆ ಸೇರಿಸುತ್ತದೆ.</value></data><data name="AddButton.AccessibleName"><value>ಫೈಲ್‌ಗಳನ್ನು ಸೇರಿಸುವ ಬಟನ್</value></data><data name="AddButton.Text"><value>ಸೇರಿಸಿ</value></data><data name="progressBar1.AccessibleDescription"><value>ಪುನೋಪಾದಿ ತಾಂತ್ರಿಕತೆ ಮತ್ತು ಮುಖ್ಯ ಉದ್ಯೋಗದ ಪ್ರಕ್ರಿಯೆಯ ಮೂಲಕ ಯಾವಷ್ಟು ಮುಗಿಯುವ ಕಾರ್ಯವನ್ನು ತೋರಿಸುತ್ತವೆ.</value></data><data name="progressBar1.AccessibleName"><value>RAG ಪ್ರಕ್ರಿಯೆಯ ಪ್ರಗತಿ</value></data><data name="$this.AccessibleDescription"><value>RAG సందర్భದಿಂದ ಫೈಲ್‌ಗಳನ್ನು ಸೇರಿಸಬಹುದು ಅಥವಾ ತೆಗೆದುಹಾಕಬಹುದು.</value></data><data name="$this.AccessibleName"><value>RAG ನಿಯಂತ್ರಣ</value></data><data name="[AddButton_Click] OpenFileDialog #1 Title"><value>RAG ಗೆ ಫೈಲ್‌ಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಿ</value></data><data name="[ReadPdfFileAsync] InvalidDataException #1"><value>ತಪ್ಪು ಗುಪ್ತನಂಬರ್‌ನ ಕಾರಣ PDF ಫೈಲ್ನು ಅನ್ಲಾಕ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ.</value></data></root>

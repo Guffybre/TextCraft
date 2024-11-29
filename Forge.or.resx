@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema"><xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="this.ForgeTab.Label"><value>କଳା</value></data><data name="this.ToolsGroup.Label"><value>ଉପକରଣ</value></data><data name="this.GenerateButton.Label"><value>ସୃଜନ</value></data><data name="this.GenerateButton.SuperTip"><value>ବ୍ୟବହାରକାରୀଙ୍କର ପ୍ରମ୍ପ୍ଟ ଓ ଏହି ଏହି ଡକ୍ୟୁମେଣ୍ଟର ଆଧାରରେ ଅନୁକୁଳିତ ପ୍ରତିକ୍ରିୟା ସୃଜନ କରିଥାଏ।</value></data><data name="this.DefaultCheckBox.Label"><value>ଡିଫଲ୍ଟ</value></data><data name="this.AboutButton.Label"><value>ସମ୍ବ୍ରେଧନ</value></data><data name="this.AboutButton.ScreenTip"><value>ଏହି ଆବେଦନ ବିଷୟରେ ବିବରଣୀ ପ୍ରଦାନ କରେ।</value></data><data name="this.CancelButton.Label"><value>ବାତିଲ</value></data><data name="this.CancelButton.ScreenTip"><value>ପାଠ ସୃଜନ ପ୍ରକ୍ରିୟା ବନ୍ଦ କରେ।</value></data><data name="this.WritingToolsGallery.Label"><value>ଲେଖା ଉପକରଣ</value></data><data name="this.WritingToolsGallery.SuperTip"><value>ଗ୍ରାମ୍ମାର, ଶୈଳୀ, ଓ ସ୍ଫଷ୍ଟତା ପାଇଁ AI ସକ୍ଷମ ଉପକରଣ ସହିତ ଆପଣଙ୍କର ଲେଖା ବୃଦ୍ଧି କରନ୍ତୁ।</value></data><data name="this.ReviewButton.Label"><value>ପୁନରିକ୍ଷା</value></data><data name="this.ReviewButton.SuperTip"><value>AI ଚିହ୍ନ ଓ ପ୍ରସ୍ତାବ ସହିତ ଆପଣଙ୍କର ଡକ୍ୟୁମେଣ୍ଟ ବୃଦ୍ଧି କରନ୍ତୁ।</value></data><data name="this.ProofreadButton.Label"><value>ପ୍ରୁଫରିଡ</value></data><data name="this.ProofreadButton.SuperTip"><value>ଆପଣଙ୍କର ଡକ୍ୟୁମେଣ୍ଟକୁ ସଂଶୋଧନ କରିବାକୁ ହୁଏ, ଗ୍ରାମ୍ମାର, ଧୃତି, ଓ ଶୈଳୀ ତ୍ରୁଟିଗୁଡିକୁ ଚେକ୍ କରନ୍ତୁ।</value></data><data name="this.RewriteButton.Label"><value>ପୁନଲେଖନ</value></data><data name="this.RewriteButton.SuperTip"><value>AI ସକ୍ଷମ ପ୍ରସ୍ତାବ ସହିତ ଆପଣଙ୍କର ଟେକ୍ସଟ୍ ବିଶେଷୀକୃତ କରନ୍ତୁ ଓ ବୃଦ୍ଧି କରନ୍ତୁ।</value></data><data name="this.SettingsGroup.Label"><value>ସେଟିଙ୍ଗସ୍</value></data><data name="this.RAGControlButton.Label"><value>RAG କଣ୍ଟ୍ରୋଲ</value></data><data name="this.RAGControlButton.SuperTip"><value>ପୁନାବଳ୍ଟ ଅଗ୍ରଗତି ସୃଜନ (RAG) ପ୍ରଣାଳୀରେ ଫାଇଲ୍ ବ୍ୟବସ୍ଥାପନ କରନ୍ତୁ।</value></data><data name="this.ModelListDropDown.Label"><value>ମୃଦା ତାଲିକା</value></data><data name="this.ModelListDropDown.SuperTip"><value>TextCraft ରେ ବ୍ୟବହାର ପାଇଁ ଏକ ଭାଷା ମୃଦା ବାଛନ୍ତୁ।</value></data><data name="this.DefaultCheckBox.SuperTip"><value>TextCraft ପାଇଁ ଡିଫଲ୍ଟ ଭାଷା ମୃଦା ସେଟ୍ କରନ୍ତୁ।</value></data><data name="this.OptionsGroup.Label"><value>ବିକଳ୍ପଗୁଡିକ</value></data><data name="this.InfoGroup.Label"><value>ସୂଚନା</value></data><data name="(ThisAddIn.cs) [InitializeAddIn] ArgumentException #1"><value>ମୃଦା ଅଛି ନାହିଁ। ଦୟାକରି ଏହାକୁ ଇନ୍‌ଷ୍ଟଲ୍ କରନ୍ତୁ ଯାହାନାହିଁ!</value></data><data name="[WritingToolsGallery_ButtonClick] ArgumentOutOfRangeException #1"><value>ବାଛିଥିବା ବଟନ୍ ପରିଚିତ ହୋଇନାହିଁ।</value></data><data name="[ReviewButton_Click] MessageBox #1 (text)"><value>ପୁନରିକ୍ଷା ସମାପ୍ତ! ଏହି ଡକ୍ୟୁମେଣ୍ଟ ପାଇଁ କେଉଁ ବିବେଚନା ଆବଶ୍ୟକ ନାହିଁ।</value></data><data name="[ReviewButton_Click] MessageBox #1 (caption)"><value>କାର୍ଯ୍ୟ ସମ୍ପୂର୍ଣ୍ଣ</value></data><data name="(ModelProperties.cs) [GetContextLength] OllamaMissingContextWindowException #1"><value>{0} ପାଇଁ ସୂତ୍ର ଦୀର୍ଘତା ଆକ୍ଷକର କ୍ଷମତା ନାହିଁ!</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Text"><value>TextCraft କୁ ନିମ୍ନଲିଖିତ ଇଣ୍ଟର୍ନେଟ ଉପକରଣକୁ ଭୁଲ କରାଯିବା ପାଇଁ ଅନୁମତି ଦେବାକୁ ଚାହାଁିବେ କି?</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Caption"><value>ଇଣ୍ଟର୍ନେଟ୍ ଆକ୍ସେସ</value></data><data name="(WordMarkdown.cs) [ApplyMarkdownFormatting] ArgumentOutofRangeException #1"><value>Markdown ପ୍ରକଳ୍ପ ପାଇଁ ଅଜଣା ଫର୍ମାଟ୍ ପ୍ରକାର!</value></data><data name="(WordMarkdown.cs) [GetCodeBlockAtIndex] ApplicationException #1"><value>ସୂଚୀ {0} ରେ Markdown କୋଡ୍ ବ୍ଲକ୍ ମିଳିଲା ନାହିଁ!</value></data><data name="(WordMarkdown.cs) [ApplyImageFormatting] ArgumentException #1"><value>ଅବୃତ URL ଫର୍ମାଟ୍</value></data><data name="(WordMarkdown.cs) [ApplyHeadingFormatting] ArgumentException #1"><value>ଅବୃତ Markdown ହେଡିଂ: 1 ରୁ 6 '#' ସାଙ୍କେତ ରଖିବା ଦରକାର।</value></data><data name="[AnalyzeText] InvalidRangeException #1"><value>ବିଶ୍ଲେଷଣ ପାଇଁ କୌଣସି ପାଠ ବାଛିଥିବା ନାହିଁ!</value></data><data name="this.CommentSystemPrompt"><value>ଆପଣ ଜଣେ ଦକ୍ଷ ଲେଖନ ସହାୟକ ଓ ସମ୍ପାଦକ, ପୁନର୍ତ୍ଥନାତ୍ମକଙ୍କ ସ୍ଫଷ୍ଟତା, ସଗ୍ରହଣ, ଓ ପ୍ରଭାବ ମଧ୍ୟରେ ପ୍ରସ୍ତୁତ ଅଚ୍ଛତି।</value></data><data name="(CommentHandler.cs) [AICommentReplyTask] UserChatMessage #2"><value>ପୂର୍ବ ବିବେଚନାବାଙ୍କର AI ମନ୍ତବ୍ୟର ଆଧାରରେ, ସମ୍ବୃଧନ ସ୍ଫଷ୍ଟତା, ସମସ୍ୟା, ଗଠନ, ଗ୍ରାମ୍ମାର ଓ ସର୍ବସାଧାରଣ କ୍ଷମତା ବିକାଶ ପ୍ରାୟ ସଂକ୍ଷେପ ପ୍ରସ୍ତାବ କରନ୍ତୁ।</value></data><data name="[ProofreadButton_Click] SystemPrompt"><value>ଆପଣ ଗ୍ରାମ୍ମାର, ପୁନସାଧନ, ମାର୍କୁ ନେବାର ସମ୍ପାଦନା ସାହାୟକ। ଆପଣଙ୍କର କେବଳ ନିର୍ବାହୀ ବିଶ୍ଲେଷଣ କରିବାକୁ କେବଳ କ୍ଷମତା କରିବା ପାଇଁ।</value></data><data name="[ProofreadButton_Click] UserPrompt"><value>ଦୟାକରି ନିମ୍ନଲିଖିତ ପାଠର ଲେଖା ପୁନରୀକ୍ଷା କରନ୍ତୁ। କୌଣସି ଆବଶ୍ୟକ ପରିବର୍ତ୍ତନ କରନ୍ତୁ।</value></data><data name="[RewriteButton_Click] SystemPrompt"><value>ଆପଣ ଭାଷା ମୃଦା ବାଦଲାନ୍ତୁ।</value></data><data name="[RewriteButton_Click] UserPrompt"><value>ଦୟାକରି ନିମ୍ନଲିଖିତ ପାଠକୁ ପୁନଲେଖନ କରନ୍ତୁ:</value></data><data name="[ReviewButton_Click] UserPrompt"><value>ଏକ ଦକ୍ଷ ଲେଖା ସହାୟକ ଭାବରେ, ବିସ୍ତୃତ ଡକ୍ୟୁମେଣ୍ଟରେ ସମ୍ବୃଧନ ସ୍ଫଷ୍ଟତା, ସମସ୍ୟା, ଗଠନ, ଗ୍ରାମ୍ମାର ଓ ସର୍ବସାଧାରଣ କ୍ଷମତା ବିକାଶ ପ୍ରାୟର ଏହି ବିଶେଷରେ ପ୍ରସ୍ତାବ କରନ୍ତୁ।</value></data><data name="[Review] chatHistory #1"><value>ଦୟାକରି ନିମ୍ନଲିଖିତ ବିବରଣୀକୁ ପୁନରୀକ୍ଷା କରନ୍ତୁ:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #1"><value>ଡକ୍ୟୁମେଣ୍ଟ ସାମଗ୍ରୀ:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #2"><value>RAG ପୃଷ୍ଠବ୍ୟବସ୍ଥା:</value></data><data name="(CommentHandler.cs) [AIUserMentionTask] UserMentionSystemPrompt"><value>ଆପଣ ଏକ AI ସହାୟକ ଯାହା ଡକ୍ୟୁମେଣ୍ଟରେ ପ୍ରସ୍ତୁତ ଅଛି, ବ୍ୟବହାରକାରୀଙ୍କର ଚୟନରେ ପ୍ରଶ୍ନର ଉତ୍ତର ଦେବା।</value></data></root>

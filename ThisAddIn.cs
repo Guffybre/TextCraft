@@ -8,6 +8,7 @@ using HyperVectorDB.Embedder;
 using Microsoft.Office.Tools;
 using OpenAI;
 using OpenAI.Models;
+using Task = System.Threading.Tasks.Task;
 using Word = Microsoft.Office.Interop.Word;
 
 namespace TextForge
@@ -26,7 +27,7 @@ namespace TextForge
         public static bool IsAddinInitialized { get { return _isAddinInitialized; } set { _isAddinInitialized = value; } }
         public static OpenAIModelCollection ModelList { get { return _modelList; } }
         public static Dictionary<Word.Document, Tuple<CustomTaskPane, CustomTaskPane, RAGControl>> AllTaskPanes {  get { return _allTaskPanes; } }
-
+        public static Dictionary<string, string> SystemPromptLocalization { get { return _systemPromptLocalization; } }
 
         // Private
         private static string _openAIEndpoint = "http://localhost:11434/v1"; // Ollama endpoint
@@ -36,10 +37,11 @@ namespace TextForge
         private static int _contextLength = ModelProperties.BaselineContextWindowLength;
         private static OpenAIClientOptions _clientOptions;
         private static EmbedderOpenAI _embedder;
-        private static CancellationTokenSource _cancellationTokenSource = new();
+        private static CancellationTokenSource _cancellationTokenSource = new CancellationTokenSource();
         private static bool _isAddinInitialized = false;
         private static OpenAIModelCollection _modelList;
         private static Dictionary<Word.Document, Tuple<CustomTaskPane, CustomTaskPane, RAGControl>> _allTaskPanes = new();
+        private static Dictionary<string, string> _systemPromptLocalization = new();
 
         private void ThisAddIn_Startup(object sender, System.EventArgs e)
         {
@@ -201,6 +203,7 @@ namespace TextForge
 
         public static void InitializeAddIn()
         {
+            CommonUtils.ConfigureTLS();
             InitializeEnvironmentVariables();
             _embedder = new EmbedderOpenAI(_embedModel, _apiKey, _clientOptions);
             _isAddinInitialized = true;
@@ -212,13 +215,26 @@ namespace TextForge
             CommonUtils.GetEnvironmentVariableIfAvailable(ref _apiKey, "TEXTCRAFT_API_KEY");
             CommonUtils.GetEnvironmentVariableIfAvailable(ref _embedModel, "TEXTCRAFT_EMBED_MODEL");
 
+            string generateSysPrompt = string.Empty, reviewSysPrompt = string.Empty, proofreadSysPrompt = string.Empty, rewriteSysprompt = string.Empty, commentSysPrompt = string.Empty;
+            CommonUtils.GetEnvironmentVariableIfAvailable(ref generateSysPrompt, "TEXTCRAFT_GENERATE_PROMPT");
+            CommonUtils.GetEnvironmentVariableIfAvailable(ref reviewSysPrompt, "TEXTCRAFT_REVIEW_PROMPT");
+            CommonUtils.GetEnvironmentVariableIfAvailable(ref proofreadSysPrompt, "TEXTCRAFT_PROOFREAD_PROMPT");
+            CommonUtils.GetEnvironmentVariableIfAvailable(ref rewriteSysprompt, "TEXTCRAFT_REWRITE_PROMPT");
+            CommonUtils.GetEnvironmentVariableIfAvailable(ref commentSysPrompt, "TEXTCRAFT_COMMENT_PROMPT");
+
+            AssignIfNotEmptyPrompt("(GenerateUserControl.cs) _systemPrompt", generateSysPrompt);
+            AssignIfNotEmptyPrompt("this.CommentSystemPrompt", reviewSysPrompt);
+            AssignIfNotEmptyPrompt("[ProofreadButton_Click] SystemPrompt", proofreadSysPrompt);
+            AssignIfNotEmptyPrompt("[RewriteButton_Click] SystemPrompt", rewriteSysprompt);
+            AssignIfNotEmptyPrompt("(CommentHandler.cs) [AIUserMentionTask] UserMentionSystemPrompt", rewriteSysprompt);
+
             // Initialize client variables
             _clientOptions = new OpenAIClientOptions
             {
                 Endpoint = new Uri(_openAIEndpoint),
-                ProjectId = "Operation Clippy",
                 UserAgentApplicationId = "TextCraft"
             };
+
             OpenAIModelClient modelRetriever = new OpenAIModelClient(new ApiKeyCredential(_apiKey), _clientOptions);
             _modelList = modelRetriever.GetModels().Value;
 
@@ -230,16 +246,41 @@ namespace TextForge
             SetEmbedModelAutomatically();
         }
 
+        private static void AssignIfNotEmptyPrompt(string key, string value)
+        {
+            if (key != string.Empty)
+                _systemPromptLocalization[key] = value;
+        }
+
+        private static void HandleSystemPromptLocalization()
+        {
+            List<string> localizationKeys = new List<string>()
+            {
+                "(GenerateUserControl.cs) _systemPrompt",
+                "this.CommentSystemPrompt",
+                "[ProofreadButton_Click] SystemPrompt",
+                "[RewriteButton_Click] SystemPrompt",
+                "(CommentHandler.cs) [AIUserMentionTask] UserMentionSystemPrompt"
+            };
+            foreach (string key in localizationKeys)
+            {
+                if (key.StartsWith("(GenerateUserControl.cs)"))
+                    _systemPromptLocalization[key] = GenerateUserControl.CultureHelper.GetLocalizedString(key);
+                else
+                    _systemPromptLocalization[key] = Forge.CultureHelper.GetLocalizedString(key);
+            }
+        }
+
         private static void SetEmbedModelAutomatically()
         {
             if (string.IsNullOrEmpty(_embedModel))
             {
                 // Use LINQ to find the first model that meets the condition
                 _embedModel = _modelList.FirstOrDefault(model =>
-                    model.Id.Contains("embed") || ModelProperties.UniqueEmbedModels.Any(item => model.Id.Contains(item))
+                    model.Id.Contains("embed") || ModelProperties.EmbedModelList.Any(item => model.Id.Contains(item))
                 )?.Id;
 
-                // If no model was found, throw an exceptiond
+                // If no model was found, throw an exception
                 if (string.IsNullOrEmpty(_embedModel))
                     throw new ArgumentException(Forge.CultureHelper.GetLocalizedString("(ThisAddIn.cs) [InitializeAddIn] ArgumentException #1"));
             }

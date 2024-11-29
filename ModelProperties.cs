@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.Json;
 using System.Text.Json.Nodes;
+using OpenAI.Chat;
 using OpenAI.Models;
 
 namespace TextForge
@@ -11,10 +12,7 @@ namespace TextForge
     {
         // Public
         public const int BaselineContextWindowLength = 4096; // Change this if necessary
-        public static List<string> UniqueEmbedModels { get { return _embedModels; } }
-
-        // Private
-        private static readonly List<string> _embedModels = new List<string>()
+        public static readonly List<string> EmbedModelList = new List<string>()
         {
             "all-minilm",
             "bge-m3",
@@ -22,24 +20,48 @@ namespace TextForge
             "paraphrase-multilingual"
         };
 
-        private static readonly Dictionary<string, int> openAIModelsContextLength = new Dictionary<string, int>()
+        // Private
+        private static readonly Dictionary<string, int> _openAIModelsContextLength = new()
         {
             { "gpt-4-0125-preview", 128000 },
             { "gpt-4-1106-preview", 128000 },
-            { "gpt-3.5-turbo-instruct", 4096 },
+            { "gpt-3.5-turbo-instruct", 4096 }
+        };
+
+        private static readonly List<string> _unsupportedOpenAIModels = new List<string>()
+        {
+            "babbage",
+            "davinci",
+            "gpt-4o-audio-preview",
+            "gpt-4o-realtime-preview",
+            "tts",
+            "whisper",
+            "o1"
         };
 
         private static bool IsOllamaEndpoint = false;
         private static bool IsOllamaFetched = false;
-        private static Dictionary<string, int> ollamaContextWindowCache = new Dictionary<string, int>();
+        private static Dictionary<string, int> ollamaContextWindowCache = new();
         private static readonly CultureLocalizationHelper _cultureHelper = new CultureLocalizationHelper("TextForge.Forge", typeof(Forge).Assembly);
 
+        public static bool IsImageModel(string modelName)
+        {
+            return modelName.StartsWith("dall-e");
+        }
+
+        public static string ConvertChatHistoryToString(List<ChatMessage> chatHistory)
+        {
+            string prompt = string.Empty;
+            foreach (var msg in chatHistory)
+                prompt += msg.Content[0].Text;
+            return prompt;
+        }
 
         public static int GetContextLength(string modelName, OpenAIModelCollection availableModels)
         {
-            if (openAIModelsContextLength.ContainsKey(modelName))
+            if (_openAIModelsContextLength.ContainsKey(modelName))
             {
-                return openAIModelsContextLength[modelName];
+                return _openAIModelsContextLength[modelName];
             }
             else if (modelName.Contains(':'))
             {
@@ -95,9 +117,15 @@ namespace TextForge
             }
         }
 
-        public static IEnumerable<string> GetModelList(OpenAIModelCollection availableModels)
+        public static IEnumerable<string> GetLanguageModelList(OpenAIModelCollection availableModels)
         {
-            return availableModels.Select(info => info.Id).ToList();
+            return availableModels
+                .Where(info => !EmbedModelList.Any(
+                    embedModel => info.Id.StartsWith(embedModel)) && 
+                    !_unsupportedOpenAIModels.Any(modelName => info.Id.StartsWith(modelName) && !info.Id.Contains(':')) && 
+                    !info.Id.Contains("embed")
+                )
+                .Select(info => info.Id);
         }
 
         private static bool IsOllama(OpenAIModelCollection availableModels)

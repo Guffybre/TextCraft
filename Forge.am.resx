@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema"><xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="this.ForgeTab.Label"><value>ስር አምር</value></data><data name="this.ToolsGroup.Label"><value>መሣሪያዎች</value></data><data name="this.GenerateButton.Label"><value>ማጀት</value></data><data name="this.GenerateButton.SuperTip"><value>በእባብ መስመር ላይ እና አሁን በሚገኘው ሰነድ ይዘት የተለያዩ መልስ ይፍጠሩ።</value></data><data name="this.DefaultCheckBox.Label"><value>የመነሻ ምርጫ</value></data><data name="this.AboutButton.Label"><value>ስለ</value></data><data name="this.AboutButton.ScreenTip"><value>ይህ መተግበሪያ ዝርዝር ይነግር።</value></data><data name="this.CancelButton.Label"><value>ይቅር</value></data><data name="this.CancelButton.ScreenTip"><value>የጽሁፍ መውጣት Process ወደ ማቆም እንደዚህ ይወዳድሩ።</value></data><data name="this.WritingToolsGallery.Label"><value>መጻፍ መሣሪያዎች</value></data><data name="this.WritingToolsGallery.SuperTip"><value>የጽሁፍዎን በአ.ይ ኃይል የተሰለፍ መሣሪያዎች ወደ ይዘት አነሳሳት።</value></data><data name="this.ReviewButton.Label"><value>አስተያየት</value></data><data name="this.ReviewButton.SuperTip"><value>የደብዳቤዎትን በአ.ይ የነበሩ አስተያየቶች እና ማስተናገዶች አሻሽል።</value></data><data name="this.ProofreadButton.Label"><value>ብልሀት</value></data><data name="this.ProofreadButton.SuperTip"><value>ለእርስዎ ዕውቀት፣ አንቀሳቅሱን እና አይቀይረ ተሰካፊዎችን ይነግሩ።</value></data><data name="this.RewriteButton.Label"><value>ይዘቱን ይውለጡ</value></data><data name="this.RewriteButton.SuperTip"><value>ይዘታችንን ይገመገሙዋቸውን በአ.ይ የተሰለፍ ትርጉም ይገመገሙ።</value></data><data name="this.SettingsGroup.Label"><value>ቅንጅት</value></data><data name="this.RAGControlButton.Label"><value>ኤርገንኖኢን አንቀሳቅዎች መለያ ይወክለዋል።</value></data><data name="this.RAGControlButton.SuperTip"><value>በአሁን ነፃ ይወዳድር።</value></data><data name="this.ModelListDropDown.Label"><value>የዞር ዝርዝር</value></data><data name="this.ModelListDropDown.SuperTip"><value>የጽሁፍ ሞዴል ለጻፍት ምርጥ ይይዘረግ።</value></data><data name="this.DefaultCheckBox.SuperTip"><value>የመነሻ ሞዴል ለጽሁፍ ይይዘረግ።</value></data><data name="this.OptionsGroup.Label"><value>አማራጮች</value></data><data name="this.InfoGroup.Label"><value>መረጃ</value></data><data name="(ThisAddIn.cs) [InitializeAddIn] ArgumentException #1"><value>ቁልፍ የተለየ ምርኮ! ፡ይቀውያ ወድርወት!</value></data><data name="[WritingToolsGallery_ButtonClick] ArgumentOutOfRangeException #1"><value>የተመረጠ አንድ ቁልፍ አልታወቀም።</value></data><data name="[ReviewButton_Click] MessageBox #1 (text)"><value>እቅፍ አውቀር! ወዀንፈ ይዚው ባጡር ይቀርእ አቀመ፡</value></data><data name="[ReviewButton_Click] MessageBox #1 (caption)"><value>መስክ የተገኙ</value></data><data name="(ModelProperties.cs) [GetContextLength] OllamaMissingContextWindowException #1"><value>ለ{0} ሥጋት ትክክል ወገናት አልነበረባለሁ!</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Text"><value>ተዳራጅአን ወረፅዋቂን ምርጥ እቆረን ይፈልጉ?</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Caption"><value>አይን ወታወሪ</value></data><data name="(WordMarkdown.cs) [ApplyMarkdownFormatting] ArgumentOutofRangeException #1"><value>ለMarkdown ሂደት የቺ አይታወቁም!</value></data><data name="(WordMarkdown.cs) [GetCodeBlockAtIndex] ApplicationException #1"><value>ቅሬግ ክፈርወ መነግር በ{0} በስም!</value></data><data name="(WordMarkdown.cs) [ApplyImageFormatting] ArgumentException #1"><value>ታሽኖ የተለየ URL .</value></data><data name="(WordMarkdown.cs) [ApplyHeadingFormatting] ArgumentException #1"><value>የተቈጣየ የMarkdown ጉልበት: 1 በማለት 1 አርበም 1-6 '#' ባለቤት ይገባቷል።</value></data><data name="[AnalyzeText] InvalidRangeException #1"><value>እንደ ሪንስ ሲሆን ከሁሉም !</value></data><data name="this.CommentSystemPrompt"><value>አነጋገር ሥርዓት . እንደ ወጮይ አክባቅ አጽዳ ለመጻፍ .</value></data><data name="(CommentHandler.cs) [AICommentReplyTask] UserChatMessage #2"><value>በዚህ ጊዜ ይለያይሩ!!</value></data><data name="[ProofreadButton_Click] SystemPrompt"><value>አይፋ ለአባይ አልበት ወጊይ. ጊዀ!</value></data><data name="[ProofreadButton_Click] UserPrompt"><value>ይከናውኘች፣ አልባይ ኦጉይ ‘s ይዙህ ይወጣ</value></data><data name="[RewriteButton_Click] SystemPrompt"><value>ወጅምር፣ አነወውሽ ከዋዶች ይጋባሑ=ሠላሱ ይባር ይብር</value></data><data name="[RewriteButton_Click] UserPrompt"><value>ይዘይ። ወጅምር፣ አነወውሽ ከዋዶች ይጋባሑ=ሠላሱ ይባር ይብር</value></data><data name="[ReviewButton_Click] UserPrompt"><value>ወጅምር ረዋይ፣ አነወውሽ ወጋዥ.</value></data><data name="[Review] chatHistory #1"><value>ይግበሩ።</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #1"><value>ይዘት ይከናውክን።</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #2"><value>አንዳድ ወይሳ ሀደት.</value></data><data name="(CommentHandler.cs) [AIUserMentionTask] UserMentionSystemPrompt"><value>አይሰልዕም ስክር ማዕከልን!</value></data></root>

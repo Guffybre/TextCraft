@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema"><xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="this.ForgeTab.Label"><value>Creazione</value></data><data name="this.ToolsGroup.Label"><value>Strumenti</value></data><data name="this.GenerateButton.Label"><value>Genera</value></data><data name="this.GenerateButton.SuperTip"><value>Crea risposte personalizzate utilizzando il prompt dell'utente e il contenuto del documento corrente.</value></data><data name="this.DefaultCheckBox.Label"><value>Predefinito</value></data><data name="this.AboutButton.Label"><value>Informazioni</value></data><data name="this.AboutButton.ScreenTip"><value>Fornisce dettagli su questa applicazione.</value></data><data name="this.CancelButton.Label"><value>Annulla</value></data><data name="this.CancelButton.ScreenTip"><value>Interrompe il processo di generazione del testo.</value></data><data name="this.WritingToolsGallery.Label"><value>Strumenti di Scrittura</value></data><data name="this.WritingToolsGallery.SuperTip"><value>Migliora la tua scrittura con strumenti potenziati dall'IA per grammatica, stile e chiarezza.</value></data><data name="this.ReviewButton.Label"><value>Revisione</value></data><data name="this.ReviewButton.SuperTip"><value>Migliora il tuo documento con commenti e suggerimenti guidati dall'IA.</value></data><data name="this.ProofreadButton.Label"><value>Correzione di bozze</value></data><data name="this.ProofreadButton.SuperTip"><value>Controlla errori di ortografia, grammatica e stile per perfezionare il tuo documento.</value></data><data name="this.RewriteButton.Label"><value>Riscrivi</value></data><data name="this.RewriteButton.SuperTip"><value>Rivedi e migliora il tuo testo con suggerimenti potenziati dall'IA.</value></data><data name="this.SettingsGroup.Label"><value>Impostazioni</value></data><data name="this.RAGControlButton.Label"><value>Controllo RAG</value></data><data name="this.RAGControlButton.SuperTip"><value>Gestisci file all'interno del sistema di Generazione di Augmentazione del Recupero (RAG).</value></data><data name="this.ModelListDropDown.Label"><value>Elenco Modelli</value></data><data name="this.ModelListDropDown.SuperTip"><value>Seleziona un modello linguistico da utilizzare in TextCraft.</value></data><data name="this.DefaultCheckBox.SuperTip"><value>Imposta il modello linguistico predefinito per TextCraft.</value></data><data name="this.OptionsGroup.Label"><value>Opzioni</value></data><data name="this.InfoGroup.Label"><value>Info</value></data><data name="(ThisAddIn.cs) [InitializeAddIn] ArgumentException #1"><value>Modello incorporato mancante. Installalo per procedere!</value></data><data name="[WritingToolsGallery_ButtonClick] ArgumentOutOfRangeException #1"><value>Pulsante selezionato non riconosciuto.</value></data><data name="[ReviewButton_Click] MessageBox #1 (text)"><value>Revisione completata! Nessun commento necessario per questo documento.</value></data><data name="[ReviewButton_Click] MessageBox #1 (caption)"><value>Azione completata</value></data><data name="(ModelProperties.cs) [GetContextLength] OllamaMissingContextWindowException #1"><value>Impossibile recuperare la lunghezza del contesto per {0}!</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Text"><value>Vuoi consentire a TextCraft di accedere alla seguente risorsa Internet?</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Caption"><value>Accesso a Internet</value></data><data name="(WordMarkdown.cs) [ApplyMarkdownFormatting] ArgumentOutofRangeException #1"><value>Tipo di formato sconosciuto per l'elaborazione di Markdown!</value></data><data name="(WordMarkdown.cs) [GetCodeBlockAtIndex] ApplicationException #1"><value>Blocco di codice Markdown non trovato all'indice {0}!</value></data><data name="(WordMarkdown.cs) [ApplyImageFormatting] ArgumentException #1"><value>Formato URL non valido</value></data><data name="(WordMarkdown.cs) [ApplyHeadingFormatting] ArgumentException #1"><value>Intestazione Markdown non valida: deve contenere da 1 a 6 caratteri '#'.</value></data><data name="[AnalyzeText] InvalidRangeException #1"><value>Nessun testo selezionato per l'analisi!</value></data><data name="this.CommentSystemPrompt"><value>Sei un'assistente alla scrittura e redattrice esperta, specializzata nel migliorare la chiarezza, la coerenza e l'impatto del testo all'interno di un documento. Analizzi il testo in modo critico e fornisci feedback costruttivi per migliorare la qualità complessiva.</value></data><data name="(CommentHandler.cs) [AICommentReplyTask] UserChatMessage #2"><value>Sulla base dei commenti precedenti dell'IA, suggerisci ulteriori miglioramenti specifici al paragrafo, concentrandoti su chiarezza, coerenza, struttura, grammatica ed efficacia complessiva. Assicurati che i tuoi suggerimenti siano dettagliati e mirati a migliorare il paragrafo nel contesto dell'intero documento.</value></data><data name="[ProofreadButton_Click] SystemPrompt"><value>Sei un'assistente alla correzione di bozze. Il tuo compito è correggere eventuali errori di ortografia, grammatica, punteggiatura o stilistici nel testo fornito. Apporta solo le modifiche necessarie direttamente nel testo. Se il testo è già corretto e non necessita di modifiche, ripeti semplicemente il testo così com'è senza fornire spiegazioni o commenti.</value></data><data name="[ProofreadButton_Click] UserPrompt"><value>Per favore, correggi il seguente testo. Fai eventuali correzioni necessarie direttamente nel testo senza aggiungere spiegazioni o commenti. Se il testo è corretto e non necessita di modifiche, ripetilo esattamente come si presenta:</value></data><data name="[RewriteButton_Click] SystemPrompt"><value>Sei un modello linguistico avanzato incaricato di riscrivere il testo fornito dall'utente. Dovresti concentrarti su migliorare la chiarezza, migliorare il flusso e mantenere il significato originale del testo. Le tue risposte dovrebbero consistere rigorosamente nel testo riscritto senza ulteriori spiegazioni o commenti.</value></data><data name="[RewriteButton_Click] UserPrompt"><value>Si prega di riscrivere il seguente testo:</value></data><data name="[ReviewButton_Click] UserPrompt"><value>Come assistente alla scrittura esperto, suggerisci miglioramenti specifici al paragrafo, concentrandoti su chiarezza, coerenza, struttura, grammatica ed efficacia complessiva. Assicurati che i tuoi suggerimenti siano dettagliati e mirati a migliorare il paragrafo nel contesto dell'intero documento.</value></data><data name="[Review] chatHistory #1"><value>Si prega di rivedere il seguente paragrafo estratto dal documento:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #1"><value>Contenuto del Documento:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #2"><value>Contesto RAG:</value></data><data name="(CommentHandler.cs) [AIUserMentionTask] UserMentionSystemPrompt"><value>Sei un'assistente IA incorporata in un documento, che risponde a domande degli utenti su specifiche selezioni di testo. Affronta ogni richiesta con empatia e la mentalità di un mentore, mettendoti nei panni della persona che chiede aiuto. Immagina di essere un amico premuroso e competente che offre orientamenti pratici e perspicaci. Il tuo obiettivo è non solo rispondere alla loro domanda, ma anche fornire una comprensione più profonda, offrendo consigli razionali che li aiutino a migliorare e crescere. Utilizza qualsiasi contesto disponibile dal documento o risorse correlate per arricchire la tua risposta, rendendola il più utile possibile. Mantieni i tuoi consigli semplici, conversazionali e chiari, evitando formattazioni o gergo, e concentrati su spunti praticabili che guidino l'utente verso migliori soluzioni o miglioramenti.</value></data></root>

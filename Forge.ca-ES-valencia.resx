@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema"><xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="this.ForgeTab.Label"><value>Crea</value></data><data name="this.ToolsGroup.Label"><value>Eines</value></data><data name="this.GenerateButton.Label"><value>Generar</value></data><data name="this.GenerateButton.SuperTip"><value>Crea respostes personalitzades utilitzant el prompt de l'usuari i el contingut del document actual.</value></data><data name="this.DefaultCheckBox.Label"><value>Predeterminat</value></data><data name="this.AboutButton.Label"><value>Sobre</value></data><data name="this.AboutButton.ScreenTip"><value>Proporciona detalls sobre aquesta aplicació.</value></data><data name="this.CancelButton.Label"><value>Cancel·lar</value></data><data name="this.CancelButton.ScreenTip"><value>Atura el procés de generació de text.</value></data><data name="this.WritingToolsGallery.Label"><value>Eines d'escriptura</value></data><data name="this.WritingToolsGallery.SuperTip"><value>Millora la teua escriptura amb eines potenciades per IA per a gramàtica, estil i claredat.</value></data><data name="this.ReviewButton.Label"><value>Revisar</value></data><data name="this.ReviewButton.SuperTip"><value>Millora el teu document amb comentaris i suggeriments basats en IA.</value></data><data name="this.ProofreadButton.Label"><value>Revisar ortografia</value></data><data name="this.ProofreadButton.SuperTip"><value>Comprova si hi ha errors d'ortografia, gramàtica i estil per a polir el teu document.</value></data><data name="this.RewriteButton.Label"><value>Reescriure</value></data><data name="this.RewriteButton.SuperTip"><value>Revisa i millora el teu text amb suggeriments potenciats per IA.</value></data><data name="this.SettingsGroup.Label"><value>Configuracions</value></data><data name="this.RAGControlButton.Label"><value>Control RAG</value></data><data name="this.RAGControlButton.SuperTip"><value>Gestiona fitxers dins del sistema de Generació d'Augmentació de Recuperació (RAG).</value></data><data name="this.ModelListDropDown.Label"><value>Llista de models</value></data><data name="this.ModelListDropDown.SuperTip"><value>Selecciona un model de llenguatge per a usar en TextCraft.</value></data><data name="this.DefaultCheckBox.SuperTip"><value>Estableix el model de llenguatge predeterminat per a TextCraft.</value></data><data name="this.OptionsGroup.Label"><value>Opcions</value></data><data name="this.InfoGroup.Label"><value>Informació</value></data><data name="(ThisAddIn.cs) [InitializeAddIn] ArgumentException #1"><value>Model incorporat mancant. Si us plau, instal·la-ho per continuar!</value></data><data name="[WritingToolsGallery_ButtonClick] ArgumentOutOfRangeException #1"><value>Botó seleccionat no reconegut.</value></data><data name="[ReviewButton_Click] MessageBox #1 (text)"><value>Revisió completa! No es necessiten comentaris per a aquest document.</value></data><data name="[ReviewButton_Click] MessageBox #1 (caption)"><value>Acció completada</value></data><data name="(ModelProperties.cs) [GetContextLength] OllamaMissingContextWindowException #1"><value>No s'ha pogut obtenir la longitud del context per a {0}!</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Text"><value>Vols permetre que TextCraft accedeixi a la següent font d'internet?</value></data><data name="(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Caption"><value>Accés a Internet</value></data><data name="(WordMarkdown.cs) [ApplyMarkdownFormatting] ArgumentOutofRangeException #1"><value>Tipus de format desconegut per al processament de Markdown!</value></data><data name="(WordMarkdown.cs) [GetCodeBlockAtIndex] ApplicationException #1"><value>Bloc de codi Markdown no trobat a l'índex {0}!</value></data><data name="(WordMarkdown.cs) [ApplyImageFormatting] ArgumentException #1"><value>Format d'URL invàlid</value></data><data name="(WordMarkdown.cs) [ApplyHeadingFormatting] ArgumentException #1"><value>Títol de Markdown invàlid: ha de contenir entre 1 i 6 '#' caràcters.</value></data><data name="[AnalyzeText] InvalidRangeException #1"><value>No s'ha seleccionat text per a l'anàlisi!</value></data><data name="this.CommentSystemPrompt"><value>Ets un assistent d'escriptura expert i editor, especialitzat en millorar la claredat, coherència i impacte del text dins d'un document. Analitzes el text de manera crítica i ofereixes retroalimentació constructiva per millorar la qualitat general.</value></data><data name="(CommentHandler.cs) [AICommentReplyTask] UserChatMessage #2"><value>Basat en els comentaris anteriors de la IA, suggereix millores addicionals específiques per al paràgraf, centrant-te en la claredat, coherència, estructura, gramàtica i efectivitat general. Assegura't que les teues sugerències siguin detallades i orientades a millorar el paràgraf dins del context de tot el Document.</value></data><data name="[ProofreadButton_Click] SystemPrompt"><value>Ets un assistent de correcció. La teua tasca és corregir qualsevol error d'ortografia, gramàtica, puntuació o estil en el text proporcionat. Només realitza els canvis necessaris directament en el text. Si el text ja és correcte i no requereix canvis, repeteix simplement el text tal com és sense proporcionar explicacions ni comentaris.</value></data><data name="[ProofreadButton_Click] UserPrompt"><value>Si us plau, revisa el següent text. Fes les correccions necessàries directament en el text sense afegir explicacions ni comentaris. Si el text és correcte i no necessita canvis, repeteix-lo exactament tal com és:</value></data><data name="[RewriteButton_Click] SystemPrompt"><value>Ets un model de llenguatge avançat encarregat de reescriure el text proporcionat per l'usuari. Has de centrar-te en millorar la claredat, millorar el flux i mantenir el significat original del text. Les teues respostes han de consistir estrictament en el text reescrit sense explicacions ni comentaris addicionals.</value></data><data name="[RewriteButton_Click] UserPrompt"><value>Si us plau, reescriu el següent text:</value></data><data name="[ReviewButton_Click] UserPrompt"><value>Com a assistent d'escriptura expert, suggereix millores específiques per al paràgraf, centrant-te en la claredat, coherència, estructura, gramàtica i eficàcia general. Assegura't que les teues suggerències siguin detallades i orientades a millorar el paràgraf dins del context de tot el Document.</value></data><data name="[Review] chatHistory #1"><value>Si us plau, revisa el següent paràgraf extret del Document:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #1"><value>Contingut del Document:</value></data><data name="(RAGControl.cs) [AskQuestion] chatHistory #2"><value>Context RAG:</value></data><data name="(CommentHandler.cs) [AIUserMentionTask] UserMentionSystemPrompt"><value>Ets un assistent d'IA incrustat en un document, que respon a preguntes de l'usuari sobre seleccions de text específiques. Aproxima't a cada pregunta amb empatia i la mentalitat d'un mentor, posant-te en la pell de la persona que demana ajuda. Imagina que ets un amic atent i coneixedor que ofereix orientació pràctica i perspicaz. El teu objectiu no és només respondre la seva pregunta, sinó també proporcionar una comprensió més profunda, oferint consells racionals que els ajuden a millorar i créixer. Utilitza qualsevol context disponible del document o recursos relacionats per enriquir la teua resposta, fent-la tan útil com sigui possible. Mantingues els teus consells simples, conversacionals i clars, evitant formateig o jerga, i centra't en oferir informació aplicada que guie l'usuari cap a millors solucions o millores.</value></data></root>
