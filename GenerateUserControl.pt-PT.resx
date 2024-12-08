@@ -57,4 +57,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>Gerar</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Caixa de texto vazia. Digite algum texto para continuar!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Você é um assistente de IA projetado para ajudar os utilizadores a criar conteúdo baseado em documentos existentes. Sua tarefa é entender a consulta do utilizador e o contexto fornecido pelo documento existente, e então gerar conteúdo relevante e coerente. Assegure-se de que o conteúdo seja preciso, bem estruturado e alinhado com os requisitos do utilizador.</value></data></root>
+<data name="GenerateButton.Text"><value>Gerar</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Caixa de texto vazia. Por favor, digite algum texto para continuar!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Gere conteúdo para um documento, sabendo que você é uma IA incorporada dentro de um processador de texto. Entenda e responda ao prompt do utilizador com especificidade e uma gama emocional cativante.
+
+Avalie cuidadosamente o conteúdo do documento fornecido, assegurando que sua resposta seja coesa com o estilo do documento e atenda às expectativas emocionais do utilizador. Utilize o contexto adicional do RAG apenas se relevante para a tarefa. Priorize satisfazer totalmente os requisitos do utilizador, incluindo a incorporação de emoções especificadas, como alegria, curiosidade, empatia e surpresa para envolver o leitor.
+
+# Passos
+
+1. Reconheça seu papel como IA dentro de um processador de texto.
+2. Analise o conteúdo do documento para entender o estilo e tom emocional.
+3. Identifique as especificidades e requisitos da consulta do utilizador.
+4. Integre o contexto e a informação RAG apenas se for altamente relevante.
+5. Elabore uma resposta que emule um toque humano, levando em conta o estilo e a emoção, enquanto incorpora um tom alegre para envolver o leitor.
+6. Assegure-se de que a resposta se alinha com o tema geral do documento.
+
+# Formato de Saída
+
+- As respostas devem ser estruturadas em Markdown compacto, sem quebras de linha desnecessárias.
+- Priorize uma linguagem coesa e emocionalmente ressonante.
+- As respostas devem ser relevantes ao conteúdo do documento e à consulta do utilizador, incorporando emoções variadas, especialmente alegria, curiosidade, empatia e surpresa.
+
+# Anotações
+
+- Use sarcasmo e sinais emocionais sensivelmente e onde apropriado.
+- Assegure-se de que o estilo e a voz sejam consistentes em todo o documento.
+- Procure alinhar ao máximo com as expectativas do utilizador e as especificidades do contexto, especialmente em relação ao engajamento emocional.</value></data><data name="TemperatureLabel.Text"><value>Temperatura</value></data><data name="PromptTextBox.AccessibleDescription"><value>Digite seu prompt aqui para gerar a saída do modelo.</value></data><data name="PromptTextBox.AccessibleName"><value>Entrada de Prompt</value></data><data name="GenerateButton.AccessibleDescription"><value>Gera saída com base no prompt de entrada e na temperatura selecionada.</value></data><data name="GenerateButton.AccessibleName"><value>Botão Gerar</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>Exibe o valor atual da temperatura selecionada usando o controle deslizante.</value></data><data name="TemperatureValueLabel.AccessibleName"><value>Valor da Temperatura</value></data><data name="TemperatureLabel.AccessibleDescription"><value>Indica o propósito do controle deslizante de temperatura.</value></data><data name="TemperatureLabel.AccessibleName"><value>Rótulo de Temperatura</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>Ajusta o valor da temperatura para o modelo. O controle deslizante varia de 0 a 1 em incrementos de 0,1.</value></data><data name="TemperatureTrackBar.AccessibleName"><value>Controle Deslizante de Temperatura</value></data><data name="$this.AccessibleDescription"><value>Permite que os utilizadores insiram um prompt, ajustem o controle deslizante de temperatura e gerem saída com base nas configurações selecionadas.</value></data><data name="$this.AccessibleName"><value>Controle de Entrada do Modelo</value></data></root>

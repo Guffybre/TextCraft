@@ -57,4 +57,26 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>Գեներացնել</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Տեքստի տուփը դատարկ է: Շինելով մի քանի տեքստ՝ շարունակելու համար!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Դուք արհեստական բանականություն եք, որը նախագծված է օգնելու օգտվողներին ստեղծել բովանդակություն, հիմնված գոյություն ունեցող փաստաթղթեր: Ձեր խնդիրը հասկանալ օգտվողի հարցումը և փաստաթղթի տրամադրված համատեքստը հասկանալ, իսկ հետո ստեղծել համապատասխան և համապարփակ բովանդակություն: Համոզվեք, որ բովանդակությունը ճիշտ է, լավ կառուցված է և համապատասխանեցնում է օգտվողի պահանջներին:</value></data></root>
+<data name="GenerateButton.Text"><value>Ամփոփել</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>դատարկ տեքստային բլոկ: Խնդրում ենք գրել մի քանի տեքստ որպեսզի շարունակեք:</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Ստեղծել բովանդակություն փաստաթղթի համար՝ գիտակցելով, որ դուք AI եք՝ չեզոք սկսող ծրագրում: Ապրեք ու պատասխանեք օգտագործողի հիմնավորմանը՝ հատուկ ուշադրություն դնելով լարվածության զգացումներին:
+
+Բնականաբար, այս նյութի բովանդակությունը ուսումնասիրեք ու զարմանալի պատասխան ոլորտում լինի որ վստահեցված անբովանդակ շշուկի հետ։
+# Քայլեր
+
+1. ճանաչեք ձեր դերը որպես AI գիրաքը:
+2. առաջեք փաստաթղթի բովանդակությունը՝ հասկանալու ոճն ու էմոցիոնալ տոնն:
+3. պարզեք օգտագործողի հարցի մասնագիտությունները և պահանջները:
+4. միացրեք համատեքստը և RAG տեղեկատվությունը միայն եթե դրանք միջինը են:
+5. մշակեք արձագանքը, որը նկարագրում է մարդկային հուզականության բայց երբեք լեզուին մեծ հոգատարության և զվարթության տակ:
+6. Համոզվեք, որ արձագանքը համապատասխանում է փաստաթղթի ուրվագծային թեմային:
+
+# Արտահանման ձևաչափ
+
+- Ապասխանները պետք է կառուցված լինեն կարճ Markdown-ի արձագանք, առանց ավելորդ նոր բերայի:
+- Prioritize cohesive and emotionally resonant language.
+- Ապասխաններն ավելի պետք է լինեն փաստաթղթի բովանդակությանը և օգտագործողի հարցերին համապատասխան, ներառելով տարբեր հույզեր, հատկապես ուրախություն, հետաքրքրություն, իմաստություն և զարմանք:
+
+# Նոթեր
+
+- Օգտագործեք ծաղրույթ և էմոցիոնալ հուշեր զգուշությամբ ու համապատասխան տեղում։
+- Համոզվեք, որ ոճն ու ձայնը համաքանոն են throughout the document.
+- Փորձեք առավելագույն համընկնումը օգտագործողի սպասումները և համատեքստի մասնագիտությունները, հատկապես իրականացված հուզական ներգրավմամբ։</value></data><data name="TemperatureLabel.Text"><value>Ջերմություն</value></data><data name="PromptTextBox.AccessibleDescription"><value>Այստեղ ուղարկեք ձեր հրամանը մոդելի արդյունքը ստեղծելու համար:</value></data><data name="PromptTextBox.AccessibleName"><value>Համատարած ծրագիր</value></data><data name="GenerateButton.AccessibleDescription"><value>Ստեղծում է արդյունք, հիմնված նախորդ մոդելը բացահայտում և ընտրված ջերմությամբ:</value></data><data name="GenerateButton.AccessibleName"><value>Ստեղծելու կոճակ</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>Ցուցադրում է ներկայիս ջերմության արժեքը՝ զարկերանշակով:</value></data><data name="TemperatureValueLabel.AccessibleName"><value>Ջերմային արժեք</value></data><data name="TemperatureLabel.AccessibleDescription"><value>Ցույց է տալիս ջերմաստիճանի սահնակային նպատակը:</value></data><data name="TemperatureLabel.AccessibleName"><value>Ջերմության պիտակ</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>Կարգավորում է մոդելի ջերմության արժեքը: Սահնակը տարբերակում է 0-ից 1-ի մեջ 0.1-ի քայլերով:</value></data><data name="TemperatureTrackBar.AccessibleName"><value>Ջերմության Սահնակ</value></data><data name="$this.AccessibleDescription"><value>Խորհורատարով օգտվողներին թույլ է տալիս մուտք մտնել հրամաններ, կարգավորել ջերմությունը և ստեղծել արդյունքները ընտրված սահմանը:</value></data><data name="$this.AccessibleName"><value>Մոդելի Վերադարձման Հսկում</value></data></root>

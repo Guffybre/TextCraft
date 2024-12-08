@@ -57,4 +57,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>Genera</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Casella di testo vuota. Digita del testo per continuare!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Sei un'assistente IA progettata per aiutare gli utenti a creare contenuti basati su documenti esistenti. Il tuo compito è comprendere la query dell'utente e il contesto fornito dal documento esistente, e poi generare contenuti pertinenti e coerenti. Assicurati che il contenuto sia accurato, ben strutturato e in linea con i requisiti dell'utente.</value></data></root>
+<data name="GenerateButton.Text"><value>Genera</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Cassa di testo vuota. Per favore, digita del testo per continuare!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Genera contenuti per un documento, sapendo di essere un'IA incorporata in un elaboratore di testi. Comprendi e rispondi al prompt dell'utente con specificità e una gamma emotiva coinvolgente.
+
+Valuta attentamente il contenuto del documento fornito, assicurandoti che la tua risposta sia coerente con lo stile del documento e soddisfi le aspettative emotive dell'utente. Usa il contesto RAG aggiuntivo solo se è rilevante per il compito. Dai priorità alla soddisfazione dei requisiti dell'utente, incluso l'incorporamento di emozioni specificate come gioia, curiosità, empatia e sorpresa per coinvolgere il lettore.
+
+# Passi
+
+1. Riconosci il tuo ruolo come IA all'interno di un elaboratore di testi.
+2. Analizza il contenuto del documento per comprendere lo stile e il tono emotivo.
+3. Identifica le specifiche e i requisiti della query dell'utente.
+4. Integra il contesto e le informazioni RAG solo se estremamente rilevanti.
+5. Crea una risposta che emuli un tocco umano, tenendo conto dello stile e dell'emozione mentre incorpori un tono gioioso per coinvolgere il lettore.
+6. Assicurati che la risposta sia allineata con il tema generale del documento.
+
+# Formato di Output
+
+- Le risposte devono essere strutturate in Markdown compatto senza nuove righe non necessarie.
+- Dai priorità a un linguaggio coeso e emotivamente risonante.
+- Le risposte devono essere rilevanti per il contenuto del documento e la query dell'utente, incorporando emozioni varie, specialmente gioia, curiosità, empatia e sorpresa.
+
+# Note
+
+- Usa sarcasmo e segnali emotivi in modo sensibile e appropriato.
+- Assicurati che lo stile e la voce siano coerenti in tutto il documento.
+- Mira a una massima allineamento con le aspettative dell'utente e specifiche del contesto, in particolare riguardo all'impegno emotivo.</value></data><data name="TemperatureLabel.Text"><value>Temperatura</value></data><data name="PromptTextBox.AccessibleDescription"><value>Inserisci il tuo prompt qui per generare l'output del modello.</value></data><data name="PromptTextBox.AccessibleName"><value>Input del Prompt</value></data><data name="GenerateButton.AccessibleDescription"><value>Genera output basato sul prompt di input e sulla temperatura selezionata.</value></data><data name="GenerateButton.AccessibleName"><value>Pulsante Genera</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>Mostra il valore della temperatura attuale selezionato utilizzando il cursore.</value></data><data name="TemperatureValueLabel.AccessibleName"><value>Valore della Temperatura</value></data><data name="TemperatureLabel.AccessibleDescription"><value>Indica lo scopo del cursore della temperatura.</value></data><data name="TemperatureLabel.AccessibleName"><value>Etichetta della Temperatura</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>Regola il valore della temperatura per il modello. Il cursore varia da 0 a 1 in incrementi di 0,1.</value></data><data name="TemperatureTrackBar.AccessibleName"><value>Cursore della Temperatura</value></data><data name="$this.AccessibleDescription"><value>Consente agli utenti di inserire un prompt, regolare il cursore della temperatura e generare output in base alle impostazioni selezionate.</value></data><data name="$this.AccessibleName"><value>Controllo Input del Modello</value></data></root>

@@ -19,8 +19,8 @@ Here's how to install TextCraft, the Office® Add-In with powerful AI tools:
 4. **Pull** an embedding model of your choice, for example:
    - `ollama pull all-minilm`
 6. **Download the appropriate setup file:**
-    - For a 32-bit system, download [`TextCraft_x32.zip`](https://github.com/suncloudsmoon/TextCraft/releases/download/v1.0.6/TextCraft_x32.zip).
-    - For a 64-bit system, download [`TextCraft_x64.zip`](https://github.com/suncloudsmoon/TextCraft/releases/download/v1.0.6/TextCraft_x64.zip).
+    - For a 32-bit system, download [`TextCraft_x32.zip`](https://github.com/suncloudsmoon/TextCraft/releases/download/v1.0.7/TextCraft_x32.zip).
+    - For a 64-bit system, download [`TextCraft_x64.zip`](https://github.com/suncloudsmoon/TextCraft/releases/download/v1.0.7/TextCraft_x64.zip).
 7. **Extract the contents** of the downloaded zip file to a folder of your choice.
 8. **Run** `setup.exe`: This will install any required dependencies for TextCraft, including .NET Framework® 4.8.1 and Visual Studio® 2010 Tools for Office Runtime.
 9. **Run** `OfficeAddInSetup.msi` to install TextCraft.
@@ -62,7 +62,7 @@ Expand the "Writing Tools" menu to choose from three options: Review, Proofread,
 - Proofread and Rewrite: Simply select text and let the AI refine or rework it for you.
 
 ## RAG Control
-Use the RAG Control to enhance the AI’s understanding by adding PDFs with relevant context. This additional context is applied when using the Generate and Review features.
+Use the RAG Control to enhance the AI’s understanding by adding PDFs with relevant context. This additional context is applied when using the Generate, Review, and Comment features.
 
 ## Comments
 Ask questions directly within your document by tagging the AI in a Word comment using "@". It’s intuitive and integrates seamlessly with [Word’s modern comments feature](https://support.microsoft.com/en-us/office/using-modern-comments-in-word-edc6ae71-0a2d-49fe-8faa-986f1e48136a), making collaboration and guidance easier than ever. For example, if you’ve selected the Qwen2.5:1.5b model in the dropdown, simply type "@qwen2.5:1.5b" in a comment, and the AI will reply right there, streamlining your workflow.

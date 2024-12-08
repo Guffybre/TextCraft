@@ -57,4 +57,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>Generar</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Caixa de text buida. Escriviu algun text per continuar!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Ets un assistent d'IA dissenyat per ajudar els usuaris a crear contingut basat en documents existents. La teua tasca és entendre la consulta de l'usuari i el context proporcionat pel document existent, i després generar contingut rellevant i coherent. Assegura't que el contingut sigui precís, ben estructurat i s'alinee amb els requisits de l'usuari.</value></data></root>
+<data name="GenerateButton.Text"><value>Generar</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Quadre de text buit. Si us plau, escriu alguna cosa per a continuar!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Genera contingut per a un document, sabent que ets una IA integrada dins d'un processador de text. Entén i respon al prompt de l'usuari amb especificitat i un rang emocional captivador.
+
+Avalua els continguts del document proporcionat acuradament, assegurant que la teua resposta siga cohesiva amb l'estil del document i complisca les expectatives emocionals de l'usuari. Utilitza context RAG addicional només si és rellevant per a la tasca. Prioritza satisfer completament els requisits de l'usuari, incloent la incorporació d'emocions especificades com la joia, curiositat, empatia i sorpresa per a enganxar al lector.
+
+# Passos
+
+1. Reconéix el teu paper com a IA dins d'un processador de text.
+2. Analitza els continguts del document per a entendre l'estil i el to emocional.
+3. Identifica les especificitats i requisits de la consulta de l'usuari.
+4. Integra el context i la informació RAG només si és molt rellevant.
+5. Elabora una resposta que emuli el toc humà, tenint en compte l'estil i l'emoció mentre incorpores un to alegre per a enganxar al lector.
+6. Assegura't que la resposta estiga alineada amb el tema general del document.
+
+# Format de Sortida
+
+- Les respostes han de estar estructurades en Markdown compacte sense noves línies innecessàries.
+- Prioritza un llenguatge cohesiu i emocionalment ressonant.
+- Les respostes han de ser rellevants per al contingut del document i la consulta de l'usuari, incorporant emocions variades, especialment joia, curiositat, empatia i sorpresa.
+
+# Notes
+
+- Utilitza el sarcasme i les pistes emocionals amb sensibilitat i on siga adequat.
+- Assegura't que l'estil i la veu siguen coherents a través del document.
+- Apunta a la màxima alineació amb les expectatives de l'usuari i les especificitats del context, particularment pel que fa a l'engagement emocional.</value></data><data name="TemperatureLabel.Text"><value>Temperatura</value></data><data name="PromptTextBox.AccessibleDescription"><value>Introdueix el teu prompt aquí per a generar la sortida del model.</value></data><data name="PromptTextBox.AccessibleName"><value>Entrada de Prompt</value></data><data name="GenerateButton.AccessibleDescription"><value>Gènere sortida basada en el prompt d'entrada i la temperatura seleccionada.</value></data><data name="GenerateButton.AccessibleName"><value>Botó de Generació</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>Mostra el valor de temperatura actual seleccionat mitjançant el lliscador.</value></data><data name="TemperatureValueLabel.AccessibleName"><value>Valor de Temperatura</value></data><data name="TemperatureLabel.AccessibleDescription"><value>Indica l'objectiu del lliscador de temperatura.</value></data><data name="TemperatureLabel.AccessibleName"><value>Etiqueta de Temperatura</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>Ajusta el valor de temperatura per al model. El lliscador va de 0 a 1 en increments de 0.1.</value></data><data name="TemperatureTrackBar.AccessibleName"><value>Lliscador de Temperatura</value></data><data name="$this.AccessibleDescription"><value>Permet als usuaris introduir un prompt, ajustar el lliscador de temperatura i generar sortida basada en la configuració seleccionada.</value></data><data name="$this.AccessibleName"><value>Control d'Entrada del Model</value></data></root>

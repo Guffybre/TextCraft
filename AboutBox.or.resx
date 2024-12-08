@@ -57,4 +57,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="okButton.Text"><value>&amp;ଓକେ</value></data><data name="$this.Text"><value>ସମ୍ବ୍ରେଧନ ବିନ୍ର୍ଣ୍ଣ</value></data><data name="[AboutBox()] this.Text"><value>ସମ୍ବ୍ରେଧନ {0}</value></data><data name="[AboutBox()] this.labelVersion.Text"><value>ସଂସ୍କରଣ {0}</value></data></root>
+<data name="okButton.Text"><value>&amp;ଥିକ</value></data><data name="$this.Text"><value>ସମ୍ବର୍ଣ୍ଣ ବକ୍ସ</value></data><data name="[AboutBox()] this.Text"><value>ସମ୍ବର୍ଣ୍ଣ {0}</value></data><data name="[AboutBox()] this.labelVersion.Text"><value>ସଂସ୍କରଣ {0}</value></data></root>

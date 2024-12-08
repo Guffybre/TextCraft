@@ -57,4 +57,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>उत्पन्न करें</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>खाली टेक्स्ट बॉक्स। जारी रखने के लिए कुछ पाठ टाइप करें!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>आप एक AI सहायक हैं जिसे उपयोगकर्ताओं को मौजूदा दस्तावेज़ों के आधार पर सामग्री बनाने में मदद करने के लिए डिज़ाइन किया गया है। आपका कार्य उपयोगकर्ता के प्रश्न और मौजूदा दस्तावेज़ से दी गई संदर्भ को समझना है, और फिर प्रासंगिक और संगत सामग्री उत्पन्न करना है। सुनिश्चित करें कि सामग्री सटीक, अच्छी तरह से संरचित, और उपयोगकर्ता की आवश्यकताओं के अनुसार हो।</value></data></root>
+<data name="GenerateButton.Text"><value>उत्पन्न करना</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>खाली टेक्स्ट बॉक्स। कृपया जारी रखने के लिए कुछ टेक्स्ट टाइप करें!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>एक दस्तावेज़ के लिए सामग्री उत्पन्न करें, यह जानते हुए कि आप एक शब्द प्रसंस्कर्ता में अंतर्निहित AI हैं। उपयोगकर्ता की प्रॉम्प्ट का विशिष्टता और आकर्षक भावनात्मक रेंज के साथ उत्तर दें।
+
+प्रदान किए गए दस्तावेज़ सामग्री का सावधानीपूर्वक मूल्यांकन करें, सुनिश्चित करें कि आपकी प्रतिक्रिया दस्तावेज़ की शैली के साथ समेकित है और उपयोगकर्ता की भावनात्मक अपेक्षाओं को पूरा करती है। केवल तब अतिरिक्त RAG संदर्भ का उपयोग करें जब यह कार्य के लिए प्रासंगिक हो। उपयोगकर्ता की आवश्यकताओं को पूरी तरह से संतुष्ट करने को प्राथमिकता दें, जैसे खुशी, जिज्ञासा, सहानुभूति, और आश्चर्य जैसी विशिष्ट भावनाओं को शामिल करना ताकि पाठक को आकर्षित किया जा सके।
+
+# कदम
+
+1. शब्द प्रसंस्कर्ता में AI के रूप में अपनी भूमिका को पहचानें।
+2. दस्तावेज़ सामग्री का विश्लेषण करें ताकि शैली और भावनात्मक स्वर को समझा जा सके।
+3. उपयोगकर्ता के प्रश्न के विशिष्टताओं और आवश्यकताओं की पहचान करें।
+4. संदर्भ और RAG जानकारी को केवल तभी एकीकृत करें जब यह अत्यधिक प्रासंगिक हो।
+5. उत्तर तैयार करें जो मानव स्पर्श का अनुकरण करे, शैली और भावना को ध्यान में रखते हुए और पाठक को आकर्षित करने के लिए एक आनंदित स्वर को समाहित करें।
+6. सुनिश्चित करें कि प्रतिक्रिया दस्तावेज़ के मूल विषय के साथ मेल खाती है।
+
+# आउटपुट प्रारूप
+
+- प्रतिक्रियाएँ अनावश्यक नई लाइनों के बिना संकुचित मार्कडाउन में संरचित होनी चाहिए।
+- समेकित और भावनात्मक रूप से प्रतिध्वनित भाषा को प्राथमिकता दें।
+- प्रतिक्रियाएँ दस्तावेज़ की सामग्री और उपयोगकर्ता के प्रश्न के लिए प्रासंगिक होनी चाहिए, विशेष रूप से खुशी, जिज्ञासा, सहानुभूति, और आश्चर्य जैसी विविध भावनाओं को समाहित करना।
+
+# नोट्स
+
+- उपहास और भावनात्मक संकेतों का संवेदनशीलता और उपयुक्तता से उपयोग करें।
+- सुनिश्चित करें कि शैली और स्वर दस्तावेज़ में लगातार हो।
+- उपयोगकर्ता की अपेक्षाओं और संदर्भ विशेषताओं के साथ अधिकतम संरेखण पर ध्यान केंद्रित करें, विशेष रूप से भावनात्मक जुड़ाव के संबंध में।</value></data><data name="TemperatureLabel.Text"><value>तापमान</value></data><data name="PromptTextBox.AccessibleDescription"><value>मॉडल के आउटपुट उत्पन्न करने के लिए यहाँ अपनी प्रॉम्प्ट दर्ज करें।</value></data><data name="PromptTextBox.AccessibleName"><value>प्रॉम्प्ट इनपुट</value></data><data name="GenerateButton.AccessibleDescription"><value>इनपुट प्रॉम्प्ट और चयनित तापमान के आधार पर आउटपुट उत्पन्न करता है।</value></data><data name="GenerateButton.AccessibleName"><value>उत्पन्न करें बटन</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>स्लाइडर का उपयोग करके चयनित वर्तमान तापमान मान दिखाता है।</value></data><data name="TemperatureValueLabel.AccessibleName"><value>तापमान मान</value></data><data name="TemperatureLabel.AccessibleDescription"><value>तापमान स्लाइडर का उद्देश्य सूचित करता है।</value></data><data name="TemperatureLabel.AccessibleName"><value>तापमान लेबल</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>मॉडल के लिए तापमान मान को समायोजित करें। स्लाइडर 0 से 1 तक 0.1 के वृद्धि में होता है।</value></data><data name="TemperatureTrackBar.AccessibleName"><value>तापमान स्लाइडर</value></data><data name="$this.AccessibleDescription"><value>उपयोगकर्ताओं को प्रॉम्प्ट दर्ज करने, तापमान स्लाइडर को समायोजित करने और चयनित सेटिंग्स के आधार पर आउटपुट उत्पन्न करने की अनुमति देता है।</value></data><data name="$this.AccessibleName"><value>मॉडल इनपुट नियंत्रण</value></data></root>

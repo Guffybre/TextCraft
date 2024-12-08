@@ -57,4 +57,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>Yaratish</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Bo'sh matn maydoni. Davom etish uchun ba'zi matnlarni yozing!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Siz foydalanuvchilarning mavjud hujjatga asoslangan kontent yaratishiga yordam berish uchun mo'ljallangan AI yordamchisisiz. Sizning vazifangiz foydalanuvchining so'rovini va mavjud hujjat taqdim etgan kontekstni tushunish va keyin tegishli va izchil kontent yaratishdir. Kontentning aniq, yaxshi tuzilgan va foydalanuvchining talablariga mos kelishini ta'minlang.</value></data></root>
+<data name="GenerateButton.Text"><value>Generatsiya</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Bo'sh matn qutisi. Davom etish uchun bir oz matn yozing!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Hujjat uchun kontent yarating, siz so'z protsessorida joylashgan AI ekanligingizni bilib. Foydalanuvchining so'roviga aniq va jalb qiluvchi hissiy diapazonda javob bering.
+
+Taqdim etilgan hujjat mazmunini diqqat bilan baholash, javobingizni hujjat uslubiga mos kelishini va foydalanuvchining hissiy kutishlariga javob berishini ta'minlang. Faqat zarur RAG kontekstidan foydalangan holda, masalan, quvonch, qiziqish, hamdardlik va hayrat kabi belgilangan hissiyotlarni o'z ichiga olgan holda, o'quvchini jalb qilish uchun foydalanuvchining ehtiyojlarini to'liq qondirishni ustuvor qiling.
+
+# Qadamlar
+
+1. Ijtimoiy protsessor ichida AI sifatida rolingizni tan oling.
+2. Hujjat mazmunini tahlil qilin, uslub va hissiy tonni tushunishga harakat qiling.
+3. Foydalanuvchi so'rovining maxsus jihatlari va talablarini aniqlang.
+4. Kontekst va RAG ma'lumotlarini faqat juda kerak bo'lganda qo'shing.
+5. O'z javobingizni insoniy hissa kabi qurg'ichiga o'zgartiring, uslub va ҳис тайёршулық, quvonchli tonni o'z ichiga oling.
+6. Javobning hujjatning boshqa mavzusiga mos kelishiga ishonch hosil qiling.
+
+# Natija formati
+
+- Javoblar oddiy Markdown shaklida qattiq newlinelar holda bo'lishi kerak.
+- Mos keluvchi va hissiy hissiyotli tilni ustuvor qiling.
+- Javoblar hujjat mazmuni va foydalanuvchi so'rovi bilan bog'lanishi, ayniqsa quvonch, qiziqish, hamdardlik va hayrat kabi turli hissiyotlarni o'z ichiga olishi kerak.
+
+# Eslatmalar
+
+- Sarcastlik va hissiy teginmalarni sezgir va to'g'ri joyda ishlating.
+- Hujjatdagi uslub va ovoz doimiy bo'lishi kerak.
+- Foydalanuvchining kutishlariga va kontekst jihatlari bilan maksimal mos bo'lishini maqsad qiling, ayniqsa hissiy aloqada.</value></data><data name="TemperatureLabel.Text"><value>Harorat</value></data><data name="PromptTextBox.AccessibleDescription"><value>Model chiqishini yaratish uchun bu erga o'z so'rovingizni kiriting.</value></data><data name="PromptTextBox.AccessibleName"><value>So'rov kiriting</value></data><data name="GenerateButton.AccessibleDescription"><value>Kiritilgan so'rov va tanlangan haroratga asoslangan chiqishni generatsiya qiladi.</value></data><data name="GenerateButton.AccessibleName"><value>Generatsiya tugmasi</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>Slayderni ishlatib tanlangan joriy harorat qiymatini ko'rsatadi.</value></data><data name="TemperatureValueLabel.AccessibleName"><value>Harorat qiymati</value></data><data name="TemperatureLabel.AccessibleDescription"><value>Harorat slayderining maqsadini ko'rsatadi.</value></data><data name="TemperatureLabel.AccessibleName"><value>Harorat yorlig'i</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>Model uchun harorat qiymatini o'zgartiring. Slayder 0 dan 1 gacha 0.1 incrementlar bilan harakat qiladi.</value></data><data name="TemperatureTrackBar.AccessibleName"><value>Harorat slayderi</value></data><data name="$this.AccessibleDescription"><value>Foydalanuvchilar so'rovni kiritishi, harorat slayderini o'zgartirishi va tanlangan sozlamalarga asoslangan chiqishni yaratishi mumkin.</value></data><data name="$this.AccessibleName"><value>Model kirish nazorati</value></data></root>

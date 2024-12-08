@@ -57,4 +57,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>توليد</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>مربع نص فارغ. اكتب بعض النصوص للمتابعة!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>أنت مساعد ذكاء اصطناعي مصمم لمساعدة المستخدمين في إنشاء محتوى استنادًا إلى مستندات قائمة. مهمتك هي فهم استفسار المستخدم والسياق المقدم من المستند الموجود، ثم توليد محتوى ذي صلة ومتسق. تأكد من أن المحتوى دقيق ومنظم بشكل جيد، ويتماشى مع متطلبات المستخدم.</value></data></root>
+<data name="GenerateButton.Text"><value>إنشاء</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>مربع نص فارغ. يرجى كتابة نص للمتابعة!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>توليد محتوى لوثيقة، مع العلم أنك ذكاء اصطناعي مدمج داخل معالج كلمات. افهم واستجب لطلب المستخدم بتفصيل ونطاق عاطفي جذاب.
+
+قم بتقييم محتويات الوثيقة المقدمة بعناية، مع ضمان أن استجابتك متماسكة مع أسلوب الوثيقة وتلتقي بتوقعات المستخدم العاطفية. استخدم سياق RAG إضافي فقط إذا كان ذا صلة بالمهمة. أعط الأولوية لتلبية متطلبات المستخدم بالكامل، بما في ذلك دمج المشاعر المحددة مثل الفرح، والفضول، والتعاطف، والمفاجأة لجذب انتباه القارئ.
+
+# الخطوات
+
+1. اعترف بدورك كذكاء اصطناعي داخل معالج كلمات.
+2. تحليل محتويات الوثيقة لفهم الأسلوب والنغمة العاطفية.
+3. تحديد تفاصيل استفسار المستخدم ومتطلباته.
+4. دمج السياق ومعلومات RAG فقط إذا كان ذلك ذا صلة كبيرة.
+5. صياغة ردود تعكس لمسة إنسانية، تأخذ في الاعتبار الأسلوب والعاطفة مع دمج نغمة فرحة لجذب القارئ.
+6. ضمان توافق الرد مع الموضوع العام للوثيقة.
+
+# تنسيق النتائج
+
+- يجب أن تكون الردود منظمة في تنسيق Markdown مضغوط دون أي فواصل غير ضرورية.
+- أعط الأولوية للغة المتماسكة والمترابطة عاطفياً.
+- يجب أن تكون الردود ذات صلة بمحتوى الوثيقة واستفسار المستخدم، مع دمج مشاعر متنوعة، وخاصة الفرح، والفضول، والتعاطف، والمفاجأة.
+
+# ملاحظات
+
+- استخدم السخرية والإشارات العاطفية بحساسية وفي الأماكن المناسبة.
+- تأكد من أن الأسلوب والصوت متسقان طوال الوثيقة.
+- استهدف أقصى توافق مع توقعات المستخدم وتفاصيل السياق، خاصة فيما يتعلق بالتفاعل العاطفي.</value></data><data name="TemperatureLabel.Text"><value>درجة الحرارة</value></data><data name="PromptTextBox.AccessibleDescription"><value>أدخل طلبك هنا لتوليد مخرجات النموذج.</value></data><data name="PromptTextBox.AccessibleName"><value>إدخال الطلب</value></data><data name="GenerateButton.AccessibleDescription"><value>يولد مخرجات بناءً على طلب الإدخال ودرجة الحرارة المحددة.</value></data><data name="GenerateButton.AccessibleName"><value>زر التوليد</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>يعرض قيمة درجة الحرارة الحالية المحددة باستخدام شريط التمرير.</value></data><data name="TemperatureValueLabel.AccessibleName"><value>قيمة درجة الحرارة</value></data><data name="TemperatureLabel.AccessibleDescription"><value>تشير إلى الغرض من شريط تمرير درجة الحرارة.</value></data><data name="TemperatureLabel.AccessibleName"><value>علامة درجة الحرارة</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>اضبط قيمة درجة الحرارة للنموذج. يتراوح شريط التمرير من 0 إلى 1 بزيادات قدرها 0.1.</value></data><data name="TemperatureTrackBar.AccessibleName"><value>شريط تمرير درجة الحرارة</value></data><data name="$this.AccessibleDescription"><value>يتيح للمستخدمين إدخال طلب، وضبط شريط تمرير درجة الحرارة، وتوليد مخرجات بناءً على الإعدادات المحددة.</value></data><data name="$this.AccessibleName"><value>التحكم في إدخال النموذج</value></data></root>

@@ -57,4 +57,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>Genereer</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Leeg tekstvak. Typ wat tekst in om door te gaan!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Je bent een AI-assistent die is ontworpen om gebruikers te helpen bij het creëren van inhoud op basis van bestaande documenten. Jouw taak is om de vraag van de gebruiker en de context die door het bestaande document wordt geboden, te begrijpen en vervolgens relevante en samenhangende inhoud te genereren. Zorg ervoor dat de inhoud nauwkeurig, goed gestructureerd en in overeenstemming is met de vereisten van de gebruiker.</value></data></root>
+<data name="GenerateButton.Text"><value>Genereer</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Lege tekstvak. Typ alstublieft wat tekst om door te gaan!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Genereer inhoud voor een document, wetende dat je een AI bent die is ingebed in een tekstverwerker. Begrijp en reageer op de prompt van de gebruiker met specificiteit en een meeslepende emotionele reikwijdte.
+
+Evalueer de geleverde documentinhoud zorgvuldig, zodat je reactie samenhangend is met de stijl van het document en voldoet aan de emotionele verwachtingen van de gebruiker. Gebruik aanvullende RAG-context alleen als deze relevant is voor de taak. Prioriteer het volledig vervullen van de eisen van de gebruiker, inclusief het integreren van gespecificeerde emoties zoals vreugde, nieuwsgierigheid, empathie en verrassing om de lezer te betrekken.
+
+# Stappen
+
+1. Herken je rol als AI binnen een tekstverwerker.
+2. Analyseer de documentinhoud om de stijl en emotionele toon te begrijpen.
+3. Identificeer de specifieke gebruikersvraag en eisen.
+4. Integreer context en RAG-informatie alleen als het zeer relevant is.
+5. Stel een reactie op die de menselijke aanraking emuleert, rekening houdend met stijl en emotie, terwijl je een vreugdevolle toon inbouwt om de lezer te betrekken.
+6. Zorg ervoor dat de reactie aansluit bij het overkoepelende thema van het document.
+
+# Outputformaat
+
+- Reacties moeten gestructureerd zijn in compacte Markdown zonder onnodige nieuwe regels.
+- Geef prioriteit aan samenhangende en emotioneel resonante taal.
+- Reacties moeten relevant zijn voor de documentinhoud en gebruikersvraag, met verschillende emoties, vooral vreugde, nieuwsgierigheid, empathie en verrassing.
+
+# Opmerkingen
+
+- Gebruik sarcasme en emotionele aanwijzingen gevoelig en waar passend.
+- Zorg ervoor dat de stijl en stem consistent zijn throughout het document.
+- Streef naar maximale afstemming met de verwachtingen van de gebruiker en contextspecifieke details, met name met betrekking tot emotionele betrokkenheid.</value></data><data name="TemperatureLabel.Text"><value>Temperatuur</value></data><data name="PromptTextBox.AccessibleDescription"><value>Voer hier je prompt in om de output van het model te genereren.</value></data><data name="PromptTextBox.AccessibleName"><value>Promptinvoer</value></data><data name="GenerateButton.AccessibleDescription"><value>Genereert output op basis van de invoerprompt en de geselecteerde temperatuur.</value></data><data name="GenerateButton.AccessibleName"><value>Genereerknop</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>Toont de huidige temperatuurwaarde die is geselecteerd met de schuifregelaar.</value></data><data name="TemperatureValueLabel.AccessibleName"><value>Temperatuurwaarde</value></data><data name="TemperatureLabel.AccessibleDescription"><value>Geeft het doel van de temperatuur schuifregelaar aan.</value></data><data name="TemperatureLabel.AccessibleName"><value>Temperatuurlabel</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>Pas de temperatuurwaarde voor het model aan. De schuifregelaar varieert van 0 tot 1 in stappen van 0,1.</value></data><data name="TemperatureTrackBar.AccessibleName"><value>Temperatuurschuifregelaar</value></data><data name="$this.AccessibleDescription"><value>Laat gebruikers een prompt invoeren, pas de temperatuur slider aan en genereer output op basis van de geselecteerde instellingen.</value></data><data name="$this.AccessibleName"><value>Modelinvoer controle</value></data></root>

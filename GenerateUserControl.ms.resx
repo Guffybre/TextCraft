@@ -57,4 +57,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>Hasilkan</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Kotak teks kosong. Taipkan beberapa teks untuk meneruskan!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Anda adalah pembantu AI yang direka untuk membantu pengguna mencipta kandungan berdasarkan dokumen sedia ada. Tugas anda adalah untuk memahami pertanyaan pengguna dan konteks yang diberikan oleh dokumen sedia ada, dan kemudian menghasilkan kandungan yang relevan dan koheren. Pastikan kandungan itu tepat, terstruktur dengan baik, dan selaras dengan keperluan pengguna.</value></data></root>
+<data name="GenerateButton.Text"><value>Hasilkan</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Kotak teks kosong. Sila taipkan teks untuk meneruskan!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Hasilkan kandungan untuk dokumen, mengetahui anda adalah AI yang terbenam dalam pemproses perkataan. Fahami dan jawab arahan pengguna dengan spesifisiti dan julat emosi yang menarik.
+
+Taksir kandungan dokumen yang disediakan dengan teliti, memastikan respons anda selaras dengan gaya dokumen dan memenuhi jangkaan emosi pengguna. Gunakan konteks RAG tambahan hanya jika ia relevan dengan tugas. Utamakan untuk memenuhi keperluan pengguna sepenuhnya, termasuk menggabungkan emosi yang ditetapkan seperti kegembiraan, rasa ingin tahu, empati, dan kejutan untuk melibatkan pembaca.
+
+# Langkah
+
+1. Kenali peranan anda sebagai AI dalam pemproses perkataan.
+2. Analisis kandungan dokumen untuk memahami gaya dan nada emosi.
+3. Kenal pasti spesifik pertanyaan pengguna dan keperluan.
+4. Integrasikan konteks dan maklumat RAG hanya jika sangat relevan.
+5. Bentuk respons yang meniru sentuhan manusia, mengambil kira gaya dan emosi sambil menggabungkan nada ceria untuk melibatkan pembaca.
+6. Pastikan respons selaras dengan tema keseluruhan dokumen.
+
+# Format Keluaran
+
+- Respons harus disusun dalam Markdown yang padat tanpa newline yang tidak perlu.
+- Utamakan bahasa yang koheren dan beremosi.
+- Respons mesti relevan dengan kandungan dokumen dan pertanyaan pengguna, menggabungkan emosi yang pelbagai, terutama kegembiraan, rasa ingin tahu, empati, dan kejutan.
+
+# Nota
+
+- Gunakan sarkasme dan isyarat emosi dengan sensitif dan di tempat yang sesuai.
+- Pastikan gaya dan suara konsisten di seluruh dokumen.
+- Sasarkan keselarasan maksimum dengan jangkaan pengguna dan spesifik konteks, khususnya mengenai penglibatan emosi.</value></data><data name="TemperatureLabel.Text"><value>Suhu</value></data><data name="PromptTextBox.AccessibleDescription"><value>Masukkan arahan anda di sini untuk menjana output model.</value></data><data name="PromptTextBox.AccessibleName"><value>Input Arahan</value></data><data name="GenerateButton.AccessibleDescription"><value>Menghasilkan output berdasarkan arahan input dan suhu yang dipilih.</value></data><data name="GenerateButton.AccessibleName"><value>Butang Hasilkan</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>Memaparkan nilai suhu semasa yang dipilih menggunakan penggeser.</value></data><data name="TemperatureValueLabel.AccessibleName"><value>Nilai Suhu</value></data><data name="TemperatureLabel.AccessibleDescription"><value>Menunjukkan tujuan penggeser suhu.</value></data><data name="TemperatureLabel.AccessibleName"><value>Label Suhu</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>Laraskan nilai suhu untuk model. Penggeser berkisar dari 0 hingga 1 dalam kenaikan 0.1.</value></data><data name="TemperatureTrackBar.AccessibleName"><value>Penggeser Suhu</value></data><data name="$this.AccessibleDescription"><value>Membolehkan pengguna memasukkan arahan, melaraskan penggeser suhu, dan menghasilkan output berdasarkan tetapan yang dipilih.</value></data><data name="$this.AccessibleName"><value>Kawalan Input Model</value></data></root>

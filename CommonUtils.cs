@@ -62,21 +62,22 @@ namespace TextForge
             MessageBox.Show(ex.Message, ex.GetType().Name, MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
-        public static bool GetInternetAccessPermission(Uri url)
+        public static bool GetInternetAccessPermission(Uri uri)
         {
-            if (_accessChoice.IsGrantedAccess(url.ToString()))
+            string baseUrl = uri.GetLeftPart(UriPartial.Authority);
+            if (_accessChoice.IsGrantedAccess(baseUrl))
             {
                 return true;
             }
             else
             {
                 var result = MessageBox.Show(
-                    $"{Forge.CultureHelper.GetLocalizedString("(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Text")}{Environment.NewLine}{url}",
+                    $"{Forge.CultureHelper.GetLocalizedString("(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Text")}{Environment.NewLine}{baseUrl}",
                     Forge.CultureHelper.GetLocalizedString("(CommonUtils.cs) [GetInternetAccessPermission] MessageBox #1 Caption"), MessageBoxButtons.YesNo, MessageBoxIcon.Warning
                 );
                 if (result == DialogResult.Yes)
                 {
-                    _accessChoice.Grant(url.ToString());
+                    _accessChoice.Grant(baseUrl);
                     return true;
                 }
                 return false;

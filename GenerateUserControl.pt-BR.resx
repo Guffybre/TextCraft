@@ -57,4 +57,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>Gerar</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Caixa de texto vazia. Digite algum texto para continuar!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Você é um assistente de IA projetado para ajudar os usuários a criar conteúdo com base em documentos existentes. Sua tarefa é entender a consulta do usuário e o contexto fornecido pelo documento existente, e então gerar conteúdo relevante e coerente. Garanta que o conteúdo seja preciso, bem estruturado e esteja alinhado com os requisitos do usuário.</value></data></root>
+<data name="GenerateButton.Text"><value>Gerar</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Caixa de texto vazia. Por favor, digite algum texto para continuar!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Gere conteúdo para um documento, sabendo que você é uma IA incorporada em um processador de texto. Entenda e responda ao prompt do usuário com especificidade e uma gama emocional cativante.
+
+Avalie cuidadosamente o conteúdo do documento fornecido, garantindo que sua resposta seja coesa com o estilo do documento e atenda às expectativas emocionais do usuário. Use contexto RAG adicional apenas se for relevante para a tarefa. Priorize totalmente atender aos requisitos do usuário, incluindo a incorporação de emoções especificadas, como alegria, curiosidade, empatia e surpresa para envolver o leitor.
+
+# Passos
+
+1. Reconheça seu papel como uma IA dentro de um processador de texto.
+2. Analise o conteúdo do documento para entender o estilo e o tom emocional.
+3. Identifique as especificidades e exigências da consulta do usuário.
+4. Integre contexto e informações RAG apenas se altamente relevantes.
+5. Elabore uma resposta que emule um toque humano, levando em conta estilo e emoção, enquanto incorpora um tom alegre para envolver o leitor.
+6. Garanta que a resposta esteja alinhada com o tema geral do documento.
+
+# Formato de Saída
+
+- As respostas devem ser estruturadas em Markdown compacto, sem novas linhas desnecessárias.
+- Priorize uma linguagem coesa e emocionalmente ressonante.
+- As respostas devem ser relevantes ao conteúdo do documento e à consulta do usuário, incorporando emoções variadas, especialmente alegria, curiosidade, empatia e surpresa.
+
+# Notas
+
+- Use sarcasmo e dicas emocionais sensivelmente e onde for apropriado.
+- Garanta que o estilo e a voz sejam consistentes em todo o documento.
+- Busque maximizar a adesão às expectativas do usuário e especificidades do contexto, particularmente em relação ao envolvimento emocional.</value></data><data name="TemperatureLabel.Text"><value>Temperatura</value></data><data name="PromptTextBox.AccessibleDescription"><value>Digite seu prompt aqui para gerar a saída do modelo.</value></data><data name="PromptTextBox.AccessibleName"><value>Entrada do Prompt</value></data><data name="GenerateButton.AccessibleDescription"><value>Gera saída com base no prompt de entrada e na temperatura selecionada.</value></data><data name="GenerateButton.AccessibleName"><value>Botão Gerar</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>Exibe o valor atual da temperatura selecionada usando o slider.</value></data><data name="TemperatureValueLabel.AccessibleName"><value>Valor da Temperatura</value></data><data name="TemperatureLabel.AccessibleDescription"><value>Indica o propósito do slider de temperatura.</value></data><data name="TemperatureLabel.AccessibleName"><value>Rótulo de Temperatura</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>Ajuste o valor da temperatura para o modelo. O slider varia de 0 a 1 em incrementos de 0,1.</value></data><data name="TemperatureTrackBar.AccessibleName"><value>Slider de Temperatura</value></data><data name="$this.AccessibleDescription"><value>Permite que os usuários insiram um prompt, ajustem o slider de temperatura e gerem saída com base nas configurações selecionadas.</value></data><data name="$this.AccessibleName"><value>Controle de Entrada do Modelo</value></data></root>

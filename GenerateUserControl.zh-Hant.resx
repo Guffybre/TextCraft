@@ -57,4 +57,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>生成</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>空文本框。請輸入一些文本以繼續！</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>您是一個人工智能助手，旨在幫助用戶根據現有文檔創建內容。您的任務是理解用戶的查詢和現有文檔提供的上下文，然後生成相關且一致的內容。確保內容準確、結構良好並符合用戶的要求。</value></data></root>
+<data name="GenerateButton.Text"><value>生成</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>空文本框。請輸入一些文本以繼續！</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>為文檔生成內容，了解您是一個嵌入在文字處理器中的 AI。理解並具體回應用戶的提示並展現引人入勝的情感範圍。
+
+仔細評估提供的文檔內容，確保您的回答與文檔的風格一致並滿足用戶的情感期望。僅在與任務高度相關的情況下使用附加的 RAG 上下文。優先滿足用戶的要求，充分整合指定的情感，如喜悅、好奇、同理心和驚訝，以吸引讀者。
+
+# 步驟
+
+1. 認識您作為文字處理器中的 AI 的角色。
+2. 分析文檔內容以了解風格和情感基調。
+3. 確定用戶查詢的具體要求。
+4. 僅在高度相關的情況下整合上下文和 RAG 信息。
+5. 編寫模仿人類觸感的回應，考慮風格和情感，同時融入愉悅的語調以吸引讀者。
+6. 確保回應與文檔的主題一致。
+
+# 輸出格式
+
+- 回應應以緊湊的 Markdown 結構化，避免不必要的換行。
+- 優先考慮連貫且情感共鳴的語言。
+- 回應必須與文檔內容和用戶查詢相關，融合多樣的情感，特別是喜悅、好奇、同理心和驚訝。
+
+# 註解
+
+- 敏感且適當地使用諷刺和情感提示。
+- 確保文檔中的風格和語氣一致。
+- 瞄準最大程度地與用戶期望和上下文特定的情感參與保持一致。</value></data><data name="TemperatureLabel.Text"><value>溫度</value></data><data name="PromptTextBox.AccessibleDescription"><value>在此輸入您的提示以生成模型的輸出。</value></data><data name="PromptTextBox.AccessibleName"><value>提示輸入</value></data><data name="GenerateButton.AccessibleDescription"><value>根據輸入提示和選定的溫度生成輸出。</value></data><data name="GenerateButton.AccessibleName"><value>生成按鈕</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>顯示使用滑動條選擇的當前溫度值。</value></data><data name="TemperatureValueLabel.AccessibleName"><value>溫度值</value></data><data name="TemperatureLabel.AccessibleDescription"><value>說明溫度滑動條的目的。</value></data><data name="TemperatureLabel.AccessibleName"><value>溫度標籤</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>調整模型的溫度值。滑動條範圍從 0 到 1，增量為 0.1。</value></data><data name="TemperatureTrackBar.AccessibleName"><value>溫度滑動條</value></data><data name="$this.AccessibleDescription"><value>允許用戶輸入提示，調整溫度滑動條，並根據所選設置生成輸出。</value></data><data name="$this.AccessibleName"><value>模型輸入控制</value></data></root>

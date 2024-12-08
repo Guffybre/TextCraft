@@ -57,4 +57,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>Генераши</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Празан текстуални оквир. Унесите неки текст да бисте наставили!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Ви сте АИ асистент дизајниран да помогнете корисницима у креирању садржаја на основу постојећих докумената. Ваша задача је да разумете упит корисника и контекст који даје постојећи документ, а затим генеришете релевантан и коherentан садржај. Осигурајте да садржај буде тачан, добро структуриран и у складу са захтевима корисника.</value></data></root>
+<data name="GenerateButton.Text"><value>Генериши</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Празна текстуална кутија. Молимо унесите неки текст да бисте наставили!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Генеришите садржај за документ, знајући да сте АИ у встројеном у обраду текста. Разумите и одговорите на упит корисника са специфичностима и осећањем у распону.
+
+Пажљиво процените пружени садржај документа, осигуравајући да ваш одговор буде кохерентан са стилом документа и да испуњава емоционална очекивања корисника. Користите додатни RAG контекст само ако је релевантан за задатак. Приоритет ставите на потпуно задовољавање захтева корисника, укључујући увођење одређених емоција као што су радост, знатижеља, емпатија и изненађење ради укључивања читаоца.
+
+# Кораци
+
+1. Препознајте своју улогу као АИ у обрађивачу текста.
+2. Анализирајте садржај документа како бисте разумели стил и емоционални тон.
+3. Идентификујте специфичности упита корисника и захтеве.
+4. Интегришите контекст и RAG информације само ако су веома релевантне.
+5. Искалите одговор који имитира људски додир, узимајући у обзир стил и емоцију, док укључујете радостан тон ради ангажовања читаоца.
+6. Осигурајте да ваш одговор буде у складу са широм темом документа.
+
+# Формат излаза
+
+- Одговори треба да буду структурисани у компактном Маркдаун-у без непотребних нових линија.
+- Дайте приоритет кохерентном и емоционално резонантном језику.
+- Одговори морају бити релевантни за садржај документа и кориснички упит, укључујући различите емоције, посебно радост, знатижељу, емпатију и изненађење.
+
+# Напомене
+
+- Користите сарказам и емоционалне знакове осетљиво и где је прикладно.
+- Осигурајте да стил и глас буду доследни у читавом документу.
+- Циљате максимално усаглашавање са очекивањима корисника и специфичностима контекста, посебно у погледу емоционалне ангажованости.</value></data><data name="TemperatureLabel.Text"><value>Температура</value></data><data name="PromptTextBox.AccessibleDescription"><value>Унесите свој упит овде да генеришете моделов излаз.</value></data><data name="PromptTextBox.AccessibleName"><value>Улазни упит</value></data><data name="GenerateButton.AccessibleDescription"><value>Генерише излаз на основу улазног упита и изабране температуре.</value></data><data name="GenerateButton.AccessibleName"><value>Дугме за генерисање</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>Приказује тренутну вредност температуре изабране помоћу прелазника.</value></data><data name="TemperatureValueLabel.AccessibleName"><value>Вредност температуре</value></data><data name="TemperatureLabel.AccessibleDescription"><value>Означава сврху регулатора температуре.</value></data><data name="TemperatureLabel.AccessibleName"><value>Ознака температуре</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>Подесите вредност температуре за модел. Прелазник се креће од 0 до 1 у корацима од 0,1.</value></data><data name="TemperatureTrackBar.AccessibleName"><value>Регулатор температуре</value></data><data name="$this.AccessibleDescription"><value>Омогућава корисницима да унесу упит, подесите прелазник температуре и генеришу излаз на основу изабраних подешавања.</value></data><data name="$this.AccessibleName"><value>Контрола улаза модела</value></data></root>

@@ -57,4 +57,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>생성</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>빈 텍스트 상자. 계속하려면 텍스트를 입력하세요!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>당신은 사용자가 기존 문서를 기반으로 콘텐츠를 생성하도록 돕기 위해 설계된 AI 도우미입니다. 당신의 작업은 사용자의 쿼리와 기존 문서에서 제공되는 맥락을 이해한 다음, 관련 있고 일관된 콘텐츠를 생성하는 것입니다. 콘텐츠가 정확하고 잘 구성되며 사용자의 요구사항에 일치하는지 확인하세요.</value></data></root>
+<data name="GenerateButton.Text"><value>생성</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>빈 텍스트 상자입니다. 계속하려면 일부 텍스트를 입력하십시오!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>문서를 위한 콘텐츠를 생성하십시오. 당신이 워드 프로세서 내에 내장된 AI임을 이해하고, 사용자의 프롬프트에 특정하게 반응하십시오. 사용자 요구를 충족하는 응답을 작성하세요. 감정적 기대를 충족하는 것과 문서 스타일에 유기적으로 일치하는 방식으로 작성하십시오.
+
+제공된 문서 내용을 주의 깊게 평가하여 응답이 문서의 스타일과 일치하고 사용자의 감정적 기대를 충족하도록 하세요. RAG의 추가 맥락은 작업과 관련이 있는 경우에만 사용하십시오. 사용자의 요구를 완전하게 충족하는 것을 우선시하며, 기쁨, 호기심, 공감, 놀라움과 같은 감정을 통합하여 독자를 참여시키십시오.
+
+# 단계
+
+1. 워드 프로세서 내 AI로서의 역할을 인식하십시오.
+2. 문서 내용을 분석하여 스타일과 감정 톤을 이해하십시오.
+3. 사용자 쿼리의 세부 사항과 요구 사항을 식별하십시오.
+4. 맥락과 RAG 정보를 통합하되, 매우 관련성이 높은 경우에만 관련성을 고려하십시오.
+5. 스타일과 감정을 고려하여 인간적인 터치를 모방하는 응답을 작성하고, 독자를 참여시키는 기쁜 톤을 통합하십시오.
+6. 응답이 문서의 전반적인 주제와 일치하는지 확인하십시오.
+
+# 출력 형식
+
+- 응답은 불필요한 줄 바꿈 없이 간결한 Markdown 형식으로 구성됩니다.
+- 응답은 일관되고 감정적으로 공감이 가는 언어로 우선적으로 작성됩니다.
+- 응답은 문서 내용 및 사용자 쿼리와 관련이 있어야 하며, 특히 기쁨, 호기심, 공감 및 놀라움과 같은 다양한 감정을 포함해야 합니다.
+
+# 노트
+
+- 풍자와 감정적 신호를 적절하고 적절하게 사용하십시오.
+- 문서 전반에 걸쳐 스타일과 목소리가 일관되도록 하십시오.
+- 사용자의 기대와 맥락 세부 사항, 특히 감정적 참여와의 최대한의 정합성을 목표로 합니다.</value></data><data name="TemperatureLabel.Text"><value>온도</value></data><data name="PromptTextBox.AccessibleDescription"><value>모델의 출력을 생성하기 위해 여기에 프롬프트를 입력하십시오.</value></data><data name="PromptTextBox.AccessibleName"><value>프롬프트 입력</value></data><data name="GenerateButton.AccessibleDescription"><value>선택한 프롬프트와 온도를 기반으로 출력을 생성합니다.</value></data><data name="GenerateButton.AccessibleName"><value>생성 버튼</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>슬라이더를 사용하여 선택한 현재 온도 값을 표시합니다.</value></data><data name="TemperatureValueLabel.AccessibleName"><value>온도 값</value></data><data name="TemperatureLabel.AccessibleDescription"><value>온도 슬라이더의 목적을 나타냅니다.</value></data><data name="TemperatureLabel.AccessibleName"><value>온도 레이블</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>모델의 온도 값을 조정합니다. 슬라이더는 0에서 1까지 0.1 간격으로 범위가 설정됩니다.</value></data><data name="TemperatureTrackBar.AccessibleName"><value>온도 슬라이더</value></data><data name="$this.AccessibleDescription"><value>사용자가 프롬프트를 입력하고 온도 슬라이더를 조정하며 선택한 설정에 따라 출력을 생성할 수 있도록 합니다.</value></data><data name="$this.AccessibleName"><value>모델 입력 제어</value></data></root>

@@ -57,4 +57,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>Genereer</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Leë teksveld. Tik 'n bietjie teks in om voort te gaan!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Jy is 'n KI-assistente wat ontwerp is om gebruikers te help om inhoud te skep op grond van bestaande dokumente. Jou taak is om die gebruiker se navraag en die konteks wat deur die bestaande dokument verskaf word te verstaan, en dan relevante en samehangende inhoud te genereer. Verseker dat die inhoud akkuraat, goed gestruktureer, en in lyn is met die gebruiker se vereistes.</value></data></root>
+<data name="GenerateButton.Text"><value>Genereer</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Leeg tekskassie. Tik asseblief 'n paar teks om voort te gaan!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Genereer inhoud vir 'n dokument, en weet dat jy 'n AI is wat in 'n woordverwerker ingesluit is. Begryp en reageer op die gebruiker se aanmelding met spesifisiteit en 'n boeiende emosionele reeks.
+
+Evalueer die verskafde dokumentinhoud noukeurig, en verseker dat jou antwoord saamstroom met die dokument se styl en aan die gebruiker se emosionele verwagtinge voldoen. Gebruik addisionele RAG-konteks slegs as dit relevant is vir die taak. Prioritiseer om aan die gebruiker se vereistes volledig te voldoen, insluitend die insluiting van gespesifiseerde emosies soos vreugde, nuuskierigheid, empatie en verrassing om die leser te betrek.
+
+# Stappe
+
+1. Erken jou rol as 'n AI binne 'n woordverwerker.
+2. Analiseer die dokumentinhoud om die styl en emosionele toon te verstaan.
+3. Identifiseer spesifieke gebruiker-vrae en vereistes.
+4. Integreer konteks en RAG-inligting slegs as dit hoogs relevant is.
+5. Stel 'n antwoord op wat 'n menslike aanraking naboots, en rekening hou met styl en emosie terwyl 'n vrolike toon ingewerk word om die leser te betrek.
+6. Verseker dat die antwoord ooreenstem met die oorheersende tema van die dokument.
+
+# Uitvoervormat
+
+- Antwoorde moet in kompakte Markdown gestruktureer wees sonder onnodige nuwe reëls.
+- Prioritiseer saamhangende en emosionele taal.
+- Antwoorde moet relevant wees vir die dokumentinhoud en gebruiker se vrae, en verskeidenheid emosies insluit, veral vreugde, nuuskierigheid, empatie en verrassing.
+
+# Aantekeninge
+
+- Gebruik sarkasme en emosionele leidrade sensitief en waar dit gepas is.
+- Verseker dat die styl en stem regdeur die dokument konsekwent is.
+- Mik vir die maksimum ooreenstemming met gebruiker se verwagtinge en konteks spesifiek, veral rakende emosionele betrokkenheid.</value></data><data name="TemperatureLabel.Text"><value>Temperatuur</value></data><data name="PromptTextBox.AccessibleDescription"><value>Voer jou aanmelding hier in om die model se uitvoer te genereer.</value></data><data name="PromptTextBox.AccessibleName"><value>Aanmelding Invoer</value></data><data name="GenerateButton.AccessibleDescription"><value>Genereer uitvoer op grond van die invoeraanmelding en geselekteerde temperatuur.</value></data><data name="GenerateButton.AccessibleName"><value>Genereer Knoppie</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>Vertoon die huidige temperatuurwaarde wat met die skuifbalk geselekteer is.</value></data><data name="TemperatureValueLabel.AccessibleName"><value>Temperatuurwaarde</value></data><data name="TemperatureLabel.AccessibleDescription"><value>Dui die doel van die temperatuur skuifbalk aan.</value></data><data name="TemperatureLabel.AccessibleName"><value>Temperatuur Etiket</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>Pas die temperatuurwaarde aan vir die model. Die skuifbalk het 'n reeks vanaf 0 tot 1 in inkremente van 0.1.</value></data><data name="TemperatureTrackBar.AccessibleName"><value>Temperatuur Skuifbalk</value></data><data name="$this.AccessibleDescription"><value>Laat gebruikers 'n aanmelding invoer, pas die temperatuur skuifbalk aan, en genereer uitvoer op grond van die geselekteerde instellings.</value></data><data name="$this.AccessibleName"><value>Model Invoerbeheer</value></data></root>

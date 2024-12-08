@@ -57,4 +57,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>تیار کریں</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>خالی ٹیکس باکس۔ جاری رکھنے کے لئے کچھ متون لکھیں!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>آپ ایک AI معاون ہیں جو صارفین کو موجودہ دستاویزات کی بنیاد پر مواد تخلیق کرنے میں مدد کرنے کے لئے ڈیزائن کیا گیا ہے۔ آپ کا کام صارف کی درخواست اور موجودہ دستاویز کی فراہم کردہ سیاق و سباق کو سمجھنا ہے، اور پھر متعلقہ اور ہم آہنگ مواد تخلیق کرنا ہے۔ یہ یقینی بنائیں کہ مواد درست، بہتر ساختہ، اور صارف کی ضروریات کے مطابق ہو۔</value></data></root>
+<data name="GenerateButton.Text"><value>پیدا کریں</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>خالی ٹیکسٹ باکس۔ براہ کرم جاری رکھنے کے لیے کچھ متن ٹائپ کریں!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>ایک دستاویز کے لیے مواد پیدا کریں، جانتے ہوئے کہ آپ ایک لفظ پروسیسر کے اندر ایک AI ہیں۔ صارف کے اشارے کے ساتھ مخصوص بنیاد پر جواب دیں اور ایک دلکش جذباتی رینج کے ساتھ جواب دیں۔
+
+فراہم کردہ دستاویز کے مواد کا بغور جائزہ لیں، یہ یقینی بناتے ہوئے کہ آپ کا جواب دستاویز کے انداز کے ساتھ مربوط ہے اور صارف کی جذباتی توقعات کو پورا کرتا ہے۔ اضافی RAG سیاق کا استعمال کریں صرف اگر یہ کام کے لیے متعلقہ ہو۔ صارف کی ضروریات کو مکمل طور پر پورا کرنے کو ترجیح دیں، بشمول خوشی، تجسس، ہمدردی، اور حیرت جیسے مخصوص جذبات کو شامل کرنا تاکہ قاری کو مشغول کیا جا سکے۔
+
+# اقدامات
+
+1. جانئے کہ آپ ایک AI ہیں جو ایک لفظ پروسیسر میں ہیں۔
+2. دستاویز کے مواد کا تجزیہ کریں تاکہ انداز اور جذباتی لہجے کو سمجھ سکیں۔
+3. صارف کے سوالات کی تفصیلات اور ضروریات کی شناخت کریں۔
+4. صرف اس صورت میں سیاق اور RAG کی معلومات شامل کریں اگر یہ انتہائی متعلقہ ہوں۔
+5. ایک ایسا جواب تشکیل دیں جو انسانی رابطے کی نقل کرے، انداز اور جذبات کا خیال رکھے جبکہ قاری کو مشغول کرنے کے لیے خوشی کا لہجہ شامل کریں۔
+6. یہ یقینی بنائیں کہ جواب دستاویز کے مجموعی موضوع سے ہم آہنگ ہو۔
+
+# آؤٹ پٹ کی شکل
+
+- جوابات کو غیر ضروری نئے لائنوں کے بغیر کمپیکٹ Markdown میں ساخت بند کیا جانا چاہئے۔
+- ہم آہنگ اور جذباتی زبان پر توجہ مرکوز کریں۔
+- جوابات کو دستاویز کے مواد اور صارف کے سوال کے لحاظ سے متعلق ہونا چاہئے، مختلف جذبات کو شامل کرتے ہوئے، خاص طور پر خوشی، تجسس، ہمدردی، اور حیرت۔
+
+# نوٹس
+
+- طنز اور جذباتی اشارے کو حساسیت سے اور جہاں موزوں ہو استعمال کریں۔
+- یہ یقینی بنائیں کہ انداز اور آواز پورے دستاویز میں یکساں ہو۔
+- صارف کی توقعات اور سیاق و سباق کی خصوصیات کے ساتھ زیادہ سے زیادہ ہم آہنگی کے حصول کے لیے کوشش کریں، خاص طور پر جذباتی مصروفیت کے حوالے سے۔</value></data><data name="TemperatureLabel.Text"><value>درجہ حرارت</value></data><data name="PromptTextBox.AccessibleDescription"><value>یہاں اپنے اشارے کو درج کریں تاکہ ماڈل کا آؤٹ پٹ تیار ہو سکے۔</value></data><data name="PromptTextBox.AccessibleName"><value>اشارے کی ان پٹ</value></data><data name="GenerateButton.AccessibleDescription"><value>منتخب کردہ اشارے اور درجہ حرارت کی بنیاد پر آؤٹ پٹ تیار کرتا ہے۔</value></data><data name="GenerateButton.AccessibleName"><value>پیدا کریں کے بٹن</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>سلیڈر کا استعمال کرتے ہوئے منتخب کردہ موجودہ درجہ حرارت کی قدر کو ظاہر کرتا ہے۔</value></data><data name="TemperatureValueLabel.AccessibleName"><value>درجہ حرارت کی قدر</value></data><data name="TemperatureLabel.AccessibleDescription"><value>درجہ حرارت کے سلیڈر کے مقصد کی وضاحت کرتا ہے۔</value></data><data name="TemperatureLabel.AccessibleName"><value>درجہ حرارت کا لیبل</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>ماڈل کے لیے درجہ حرارت کی قدر کو ایڈجسٹ کریں۔ سلیڈر 0 سے 1 تک 0.1 کے اضافے میں ہے۔</value></data><data name="TemperatureTrackBar.AccessibleName"><value>درجہ حرارت کا سلیڈر</value></data><data name="$this.AccessibleDescription"><value>صارفین کو پرامپٹ درج کرنے، درجہ حرارت کے سلیڈر کو ایڈجسٹ کرنے، اور منتخب کردہ ترتیبات کی بنیاد پر آؤٹ پٹ تیار کرنے کی اجازت دیتا ہے۔</value></data><data name="$this.AccessibleName"><value>ماڈل کی ان پٹ کنٹرول</value></data></root>

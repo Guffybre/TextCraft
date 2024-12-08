@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Microsoft.Office.Interop.Word;
 using Microsoft.Office.Tools;
 using Microsoft.Office.Tools.Ribbon;
 using OpenAI.Chat;
@@ -271,7 +272,8 @@ namespace TextForge
         {
             await AnalyzeText(
                 ThisAddIn.SystemPromptLocalization["[ProofreadButton_Click] SystemPrompt"],
-                CultureHelper.GetLocalizedString("[ProofreadButton_Click] UserPrompt")
+                CultureHelper.GetLocalizedString("[ProofreadButton_Click] UserPrompt"),
+                0.1f
             );
         }
 
@@ -279,19 +281,20 @@ namespace TextForge
         {
             await AnalyzeText(
                 ThisAddIn.SystemPromptLocalization["[RewriteButton_Click] SystemPrompt"],
-                CultureHelper.GetLocalizedString("[RewriteButton_Click] UserPrompt")
+                CultureHelper.GetLocalizedString("[RewriteButton_Click] UserPrompt"),
+                0.4f
             );
         }
 
-        private static async Task AnalyzeText(string systemPrompt, string userPrompt)
+        private static async Task AnalyzeText(string systemPrompt, string userPrompt, float temperature)
         {
             var selectionRange = Globals.ThisAddIn.Application.Selection.Range;
             var range = (selectionRange.End - selectionRange.Start > 0) ? selectionRange : throw new InvalidRangeException(CultureHelper.GetLocalizedString("[AnalyzeText] InvalidRangeException #1"));
 
             ChatClient client = new ChatClient(ThisAddIn.Model, new ApiKeyCredential(ThisAddIn.ApiKey), ThisAddIn.ClientOptions);
             var streamingAnswer = client.CompleteChatStreamingAsync(
-                new List<ChatMessage>() { new SystemChatMessage(systemPrompt), new UserChatMessage(@$"{userPrompt}:\n{range.Text}") },
-                new ChatCompletionOptions() { MaxOutputTokenCount = ThisAddIn.ContextLength },
+                new List<ChatMessage>() { new SystemChatMessage(systemPrompt), new UserChatMessage($@"{CultureHelper.GetLocalizedString("[AnalyzeText] UserChatMessage #1")}:\n{GetTextFromParagraphs(selectionRange.Paragraphs)}"), new UserChatMessage(@$"{userPrompt}:\n{range.Text}") },
+                new ChatCompletionOptions() { Temperature = temperature * 2 },
                 ThisAddIn.CancellationTokenSource.Token
             );
 
@@ -305,6 +308,14 @@ namespace TextForge
                 CommonUtils.DisplayWarning(ex);
             }
             Globals.ThisAddIn.Application.Selection.SetRange(range.Start, range.End);
+        }
+
+        private static string GetTextFromParagraphs(Paragraphs paragraphs)
+        {
+            StringBuilder textBuilder = new StringBuilder(paragraphs.Count);
+            foreach (Paragraph p in paragraphs)
+                textBuilder.AppendLine(p.Range.Text);
+            return textBuilder.ToString();
         }
 
         public static async Task AddStreamingChatContentToRange(AsyncCollectionResult<StreamingChatCompletionUpdate> streamingAnswer, Word.Range range)
@@ -325,7 +336,7 @@ namespace TextForge
                                 response.Append(newContent.Text);
                                 break;
                             case ChatMessageContentPartKind.Refusal:
-                                MessageBox.Show("Model refused output!", "Refusal", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                                MessageBox.Show(CultureHelper.GetLocalizedString("[AddStreamingChatContentToRange] MessageBox Text #1"), CultureHelper.GetLocalizedString("[AddStreamingChatContentToRange] MessageBox Caption #1"), MessageBoxButtons.OK, MessageBoxIcon.Warning);
                                 break;
                             default:
                                 break;
@@ -357,7 +368,7 @@ namespace TextForge
                 }
                 catch (Exception ex)
                 {
-                    CommonUtils.DisplayError("Error inserting image", ex);
+                    CommonUtils.DisplayError(CultureHelper.GetLocalizedString("[AddStreamingImageContentToRange] Exception #1"), ex);
                 }
             }
             finally
@@ -387,7 +398,7 @@ namespace TextForge
                 new UserChatMessage($@"{CultureHelper.GetLocalizedString("[Review] chatHistory #1")}\n""{CommonUtils.SubstringTokens(p.Text, (int)(ThisAddIn.ContextLength * 0.2))}"""),
                 new UserChatMessage(userPrompt)
             };
-            return RAGControl.AskQuestion(CommentSystemPrompt, chatHistory, docRange, doc);
+            return RAGControl.AskQuestion(CommentSystemPrompt, chatHistory, docRange, 0.5f, doc);
         }
 
         public static string GetPictureAddress(GeneratedImage newContent)
@@ -401,11 +412,11 @@ namespace TextForge
             }
             else if (!string.IsNullOrEmpty(newContent.ImageUri.ToString()))
             {
-                throw new InvalidDataException("Image URI handling is not currently supported by TextCraft!");
+                throw new InvalidDataException(CultureHelper.GetLocalizedString("[GetPictureAddress] InvalidDataException #1"));
             }
             else
             {
-                throw new InvalidOperationException("No valid image data found in the content part.");
+                throw new InvalidOperationException(CultureHelper.GetLocalizedString("[GetPictureAddress] InvalidOperationException #1"));
             }
         }
     }

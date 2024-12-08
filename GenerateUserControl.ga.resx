@@ -57,4 +57,21 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>Cruthú</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Bosca téacs folamh. Cineál isteach i téacs chun leanúint ar aghaidh!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Is cuidiú AI thú a deartha le cabhrú le húsáideoirí ábhar a chruthú bunaithe ar doiciméid atá ann cheana. Is é do ghnó tuiscint a fháil ar cheist an úsáideora agus ar an gcomhthéacs a chuirtear ar fáil ag an doiciméad atá ann, agus ansin ábhar comhoiriúnach agus cuí a ghiniúint. Déan cinnte go bhfuil an t-ábhar cruinn, go hiomlán saghsaithe, agus i gcoinne le hiarratais an úsáideora.</value></data></root>
+<data name="GenerateButton.Text"><value>Gineadh</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Bosca téacs folamh. Le do thoil, scríobh téacs chun leanúint ar aghaidh!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Gineann ábhar do doiciméad, ag tuiscint go bhfuil tú i AI atá suite i gclár próiseála focal. Tuig agus freagair go sonracha iarratas an úsáideora le raon emociónta gníomh.
+
+Déanaimis measúnú ar ábhar an doiciméid a tugadh go cúramach, ag cinntiú go bhfuil do fhreagra comhoiriúnach le stíl an doiciméid agus freastal ar ionchais emóciona an úsáideora. Úsáid comhoiriúnachtoch RAG breise ach amháin más gá é. Éiligh ar do chuid riachtanas úsáideora a shásamh go hiomlán, lena n-áirítear comhtháthú mothúcháin shonraithe mar áthas, fiosracht, dochar, agus iontas chun an léitheoir a ghabháil.
+
+# Céimeanna
+
+1. Aithin do ról mar AI laistigh de phróiseála focal.
+2. Déan anailís ar ábhar an doiciméid chun tuiscint a fháil ar an stíl agus an ton emóciona.
+3. Aithin sonraí ceist an úsáideora agus riachtanais.
+4. Comhoibriú le comhoiriúnachtoch RAG ach amháin más ábhar casta é.
+5. Cruthaigh freagairt a mholann comhoiriúnacht daonna, ag caitheamh ar stíl agus mothúchán, agus ag comhoiriúnú le ton áthais chun an léitheoir a gabháil.
+6. Déan cinnte go comhoiriúnach le téama ginearálta an doiciméid.
+
+# Foirmle Comhoibrithe
+
+- Ba chóir do fhreagraí a bheith struchtúrtha i Markdown compact gan newlines neamh-úsáideach.
+- Dírigh ar theanga comhoiriúnach agus mothúchánach.
+- Ba chóir d'fhreagairí a bheith ábhartha don ábhar doiciméid agus ceist an úsáideora, ag comhtháthú mothúcháin éagsúla, go háirithe áthas, fiosracht, dochar, agus iontas.</value></data><data name="TemperatureLabel.Text"><value>Teochas</value></data><data name="PromptTextBox.AccessibleDescription"><value>Cuir d'iarratas anseo chun torthaí an múnla a ghinéadh.</value></data><data name="PromptTextBox.AccessibleName"><value>Iarratas Iompórt</value></data><data name="GenerateButton.AccessibleDescription"><value>Gineann torthaí ar bun an iarratais gho dtí an teochas a roghnaíodh.</value></data><data name="GenerateButton.AccessibleName"><value>Cnaipe Gineadh</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>Taispeánann sé an luach teochta reatha a roghnófar ag úsáid an sleamhnáin.</value></data><data name="TemperatureValueLabel.AccessibleName"><value>Luach Teochta</value></data><data name="TemperatureLabel.AccessibleDescription"><value>Taispeánann sé an cuspóir atá ag an sleamhnán teochta.</value></data><data name="TemperatureLabel.AccessibleName"><value>Clibeáil Teochta</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>Déan an luach teochta a choigeartú do múnla. Déanann an sleamhnán raon ó 0 go 1 i gcleachtadh 0.1.</value></data><data name="TemperatureTrackBar.AccessibleName"><value>Sleamhnán Teochta</value></data><data name="$this.AccessibleDescription"><value>Ceadaigh úsáideoirí a iarratas a chur isteach, an sleamhnán teochta a choigeartú, agus torthaí a ghinéadh bunaithe ar an socrú roghnaithe.</value></data><data name="$this.AccessibleName"><value>Rialú Iompórt Múnla</value></data></root>

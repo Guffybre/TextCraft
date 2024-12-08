@@ -6,7 +6,6 @@ using System.ComponentModel;
 using System.IO;
 using System.Linq;
 using System.Text;
-using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using OpenAI.Chat;
@@ -87,7 +86,7 @@ namespace TextForge
                         {
                             if (!_fileList.Any(file => file.Value == fileName))
                             {
-                                _fileList.Add(new KeyValuePair<string, string>("📄 " + Path.GetFileName(fileName), fileName));
+                                _fileList.Add(new KeyValuePair<string, string>(@$"📄 {Path.GetFileName(fileName)}", fileName));
                                 filesToIndex.Add(fileName);
                                 if (!RemoveButton.Enabled)
                                 {
@@ -428,22 +427,22 @@ namespace TextForge
         }
 
         // UTILS
-        public static AsyncCollectionResult<StreamingChatCompletionUpdate> AskQuestion(SystemChatMessage systemPrompt, IEnumerable<ChatMessage> messages, Word.Range context, Word.Document doc = null)
+        public static AsyncCollectionResult<StreamingChatCompletionUpdate> AskQuestion(SystemChatMessage systemPrompt, IEnumerable<ChatMessage> messages, Word.Range context, float temperature, Word.Document doc = null)
         {
-            var chatHistory = ProcessInformation(systemPrompt, messages, context);
+            var chatHistory = ProcessInformation(systemPrompt, messages, context, doc);
 
             ChatClient client = new ChatClient(ThisAddIn.Model, new ApiKeyCredential(ThisAddIn.ApiKey), ThisAddIn.ClientOptions);
 
             // https://github.com/ollama/ollama/pull/6504
             return client.CompleteChatStreamingAsync(
                 chatHistory,
-                null,
+                new ChatCompletionOptions() { Temperature = temperature * 2 },
                 ThisAddIn.CancellationTokenSource.Token
             );
         }
         public static Task<ClientResult<GeneratedImage>> AskQuestionForImage(SystemChatMessage systemPrompt, IEnumerable<ChatMessage> messages, Word.Range context, Word.Document doc = null)
         {
-            var chatHistory = ProcessInformation(systemPrompt, messages, context);
+            var chatHistory = ProcessInformation(systemPrompt, messages, context, doc);
 
             ImageClient client = new ImageClient(ThisAddIn.Model, new ApiKeyCredential(ThisAddIn.ApiKey), ThisAddIn.ClientOptions);
 
@@ -453,6 +452,7 @@ namespace TextForge
                 ThisAddIn.CancellationTokenSource.Token
             );
         }
+
         private static List<ChatMessage> ProcessInformation(SystemChatMessage systemPrompt, IEnumerable<ChatMessage> messages, Word.Range context, Word.Document doc = null)
         {
             if (doc == null)
@@ -521,10 +521,11 @@ namespace TextForge
                 DB.IndexDocument(chunk);
 
             var result = DB.QueryCosineSimilarity(query, CommonUtils.GetWordPageCount() * 3);
-            StringBuilder ragContext = new StringBuilder();
+
+            StringBuilder ragContextBuilder = new StringBuilder(result.Documents.Count);
             foreach (var doc in result.Documents)
-                ragContext.AppendLine(doc.DocumentString);
-            return ragContext.ToString();
+                ragContextBuilder.AppendLine(doc.DocumentString);
+            return ragContextBuilder.ToString();
         }
     }
 }

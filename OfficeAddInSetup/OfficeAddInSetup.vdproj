@@ -39,43 +39,19 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_0C144B28A704401511E8E8A92259163A"
-        "OwnerKey" = "8:_37A23FF060C2402A4116757A2C9260C7"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_0C144B28A704401511E8E8A92259163A"
-        "OwnerKey" = "8:_5DA1C96D6C89410AA5F3D85C50EA4EE0"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_0C144B28A704401511E8E8A92259163A"
-        "OwnerKey" = "8:_930D172A1AD0B68AB9E578C683D6C0E6"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_0C144B28A704401511E8E8A92259163A"
-        "OwnerKey" = "8:_F24BFCB34FD1CFD5C75607CE07C8E551"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_0E32FD44EE309F3C297256EA917983BA"
         "OwnerKey" = "8:_5DA1C96D6C89410AA5F3D85C50EA4EE0"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_14D2E8B823743F8789424D4F3F5A80B1"
-        "OwnerKey" = "8:_789990E8ECD09D23933BFE6C63B400CB"
+        "MsmKey" = "8:_19F0E898DCC5613874AFF5BD40610431"
+        "OwnerKey" = "8:_53B7D8AB4A29E835A4BA41335CDA1889"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_14D2E8B823743F8789424D4F3F5A80B1"
+        "MsmKey" = "8:_19F0E898DCC5613874AFF5BD40610431"
         "OwnerKey" = "8:_5DA1C96D6C89410AA5F3D85C50EA4EE0"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -99,12 +75,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_1B66A962088B013D1EE37B19354C7662"
-        "OwnerKey" = "8:_5DA1C96D6C89410AA5F3D85C50EA4EE0"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_25ED0A801C564A729331D11069ED0745"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -113,12 +83,6 @@
         {
         "MsmKey" = "8:_2A0BF59226F4F78B577AE2DDC9553F98"
         "OwnerKey" = "8:_5C6B0E1DD3DDFEB1C509E3A5F41B8225"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_2CDEF2FB1D49456C32077834E6827C03"
-        "OwnerKey" = "8:_5DA1C96D6C89410AA5F3D85C50EA4EE0"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -135,67 +99,31 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_359CBD127C4F9173BF889FC17FD8C38A"
+        "MsmKey" = "8:_3FD1B10CCF486A74FBEBC8EDB1B985E3"
         "OwnerKey" = "8:_5DA1C96D6C89410AA5F3D85C50EA4EE0"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_359CBD127C4F9173BF889FC17FD8C38A"
-        "OwnerKey" = "8:_1B66A962088B013D1EE37B19354C7662"
+        "MsmKey" = "8:_4203104D0F99894474117B8DE1D3CA2C"
+        "OwnerKey" = "8:_3FD1B10CCF486A74FBEBC8EDB1B985E3"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_359CBD127C4F9173BF889FC17FD8C38A"
-        "OwnerKey" = "8:_0C144B28A704401511E8E8A92259163A"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_359CBD127C4F9173BF889FC17FD8C38A"
-        "OwnerKey" = "8:_37A23FF060C2402A4116757A2C9260C7"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_359CBD127C4F9173BF889FC17FD8C38A"
-        "OwnerKey" = "8:_F24BFCB34FD1CFD5C75607CE07C8E551"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_359CBD127C4F9173BF889FC17FD8C38A"
-        "OwnerKey" = "8:_930D172A1AD0B68AB9E578C683D6C0E6"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_37A23FF060C2402A4116757A2C9260C7"
-        "OwnerKey" = "8:_F24BFCB34FD1CFD5C75607CE07C8E551"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_37A23FF060C2402A4116757A2C9260C7"
+        "MsmKey" = "8:_4203104D0F99894474117B8DE1D3CA2C"
         "OwnerKey" = "8:_5DA1C96D6C89410AA5F3D85C50EA4EE0"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_37A23FF060C2402A4116757A2C9260C7"
-        "OwnerKey" = "8:_930D172A1AD0B68AB9E578C683D6C0E6"
+        "MsmKey" = "8:_4955914AF52FD80344065647B7CA20E3"
+        "OwnerKey" = "8:_9637F23C34595B97417DBC52C568A396"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_4203104D0F99894474117B8DE1D3CA2C"
-        "OwnerKey" = "8:_2CDEF2FB1D49456C32077834E6827C03"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_4203104D0F99894474117B8DE1D3CA2C"
+        "MsmKey" = "8:_4955914AF52FD80344065647B7CA20E3"
         "OwnerKey" = "8:_5DA1C96D6C89410AA5F3D85C50EA4EE0"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -214,13 +142,25 @@
         "Entry"
         {
         "MsmKey" = "8:_4F769C2D11D83AFADFB8DADDA14450CD"
-        "OwnerKey" = "8:_789990E8ECD09D23933BFE6C63B400CB"
+        "OwnerKey" = "8:_9637F23C34595B97417DBC52C568A396"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_4F769C2D11D83AFADFB8DADDA14450CD"
         "OwnerKey" = "8:_5DA1C96D6C89410AA5F3D85C50EA4EE0"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_53B7D8AB4A29E835A4BA41335CDA1889"
+        "OwnerKey" = "8:_5DA1C96D6C89410AA5F3D85C50EA4EE0"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_53B7D8AB4A29E835A4BA41335CDA1889"
+        "OwnerKey" = "8:_5DA12C14DD7987674330BEC3B29CA541"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -244,13 +184,19 @@
         "Entry"
         {
         "MsmKey" = "8:_5C6B0E1DD3DDFEB1C509E3A5F41B8225"
-        "OwnerKey" = "8:_2CDEF2FB1D49456C32077834E6827C03"
+        "OwnerKey" = "8:_3FD1B10CCF486A74FBEBC8EDB1B985E3"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_5C6B0E1DD3DDFEB1C509E3A5F41B8225"
-        "OwnerKey" = "8:_14D2E8B823743F8789424D4F3F5A80B1"
+        "OwnerKey" = "8:_4955914AF52FD80344065647B7CA20E3"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_5DA12C14DD7987674330BEC3B29CA541"
+        "OwnerKey" = "8:_5DA1C96D6C89410AA5F3D85C50EA4EE0"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -273,7 +219,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_789990E8ECD09D23933BFE6C63B400CB"
+        "MsmKey" = "8:_786C97E4CA64743D35090AF7BC0915EE"
         "OwnerKey" = "8:_5DA1C96D6C89410AA5F3D85C50EA4EE0"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -315,26 +261,44 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_930D172A1AD0B68AB9E578C683D6C0E6"
-        "OwnerKey" = "8:_5DA1C96D6C89410AA5F3D85C50EA4EE0"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_930D172A1AD0B68AB9E578C683D6C0E6"
-        "OwnerKey" = "8:_1B66A962088B013D1EE37B19354C7662"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_94C086B7088843DD8140440BA4FA2646"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
+        "MsmKey" = "8:_9637F23C34595B97417DBC52C568A396"
+        "OwnerKey" = "8:_5DA1C96D6C89410AA5F3D85C50EA4EE0"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_98A20B7F57D405C8FDFD6678B1A80029"
         "OwnerKey" = "8:_5DA1C96D6C89410AA5F3D85C50EA4EE0"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_99EA5CD6DA19CC7041C0F5214E9A761C"
+        "OwnerKey" = "8:_E7AA0AC591C55CD97B1DCC4F549335BB"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_99EA5CD6DA19CC7041C0F5214E9A761C"
+        "OwnerKey" = "8:_5DA1C96D6C89410AA5F3D85C50EA4EE0"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_99EA5CD6DA19CC7041C0F5214E9A761C"
+        "OwnerKey" = "8:_53B7D8AB4A29E835A4BA41335CDA1889"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_99EA5CD6DA19CC7041C0F5214E9A761C"
+        "OwnerKey" = "8:_19F0E898DCC5613874AFF5BD40610431"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -359,6 +323,42 @@
         {
         "MsmKey" = "8:_AD3F8C308B298A3E9BB78BC9A90BB895"
         "OwnerKey" = "8:_5C6B0E1DD3DDFEB1C509E3A5F41B8225"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B0ECD6BC684DCB96FC95B038B5320F67"
+        "OwnerKey" = "8:_5DA1C96D6C89410AA5F3D85C50EA4EE0"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B0ECD6BC684DCB96FC95B038B5320F67"
+        "OwnerKey" = "8:_5DA12C14DD7987674330BEC3B29CA541"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B0ECD6BC684DCB96FC95B038B5320F67"
+        "OwnerKey" = "8:_99EA5CD6DA19CC7041C0F5214E9A761C"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B0ECD6BC684DCB96FC95B038B5320F67"
+        "OwnerKey" = "8:_E7AA0AC591C55CD97B1DCC4F549335BB"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B0ECD6BC684DCB96FC95B038B5320F67"
+        "OwnerKey" = "8:_19F0E898DCC5613874AFF5BD40610431"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B0ECD6BC684DCB96FC95B038B5320F67"
+        "OwnerKey" = "8:_53B7D8AB4A29E835A4BA41335CDA1889"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -429,12 +429,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_DFE27F383076E298AC89732E852C2F6D"
-        "OwnerKey" = "8:_5DA1C96D6C89410AA5F3D85C50EA4EE0"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_E026B6F342F4B469BE35BDE11345DA58"
         "OwnerKey" = "8:_846EE2681FD5E3F888B048040B3CC5F2"
         "MsmSig" = "8:_UNDEFINED"
@@ -465,6 +459,24 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_E7AA0AC591C55CD97B1DCC4F549335BB"
+        "OwnerKey" = "8:_19F0E898DCC5613874AFF5BD40610431"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_E7AA0AC591C55CD97B1DCC4F549335BB"
+        "OwnerKey" = "8:_5DA1C96D6C89410AA5F3D85C50EA4EE0"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_E7AA0AC591C55CD97B1DCC4F549335BB"
+        "OwnerKey" = "8:_53B7D8AB4A29E835A4BA41335CDA1889"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_ED7A4893587489F1DDE3C522C06BF4FF"
         "OwnerKey" = "8:_5DA1C96D6C89410AA5F3D85C50EA4EE0"
         "MsmSig" = "8:_UNDEFINED"
@@ -473,18 +485,6 @@
         {
         "MsmKey" = "8:_ED7A4893587489F1DDE3C522C06BF4FF"
         "OwnerKey" = "8:_846EE2681FD5E3F888B048040B3CC5F2"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_F24BFCB34FD1CFD5C75607CE07C8E551"
-        "OwnerKey" = "8:_930D172A1AD0B68AB9E578C683D6C0E6"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_F24BFCB34FD1CFD5C75607CE07C8E551"
-        "OwnerKey" = "8:_5DA1C96D6C89410AA5F3D85C50EA4EE0"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -568,43 +568,43 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_DFE27F383076E298AC89732E852C2F6D"
+        "OwnerKey" = "8:_786C97E4CA64743D35090AF7BC0915EE"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_1B66A962088B013D1EE37B19354C7662"
+        "OwnerKey" = "8:_5DA12C14DD7987674330BEC3B29CA541"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_930D172A1AD0B68AB9E578C683D6C0E6"
+        "OwnerKey" = "8:_53B7D8AB4A29E835A4BA41335CDA1889"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_F24BFCB34FD1CFD5C75607CE07C8E551"
+        "OwnerKey" = "8:_19F0E898DCC5613874AFF5BD40610431"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_37A23FF060C2402A4116757A2C9260C7"
+        "OwnerKey" = "8:_E7AA0AC591C55CD97B1DCC4F549335BB"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_0C144B28A704401511E8E8A92259163A"
+        "OwnerKey" = "8:_99EA5CD6DA19CC7041C0F5214E9A761C"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_359CBD127C4F9173BF889FC17FD8C38A"
+        "OwnerKey" = "8:_B0ECD6BC684DCB96FC95B038B5320F67"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -622,7 +622,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_789990E8ECD09D23933BFE6C63B400CB"
+        "OwnerKey" = "8:_9637F23C34595B97417DBC52C568A396"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -877,37 +877,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_0C144B28A704401511E8E8A92259163A"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:UglyToad.PdfPig.Tokens, Version=0.1.10.0, Culture=neutral, PublicKeyToken=605d367334e74123, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_0C144B28A704401511E8E8A92259163A"
-                    {
-                    "Name" = "8:UglyToad.PdfPig.Tokens.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:UglyToad.PdfPig.Tokens.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_AF016B7856C74F08A06EC9F3AA46C574"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_0E32FD44EE309F3C297256EA917983BA"
             {
             "AssemblyRegister" = "3:1"
@@ -939,20 +908,20 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_14D2E8B823743F8789424D4F3F5A80B1"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_19F0E898DCC5613874AFF5BD40610431"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:MessagePack.Annotations, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:UglyToad.PdfPig.Fonts, Version=0.1.9.0, Culture=neutral, PublicKeyToken=605d367334e74123, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_14D2E8B823743F8789424D4F3F5A80B1"
+                    "_19F0E898DCC5613874AFF5BD40610431"
                     {
-                    "Name" = "8:MessagePack.Annotations.dll"
+                    "Name" = "8:UglyToad.PdfPig.Fonts.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:MessagePack.Annotations.dll"
+            "SourcePath" = "8:UglyToad.PdfPig.Fonts.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_AF016B7856C74F08A06EC9F3AA46C574"
@@ -1032,37 +1001,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_1B66A962088B013D1EE37B19354C7662"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:UglyToad.PdfPig.DocumentLayoutAnalysis, Version=0.1.10.0, Culture=neutral, PublicKeyToken=605d367334e74123, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_1B66A962088B013D1EE37B19354C7662"
-                    {
-                    "Name" = "8:UglyToad.PdfPig.DocumentLayoutAnalysis.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:UglyToad.PdfPig.DocumentLayoutAnalysis.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_AF016B7856C74F08A06EC9F3AA46C574"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_25ED0A801C564A729331D11069ED0745"
             {
             "SourcePath" = "8:..\\Resources\\robot_color.ico"
@@ -1111,37 +1049,6 @@
             "PackageAs" = "3:1"
             "Register" = "3:1"
             "Exclude" = "11:TRUE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_2CDEF2FB1D49456C32077834E6827C03"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:OpenAI, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4187f3e65366280, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_2CDEF2FB1D49456C32077834E6827C03"
-                    {
-                    "Name" = "8:OpenAI.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:OpenAI.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_AF016B7856C74F08A06EC9F3AA46C574"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
@@ -1196,51 +1103,20 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_359CBD127C4F9173BF889FC17FD8C38A"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_3FD1B10CCF486A74FBEBC8EDB1B985E3"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:UglyToad.PdfPig.Core, Version=0.1.10.0, Culture=neutral, PublicKeyToken=605d367334e74123, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:OpenAI, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b4187f3e65366280, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_359CBD127C4F9173BF889FC17FD8C38A"
+                    "_3FD1B10CCF486A74FBEBC8EDB1B985E3"
                     {
-                    "Name" = "8:UglyToad.PdfPig.Core.dll"
+                    "Name" = "8:OpenAI.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:UglyToad.PdfPig.Core.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_AF016B7856C74F08A06EC9F3AA46C574"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_37A23FF060C2402A4116757A2C9260C7"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:UglyToad.PdfPig.Tokenization, Version=0.1.10.0, Culture=neutral, PublicKeyToken=605d367334e74123, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_37A23FF060C2402A4116757A2C9260C7"
-                    {
-                    "Name" = "8:UglyToad.PdfPig.Tokenization.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:UglyToad.PdfPig.Tokenization.dll"
+            "SourcePath" = "8:OpenAI.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_AF016B7856C74F08A06EC9F3AA46C574"
@@ -1272,6 +1148,37 @@
                     }
                 }
             "SourcePath" = "8:System.ClientModel.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_AF016B7856C74F08A06EC9F3AA46C574"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_4955914AF52FD80344065647B7CA20E3"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:MessagePack.Annotations, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_4955914AF52FD80344065647B7CA20E3"
+                    {
+                    "Name" = "8:MessagePack.Annotations.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:MessagePack.Annotations.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_AF016B7856C74F08A06EC9F3AA46C574"
@@ -1351,6 +1258,37 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_53B7D8AB4A29E835A4BA41335CDA1889"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:UglyToad.PdfPig, Version=0.1.9.0, Culture=neutral, PublicKeyToken=605d367334e74123, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_53B7D8AB4A29E835A4BA41335CDA1889"
+                    {
+                    "Name" = "8:UglyToad.PdfPig.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:UglyToad.PdfPig.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_AF016B7856C74F08A06EC9F3AA46C574"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5AD1259FA07F438EB28677868E5FA2A9"
             {
             "SourcePath" = "8:..\\LICENSE.txt"
@@ -1385,6 +1323,37 @@
                     }
                 }
             "SourcePath" = "8:netstandard.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_AF016B7856C74F08A06EC9F3AA46C574"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_5DA12C14DD7987674330BEC3B29CA541"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:UglyToad.PdfPig.DocumentLayoutAnalysis, Version=0.1.9.0, Culture=neutral, PublicKeyToken=605d367334e74123, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_5DA12C14DD7987674330BEC3B29CA541"
+                    {
+                    "Name" = "8:UglyToad.PdfPig.DocumentLayoutAnalysis.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:UglyToad.PdfPig.DocumentLayoutAnalysis.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_AF016B7856C74F08A06EC9F3AA46C574"
@@ -1464,20 +1433,20 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_789990E8ECD09D23933BFE6C63B400CB"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_786C97E4CA64743D35090AF7BC0915EE"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:MessagePack, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:UglyToad.PdfPig.Package, Version=0.1.8.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_789990E8ECD09D23933BFE6C63B400CB"
+                    "_786C97E4CA64743D35090AF7BC0915EE"
                     {
-                    "Name" = "8:MessagePack.dll"
+                    "Name" = "8:UglyToad.PdfPig.Package.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:MessagePack.dll"
+            "SourcePath" = "8:UglyToad.PdfPig.Package.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_AF016B7856C74F08A06EC9F3AA46C574"
@@ -1650,37 +1619,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_930D172A1AD0B68AB9E578C683D6C0E6"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:UglyToad.PdfPig, Version=0.1.10.0, Culture=neutral, PublicKeyToken=605d367334e74123, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_930D172A1AD0B68AB9E578C683D6C0E6"
-                    {
-                    "Name" = "8:UglyToad.PdfPig.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:UglyToad.PdfPig.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_AF016B7856C74F08A06EC9F3AA46C574"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_94C086B7088843DD8140440BA4FA2646"
             {
             "SourcePath" = "8:..\\bin\\Release\\TextCraft.dll.manifest"
@@ -1701,6 +1639,37 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_9637F23C34595B97417DBC52C568A396"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:MessagePack, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_9637F23C34595B97417DBC52C568A396"
+                    {
+                    "Name" = "8:MessagePack.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:MessagePack.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_AF016B7856C74F08A06EC9F3AA46C574"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_98A20B7F57D405C8FDFD6678B1A80029"
             {
             "AssemblyRegister" = "3:1"
@@ -1715,6 +1684,37 @@
                     }
                 }
             "SourcePath" = "8:Microsoft.Bcl.HashCode.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_AF016B7856C74F08A06EC9F3AA46C574"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_99EA5CD6DA19CC7041C0F5214E9A761C"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:UglyToad.PdfPig.Tokens, Version=0.1.9.0, Culture=neutral, PublicKeyToken=605d367334e74123, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_99EA5CD6DA19CC7041C0F5214E9A761C"
+                    {
+                    "Name" = "8:UglyToad.PdfPig.Tokens.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:UglyToad.PdfPig.Tokens.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_AF016B7856C74F08A06EC9F3AA46C574"
@@ -1791,6 +1791,37 @@
             "PackageAs" = "3:1"
             "Register" = "3:1"
             "Exclude" = "11:TRUE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_B0ECD6BC684DCB96FC95B038B5320F67"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:UglyToad.PdfPig.Core, Version=0.1.9.0, Culture=neutral, PublicKeyToken=605d367334e74123, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_B0ECD6BC684DCB96FC95B038B5320F67"
+                    {
+                    "Name" = "8:UglyToad.PdfPig.Core.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:UglyToad.PdfPig.Core.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_AF016B7856C74F08A06EC9F3AA46C574"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
@@ -2020,37 +2051,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_DFE27F383076E298AC89732E852C2F6D"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:UglyToad.PdfPig.Package, Version=0.1.8.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_DFE27F383076E298AC89732E852C2F6D"
-                    {
-                    "Name" = "8:UglyToad.PdfPig.Package.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:UglyToad.PdfPig.Package.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_AF016B7856C74F08A06EC9F3AA46C574"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_E026B6F342F4B469BE35BDE11345DA58"
             {
             "AssemblyRegister" = "3:1"
@@ -2113,20 +2113,20 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_ED7A4893587489F1DDE3C522C06BF4FF"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_E7AA0AC591C55CD97B1DCC4F549335BB"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Microsoft.Bcl.AsyncInterfaces, Version=9.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:UglyToad.PdfPig.Tokenization, Version=0.1.9.0, Culture=neutral, PublicKeyToken=605d367334e74123, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_ED7A4893587489F1DDE3C522C06BF4FF"
+                    "_E7AA0AC591C55CD97B1DCC4F549335BB"
                     {
-                    "Name" = "8:Microsoft.Bcl.AsyncInterfaces.dll"
+                    "Name" = "8:UglyToad.PdfPig.Tokenization.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:Microsoft.Bcl.AsyncInterfaces.dll"
+            "SourcePath" = "8:UglyToad.PdfPig.Tokenization.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_AF016B7856C74F08A06EC9F3AA46C574"
@@ -2144,20 +2144,20 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F24BFCB34FD1CFD5C75607CE07C8E551"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_ED7A4893587489F1DDE3C522C06BF4FF"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:UglyToad.PdfPig.Fonts, Version=0.1.10.0, Culture=neutral, PublicKeyToken=605d367334e74123, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:Microsoft.Bcl.AsyncInterfaces, Version=9.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_F24BFCB34FD1CFD5C75607CE07C8E551"
+                    "_ED7A4893587489F1DDE3C522C06BF4FF"
                     {
-                    "Name" = "8:UglyToad.PdfPig.Fonts.dll"
+                    "Name" = "8:Microsoft.Bcl.AsyncInterfaces.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:UglyToad.PdfPig.Fonts.dll"
+            "SourcePath" = "8:Microsoft.Bcl.AsyncInterfaces.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_AF016B7856C74F08A06EC9F3AA46C574"
@@ -2254,15 +2254,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:TextCraft"
-        "ProductCode" = "8:{00724FF1-60B5-48FA-97E3-511A6F476296}"
-        "PackageCode" = "8:{4FD6C9C0-E224-468A-B217-4E7CBF5DBF39}"
+        "ProductCode" = "8:{03ABDD83-194C-4F1D-A76E-A8F6F20FFEE2}"
+        "PackageCode" = "8:{3E653890-A0A0-48DE-810F-4BBFEBC39AD4}"
         "UpgradeCode" = "8:{E36CBC33-F0C8-472A-99B5-D882A25CC883}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.0.6"
+        "ProductVersion" = "8:1.0.7"
         "Manufacturer" = "8:suncloudsmoon"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:https://github.com/suncloudsmoon/TextCraft"

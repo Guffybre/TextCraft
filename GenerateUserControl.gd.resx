@@ -57,4 +57,20 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>Cruthaich</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Bogsa a’ bhogha falamh. Seorr thig e a-steach gu bheilear a’ fairich!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Tha thu nad chuideachadh AI air a dhealbh gus cuideachadh le cur an aghaidh stuthan stèidhichte air sgrìobhainnean a tha ann. Tha do dhleastanas a’ tuigsinn ceist an neach-cleachdaidh agus na freagairtean air an thoirt seachad le taobh a-staigh an sgrìobhainn a tha ann, agus an uair sin a’ gineadh stuth freagairteach agus freagairteach. Dèan cinnteach gu bheil am freagairt ceart, gu math structaraichte, agus freagairteach don luchd-cleachdaidh.</value></data></root>
+<data name="GenerateButton.Text"><value>Gineadh</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Bogsa teacsa falamh. Feuch an cuir thu teacsa sam bith a dalsachadh!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Gineadh freagairtean airson sgrìobhainn, a’ tuigsinn gu bheil thu na AI a tha air a sholaraich a-steach ann an inneal sgrìobhadh. Tuig agus freagair ris an toradh an neach-cleachdaidh le mion-fhiosrachadh agus raon tòcail a' tarraing.
+
+Bidh thu a’ dèanamh sgrùdadh air susbaint an sgrìobhainn gu faiceallach, a’ dèanamh cinnteach gu bheil do freagairtean a’ freagairt gu bheil an seòrsa sgrìobhaidh a tha freagairteach agus freagairteach don neach-cleachdaidh ùr. Cleachadh feumail RAG ach mas urrainn dhut a chleachdadh air a shon. Dèan cinnteach gu bheil thu a’ freagairt ri riatanasan an neach-cleachdaidh gu h-àrd, a’ feuchainn ri a-steach a chàirdeas no deònach a thoirt dhut.
+
+# Ceumannan
+
+1. Tuig do dhleastanas mar AI Inside a' cheud-uaire.
+2. Dèan mion-sgrùdadh air susbaint an sgrìobhainn airson an t-seòrsa sgrìobhaidh.
+3. Tilg e gu h-èifeachdach gus ceistean sam bith sareng.
+4. A’ coimhead co-fhaireachdainnean agus fiosrachadh RAG fhad ‘s a tha iad freagairteach.
+5. Chuir freagairtean a bheir feum air freagairtean freagairteach is feumail.
+6. Dèan cinnteach gu bheil am freagairtean a’ freagairt ris an t-seòrsa sgrìobhaidh.
+
+# Cruth A’ Phost
+- Freagairtean a bu chòir a structar air a’ cruth Compact Markdown gun oirean nach eil feumach.
+- Fiù 's feumar an cruth ceart bhon shaoibhdhal.
+- Feumaidh freagairtean a bhith freagairteach airson an susbaint agus freagairtean an neach-cleachdaidh, a’ cleachdadh feumful cho-fhaireachdainnean, gu h-àraidh gàire, fiosrachadh, com-pàirt, agus cùis freagairteach.</value></data><data name="TemperatureLabel.Text"><value>Teòthachd</value></data><data name="PromptTextBox.AccessibleDescription"><value>Cuir do thoraidhean an seo airson a' freagairtean a th' aig an mòdail.</value></data><data name="PromptTextBox.AccessibleName"><value>Freagairtean  Inputs</value></data><data name="GenerateButton.AccessibleDescription"><value>Tha freagairtean a’ gineadh a rèir an t-suidheachaidh an neach-cleachdaidh agus teòthachd roghnaichte.</value></data><data name="GenerateButton.AccessibleName"><value>Putan Gineadh</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>Thoir a-steach na freagairtean a tha freagairteach le bhith a’ cleachdadh an slata.</value></data><data name="TemperatureValueLabel.AccessibleName"><value>Luachan Teòthachd</value></data><data name="TemperatureLabel.AccessibleDescription"><value>A' dearbhadh am freagairtean a th' aig an t-seòrsa slata.</value></data><data name="TemperatureLabel.AccessibleName"><value>Freagairtean Teòthachd</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>Dèan freagairtean a dhèanamh faisg air an teòthachd. Freagairtean a’ dèanamh 0 gu 1 ann am freagairtean 0.1.</value></data><data name="TemperatureTrackBar.AccessibleName"><value>Slata Teòthachd</value></data><data name="$this.AccessibleDescription"><value>A’ leigeil le luchd-cleachdaidh a dhol a-steach freagairtean, a’ freagairtean teothachd, agus a’ gineadh freagairtean a rèir an t-seòrsa.</value></data><data name="$this.AccessibleName"><value>Smachd Freagairtean Modail</value></data></root>

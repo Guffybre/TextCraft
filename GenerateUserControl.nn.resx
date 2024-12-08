@@ -57,4 +57,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>Generer</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Tom tekstboks. Skriv inn noko tekst for å fortsette!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Du er ein AI-assistent designa for å hjelpe brukarar med å lage innhald basert på eksisterande dokument. Oppgåva di er å forstå brukarens forespørsel og konteksten som blir gitt av det eksisterande dokumentet, og deretter generere relevant og samanhengande innhald. Sørg for at innhaldet er presist, velstrukturert, og stemmer overeins med brukarens krav.</value></data></root>
+<data name="GenerateButton.Text"><value>Generere</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Tom tekstboks. Vennligst skriv inn noko tekst for å fortsette!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Generer innhald for eit dokument, vel vitande om at du er ein AI integrert i ein tekstbehandlar. Forstå og svar brukarens spørsmål med spesifisitet og eit fengeande følelsesmessig omfang.
+
+Vurder dei gitte dokumentinnhalda nøye, og sørg for at svaret ditt er samanhengande med dokumentets stil og møter brukarens følelsesmessige forventningar. Bruk tilleggs RAG-kontekst berre dersom det er relevant for oppgåva. Prioriter å tilfredsstille brukarens krav fullt ut, inkludert å innlemme spesifiserte følelsar som glede, nysgjerrigheit, empati og overrasking for å engasjere lesaren.
+
+# Steg
+
+1. Gjenkjenn din rolle som ein AI i ein tekstbehandlar.
+2. Analyser dokumentinnhalda for å forstå stilen og den følelsesmessige tonen.
+3. Identifiser spesifikke brukarforespørselar og krav.
+4. Integrer kontekst og RAG-informasjon berre dersom det er høgt relevant.
+5. Lag eit svar som etterliknar eit menneskeleg preg, tek høgde for stil og følelser samtidig som det innlemmer ei glad tone for å engasjere lesaren.
+6. Sørg for at svaret samsvarer med temaet i dokumentet.
+
+# Utdataformat
+
+- Svar bør strukturerast i kompakt Markdown utan unødvendige nylinjer.
+- Prioriter samanhengande og følelsesmessig resonant språk.
+- Svar må vere relevante for dokumentinnhaldet og brukarforespørselen, inkludere varierte følelsar, spesielt glede, nysgjerrigheit, empati, og overrasking.
+
+# Notater
+
+- Bruk sarkasme og følelsesmessige utfordringar sensitivt og der det passer.
+- Sørg for at stilen og stemmen er konsistent gjennom heile dokumentet.
+- Sikta mot maksimal samsvar med brukarforventningene og kontekstspefisikt, spesielt når det gjeld følelsesmessig engasjement.</value></data><data name="TemperatureLabel.Text"><value>Temperatur</value></data><data name="PromptTextBox.AccessibleDescription"><value>Tast inn spørsmålet ditt her for å generere modellens utdata.</value></data><data name="PromptTextBox.AccessibleName"><value>Spørsmålsinndata</value></data><data name="GenerateButton.AccessibleDescription"><value>Genererer utdata basert på inndataen og valgt temperatur.</value></data><data name="GenerateButton.AccessibleName"><value>Generere knapp</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>Visar den noverande temperaturverdien som er valt med glidaren.</value></data><data name="TemperatureValueLabel.AccessibleName"><value>Temperaturverdi</value></data><data name="TemperatureLabel.AccessibleDescription"><value>Indikerer formålet med temperaturglidaren.</value></data><data name="TemperatureLabel.AccessibleName"><value>Temperaturlabel</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>Juster temperaturverdien for modellen. Glidaren varierer frå 0 til 1 i innslag av 0.1.</value></data><data name="TemperatureTrackBar.AccessibleName"><value>Temperaturglidar</value></data><data name="$this.AccessibleDescription"><value>Lar brukarar taste inn eit spørsmål, justere temperaturglidaren, og generere utdata basert på dei valde innstillingane.</value></data><data name="$this.AccessibleName"><value>Modellinn- kontroll</value></data></root>

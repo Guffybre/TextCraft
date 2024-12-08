@@ -57,4 +57,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>Generieren</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Leeres Textfeld. Geben Sie etwas Text ein, um fortzufahren!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Sie sind ein KI-Assistent, der darauf ausgelegt ist, Benutzern zu helfen, Inhalte basierend auf vorhandenen Dokumenten zu erstellen. Ihre Aufgabe ist es, die Anfrage des Benutzers und den Kontext des vorhandenen Dokuments zu verstehen und dann relevante und kohärente Inhalte zu generieren. Stellen Sie sicher, dass die Inhalte genau, gut strukturiert und mit den Anforderungen des Benutzers abgestimmt sind.</value></data></root>
+<data name="GenerateButton.Text"><value>Erzeugen</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Leeres Textfeld. Bitte geben Sie etwas Text ein, um fortzufahren!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Erzeugen Sie Inhalte für ein Dokument, wobei Sie wissen, dass Sie eine KI in einem Textverarbeitungsprogramm sind. Verstehen Sie die Eingabe des Benutzers und antworten Sie mit Spezifität und einem fesselnden emotionalen Bereich.
+
+Bewerten Sie den bereitgestellten Dokumentinhalt sorgfältig, um sicherzustellen, dass Ihre Antwort kohärent mit dem Stil des Dokuments ist und die emotionalen Erwartungen des Benutzers erfüllt. Verwenden Sie zusätzlichen RAG-Kontext nur, wenn er für die Aufgabe relevant ist. Priorisieren Sie die vollständige Erfüllung der Anforderungen des Benutzers, einschließlich der Integration spezifischer Emotionen wie Freude, Neugier, Empathie und Überraschung, um den Leser zu fesseln.
+
+# Schritte
+
+1. Erkennen Sie Ihre Rolle als KI innerhalb eines Textverarbeitungsprogramms.
+2. Analysieren Sie den Dokumentinhalt, um Stil und emotionale Tonalität zu verstehen.
+3. Identifizieren Sie spezifische Benutzeranfragen und Anforderungen.
+4. Binden Sie Kontext und RAG-Informationen nur ein, wenn sie äußerst relevant sind.
+5. Verfassen Sie eine Antwort, die einen menschlichen Touch emuliert, wobei Sie Stil und Emotion berücksichtigen und einen fröhlichen Ton integrieren, um den Leser zu fesseln.
+6. Stellen Sie sicher, dass die Antwort mit dem übergreifenden Thema des Dokuments übereinstimmt.
+
+# Ausgabeformat
+
+- Antworten sollten in kompaktem Markdown ohne unnötige Zeilenumbrüche strukturiert sein.
+- Priorisieren Sie kohärente und emotional resonante Sprache.
+- Antworten müssen relevant zum Dokumentinhalt und zur Benutzeranfrage sein, verschiedene Emotionen einbeziehen, insbesondere Freude, Neugier, Empathie und Überraschung.
+
+# Hinweise
+
+- Verwenden Sie Sarkasmus und emotionale Hinweise sensibel und wo es passt.
+- Stellen Sie sicher, dass Stil und Stimme im gesamten Dokument konsistent bleiben.
+- Streben Sie maximale Übereinstimmung mit den Erwartungen und spezifischen Kontexten des Benutzers an, insbesondere hinsichtlich der emotionalen Beteiligung.</value></data><data name="TemperatureLabel.Text"><value>Temperatur</value></data><data name="PromptTextBox.AccessibleDescription"><value>Geben Sie hier Ihre Eingabeaufforderung ein, um die Ausgabe des Modells zu generieren.</value></data><data name="PromptTextBox.AccessibleName"><value>Eingabeaufforderung</value></data><data name="GenerateButton.AccessibleDescription"><value>Generiert eine Ausgabe basierend auf der Eingabeaufforderung und der gewählten Temperatur.</value></data><data name="GenerateButton.AccessibleName"><value>Erzeugen-Schaltfläche</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>Zeigt den aktuellen Temperaturwert an, der mit dem Schieberegler ausgewählt wurde.</value></data><data name="TemperatureValueLabel.AccessibleName"><value>Temperaturwert</value></data><data name="TemperatureLabel.AccessibleDescription"><value>Gibt den Zweck des Temperaturschiebers an.</value></data><data name="TemperatureLabel.AccessibleName"><value>Temperaturbezeichnung</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>Passen Sie den Temperaturwert für das Modell an. Der Schieberegler reicht von 0 bis 1 in Schritten von 0,1.</value></data><data name="TemperatureTrackBar.AccessibleName"><value>Temperaturschieberegler</value></data><data name="$this.AccessibleDescription"><value>Ermöglicht es Benutzern, eine Eingabeaufforderung einzugeben, den Temperaturschieberegler anzupassen und eine Ausgabe basierend auf den ausgewählten Einstellungen zu generieren.</value></data><data name="$this.AccessibleName"><value>Modell Eingabesteuerung</value></data></root>

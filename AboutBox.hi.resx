@@ -57,4 +57,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="okButton.Text"><value>&amp;ओके</value></data><data name="$this.Text"><value>बारे में बॉक्स</value></data><data name="[AboutBox()] this.Text"><value>बारे में {0}</value></data><data name="[AboutBox()] this.labelVersion.Text"><value>संस्करण {0}</value></data></root>
+<data name="okButton.Text"><value>&amp;ठीक है</value></data><data name="$this.Text"><value>जानकारी बॉक्स</value></data><data name="[AboutBox()] this.Text"><value>बारे में {0}</value></data><data name="[AboutBox()] this.labelVersion.Text"><value>संस्करण {0}</value></data></root>

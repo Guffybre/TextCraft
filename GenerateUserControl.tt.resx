@@ -57,4 +57,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>Генерация</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Буш текст кыры. Дәвам итәр өчен текст языгыз!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Сез кулланучының соравын һәм барлык документлардан бирелгән контекстны аңларга ярдәм итү өчен ясаучы ясалма интеллект ярдәмчесе. Сезнең бурычыгыз — кулланучының соравына җавап бирү, һәм шуннан соң тантана кылу өчен әһәмле һәм ачык контент тудыру. Контентның дөрес, яхшы структурланган һәм кулланучының таләпләренә туры килгәнен тәэмин итегез.</value></data></root>
+<data name="GenerateButton.Text"><value>Генерацияләү</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Буш текст куты. Дәвам итү өчен текст языгыз!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Документ өчен контент генерацияләгез, сезнең бер сүз процессорына урнаштырылган ИИ булып эшләвегезне аңлагыз. Кулланучының соравына бу конкрет һәм җәлеп итүче эмоцияләр диапазоны белән җавап бирегез.
+
+Тәкъдим ителгән документ эчтәлеген җентекләп анализлагыз, җавапыгыз документ стиленә туры килешүен һәм кулланучының эмоцияләре көйләнешенә иярүен тәэмин итегез. Куллану өчен RAG контексты тәэсирләнгәндә генә керегез. Кулланучы таләпләрен тулысынча канәгатьләндерүенә ирешегез, анда шатлык, кызыксыну, ихласлыҡ һәм гаҗәпләү кебек расланмалы эмоцияләрне укыучының игътибарын җәлеп итү өчен интеграцияләгез.
+
+# Этаплар
+
+1. Сезнең ролегезне сүз процессорындагы ИИ булып тану.
+2. Документ эчтәлеген анализлагыз, стиль һәм эмоцияләрне аңлау.
+3. Кулланучы соравының детальләрен һәм таләпләрен билгеләгез.
+4. Контекстны һәм RAG мәгълүматларын бары тик бик мөһим булганда гына берләштерегез.
+5. Стиль һәм эмоцияне исәпкә алып, кеше тагын да күбрәк эмоция белән бирелә торган җавап берләштерегез.
+6. Җавапның документның гомум темасына туры килүен тәэмин итегез.
+
+# Чыгыш Форматы
+
+- Җаваплар кирәксез текстларсыз компакт Markdown форматында булырга тиеш.
+- Связьле һәм эмоция белән резонанлы телне өстен тотыгыз.
+- Җаваплар документ эчтәлеге һәм кулланучы соравына катнаша, төрле эмоцияләрне һәм бигрәк тә шатлык, кызыксыну, ихласлик һәм гаҗәпләнүне кертүне исәпкә алу мөһим.
+
+# Искермә
+
+- Сарказм һәм эмоциональ сигналларны игътибарлы һәм нәтиҗәле урыннарда ныгыз.
+- Стиль һәм тавыш документ буйлап бердәм булырга тиеш.
+- Кулланучы көткән һәм контекст үзенчәлекләренә максималь җайлашу өчен көчәнегез, бигрәк тә эмоциональ катнашулар буенча.</value></data><data name="TemperatureLabel.Text"><value>Температура</value></data><data name="PromptTextBox.AccessibleDescription"><value>Модель чыгару өчен биремегезне монда языгыз.</value></data><data name="PromptTextBox.AccessibleName"><value>Биремне кертү</value></data><data name="GenerateButton.AccessibleDescription"><value>Кергән бирем һәм сайланган температура нигезендә чыгару булдыра.</value></data><data name="GenerateButton.AccessibleName"><value>Генерациялау кнопкасы</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>Слайдер ярдәмендә белән сайланган температура бәясен күрсәтә.</value></data><data name="TemperatureValueLabel.AccessibleName"><value>Температура бәясе</value></data><data name="TemperatureLabel.AccessibleDescription"><value>Температура слайдерының максатын күрсәтә.</value></data><data name="TemperatureLabel.AccessibleName"><value>Температура меткасы</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>Модель өчен температура бәясен көйләгез. Слайдер 0 дән 1 гә кадәр 0.1 катнашмаларда.</value></data><data name="TemperatureTrackBar.AccessibleName"><value>Температура слайдеры</value></data><data name="$this.AccessibleDescription"><value>Кулланучыларга бирем кертү, температура слайдерны көйләргә һәм сайланган көйләүләренә нигезләнеп чыгару булдырырга мөмкинлек бирә.</value></data><data name="$this.AccessibleName"><value>Модель кертү контроле</value></data></root>

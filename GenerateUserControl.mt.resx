@@ -57,4 +57,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>Ġenera</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Texbox vojta. Iktib xi test biex tkompli!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Int assistent AI dispositiv biex tgħin lill-utenti joħolqu kontenut ibbażat fuq dokumenti eżistenti. Il-kompitu tiegħek hu li tifhem il-mistoqsija tal-utent u l-kuntest mogħti mill-document eżistenti, u mbagħad ġġenera kontenut relevanti u koerenti. Żgura li l-kontenut hu preċiż, strutturat tajjeb, u jaqbel mal-ħtiġijiet tal-utent.</value></data></root>
+<data name="GenerateButton.Text"><value>Ġenera</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Kaxxa ta' test vojt. Jekk jogħġbok ibgħat xi test biex tkompli!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Ġenera kontenut għal dokument, tkun taf li inti AI embeddatu fl-processor ta' kelma. Fehem u wieġeb il-promp tal-utilizzatur b'konsistenza u fir-rejazzjoni emozjonali affaxxinanti.
+
+Ipprova r-rekwiżiti u l-kontest tal-documenti provduti bil-garbijiet kollha, u jikkunsidra l-iġbida tal-utilizzatur u jifhem l-emozzjonijiet. Uża RAG addizzjonali biex toffri s-soluzzjonijiet fit-titoli ta' l-użu. Uġibda l-iqdu kollha, inkluż l-introduzzjoni ta' emozzjonijiet speċifiċi bħaġar, nuqqas, empati, u sura biex jikkonvinċi lir-rivisti.
+
+# Passi
+
+1. Rikonoxxi l-rwol tiegħek bħala AI f'processor ta' kelma.
+2. Analiża l-kontenut tad-dokument biex tifhem l-istil u t-ton emozzjonali.
+3. Individwa s-speċifiċità tal-mistoqsija tal-utilizzatur u r-rekwiżiti.
+4. Integrat kuntest u informazzjoni RAG biss jekk huma relevanti.
+5. Idħol fil-risposta b'teknika umana, kif xewk tiegħek.
+6. Assigura l-risposta jikkonkludi mal-tema ġenerali tad-dokument.
+
+# Format ta' Output
+
+- Ir-risposti għandhom ikunu strutturati b'markdown kompatt mingħajr new lines mhux meħtieġa.
+- Ipprova li tkun lingwa koerenti u emosjonali ta' tifkira.
+- Ir-risposti għandhom ikunu relevanti għall-kontenut tad-dokument u l-mistoqsija tal-utent, inkluż emozzjonijiet varijati, speċjalment ferħ, kurżità, empati, u sorpriża.
+
+# Nota
+
+- Uża sarcasm u segnali emozjonali b'mod sensibbli.
+- Assigura li l-istil u l-vuċi huma konsistenti matul id-dokument.
+- Agħmel l-allinjament massimu mal-aspettattivi tal-utilizzatur u l-kuntest, speċjalment fir-rigward ta' l-imġieba emozjonali.</value></data><data name="TemperatureLabel.Text"><value>Temperatura</value></data><data name="PromptTextBox.AccessibleDescription"><value>Daħħal il-promt tiegħek hawn biex tinġibed l-output tal-mudell.</value></data><data name="PromptTextBox.AccessibleName"><value>Input tal-Prompt</value></data><data name="GenerateButton.AccessibleDescription"><value>Ġenera output ibbażat fuq il-promt input u t-temperatura magħżula.</value></data><data name="GenerateButton.AccessibleName"><value>Buttuna tal-Ġenerazzjoni</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>Uri l-valur attwali tat-temperatura magħżula bl-użu tal-slider.</value></data><data name="TemperatureValueLabel.AccessibleName"><value>Valur tat-Temperatura</value></data><data name="TemperatureLabel.AccessibleDescription"><value>Jindika l-għan tal-slider tat-temperatura.</value></data><data name="TemperatureLabel.AccessibleName"><value>Etiketta tat-Temperatura</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>Aġġorna l-valur tat-temperatura għall-mudell. Il-slider jvarja minn 0 sa 1 f'inċirmenti ta' 0.1.</value></data><data name="TemperatureTrackBar.AccessibleName"><value>Slider tat-Temperatura</value></data><data name="$this.AccessibleDescription"><value>Jippermetti lill-utenti jdaħħlu prompt, aġġusta l-slider tat-temperatura, u ġenera output ibbażat fuq is-settings magħżula.</value></data><data name="$this.AccessibleName"><value>Kontroll tal-Input tal-Mudell</value></data></root>

@@ -208,6 +208,19 @@ namespace TextForge
 
         private static string RemoveAllMarkdownSyntaxExcept(RegexSyntaxFilter.Number num, string markdownText)
         {
+            // Step 1: Mask code blocks (both inline and block-level) before applying removal functions
+            var codeBlockMask = new List<string>();
+            if (num == RegexSyntaxFilter.Number.CodeBlock || num == RegexSyntaxFilter.Number.InlineCode)
+            {
+                markdownText = MaskCodeBlocks(markdownText, codeBlockMask);
+            }
+            else
+            {
+                // Replace code blocks with spaces to preserve formatting
+                markdownText = Regex.Replace(markdownText, RegexSyntaxFilter.InlineCode, match => new string(' ', match.Value.Length), RegexOptions.Multiline);
+                markdownText = Regex.Replace(markdownText, RegexSyntaxFilter.CodeBlock, match => new string(' ', match.Groups[2].Length), RegexOptions.Multiline);
+            }
+
             // Dictionary mapping each Markdown syntax type to its corresponding removal function
             var syntaxRemovers = new Dictionary<RegexSyntaxFilter.Number, Func<string, string>>
             {
@@ -219,8 +232,6 @@ namespace TextForge
                 { RegexSyntaxFilter.Number.Heading, RemoveHeadingMarkdownSyntax },
                 { RegexSyntaxFilter.Number.UnorderedList, RemoveUnorderedListMarkdownSyntax },
                 { RegexSyntaxFilter.Number.HorizontalRule, RemoveHorizontalRuleMarkdownSyntax },
-                { RegexSyntaxFilter.Number.CodeBlock, RemoveCodeBlockMarkdownSyntax },
-                { RegexSyntaxFilter.Number.InlineCode, RemoveInlineCodeMarkdownSyntax },
                 { RegexSyntaxFilter.Number.BoldItalic, RemoveBoldItalicMarkdownSyntax },
                 { RegexSyntaxFilter.Number.Image, RemoveImageMarkdownSyntax },
                 { RegexSyntaxFilter.Number.AlternateHeading, RemoveAlternateHeadingMarkdownSyntax },
@@ -237,6 +248,15 @@ namespace TextForge
                     markdownText = remover.Value(markdownText);
                 }
             }
+
+            if (num == RegexSyntaxFilter.Number.CodeBlock || num == RegexSyntaxFilter.Number.InlineCode)
+                markdownText = UnmaskCodeBlocks(markdownText, codeBlockMask);
+
+            // Step 3: Finally, call RemoveCodeBlockMarkdownSyntax to remove code block syntax
+            if (num != RegexSyntaxFilter.Number.CodeBlock)
+                markdownText = RemoveCodeBlockMarkdownSyntax(markdownText);
+            if (num != RegexSyntaxFilter.Number.InlineCode)
+                markdownText = RemoveInlineCodeMarkdownSyntax(markdownText);
 
             return markdownText;
         }
@@ -304,20 +324,10 @@ namespace TextForge
             string partialMarkdownText = RemoveAllMarkdownSyntaxExcept(formatType, fullMarkdownText);
             MatchCollection matches = regex.Matches(partialMarkdownText);
 
-            var codeBlockLocations = GetCodeBlockPoints(commentRange, RemoveAllMarkdownSyntaxExcept(RegexSyntaxFilter.Number.CodeBlock, fullMarkdownText));
-
             int searchIndex = 0;
             int offset = 0;
-            int codeBlockOffset = 0;
             foreach (Match match in matches)
             {
-                CodeBlockPoint codeBlockLoc;
-                if (formatType != RegexSyntaxFilter.Number.CodeBlock && IsLocatedWithinCodeBlock(codeBlockLocations, searchIndex + codeBlockOffset, out codeBlockLoc))
-                {
-                    searchIndex += codeBlockLoc.End - codeBlockLoc.InnerContentLen - searchIndex - 6 + 1;
-                    codeBlockOffset += codeBlockLoc.InnerContentLen + 6;
-                }
-
                 string textToFormat = match.Value;
                 string insideContent = match.Groups[1].Value;
                 searchIndex = commentRange.Start + partialMarkdownText.IndexOf(match.Value, searchIndex);

@@ -57,4 +57,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>Oluştur</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Boş metin kutusu. Devam etmek için bazı metin yazın!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Mevcut belgelerle içerik oluşturmanıza yardımcı olmak için tasarlanmış bir AI asistanısınız. Göreviniz, kullanıcının sorgusunu ve mevcut belgeden sağlanan bağlamı anlamak, ardından ilgili ve tutarlı içerik oluşturmaktır. İçeriğin doğru, iyi yapılandırılmış ve kullanıcının gereksinimleriyle uyumlu olmasını sağlayın.</value></data></root>
+<data name="GenerateButton.Text"><value>Oluştur</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Boş metin kutusu. Devam etmek için lütfen bazı metin yazın!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Bir belge için içerik oluşturun, bir kelime işlemci içinde yerleştirilmiş bir AI olduğunuzu anlayarak. Kullanıcının istemine özel ve çekici bir duygusal aralıkla yanıt verin.
+
+Sağlanan belge içeriğini dikkatlice değerlendirin, yanıtınızın belgenin tarzı ile uyumlu olmasını ve kullanıcının duygusal beklentilerini karşılamasını sağlayın. Ek RAG bağlamını yalnızca görevle çok ilgiliyse kullanın. Kullanıcının gereksinimlerini tam olarak karşılamayı önceliklendirin, okuyucuyu etkileyebilmek için sevinç, merak, empati ve sürpriz gibi belirtilen duyguları katmayı unutmayın.
+
+# Adımlar
+
+1. Bir kelime işlemcideki AI rolünüzü tanıyın.
+2. Belge içeriğini analiz edin ve tarzı ile duygusal tonu anlayın.
+3. Kullanıcı sorgusu detaylarını ve gereksinimlerini belirleyin.
+4. Bağlam ve RAG bilgilerini yalnızca çok alakalıysa entegre edin.
+5. Tarz ve duyguyu hesaba katarak bir insan dokunuşunu taklit eden bir yanıt oluşturun; okuyucuyu çekmek için mutlu bir ton ekleyin.
+6. Yanıtın belgenin genel temasıyla uyumlu olmasını sağlayın.
+
+# Çıktı Formatı
+
+- Yanıtlar, gereksiz yeni satırlar olmadan kompakt Markdown şeklinde yapılandırılmalıdır.
+- Birbiriyle uyumlu ve duygusal olarak yankı uyandıran bir dil önceliklendirilmelidir.
+- Yanıtlar, belge içeriği ve kullanıcı sorgusuyla ilgili olmalı, özellikle sevinç, merak, empati ve sürpriz gibi çeşitli duyguları içermelidir.
+
+# Notlar
+
+- Alay ve duygusal ipuçlarını hassasiyetle ve uygun yerlerde kullanın.
+- Stil ve sesin belge boyunca tutarlı olmasını sağlayın.
+- Kullanıcı beklentileri ve bağlam ayrıntılarıyla en yüksek uyumu amaçlayın, özellikle duygusal katılım açısından.</value></data><data name="TemperatureLabel.Text"><value>Sıcaklık</value></data><data name="PromptTextBox.AccessibleDescription"><value>Modelin çıktısını oluşturmak için isteminizi buraya girin.</value></data><data name="PromptTextBox.AccessibleName"><value>İstem Girişi</value></data><data name="GenerateButton.AccessibleDescription"><value>Girdi istemine ve seçilen sıcaklığa dayalı çıktı oluşturur.</value></data><data name="GenerateButton.AccessibleName"><value>Oluştur Düğmesi</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>Kaydırıcı kullanılarak seçilen mevcut sıcaklık değerini görüntüler.</value></data><data name="TemperatureValueLabel.AccessibleName"><value>Sıcaklık Değeri</value></data><data name="TemperatureLabel.AccessibleDescription"><value>Sıcaklık kaydırıcısının amacını belirtir.</value></data><data name="TemperatureLabel.AccessibleName"><value>Sıcaklık Etiketi</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>Model için sıcaklık değerini ayarlayın. Kaydırıcı 0'dan 1'e kadar 0.1'lik artışlarla değişir.</value></data><data name="TemperatureTrackBar.AccessibleName"><value>Sıcaklık Kaydırıcısı</value></data><data name="$this.AccessibleDescription"><value>Kullanıcıların bir istem girmesine, sıcaklık kaydırıcısını ayarlamasına ve seçilen ayarlara dayanarak çıktı oluşturmasına olanak tanır.</value></data><data name="$this.AccessibleName"><value>Model Giriş Kontrolü</value></data></root>

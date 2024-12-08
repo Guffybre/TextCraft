@@ -57,4 +57,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>Generera</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Tom textfält. Skriv in lite text för att fortsätta!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Du är en AI-assistent designad för att hjälpa användare att skapa innehåll baserat på befintliga dokument. Din uppgift är att förstå användarens fråga och den kontext som tillhandahålls av det befintliga dokumentet, och sedan generera relevant och koherent innehåll. Säkerställ att innehållet är korrekt, välstrukturerat och stämmer överens med användarens krav.</value></data></root>
+<data name="GenerateButton.Text"><value>Generera</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Tom textruta. Vänligen skriv in lite text för att fortsätta!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Generera innehåll för ett dokument, med vetskap om att du är en AI inbäddad i en ordbehandlare. Förstå och svara på användarens vägledning med specifikitet och ett fängslande känslomässigt omfång.
+
+Bedöm det givna dokumentets innehåll noggrant, säkerställ att ditt svar är sammanhängande med dokumentets stil och möter användarens känslomässiga förväntningar. Använd eventuell ytterligare RAG-kontekst endast om den är relevant för uppgiften. Prioritera att fullt ut tillfredsställa användarens krav, inklusive att införliva angivna känslor som glädje, nyfikenhet, empati och överraskning för att engagera läsaren.
+
+# Steg
+
+1. Känn igen din roll som en AI inuti en ordbehandlare.
+2. Analysera dokumentinnehållet för att förstå stil och känslomässig ton.
+3. Identifiera specifika användarförfrågningar och krav.
+4. Integrera kontexten och RAG-information endast om den är mycket relevant.
+5. Skapa ett svar som efterliknar en mänsklig beröring, med hänsyn till stil och känsla medan du integrerar en glad ton för att engagera läsaren.
+6. Säkerställ att svaret stämmer överens med dokumentets övergripande tema.
+
+# Utdataformat
+
+- Svar ska struktureras i kompakt Markdown utan onödiga nya rader.
+- Prioritera sammanhängande och känslomässigt resonant språk.
+- Svar måste vara relevanta för dokumentinnehållet och användarförfrågan, och integrera varierade känslor, särskilt glädje, nyfikenhet, empati och överraskning.
+
+# Noter
+
+- Använd sarkasm och känslomässiga ledtrådar känsligt och där det passar.
+- Säkerställ att stil och röst är konsekventa genom hela dokumentet.
+- Sikta på maximal överensstämmelse med användarförväntningar och kontexts specifika, speciellt när det gäller känslomässig engagemang.</value></data><data name="TemperatureLabel.Text"><value>Temperatur</value></data><data name="PromptTextBox.AccessibleDescription"><value>Ange din vägledning här för att generera modellens utdata.</value></data><data name="PromptTextBox.AccessibleName"><value>Vägledning Inmatning</value></data><data name="GenerateButton.AccessibleDescription"><value>Genererar utdata baserat på den angivna vägledningen och vald temperatur.</value></data><data name="GenerateButton.AccessibleName"><value>Generera Knapp</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>Visar det aktuella temperaturvärdet som valts med hjälp av reglaget.</value></data><data name="TemperatureValueLabel.AccessibleName"><value>Temperaturvärde</value></data><data name="TemperatureLabel.AccessibleDescription"><value>Anger syftet med temperaturreglaget.</value></data><data name="TemperatureLabel.AccessibleName"><value>Temperaturetikett</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>Justera temperaturvärdet för modellen. Reglaget varierar från 0 till 1 i steg om 0,1.</value></data><data name="TemperatureTrackBar.AccessibleName"><value>Temperaturreglage</value></data><data name="$this.AccessibleDescription"><value>Gör det möjligt för användare att ange en vägledning, justera temperaturreglaget och generera utdata baserat på de valda inställningarna.</value></data><data name="$this.AccessibleName"><value>Modellinmatningskontroll</value></data></root>

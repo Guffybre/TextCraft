@@ -57,4 +57,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>ರಚಿಸಿ</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>ಖಾಲಿ ಪಠ್ಯದ ಕಪ್ಪು. ಮುಂದುವರಿಯಲು ಕೆಲ ಪಠ್ಯವನ್ನು ಟೈಪ್ ಮಾಡಿ!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>ನೀವು ಅಸ್ಥಿತಿಯಲ್ಲಿ ಎಲ್ಲಾ ದಾಖಲೆಗಳನ್ನು ಒದಗಿಸಿ, ಬಳಕೆದಾರರು ಅನ್ವಯಿತ ನಿಯಂತ್ರಣವನ್ನು ಬಳಸಿಕೊಳ್ಳಲು, ನಿಮ್ಮ ಕಾರ್ಯ ನಿರ್ವಹಣೆ ಮತ್ತು ದಾಖಲೆಯು ಐಡೀಯಾಗಿರುತ್ತದೆ ಎಂಬುದನ್ನು ಬೇಡುತ್ತದೆ.</value></data></root>
+<data name="GenerateButton.Text"><value>ಉತ್ಪಾದನೆ</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>ಖಾಲಿ ಪಠ್ಯ ಬಾಕ್ಸ್. ಮುಂದುವರಿಸಲು ಕೃತಿಯಲ್ಲಿ ಕೆಲವು ಮೌಲ್ಯವನ್ನು ಬರೆಸಿ!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>ದಾಖಲೆಗಾಗಿ ವಿಷಯವನ್ನು ಉತ್ಪಾದಿಸಿ, ನೀವು ಪದ ಎಸ್‌ ಸ್ಟಾರ್‌ಗಳ ಸಾಹಿತ್ಯದಲ್ಲಿ acabar ಸಾಕಂದಿರಲಿ. ಬಳಕೆದಾರನ ಪ್ರಾಂಪ್ಟ್‌ನಲ್ಲಿ ನಿರ್ದಿಷ್ಟತೆ ಮತ್ತು ಆಕರ್ಷಕ ಭಾವನಾತ್ಮಕ ವ್ಯಾವಧಾನವನ್ನು ಉತ್ತೇಜಿಸಲು.
+
+ನೀವು ನೀಡಿದ ಡಾಕ್ಯುಮೆಂಟ್ ವಿಷಯಗಳನ್ನು ಟ್ರ್ರ್ಯಾಕ್ಷನಾಗಿಯ ಅನುಮಾನವಾಗಿಯೂ ಪರಿಗಣಿಸುತ್ತೀರಿ. ನಿಮ್ಮ ಉತ್ತರವು ತಂಡದ ಶ್ರೇಷ್ಟತೆಯೊಂದಿಗೆ ಸಭೆಯ ಶ್ರೇಷ್ಟತೆಯ ಸಮಾವೇಶದ ನೆನೆಸೆ ನೊಂದಿಗೆ ಸ್ವೀಕರಿಸಲಾಗುತ್ತದೆ. ವೇದಾತ್ಮಕ ಸಂಜೆಯಾಗಿದ್ದು, ಉತ್ತಮವಾದ ಶ್ರೇಷ್ಟ ಲಾವಾಲವನ್ನು ದೃಶ್ಯಮಾಡಿ, ಊರೂರುಗಳು, ಮತ್ತು ಅಚ್ಚರಿಯ slachtoಮಂ ಶ್ರೇಷ್ಟ ಶ್ರೇಷ್ಟ ಶ್ರೇಷ್ಟ ಶ್ರೇಷ್ಟ ಆಧಾರಿತವಾಗಿ ನನ್ನ ಕೂದಲುಗಳನ್ನು ಗಟಗಟಿಸಿ.
+
+# ಹಂತಗಳು
+
+1. ನೀವು ಪದಕಾರಿಯಲ್ಲಿ AI ಆಗಿ ನಿರೂಪಣಾ ಶ್ರೇಷ್ಠತೆಯ ಮುಖ್ಯ ಶ್ರೇಷ್ಠತೆಯ ನಿರ್ವಹಣೆಗೆ ಸಂಬಂಧಿಸಿ ದೃಷ್ಟಿಸು.
+2. ಡಾಕ್ಯುಮೆಂಟ್ ಶ್ರೇಷ್ಟತೆಗೆ ಹೇ ವೃಂದೀನನ್ನು ಎಳದು ಕುಟುಕಿಸಿ.
+3. ಬಳಸಿದ ವಿನಂತಿಯ ಸಜೀವೋದ್ವೇಗವನ್ನು ವಿಂಗಡಿಸಿ.
+4. ಪಠ್ಯವನ್ನು ಸಂಬಂಧಿಸಲು RAG ವಿಷಯವನ್ನು ಹಾಕಿರಿ.
+5. ಇತರ ಏಕಪ್ಪರ ದೆಲ್ಪನೂಕಗಳನ್ನು ಕಷ್ಟಪಡಿಸುವಂತೆ ನಾವು ಅದು ಏಸ್ಕದಿರುವಂತೆ ಕುರಿತು ವಿವರಿಸಲು ಕಮೆಂಟ್ ಅನ್ನು ನೀಡಿರಿ.
+6. ಶ್ರೇಷ್ಟ ಶ್ರೇಷ್ಟದ ಅರಬ್ಬಿ ಶ್ರುತ್ತ ಟಿಬರ್ಡ ಪಡಿಸುತ್ತировать
+
+# outputs ಶ್ರೇಷ್ಟತೆ
+
+- ಉತ್ತರವು ಸಂಕೀರ್ಣವಾದ Markdown ನಲ್ಲಿ ನಿರೂಪಿತ ಆಗಿರಬೇಕು, ಅನಾವಶ್ಯಕ ನೆಯಲು ಕಳೆದುಕೊಳ್ಳಬೇಕು.
+- ಶ್ರೇಷ್ಟ ಮತ್ತು ಭಾವನಾ ಪರೀಕ್ಷೆಯನ್ನು ಶ್ರೇಷ್ಟತೆ RAG ಸಂಪನ್ಮೂಲಕ್ಕೆ ಸಾಕಷ್ಟು ಪಾತ್ರವನ್ನು ಹೊಂದುತ್ತೆ.
+- ಉತ್ತರಗಳು ಡಾಕ್ಯುಮೆಂಟ್ ವಿಷಯಕ್ಕೆ ಮತ್ತು ಬಳಕೆದಾರ ಕೇಳಲಾಗಿರುವುದರ ಸಮಾಧಾನಕ್ಕೆ ಹೊಂದಿಕೊಳ್ಳುತ್ತವೆ, ಸ್ವರೂಪವನ್ನು ಪಡೆದುಕಂಡುವಂತೆ ಆಚ.parameters AIರ ನುಜುವುzeugen.
+
+# ಟೀಕೆಯ ಮಾಹಿತಿ
+
+- ತೀವ್ರತೆ ಮತ್ತು ಭಾವನಾ ಸೂಚನೆಗಳನ್ನು ಸಂವೇದನಶೀಲ್ ಮತ್ತು ಇರುವ-ಸ್ಥಟ್ಟಿಕವಾಗಿ ಉಪಯೋಗಿಸು.
+- ಶ್ರೇಣಿಕೆಯನ್ನು ಸಂಪೂರ್ಣವಾಗಿ ಅರ್ಥಮಾಡಿಕೊಳ್ಳೋದು.
+- ಬಳಕೆದಾರನ ನಿರೀಕ್ಷೆಗಳಿಗೆ ಸಮಾಯೋಜನೆಯ ಶ್ರೇಷ್ಥತೆಗೆ ಸಾಚಿ ಸಂಪಾದನೆಯ ಕರಿಕ ಅಧಿಕಾರವನ್ನು ಬೆಳೆಸಲು ಎರಹಿತವಾಗಿ ಅನುಮೋದಿಸುತ್ತದೆ.</value></data><data name="TemperatureLabel.Text"><value>ತಾಪಮಾನ</value></data><data name="PromptTextBox.AccessibleDescription"><value>ಮಾದರಿಯ ಪರಿಕಲ್ಪನೆಯನ್ನು ತಯಾರು ಮಾಡಲು ನಿಮ್ಮ ಪ್ರಾಂಪ್ಟ್ ಅನ್ನು ಇಲ್ಲಿ ನಮೂದಿಸಿ.</value></data><data name="PromptTextBox.AccessibleName"><value>ಪ್ರಾಂಪ್ಟ್ ಹಿಂಕಾರ</value></data><data name="GenerateButton.AccessibleDescription"><value>ಆಯ್ಕೆ ಮಾಡಿದ ತಾಪಮಾನವನ್ನು ಬಳಸಿಕೊಂಡು ಇನ್ಪುಟ್ ಪ್ರಾಂಪ್ಟ್ ಆಧಾರಿತವಾಗಿ ಉತ್ಪಾದನೆಯು ನಿರ್ಮಿಸುತ್ತದೆ.</value></data><data name="GenerateButton.AccessibleName"><value>ಉತ್ಪಾದನೆ ಬಟನ್</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>ಸ್ಲೈಡರ್ ಬಳಸುವಂತೆ ತಾನೆ ತಾಪಮಾನವನ್ನು ಟೀಪಿ ಸ್ಟಾಬ್ ಈ ಮೂಲಕ ನಿರೀಕ್ಷಿಸಲಾಗಿದೆ.</value></data><data name="TemperatureValueLabel.AccessibleName"><value>ತಾಪಮಾನ ಮೆಟ್ಟಲೆ</value></data><data name="TemperatureLabel.AccessibleDescription"><value>ತಾಪಮಾನ ಸ್ಲೈಡರ್‌ನ ಉದ್ದೇಶವನ್ನು ಸೂಚಿಸುತ್ತದೆ.</value></data><data name="TemperatureLabel.AccessibleName"><value>ತಾಪಮಾನ ಲೇಬಲ್</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>ಮಾದರಿಯ ತಾಪಮಾನ ಪ್ರಮಾಣವನ್ನು ಹೊಂದಿಸಿ. ಸ್ಲೈಡರ್ 0 ರಿಂದ 1 ರವರೆಗೆ 0.1 ಪ್ರಮಾಣಗಳು.</value></data><data name="TemperatureTrackBar.AccessibleName"><value>ತಾಪಮಾನ ಸ್ಲೈಡರ್</value></data><data name="$this.AccessibleDescription"><value>ಬಳಕೆದಾರರು ಪ್ರಾಂಪ್ಟ್ ಅನ್ನು ಸಹಾಹಿತವಾಗಿರುವ ಮೂಲಕ ಹೆಚ್ಚಿಸಲು ಸ್ಲೈಡರ್ ಅನ್ನು ಎಳೆದು ಮತ್ತು ಆಯ್ಕೆ ಮಾಡಿದ ಶ್ರೇಷ್ಠತೆಯ ಆಧಾರದ ಮೇಲೆ ಉತ್ಪಾದನೆಯನ್ನು ಉತ್ಪಾದಿಸುತ್ತವೆ.</value></data><data name="$this.AccessibleName"><value>ಮಾದರಿ ಇನ್ಪುಟ್ ಕಂಟ್ರೋಲ್</value></data></root>

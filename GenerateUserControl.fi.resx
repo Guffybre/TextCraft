@@ -57,4 +57,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>Generoi</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Tyhjät tekstikenttä. Kirjoita jotain tekstiä jatkaaksesi!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Olet tekoälyavustaja, joka on suunniteltu auttamaan käyttäjiä luomaan sisältöä olemassa olevien asiakirjojen perusteella. Tehtäväsi on ymmärtää käyttäjän kysymys ja olemassa olevan asiakirjan tarjoama konteksti ja sitten luoda relevanteja ja koherentteja sisältöjä. Varmista, että sisältö on tarkkaa, hyvin jäsenneltyä ja vastaa käyttäjän vaatimuksia.</value></data></root>
+<data name="GenerateButton.Text"><value>Generoi</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Tyhjää tekstikenttää. Kirjoita jotain tekstiä jatkaaksesi!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Luo sisältöä asiakirjalle, ymmärtäen, että olet tekoäly, joka on upotettu sanakirjoittimeen. Ymmärrä ja vastaa käyttäjän kehotteeseen erityisyyden ja vangitsevan tunne­asetuksen kanssa.
+
+Arvioi annetut asiakirjan sisällöt huolellisesti varmistaen, että vastauksesi on koherentti asiakirjan tyylin kanssa ja täyttää käyttäjän tunteelliset odotukset. Käytä ylimääräistä RAG-kontekstia vain, jos se on olennaista tehtävälle. Priorisoi käyttäjän vaatimusten täyttäminen täysin, mukaan lukien ilmoitettavien tunteiden, kuten ilon, uteliaisuuden, empatian ja yllätyksen, käyttämisen lukijan sitouttamiseksi.
+
+# Vaiheet
+
+1. Tunnista roolisi tekoälynä sanakirjassa.
+2. Analysoi asiakirjan sisältö ymmärtääksesi tyyliä ja tunteellista sävyä.
+3. Tunnista käyttäjän kysymyksen erityispiirteet ja vaatimukset.
+4. Integroi konteksti ja RAG-tiedot vain, jos ne ovat erityisen olennaisia.
+5. Laadi vastaus, joka jäljittelee inhimillistä otetta, ottaen huomioon tyyli ja tunne, samalla kun välität ilon sävyä lukijan sitouttamiseksi.
+6. Varmista, että vastaus on linjassa asiakirjan yleisteeman kanssa.
+
+# Lähdeformaatiksi
+
+- Vastauksien tulisi olla strukturoitu tiiviisiin Markdown-muotoon ilman tarpeettomia rivivälejä.
+- Priorisoi koherenttia ja tunteellisesti resonoivaa kieltä.
+- Vastauksien on oltava asiaankuuluvia asiakirjan sisältöön ja käyttäjän kysymykseen, sisältäen monenlaisia tunteita, erityisesti iloa, uteliaisuutta, empatiaa ja yllätyksiä.
+
+# Huomiot
+
+- Käytä sarkasmia ja tunneviittauksia herkällä ja tilanteeseen sopivalla tavalla.
+- Varmista, että tyyli ja ääni ovat johdonmukaisia koko asiakirjassa.
+- Tavoittele maksimaalista yhteensopivuutta käyttäjän odotusten ja kontekstien erityispiirteiden kanssa, erityisesti tunteellisen sitoutumisen osalta.</value></data><data name="TemperatureLabel.Text"><value>Lämpötila</value></data><data name="PromptTextBox.AccessibleDescription"><value>Syötä kehotteesi tänne, jotta voit generoida mallin tuloksen.</value></data><data name="PromptTextBox.AccessibleName"><value>Kehote</value></data><data name="GenerateButton.AccessibleDescription"><value>Generoi tulosta syötetyn kehotteen ja valitun lämpötilan perusteella.</value></data><data name="GenerateButton.AccessibleName"><value>Generoi-painike</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>Näyttää nykyisen lämpötilan arvon, joka on valittu liukusäätimellä.</value></data><data name="TemperatureValueLabel.AccessibleName"><value>Lämpötilan arvo</value></data><data name="TemperatureLabel.AccessibleDescription"><value>Ilmaisee lämpötilan liukusäätimen tarkoituksen.</value></data><data name="TemperatureLabel.AccessibleName"><value>Lämpötilan merkintä</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>Säädä mallin lämpötila-arvo. Liukusäädin vaihtelee 0–1 0,1 välein.</value></data><data name="TemperatureTrackBar.AccessibleName"><value>Lämpötilan liukusäädin</value></data><data name="$this.AccessibleDescription"><value>Sallii käyttäjien syöttää kehotteen, säätää lämpötilan liukusäätimellä ja luoda tulosta valittujen asetusten perusteella.</value></data><data name="$this.AccessibleName"><value>Mallin syöttöohjaus</value></data></root>

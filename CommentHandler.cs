@@ -49,7 +49,7 @@ namespace TextForge
                     new UserChatMessage(Forge.CultureHelper.GetLocalizedString("(CommentHandler.cs) [AICommentReplyTask] UserChatMessage #2"))
                 };
                 chatHistory.AddRange(GetCommentMessages(comment));
-                chatHistory.Add(new UserChatMessage(@$"Text in Focus:\n""{comment.Scope.Text}"""));
+                chatHistory.Add(new UserChatMessage(@$"{Forge.CultureHelper.GetLocalizedString("(CommentHandler.cs) [AICommentReplyTask] UserChatMessage #3")}:\n""{comment.Scope.Text}"""));
 
                 try
                 {
@@ -59,7 +59,13 @@ namespace TextForge
                     await AddComment(
                         comment.Replies,
                         comment.Range,
-                        RAGControl.AskQuestion(Forge.CommentSystemPrompt, chatHistory, Globals.ThisAddIn.Application.ActiveDocument.Range(), doc)
+                        RAGControl.AskQuestion(
+                            Forge.CommentSystemPrompt,
+                            chatHistory,
+                            Globals.ThisAddIn.Application.ActiveDocument.Range(),
+                            0.5f,
+                            doc
+                        )
                     );
 
                     _isDraftingComment = false;
@@ -81,7 +87,7 @@ namespace TextForge
             {
                 List<ChatMessage> chatHistory = new List<ChatMessage>();
                 chatHistory.AddRange(GetCommentMessagesWithoutMention(comment));
-                chatHistory.Add(new UserChatMessage(@$"Text in Focus:\n""{comment.Scope.Text}"""));
+                chatHistory.Add(new UserChatMessage(@$"{Forge.CultureHelper.GetLocalizedString("(CommentHandler.cs) [AICommentReplyTask] UserChatMessage #3")}:\n""{comment.Scope.Text}"""));
                 try
                 {
                     if (_isDraftingComment) return false; // TODO: is this really necessary?
@@ -94,6 +100,7 @@ namespace TextForge
                             new SystemChatMessage(ThisAddIn.SystemPromptLocalization["(CommentHandler.cs) [AIUserMentionTask] UserMentionSystemPrompt"]),
                             chatHistory,
                             Globals.ThisAddIn.Application.ActiveDocument.Range(),
+                            0.5f,
                             doc
                         )
                     );

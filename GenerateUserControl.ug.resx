@@ -57,4 +57,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>ئىشلەپ چىقىرىش</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>خالىغا تىزىق. داۋاملاشتۇرۇش ئۈچۈن بىرىلگەن يازمالارغا تىزقىل.</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>سىز ئەل خوسۇنمۇش ئۈچۈن ئىشقلى قالدىم پەقەت رےسائكلر سۆز يازيدىغان تەرەققىياتنىڭ. سىزنىڭ مەسئۇللۈكىڭىز ئىشلارغا سەۋىيسى شەرەتلەر شەرت ئىستىسنا يازما بولۇپ ئىسسىق سۆز قانداق بولماق.</value></data></root>
+<data name="GenerateButton.Text"><value>ناتىجە</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>سوزنى يازماق كېرەك، داۋاملاشقا دېتسە!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>ناتىجە قۇرۇلما، سىز ناتىجىگە قارىتا ھەققىدە قۇرۇلما. پرىمىزغا چۈشەنچىلىك ۋە эмоционال تۇرغۇسلاردا يازما قېتىشلارغا.
+.
+# قەدەم
+
+1. AI نى پەقەت سەبەلەپ سوزۇش قىلىپ قورامىز.
+2. ھۆججەت مەزمۇنلىرىنى قاناطلىق شەكلە توپلاڭ.
+3. سوزغا ھەقسىز سۇئالجىدرار بوش قانداق.
+4. ۋاقتىنى يابسۇنۇز RAGدىن ئادەتلەشتۈرۈش.
+5. ئۆزگەرمەي تەرپىلدەپسە.
+6. بارلىق قوزغىما قانداق.
+
+# ئوۋۇچ بۇل
+
+- خادىرا سوزلارنى توغرا چاپلىدا.
+- زامانغا أ قويا سوزندە.
+- بارلىق ئەسساھىل قىزغاندۇردان مەنزۇمى كانشراءئىببىل.</value></data><data name="TemperatureLabel.Text"><value>قىزغىنلىق</value></data><data name="PromptTextBox.AccessibleDescription"><value>مۇشۇ يازماڭىزگە كىرگۈزۈش.</value></data><data name="PromptTextBox.AccessibleName"><value>سوز كىرىش</value></data><data name="GenerateButton.AccessibleDescription"><value>كىرىش يازماگە ئېغىل بولىدۇ.</value></data><data name="GenerateButton.AccessibleName"><value>ناتىجىنى پەقەت كىسىرىڭىز.</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>بەلگىلەنگەن قىزغىنلىق قىممىتى رىسومدا</value></data><data name="TemperatureValueLabel.AccessibleName"><value>قىزغىنلىق قىممىتى</value></data><data name="TemperatureLabel.AccessibleDescription"><value>قىزغىنلىق شېكلىدىكى قىممەتنىڭ ئىشلىتىش مەقسىتى.</value></data><data name="TemperatureLabel.AccessibleName"><value>قىزغىنلىق بەلگىسى</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>مُۋاپىق سوز قانداق قىممەتنى ئىنقۇل كېمە سەۋيەسى بەھرمەن تۈزۈش.</value></data><data name="TemperatureTrackBar.AccessibleName"><value>قىزغىن نازارەت سوز بالصغر بوشلۇغى.</value></data><data name="$this.AccessibleDescription"><value>يازما كىرىش، قىزغىنلۇق بەلگىلەش ھەمدەم يولغا قويۇلۇش.</value></data><data name="$this.AccessibleName"><value>مودېل كىرىش كونترول</value></data></root>

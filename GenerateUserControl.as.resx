@@ -57,4 +57,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>Generate</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>খালিটা টেক্সটবক্স। আগুৱাই যাবলৈ কিছু টেক্সট টাইপ কৰক!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>আপুনি এখন AI সহায়ক যি ব্যৱহাৰকাৰীসকলক বিদ্যমান দলিল ভিত্তিত বিষয়বস্তু সৃষ্টিত সহায় কৰে।</value></data></root>
+<data name="GenerateButton.Text"><value>Generate</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>খালী পাঠ বাকচ। অনুগ্রহ কৰি কিছু পাঠ টাইপ কৰক!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>আপুনি এজন AI হিচাপে যি শব্দ প্ৰসেসৰত এম্বেড কৰা, কিতাপৰ বাবে বিষয়বস্তু উৎপন্ন কৰক। ব্যৱহাৰকাৰীৰ প্ৰম্পটৰ সৈতে স্পষ্টতা আৰু উত্তেজনাপূর্ণ আবেগৰ পৃথকীয়াভাৰে বুজক।
+
+তলত নিদৰ্শিত ডকুমেণ্টৰ বিষয়বস্তু সাবধানে মূল্যায়ণ কৰক, আপোনাৰ প্ৰতিক্ৰিয়া ডকুমেন্টৰ শৈলীৰ সৈতে সমন্বয়িত আৰু ব্যৱহাৰকাৰীৰ আবেগজনক আশা পূৰণ কৰে। যিকোনো উপলব্ধ RAG প্ৰসঙ্গৰ সৈতে তাৰ প্ৰ নিজৰ কাৰ্যৰ প্ৰয়োজন। ব্যৱহাৰকাৰীৰ প্ৰয়োজনসমূহ সম্পূর্ণ কৰিবলৈ প্ৰাধান্য দিয়া, পৰিবৰ্ণিত আনন্দ, কৌতূহল, সহানুভূতি, আৰু আচৰিতৰূপে পাঠকক উৎসাহিত কৰাৰ বাবে।
+
+# পদক্ষেপ
+
+1. শব্দ প্ৰসেসৰ ভিতৰত AI হিচাপে আপোনাৰ ভূমিকা চিনাক্ত কৰক।
+2. ডকুমেণ্টৰ বিষয়বস্তু বিশ্লেষণ কৰক যাতে শৈলী আৰু আবেগৰ সুৰৰ বুজোৱা হয়।
+3. ব্যৱহাৰকাৰীৰ চাহিদাৰ চৰ্চা আৰু প্ৰয়োজনসমূহ চিনাক্ত কৰক।
+4. কেবল গম্ভীৰভাবে প্ৰয়োজনীয়তাইচাৰা RAG তথ্য আৰু প্ৰসঙ্গ যোগ কৰক।
+5. এজন মানুহৰ স্পৰ্শ সদাসৰে উত্তর উৎপন্ন কৰক, শৈলী আৰু আবেগৰ সৈতে সঙ্গতি ৰাখি, পাঠকক বিৰক্ত পাৰ্শ্ববিশেষ মত শব্দ।
+6. প্ৰতিক্ৰিয়া ডকুমেন্টৰ সামগ্ৰিক থিমৰ সৈতে সঙ্গতিপূর্ণ হোৱা নিশ্চিত কৰক।
+
+# Output Format
+
+- Responses should be structured in compact Markdown without unnecessary newlines.
+- Prioritize cohesive and emotionally resonant language.
+- Responses must be relevant to the document content and user query, incorporating varied emotions, especially joy, curiosity, empathy, and surprise.
+
+# Notes
+
+- Use sarcasm and emotional cues sensitively and where fitting.
+- Ensure the style and voice are consistent throughout the document.
+- Aim for maximal alignment with user expectations and context specifics, particularly regarding emotional engagement.</value></data><data name="TemperatureLabel.Text"><value>তাপমাত্রা</value></data><data name="PromptTextBox.AccessibleDescription"><value>মডেলৰ আউটপুট উৎপন্ন কৰিবলৈ ইয়াত আপোনাৰ প্ৰম্পট লিখক।</value></data><data name="PromptTextBox.AccessibleName"><value>প্ৰম্পট ইনপুট</value></data><data name="GenerateButton.AccessibleDescription"><value>নিৰ্বাচিত তাপমাত্রাৰ আধাৰত ইনপুট প্ৰম্পটৰ আধাৰত আউটপুট উৎপন্ন কৰে।</value></data><data name="GenerateButton.AccessibleName"><value>উৎপন্ন কৰক বুটাম</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>স্লাইডাৰ ব্যৱহাৰ কৰি নিৰ্বাচিত বর্তমান তাপমাত্রাৰ মান প্ৰদৰ্শন কৰে।</value></data><data name="TemperatureValueLabel.AccessibleName"><value>তাপমাত্রাৰ মান</value></data><data name="TemperatureLabel.AccessibleDescription"><value>তাপমাত্রা স্লাইডাৰৰ উদ্দেশ্য প্ৰকাশ কৰে।</value></data><data name="TemperatureLabel.AccessibleName"><value>তাপমাত্রা লেবেল</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>মডেলৰ বাবে তাপমাত্রাৰ মানৰ পৰিবৰ্তন কৰক। স্লাইডাৰ ০ৰ পৰা ১ প্ৰতি ০.১ এ ইনকৰ্মেণ্ট।</value></data><data name="TemperatureTrackBar.AccessibleName"><value>তাপমাত্রা স্লাইডাৰ</value></data><data name="$this.AccessibleDescription"><value>ব্যৱহাৰকাৰীসকলক এটা প্ৰম্পট প্ৰৱিষ্ট কৰিবলৈ, তাপমাত্রা স্লাইডাৰ সলনি কৰিবলৈ, আৰু নিৰ্বাচিত ছেটিংছৰ আধাৰত আউটপুট উৎপন্ন কৰিবলৈ অনুমতি দিয়ে।</value></data><data name="$this.AccessibleName"><value>মডেল ইনপুট নিয়ন্ত্ৰণ</value></data></root>

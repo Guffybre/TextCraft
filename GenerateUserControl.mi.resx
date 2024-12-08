@@ -57,4 +57,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>Whakawhanake</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Tūmau kāore he kōnae. Tēnā tuhia i roto i ngā tuhinga hei haere tonu!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Ko koe he kaiawhina AI kua hangaia hei awhina i ngā kaiwhakamahi ki te hanga ihirangi i runga i ngā tuhinga e wātea ana. Ko tāu mahi he mārama i te pātai a te kaiwhakamahi me te horopaki i tukuna e te tuhinga e wātea ana, ā, kāti ka pēnā te whakautu e pā ana te ahunga, me te hāngai ki ngā whakaritenga a te kaiwhakamahi.</value></data></root>
+<data name="GenerateButton.Text"><value>Hanga</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Kōpae tuhinga tāngohia. Tena, pānui a tawhio i te tuhinga ki te haere tonu!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Hanga ihirangi mō tētahi tuhinga, i te mōhio kei te ao hou koe i roto i te pūmanawa tuhinga. E mōhio ana me te whakahoki i te tono a te kaiwhakamahi me te kōnukuhanga ki kā go
+ngi-tautoko i ngā mōhiohio tāuki.
+
+Tirohia ngā whakaritenga hui ki te hinihiko, me te tino mōhio hoki i te kōrero e tuhinga ana me te taumahatanga kia i a ia. Tena, hangaia e te tumanako te ara e tímataria ana, me te honohono atu i te ātingatia i te tumanako o te kaiwhakamahi, tango noa hoki i ngā putanga e āwhina ana, i runga i te paerewa me ngā whakaritenga e pā ana ki nga nohoanga nāna i tukuna hei tautoko.
+
+# Ngā Hōtaka
+
+1. Kia mōhio ki tō mahi hei AI i raro i te pūmanawa tuhinga.
+2. Tirohia ngā tuhinga ki te mārama i te tono e pā ana ki te ārea me te mau tonu.
+3. Whakamatau e te pā tea ka kitea e tīkina ana ngā whakaritenga.
+4. Whakaritehia ngā pānui me te kōrero hei pūtake.
+5. Tuhia te whārangi e whakapūmau ana ki a Kindy, ka koi i te sugralti.
+6. Me tiakina ngā whakautu hei hononga ki te hanganga o te tuhinga.
+
+# Pūtātai Hōtaka
+
+- Me whakatakoto ngā whakautu ki ngā pūmau pēnei me te waitapu whakahoutanga kei te rahi.
+- Me te āwhina e mohiotia ana te ihirangi e mārama ana.
+- Me whakamahi hei āwhina me ngā whakaritenga e kitea mai, i runga i ngā pātai me ngā āwhina, ki te pūtake.</value></data><data name="TemperatureLabel.Text"><value>Mahana</value></data><data name="PromptTextBox.AccessibleDescription"><value>Tena, tāpiri te tono ki konei hei hanga i ngā putanga o te tauira.</value></data><data name="PromptTextBox.AccessibleName"><value>Tono Urunga</value></data><data name="GenerateButton.AccessibleDescription"><value>Ka hanga putanga i runga i te tono urunga me te mahana kua whiriwhiri.</value></data><data name="GenerateButton.AccessibleName"><value>Pātene Hanga</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>Ka whakarato i te tau o tenei mahana e whiriwhiri ana mā te iwi.</value></data><data name="TemperatureValueLabel.AccessibleName"><value>Uara Mahana</value></data><data name="TemperatureLabel.AccessibleDescription"><value>Ka tāpiri te noho ki te pānui o te pātene.</value></data><data name="TemperatureLabel.AccessibleName"><value>Tohu Mahana</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>Tena, whakatikahia te uara mahana mō te tauira. Ka kākahu te panui i ngā takirua mai i te 0 ki te 1 i runga i te whāurutau o te 0.1.</value></data><data name="TemperatureTrackBar.AccessibleName"><value>Taimana Mahana</value></data><data name="$this.AccessibleDescription"><value>Ka taea e ngā kaiwhakamahi te tāpiri i te tono, te whakarite i te taima katoa, me te hanga i ngā pākiki e pā ana mai i ngā hītori.</value></data><data name="$this.AccessibleName"><value>Pou tuhinga tauira</value></data></root>

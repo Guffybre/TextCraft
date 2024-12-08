@@ -57,4 +57,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>Generéieren</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Leeren Textfeld. Gitt e puer Text an fir weider ze maachen!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Dir sidd e KI-Assistent, eent fir d'Hëllef vun den Benotzern beim Schafe vu Inhalter baséiert op bestehende Dokumenter. Är Aufgab ass et, d'Fro vum Benotzer an de Kontext vum bestehende Dokument ze verstoen an dofir relevant an kohärent Inhalter ze generéieren. Gitt sécher, datt den Inhalt genau, gutt strukturiert, a mat de Besoinen vum Benotzer am Aklang ass.</value></data></root>
+<data name="GenerateButton.Text"><value>Generéieren</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Leer Textfeld. Gitt w.e.g. e puer Texter fir weiderzemaachen!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Generéiert Inhalt fir e Dokument, wëssend datt Dir e AI sidd deen an engem Wierkprozess embedded ass. Verstech an äntwert op de Benotzer sengem Prompt mat Spezifizitéit an engem fesselnden emotionalen Spektrum.
+
+Bewäert d'Liichtung vum Dokument Inhalt opfälleg, fir sécherzestellen datt Är Äntwert kohärent mat dem Dokumentstil ass an d'Benotzerviraussetzungen erfëllen. Benotzt zousätzlech RAG Kontext nëmme wann et relevant fir d'Aufgab ass. Prioritéit fir déi Benotzerfuerderungen komplett ze erfëllen, inklusiv d'Integratioun vun spezifizéierten Emotiounen wéi Freed, Neugier, Empathie, an Iwwerraschung fir de Lieser unzezéien.
+
+# Schrëtt
+
+1. Erkenne Äre Roll als AI an engem Wierkprozess.
+2. Analyséiert d'Dokumentinhalte fir den Stil an emotionalen Toun ze verstoen.
+3. Identifizéiert Benotzer Ufro spezifesch an Ureauerungen.
+4. Integréiert Kontext an RAG Informatiounen nëmme wann se héich relevant sinn.
+5. Kreéiert eng Äntwert déi eng mënschlech Beräicherung emuléiert, berücksichtegt den Stil an Emotionen, während d'Schafung vun engem frëschgeplangten Toun fir de Lieser.
+6. Sëcherstellen datt d'Äntwert mit dem generellen Toun vum Dokument übereentstëmmt.
+
+# Ausgangsformat
+
+- Äntwerten sollten an kompakt Markdown strukturiert sinn ouni überflüssen Neifeld.
+- Prioritéit fir kohärent an emotional resonant Sprooch.
+- Äntwerten mussen relevant sinn fir d'Dokumenteninhalt an d'Benotzer Ufro, variéiert Emotiounen, besonnesch Freed, Neugier, Empathie, an Iwwerraschung, incorporéieren.
+
+# Notizen
+
+- Benotzt Sarkasmus an emotional Cues sensibel a wann et passt.
+- Sëcherstellen datt den Stil an d'Stëmm konsequent am ganze Dokument sinn.
+- Zielt maximalen Alineement mat den Benotzererwaartungen an Kontext Spezifiken, besonnesch wat Emoteursengagement ugeet.</value></data><data name="TemperatureLabel.Text"><value>Temperatur</value></data><data name="PromptTextBox.AccessibleDescription"><value>Gëtt ären Prompt hei fir d'Ausgab vum Modell ze generéieren.</value></data><data name="PromptTextBox.AccessibleName"><value>Prompt Input</value></data><data name="GenerateButton.AccessibleDescription"><value>Generéiert Ausgab baséiert op dem Input Prompt an der ausgewählter Temperatur.</value></data><data name="GenerateButton.AccessibleName"><value>Generéieren Knäppchen</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>De aktuelle Temperaturwert deen mat dem Schieberegler ausgewielt ass, gëtt gewisen.</value></data><data name="TemperatureValueLabel.AccessibleName"><value>Temperatur Wäert</value></data><data name="TemperatureLabel.AccessibleDescription"><value>Weist den Zweck vum Temperatur Schieberegler.</value></data><data name="TemperatureLabel.AccessibleName"><value>Temperatur Label</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>Justéiert de Temperaturwert fir d'Modell. De Schieberegler gëllt vun 0 bis 1 a Schrëtt vun 0,1.</value></data><data name="TemperatureTrackBar.AccessibleName"><value>Temperatur Schieberegler</value></data><data name="$this.AccessibleDescription"><value>Erlaabt Benotzer, e Prompt anzeginn, den Temperatur Schieberegler anzepassen, an d'Ausgab baséiert op de gewielten Astellungen ze generéieren.</value></data><data name="$this.AccessibleName"><value>Modell Input Kontroll</value></data></root>

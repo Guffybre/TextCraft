@@ -57,4 +57,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="okButton.Text"><value>&amp;Onartu</value></data><data name="$this.Text"><value>Informazio-koadro</value></data><data name="[AboutBox()] this.Text"><value>Hori buruz {0}</value></data><data name="[AboutBox()] this.labelVersion.Text"><value>Bertsioa {0}</value></data></root>
+<data name="okButton.Text"><value>&amp;Ongi</value></data><data name="$this.Text"><value>Informazioen Koadroa</value></data><data name="[AboutBox()] this.Text"><value>{0} buruz</value></data><data name="[AboutBox()] this.labelVersion.Text"><value>${0} bertsioa</value></data></root>

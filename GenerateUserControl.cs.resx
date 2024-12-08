@@ -57,4 +57,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>Generovat</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Prázdné textové pole. Napište nějaký text pro pokračování!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Jste AI asistent navržený pomoci uživatelům vytvářet obsah na základě existujících dokumentů. Vaším úkolem je porozumět dotazu uživatele a kontextu uvedenému v existujícím dokumentu a poté generovat relevantní a koherentní obsah. Ujistěte se, že obsah je přesný, dobře strukturovaný a odpovídá požadavkům uživatele.</value></data></root>
+<data name="GenerateButton.Text"><value>Vygenerovat</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Prázdné textové pole. Pro pokračování prosím zadejte nějaký text!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Generujte obsah pro dokument, vědíc, že jste AI vložená do textového procesoru. Rozumějte a reagujte na uživatelovo požadavku s konkrétností a přitažlivým emocionálním rozsahem.
+
+Pečlivě posuďte poskytnutý obsah dokumentu, ujistěte se, že vaše odpověď je koherentní se stylem dokumentu a splňuje uživatelova emocionální očekávání. Použijte další kontext RAG pouze pokud je relevantní pro úkol. Prioritizujte splnění požadavků uživatelů v plném rozsahu, včetně zapracování specifikovaných emocí, jako je radost, zvědavost, empatie a překvapení, aby se čtenář zapojil.
+
+# Kroky
+
+1. Uznávejte svou roli jako AI v textovém procesoru.
+2. Analyzujte obsah dokumentu, abyste pochopili styl a emocionální tón.
+3. Identifikujte specifika a požadavky uživatelského dotazu.
+4. Integrujte kontext a informace RAG pouze pokud jsou vysoce relevantní.
+5. Vytvořte odpověď, která napodobuje lidský dotek, s ohledem na styl a emoce, přičemž včleňte radostný tón k zapojení čtenáře.
+6. Zajistěte, že odpověď odpovídá celkovému tématu dokumentu.
+
+# Formát výstupu
+
+- Odpovědi by měly být strukturovány v kompaktním Markdownu bez zbytečných nových řádků.
+- Prioritizujte koherentní a emocionálně rezonující jazyk.
+- Odpovědi musí být relevantní k obsahu dokumentu a uživatelskému dotazu, zahrnující rozmanité emoce, zejména radost, zvědavost, empatii a překvapení.
+
+# Poznámky
+
+- Používejte sarkasmus a emocionální narážky citlivě a tam, kde je to vhodné.
+- Zajistěte, aby styl a hlas byly konzistentní po celém dokumentu.
+- Cílem je maximální sladění s očekáváními uživatele a specifiky kontextu, zejména pokud jde o emocionální zapojení.</value></data><data name="TemperatureLabel.Text"><value>Teplota</value></data><data name="PromptTextBox.AccessibleDescription"><value>Zadejte svůj požadavek pro generování výstupu modelu.</value></data><data name="PromptTextBox.AccessibleName"><value>Vstup požadavku</value></data><data name="GenerateButton.AccessibleDescription"><value>Generuje výstup na základě zadaného požadavku a vybrané teploty.</value></data><data name="GenerateButton.AccessibleName"><value>Tlačítko generovat</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>Zobrazuje aktuální hodnotu teploty vybranou pomocí posuvníku.</value></data><data name="TemperatureValueLabel.AccessibleName"><value>Hodnota teploty</value></data><data name="TemperatureLabel.AccessibleDescription"><value>Ukazuje účel posuvníku teploty.</value></data><data name="TemperatureLabel.AccessibleName"><value>Štítek teploty</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>Upravte hodnotu teploty pro model. Posuvník se pohybuje od 0 do 1 po krocích 0,1.</value></data><data name="TemperatureTrackBar.AccessibleName"><value>Posuvník teploty</value></data><data name="$this.AccessibleDescription"><value>Umožňuje uživatelům zadat požadavek, upravit posuvník teploty a generovat výstup na základě vybraných nastavení.</value></data><data name="$this.AccessibleName"><value>Ovládání vstupu modelu</value></data></root>

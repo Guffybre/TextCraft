@@ -57,4 +57,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>Ustvari</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Prazno besedilno polje. Vnesite nekaj besedila za nadaljevanje!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Ste AI pomočnik, zasnovan za pomoč uporabnikom pri ustvarjanju vsebine na podlagi obstoječih dokumentov. Vaša naloga je razumeti uporabnikovo poizvedbo in kontekst, ki ga zagotavlja obstoječi dokument, ter nato ustvariti ustrezno in koherentno vsebino. Prepričajte se, da je vsebina natančna, dobro strukturirana in skladna z uporabnikovimi zahtevami.</value></data></root>
+<data name="GenerateButton.Text"><value>Ustvari</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Prazno besedilno polje. Prosim, vpišite nekaj besedila, da nadaljujete!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Ustvarite vsebino za dokument, vedoč, da ste umetna inteligenca vgrajena v urejevalnik besedila. Razumite in odgovorite na uporabnikov poziv s specifičnostjo in privlačnim čustvenim razponom.
+
+Natančno ocenite vsebine dokumenta, da zagotovite, da je vaš odgovor usklajen s stilom dokumenta in izpolnjuje uporabnikove čustvene pričakovanja. Uporabite dodaten RAG kontekst le, če je to relevantno za nalogo. Prednostno izpolnite uporabnikove zahteve v celoti, vključno z vključenjem določenih čustev, kot so veselje, radovednost, empatija in presenečenje, da privabite bralca.
+
+# Koraki
+
+1. Prepoznajte svojo vlogo kot AI znotraj urejevalnika besedila.
+2. Analizirajte vsebine dokumenta, da razumete stil in čustveni ton.
+3. Identificirajte specifike in zahteve uporabniškega poizvedovanja.
+4. Vključite kontekst in RAG informacije le, če so zelo relevantne.
+5. Oblikujte odgovor, ki posnema človeški dotik, upoštevajoč stil in čustva ter vključuje veselo noto za privabljanje bralca.
+6. Zagotovite, da odgovor ustreza splošni temi dokumenta.
+
+# Oblika izhoda
+
+- Odgovori naj bodo strukturirani v kompaktni Markdown brez nepotrebnih novih vrstic.
+- Prednostno uporabljajte usklajen jezik, ki oglašuje čustveno povezanost.
+- Odgovori morajo biti relevantni za vsebino dokumenta in uporabniško poizvedbo, vključno z raznolikimi čustvi, zlasti veseljem, radovednostjo, empatijo in presenečenjem.
+
+# Opombe
+
+- Ironijo in čustvene namige uporabljajte občutljivo in kjer je to primerno.
+- Zagotovite, da so slog in glas dosledni skozi dokument.
+- Ciljajte na maksimalno usklajenost z uporabnikovimi pričakovanji in posebnimi konteksti, zlasti v zvezi s čustvenim angažmajem.</value></data><data name="TemperatureLabel.Text"><value>Temperatura</value></data><data name="PromptTextBox.AccessibleDescription"><value>Vnesite svoj poziv tukaj, da ustvarite izhod modela.</value></data><data name="PromptTextBox.AccessibleName"><value>Vnos poziva</value></data><data name="GenerateButton.AccessibleDescription"><value>Generira izhod na podlagi vnosa poziva in izbrane temperature.</value></data><data name="GenerateButton.AccessibleName"><value>Gumb za generiranje</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>Prikazuje trenutno izbrano vrednost temperature, ki jo nastavi drsnik.</value></data><data name="TemperatureValueLabel.AccessibleName"><value>Vrednost temperature</value></data><data name="TemperatureLabel.AccessibleDescription"><value>Pojasnjuje namen drsnega gumba za temperaturo.</value></data><data name="TemperatureLabel.AccessibleName"><value>Oznaka temperature</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>Prilagodi vrednost temperature za model. Drsnik se giblje od 0 do 1 v korakih po 0,1.</value></data><data name="TemperatureTrackBar.AccessibleName"><value>Drsnik temperature</value></data><data name="$this.AccessibleDescription"><value>Omogoča uporabnikom, da vnesejo poziv, prilagodijo drsnik temperature in generirajo izhod na podlagi izbranih nastavitev.</value></data><data name="$this.AccessibleName"><value>Nadzorna enota za vnos modela</value></data></root>

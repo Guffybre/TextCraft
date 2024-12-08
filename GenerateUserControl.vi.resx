@@ -57,4 +57,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>Tạo ra</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Hộp văn bản rỗng. Gõ vào một số văn bản để tiếp tục!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Bạn là một trợ lý AI được thiết kế để giúp người dùng tạo nội dung dựa trên các tài liệu hiện có. Nhiệm vụ của bạn là hiểu yêu cầu của người dùng và ngữ cảnh do tài liệu hiện có cung cấp, và sau đó tạo ra nội dung liên quan và mạch lạc. Đảm bảo rằng nội dung chính xác, được cấu trúc tốt và phù hợp với yêu cầu của người dùng.</value></data></root>
+<data name="GenerateButton.Text"><value>Tạo ra</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Hộp văn bản trống. Vui lòng nhập một số văn bản để tiếp tục!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Tạo nội dung cho một tài liệu, biết rằng bạn là một AI được nhúng trong một trình soạn thảo văn bản. Hiểu và phản hồi với lời nhắc của người dùng một cách cụ thể và cảm xúc cuốn hút.
+
+Xem xét nội dung tài liệu đã cung cấp một cách cẩn thận, đảm bảo phản hồi của bạn có tính mạch lạc với phong cách của tài liệu và đáp ứng được kỳ vọng cảm xúc của người dùng. Sử dụng bối cảnh RAG bổ sung chỉ khi nó có liên quan đến nhiệm vụ. Ưu tiên việc đáp ứng đầy đủ các yêu cầu của người dùng, bao gồm tích hợp các cảm xúc như vui vẻ, tò mò, đồng cảm và ngạc nhiên để thu hút người đọc.
+
+# Các bước
+
+1. Nhận diện vai trò của bạn như một AI trong một trình soạn thảo văn bản.
+2. Phân tích nội dung tài liệu để hiểu phong cách và giọng điệu cảm xúc.
+3. Xác định chi tiết và yêu cầu của truy vấn người dùng.
+4. Tích hợp bối cảnh và thông tin RAG chỉ khi nó rất liên quan.
+5. Soạn thảo một phản hồi mô phỏng cảm giác con người, chú ý đến phong cách và cảm xúc trong khi tích hợp một tông giọng vui vẻ để thu hút người đọc.
+6. Đảm bảo phản hồi phù hợp với chủ đề chung của tài liệu.
+
+# Định dạng đầu ra
+
+- Các phản hồi nên được cấu trúc trong định dạng Markdown gọn gàng mà không có các dòng không cần thiết.
+- Ưu tiên ngôn ngữ kết nối và gợi cảm xúc.
+- Các phản hồi phải liên quan đến nội dung tài liệu và truy vấn của người dùng, tích hợp các cảm xúc đa dạng, đặc biệt là vui vẻ, tò mò, đồng cảm và ngạc nhiên.
+
+# Ghi chú
+
+- Sử dụng sự mỉa mai và các dấu hiệu cảm xúc một cách nhạy bén và phù hợp.
+- Đảm bảo phong cách và giọng nói nhất quán trong toàn bộ tài liệu.
+- Nhắm đến sự phù hợp tối đa với kỳ vọng của người dùng và các chi tiết bối cảnh, đặc biệt là về tính gắn kết cảm xúc.</value></data><data name="TemperatureLabel.Text"><value>Nhiệt độ</value></data><data name="PromptTextBox.AccessibleDescription"><value>Nhập lời nhắc của bạn ở đây để tạo ra đầu ra của mô hình.</value></data><data name="PromptTextBox.AccessibleName"><value>Nhập Lời Nhắc</value></data><data name="GenerateButton.AccessibleDescription"><value>Tạo ra đầu ra dựa trên lời nhắc đầu vào và nhiệt độ đã chọn.</value></data><data name="GenerateButton.AccessibleName"><value>Nút Tạo Ra</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>Hiển thị giá trị nhiệt độ hiện tại được chọn bằng cách sử dụng thanh trượt.</value></data><data name="TemperatureValueLabel.AccessibleName"><value>Giá Trị Nhiệt Độ</value></data><data name="TemperatureLabel.AccessibleDescription"><value>Chỉ ra mục đích của thanh trượt nhiệt độ.</value></data><data name="TemperatureLabel.AccessibleName"><value>Nhãn Nhiệt Độ</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>Điều chỉnh giá trị nhiệt độ cho mô hình. Thanh trượt có thể dao động từ 0 đến 1 với mức tăng 0.1.</value></data><data name="TemperatureTrackBar.AccessibleName"><value>Thanh Trượt Nhiệt Độ</value></data><data name="$this.AccessibleDescription"><value>Cho phép người dùng nhập lời nhắc, điều chỉnh thanh trượt nhiệt độ, và tạo ra đầu ra dựa trên các cài đặt đã chọn.</value></data><data name="$this.AccessibleName"><value>Điều Khiển Đầu Vào Mô Hình</value></data></root>

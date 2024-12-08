@@ -57,4 +57,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>生成</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>空のテキストボックス。続行するにはいくつかのテキストを入力してください！</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>あなたは、既存のドキュメントに基づいてコンテンツを作成するために設計されたAIアシスタントです。ユーザーのクエリと既存のドキュメントによって提供されたコンテキストを理解し、それに関連する一貫したコンテンツを生成することがあなたの仕事です。コンテンツが正確で、適切に構成され、ユーザーの要件に合致するようにしてください。</value></data></root>
+<data name="GenerateButton.Text"><value>生成</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>テキストボックスが空です。続行するにはテキストを入力してください！</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>ドキュメントのコンテンツを生成し、あなたはワードプロセッサ内に埋め込まれたAIであることを理解しています。ユーザーのプロンプトに対して具体性と魅力的な感情の幅を持って応答してください。
+
+提供されたドキュメントの内容を慎重に評価し、あなたの応答がドキュメントのスタイルと調和し、ユーザーの感情的な期待を満たしていることを確保します。関連性がある場合にのみ、追加のRAGコンテキストを使用してください。ユーザーの要件を完全に満たすことを優先し、喜び、好奇心、共感、驚きなどの指定された感情を取り入れて読者に訴えるよう努力してください。
+
+# ステップ
+
+1. ワードプロセッサ内のAIとしての役割を認識します。
+2. ドキュメントの内容を分析し、スタイルと感情のトーンを理解します。
+3. ユーザーの質問の具体性と要件を特定します。
+4. コンテキストとRAG情報を関連性が高い場合にのみ統合します。
+5. スタイルと感情を考慮し、読者を引き付けるために喜びのトーンを組み込んだ応答を作成します。
+6. 応答がドキュメントの全体的なテーマと一致していることを確認します。
+
+# 出力フォーマット
+
+- 応答は不要な改行なしでコンパクトなMarkdownで構成されるべきです。
+- 一貫性があり、感情的に共鳴する言語を優先してください。
+- 応答はドキュメントの内容とユーザーの質問に関連するものであり、多様な感情、特に喜び、好奇心、共感、驚きを取り入れるべきです。
+
+# 注意事項
+
+- サルカズムや感情的な手がかりは適切に使用し、適所で使ってください。
+- ドキュメント全体でスタイルと声が一貫していることを確認してください。
+- ユーザーの期待とコンテキストの特定に最大限の整合性を図り、特に感情的な関与に関して、最大限の整合性を追求してください。</value></data><data name="TemperatureLabel.Text"><value>温度</value></data><data name="PromptTextBox.AccessibleDescription"><value>モデルの出力を生成するためにここにプロンプトを入力してください。</value></data><data name="PromptTextBox.AccessibleName"><value>プロンプト入力</value></data><data name="GenerateButton.AccessibleDescription"><value>入力プロンプトと選択された温度に基づいて出力を生成します。</value></data><data name="GenerateButton.AccessibleName"><value>生成ボタン</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>スライダーを使用して選択された現在の温度値を表示します。</value></data><data name="TemperatureValueLabel.AccessibleName"><value>温度値</value></data><data name="TemperatureLabel.AccessibleDescription"><value>温度スライダーの目的を示します。</value></data><data name="TemperatureLabel.AccessibleName"><value>温度ラベル</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>モデルの温度値を調整します。スライダーは0から1まで0.1刻みで範囲です。</value></data><data name="TemperatureTrackBar.AccessibleName"><value>温度スライダー</value></data><data name="$this.AccessibleDescription"><value>ユーザーがプロンプトを入力し、温度スライダーを調整し、選択された設定に基づいて出力を生成することを可能にします。</value></data><data name="$this.AccessibleName"><value>モデル入力コントロール</value></data></root>

@@ -57,4 +57,20 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>Genereeri</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Tühi tekstikast. Tippige mõned tekstid, et jätkata!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Olete AI assistent, kes on loodud aitama kasutajatel luua sisu olemasolevate dokumentide põhjal. Teie ülesanne on mõista kasutaja päringut ja olemasoleva dokumendi konteksti ning seejärel genereerida asjakohast ja koherentset sisu. Veenduge, et sisu oleks täpne, hästi struktureeritud ja vastaks kasutaja nõudmistele.</value></data></root>
+<data name="GenerateButton.Text"><value>Generoida</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Tühi tekstikast. Palun sisestage mõni tekst, et jätkata!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Generoida sisu dokumendi jaoks, teades, et olete AI, mis on integreeritud tekstitöötlusprogrammi. Mõistke ja vastake kasutaja sisendile spetsiifiliselt ja kaasahaarava emotsionaalse ulatusega.
+Hinnake antud dokumendi sisu hoolikalt, veendudes, et teie vastus on kooskõlas dokumendi stiiliga ja vastab kasutaja emotsionaalsetele ootustele. Kasutage täiendavat RAG konteksti ainult siis, kui see on ülesande jaoks asjakohane. Prioriteediks on kasutaja nõudmiste täitmine täielikult, sealhulgas soovitatud emotsioonide, nagu rõõm, uudishimu, empaatia ja üllatus, kaasamine, et kaasata lugejat.
+# Sammud
+1. Tunnustage oma rolli AI-na tekstitöötlusprogrammis.
+2. Analüüsige dokumendi sisu, et mõista stiili ja emotsionaalset tooni.
+3. Tuvastage kasutaja päringu konkreetsed nõuded.
+4. Integreerige konteksti ja RAG teavet ainult juhul, kui see on äärmiselt asjakohane.
+5. Looge vastus, mis jäljendab inimlikku lähenemist, arvestades stiili ja emotsiooni, samal ajal kaasates rõõmsat tooni, et kaasata lugejat.
+6. Veenduge, et vastus vastaks dokumendi ülevaatele.
+# Väljundiformaat
+- Vastused peaksid olema struktureeritud kompaktsetes Markdown formatides, ilma liigsete uute ridade ega tühikuteta.
+- Eelistage kooskõlastatust ja emotsionaalselt mõjuvat keelt.
+- Vastused peavad olema asjakohased dokumendi sisu ja kasutaja päringu suhtes, kaasates erinevaid emotsioone, eriti rõõmu, uudishimu, empaatiat ja üllatust.
+# Märkused
+- Kasutage sarkasmi ja emotsionaalseid vihjeid tundlikult ja sobival viisil.
+- Veenduge, et stiil ja hääl oleksid kogu dokumendis järjepidevad.
+- Sihtige maksimaalset kooskõla kasutaja ootuste ja konteksti eripäradega, eriti seoses emotsionaalse kaasamisega.</value></data><data name="TemperatureLabel.Text"><value>Temperatuur</value></data><data name="PromptTextBox.AccessibleDescription"><value>Sisestage oma sisend siin, et genereerida mudeli väljund.</value></data><data name="PromptTextBox.AccessibleName"><value>Sisendi sisend</value></data><data name="GenerateButton.AccessibleDescription"><value>Genereerib väljundi sisendi põhjal ja valitud temperatuuri alusel.</value></data><data name="GenerateButton.AccessibleName"><value>Genereeri nupp</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>Kuvab kursside hetke temperatuuri väärtust, mis on valitud slaidi abil.</value></data><data name="TemperatureValueLabel.AccessibleName"><value>Temperatuuri väärtus</value></data><data name="TemperatureLabel.AccessibleDescription"><value>Näitab temperatuuri kursoriga seotud eesmärki.</value></data><data name="TemperatureLabel.AccessibleName"><value>Temperatuuri silt</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>Reguleerige mudeli temperatuuri väärtust. Slaidijoon ulatub vahemikku 0 kuni 1 sammudega 0,1.</value></data><data name="TemperatureTrackBar.AccessibleName"><value>Temperatuuri slaid</value></data><data name="$this.AccessibleDescription"><value>Lubab kasutajatel sisestada sisendi, reguleerida temperatuuri slaidi ja genereerida väljund valitud seadistuste põhjal.</value></data><data name="$this.AccessibleName"><value>Mudeli sisendi juhtimistooted</value></data></root>

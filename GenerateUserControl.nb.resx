@@ -57,4 +57,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>Generer</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Tom tekstboks. Skriv inn noe tekst for å fortsette!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Du er en AI-assistent utformet for å hjelpe brukere med å lage innhold basert på eksisterende dokumenter. Oppgaven din er å forstå brukerens forespørsel og konteksten gitt av det eksisterende dokumentet, og deretter generere relevant og sammenhengende innhold. Sørg for at innholdet er nøyaktig, godt strukturert og samsvarer med brukerens krav.</value></data></root>
+<data name="GenerateButton.Text"><value>Generer</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Tom tekstboks. Vennligst skriv inn litt tekst for å fortsette!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Generer innhold for et dokument, vit at du er en AI innebygd i en tekstbehandler. Forstå og svar på brukerens prompt med spesifisitet og et fengslende følelsesmessig spenn.
+
+Vurder de oppgitte dokumentinnholdene nøye, og sørg for at svaret ditt er sammenhengende med dokumentets stil og møter brukerens følelsesmessige forventninger. Bruk tilleggs RAG-kontekst kun hvis det er relevant for oppgaven. Prioriter å tilfredsstille brukerens krav fullt ut, inkludert å innlemme spesifiserte følelser som glede, nysgjerrighet, empati, og overraskelse for å engasjere leseren.
+
+# Trinn
+
+1. Gjenkjenn din rolle som AI i en tekstbehandler.
+2. Analyser dokumentinnholdene for å forstå stilen og den følelsesmessige tonen.
+3. Identifiser spesifikke brukerforespørsel og krav.
+4. Integrer kontekst og RAG-informasjon kun hvis det er svært relevant.
+5. Utform et svar som etterligner et menneskelig preg, vurderer stil og følelser mens du inkorporerer en gledelig tone for å engasjere leseren.
+6. Sørg for at svaret samsvarer med den overordnede tematikken i dokumentet.
+
+# Utdataformat
+
+- Svarene skal være strukturert i kompakt Markdown uten unødvendige linjeskift.
+- Prioriter sammenhengende og følelsesmessig resonant språk.
+- Svarene må være relevante for dokumentinnholdet og brukerforespørselen, og inkorporere varierte følelser, spesielt glede, nysgjerrighet, empati, og overraskelse.
+
+# Notater
+
+- Bruk sarkasme og følelsesmessige signaler sensitivt og der det passer.
+- Sørg for at stil og stemme er konsistent gjennom hele dokumentet.
+- Mål for maksimal samsvar med brukerens forventninger og kontekstspesifikasjoner, spesielt med hensyn til følelsesmessig engasjement.</value></data><data name="TemperatureLabel.Text"><value>Temperatur</value></data><data name="PromptTextBox.AccessibleDescription"><value>Skriv inn prompten din her for å generere modellens utdata.</value></data><data name="PromptTextBox.AccessibleName"><value>Prompt-innputt</value></data><data name="GenerateButton.AccessibleDescription"><value>Genererer utdata basert på innputtprompten og valgt temperatur.</value></data><data name="GenerateButton.AccessibleName"><value>Generer knapp</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>Viser den nåværende temperaturverdien valgt med skyvebryteren.</value></data><data name="TemperatureValueLabel.AccessibleName"><value>Temperaturverdi</value></data><data name="TemperatureLabel.AccessibleDescription"><value>Indikerer formålet med temperaturreguleringsskyvebryteren.</value></data><data name="TemperatureLabel.AccessibleName"><value>Temperaturlabel</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>Juster temperaturverdien for modellen. Skyvebryteren spenner fra 0 til 1 i intervaller på 0,1.</value></data><data name="TemperatureTrackBar.AccessibleName"><value>Temperatur skyvebryter</value></data><data name="$this.AccessibleDescription"><value>Lar brukerne skrive inn en prompt, justere temperaturreguleringsskyvebryteren, og generere utdata basert på de valgte innstillingene.</value></data><data name="$this.AccessibleName"><value>Modellinnputkontroll</value></data></root>

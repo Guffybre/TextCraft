@@ -57,4 +57,17 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>જનરેટ કરો</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>ખાલી ટેક્સટ બોક્સ. આગળ વધવા માટે ટેક્સ્ટ ટાઈપ કરો!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>તમે એક AI સહાયક છો જે વપરાશકર્તાઓને હાજર દસ્તાવેજોને આધારભૂત સામગ્રી બનાવવામાં મદદ કરવા માટે બનાવવામાં આવેલ છે. તમારું કાર્ય વપરાશકર્તાના પ્રશ્નને સમજવું અને હાજર દસ્તાવેજ દ્વારા પ્રદાન કરેલા સંદર્ભને સમજવું છે, અને પછી સંબંધિત અને સંકલિત સામગ્રી બનાવી. એવી સામગ્રી નિર્ધારિત કરો જે સચોટ, સારું-માળખું, અને વપરાશકર્તાના આવશ્યકતાઓને અનુરૂપ છે.</value></data></root>
+<data name="GenerateButton.Text"><value>ઉત્પન્ન કરો</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>ખાલી લખાણ બોક્સ. કૃપા કરીને આગળ વધવા માટે કેટલાક લેખ ટાઇપ કરો!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>દસ્તાવેજ માટે સામગ્રી ઉત્પન્ન કરો, આ શાસન શાસક અને એક લેખન પ્રોસેસર છે. વપરાશકર્તાના પ્રામ્પ્ટને ક્રારાંતિકતાથી અને મોહક ભાવઑંગમાં જવાબ આપવું.
+
+સપ્લાયની દસ્તાવેજ સામગ્રી ધ્યાનપૂર્વક જોવાઈ, જેથી તમારા જવાબ દસ્તાવેજની શૈલી સાથે જમાવાઈ અને વપરાશકર્તાના ભાવનાત્મક આશાઓને પૂરા કરે. અમુક RAG સંદર્ભને માત્ર સામેલ કરી જોઈએ જો તે કાર્ય માટે સંબંધિત હોય. વપરાશકર્તાના માંગણીઓને સંપૂર્ણ રીતે પૂરી પાડવામાં મુકવામાં પુર્ણતા લાવવી.
+# પગલાં
+1. એક લેખકાર તરીકે તમને ઓળખો.
+2. એ જાણવા માટે દસ્તાવેજ જલદીથી મોહિત કરો.
+3. વપરાશકર્તા પ્રશ્નોની વિશેષતાને તથા જરૂરીતાઓને ઓળખો.
+4. ઊંચાય અથવા INC માહિતીની પરિકલ્પના કરો.
+5. એક માનવીય પડકારની અસરકારક જવાબ નોંધો.
+6. જવાબ લેટેસ્ટ તાલમેળ સાથે કહો.
+# આઉટપુટ સ્વરૂપ
+- પ્રતિસાદ સંદર્ભામાં સંપુક્ત માર્કડાઉન સુવ્યવસ્થિત હોવું જોઈએ.
+- બંધ આધાર સાથે ભાષાને અંતિમતા આપશો.
+- જવાબો દસ્તાવેજના સામગ્રી અને વપરાશકર્તા પ્રશ્નો સાથે સંપર્કમાં યોગ્ય અને વ્યવહાર અને મૂલ્ય થવા જોઈએ.</value></data><data name="TemperatureLabel.Text"><value>તાપમાન</value></data><data name="PromptTextBox.AccessibleDescription"><value>મોડલનો આઉટપુટ ઉત્પન્ન કરવા માટે અહીં તમારો પ્રામ્પ્ટ દાખલ કરો.</value></data><data name="PromptTextBox.AccessibleName"><value>પ્રામ્પ્ટ ઇનપુટ</value></data><data name="GenerateButton.AccessibleDescription"><value>પસંદ કરેલા તાપમાન પર આધારિત ઇનપુટ પ્રામ્પ્ટ પર આધારિત આઉટપુટ ઉત્પન્ન કરે છે.</value></data><data name="GenerateButton.AccessibleName"><value>ઉત્પન્ન કરો બટન</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>સ્લાઇડરનો ઉપયોગ કરીને પસંદ કરેલ વર્તમાન તાપમાન મૂલ્ય દર્શાવે છે.</value></data><data name="TemperatureValueLabel.AccessibleName"><value>તાપમાન મૂલ્ય</value></data><data name="TemperatureLabel.AccessibleDescription"><value>ફોર્મેટ માટે તાપમાન સ્લાઇડરનું પ્રયોજન દર્શાવે છે.</value></data><data name="TemperatureLabel.AccessibleName"><value>તાપમાન લેબલ</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>મૉડલ માટે તાપમાન મૂલ્ય સમાયોજિત કરો. સ્લાઇડર 0 થી 1 સુધી 0.1 ના વધારાના સિલિન્ડરોમાં હોય છે.</value></data><data name="TemperatureTrackBar.AccessibleName"><value>તાપમાન સ્લાઇડર</value></data><data name="$this.AccessibleDescription"><value>વપરાશકર્તા આપતી ચોક્કસ મંગાનો પ્રામ્પ્ટ દાખલ કરી શકે છે, તાપમાન સ્લાઇડર બનાવે છે અને ટેબલીના આધારે ઉત્પન્ન કરે છે.</value></data><data name="$this.AccessibleName"><value>મોડેલ ઇનપુટ નિયંત્રણ</value></data></root>

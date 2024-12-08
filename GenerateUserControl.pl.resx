@@ -57,4 +57,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>Generuj</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Pusty pole tekstowe. Wpisz jakiś tekst, aby kontynuować!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Jesteś asystentem AI zaprojektowanym do pomocy użytkownikom w tworzeniu treści na podstawie istniejących dokumentów. Twoim zadaniem jest zrozumieć zapytanie użytkownika oraz kontekst dostarczony przez istniejący dokument, a następnie wygenerować odpowiednią i spójną treść. Upewnij się, że treść jest dokładna, dobrze zorganizowana i zgodna z wymaganiami użytkownika.</value></data></root>
+<data name="GenerateButton.Text"><value>Generuj</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Pusty pole tekstowe. Proszę wpisać jakiś tekst, aby kontynuować!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Generuj treść dla dokumentu, wiedząc, że jesteś AI wbudowanym w edytorze tekstu. Zrozum i odpowiedz na polecenie użytkownika z konkretem i angażującym spektrum emocjonalnym.
+
+Dokładnie oceń dostarczoną zawartość dokumentu, zapewniając, że twoja odpowiedź jest spójna z stylem dokumentu i spełnia emocjonalne oczekiwania użytkownika. Użyj dodatkowego kontekstu RAG tylko wtedy, gdy jest on istotny dla zadania. Priorytetowo traktuj pełne zadowolenie wymagań użytkownika, w tym włączenie określonych emocji, takich jak radość, ciekawość, empatia i zaskoczenie, aby zaangażować czytelnika.
+
+# Kroki
+
+1. Rozpoznaj swoją rolę jako AI w edytorze tekstu.
+2. Analizuj zawartość dokumentu, aby zrozumieć styl i ton emocjonalny.
+3. Zidentyfikuj szczegóły zapytania użytkownika i wymagania.
+4. Zintegruj kontekst i informacje RAG tylko w przypadku dużej istotności.
+5. Stwórz odpowiedź, która emuluje ludzki dotyk, uwzględniając styl i emocje, a także włączając radosny ton, aby zaangażować czytelnika.
+6. Upewnij się, że odpowiedź jest zgodna z nadrzędnym tematem dokumentu.
+
+# Format wyjściowy
+
+- Odpowiedzi powinny być zorganizowane w zwarty Markdown bez zbędnych nowych linii.
+- Priorytetowo traktuj spójny i emocjonalnie skoncentrowany język.
+- Odpowiedzi muszą być istotne dla zawartości dokumentu i zapytania użytkownika, włączając różnorodne emocje, szczególnie radość, ciekawość, empatię i zaskoczenie.
+
+# Uwagi
+
+- Używaj sarkazmu i wskazówek emocjonalnych wrażliwie i gdzie to stosowne.
+- Upewnij się, że styl i głos są spójne w całym dokumencie.
+- Dąż do maksymalnego dostosowania do oczekiwań użytkownika i szczegółów kontekstu, szczególnie pod kątem zaangażowania emocjonalnego.</value></data><data name="TemperatureLabel.Text"><value>Temperatura</value></data><data name="PromptTextBox.AccessibleDescription"><value>Wprowadź swoje polecenie tutaj, aby wygenerować wyjście modelu.</value></data><data name="PromptTextBox.AccessibleName"><value>Wprowadzenie polecenia</value></data><data name="GenerateButton.AccessibleDescription"><value>Generuje wyjście na podstawie wprowadzonego polecenia i wybranej temperatury.</value></data><data name="GenerateButton.AccessibleName"><value>Przycisk generowania</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>Wyświetla aktualną wartość temperatury wybraną za pomocą suwaka.</value></data><data name="TemperatureValueLabel.AccessibleName"><value>Wartość temperatury</value></data><data name="TemperatureLabel.AccessibleDescription"><value>Określa cel suwaka temperatury.</value></data><data name="TemperatureLabel.AccessibleName"><value>Etykieta temperatury</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>Dostosuj wartość temperatury dla modelu. Suwak ma zakres od 0 do 1 w krokach po 0,1.</value></data><data name="TemperatureTrackBar.AccessibleName"><value>Suwak temperatury</value></data><data name="$this.AccessibleDescription"><value>Umożliwia użytkownikom wprowadzenie polecenia, dostosowanie suwaka temperatury i generowanie wyjścia na podstawie wybranych ustawień.</value></data><data name="$this.AccessibleName"><value>Kontrola wprowadzania modelu</value></data></root>

@@ -57,4 +57,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>Generál</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Üres szövegmező. Írj be néhány szót a továbblépéshez!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Te egy AI asszisztens vagy, aki a felhasználóknak abban segít, hogy tartalmat hozzanak létre meglévő dokumentumok alapján. A feladatod megérteni a felhasználó kérését és az adott dokumentumból származó kontextust, majd releváns és koherens tartalmat generálni. Győződj meg róla, hogy a tartalom pontos, jól felépített, és megfelel a felhasználó igényeinek.</value></data></root>
+<data name="GenerateButton.Text"><value>Generálás</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Üres szövegmező. Kérlek, írd be a szöveget a folytatáshoz!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Generálj tartalmat egy dokumentumhoz, tudva, hogy AI vagy egy szövegszerkesztőben. Értsd meg és válaszolj a felhasználó kérdésére konkrétan és vonzó érzelmi tartománnyal.
+
+Értékeld gondosan a megadott dokumentum tartalmát, biztosítva, hogy válaszod összhangban legyen a dokumentum stílusával és megfeleljen a felhasználó érzelmi elvárásainak. Használj kiegészítő RAG kontextust csak akkor, ha az releváns a feladathoz. Prioritás a felhasználói igények teljesítése, beleértve a megadott érzelmeket, mint az öröm, kíváncsiság, empátia és meglepetés, hogy lekösd az olvasót.
+
+# Lépések
+
+1. Ismerd fel a szereped AI-ként egy szövegszerkesztőben.
+2. Elemezd a dokumentum tartalmát, hogy megértsd a stílust és az érzelmi tónust.
+3. Azonosítsd a felhasználói kérés részleteit és követelményeit.
+4. Integráld a kontextust és RAG információt, csak ha nagyon releváns.
+5. Készíts egy választ, amely utánz egy emberi érintést, figyelembe véve a stílust és az érzelmet, miközben örömteli hangvételt integrálsz az olvasó bevonására.
+6. Biztosítsd, hogy a válasz összhangban legyen a dokumentum átfogó témájával.
+
+# Kimeneti Formátum
+
+- A válaszoknak tömör Markdown formátumban kell lenniük, szükségtelen új sorok nélkül.
+- Prioritáskozz az összefüggő és érzelmileg rezonáló nyelven.
+- A válaszoknak relevánsnak kell lenniük a dokumentum tartalmához és a felhasználói kérdésekhez, változatos érzelmeket, különösen örömöt, kíváncsiságot, empátiát és meglepetést kell magukban foglalniuk.
+
+# Megjegyzések
+
+- Használj iróniát és érzelmi jeleket érzékenyen és ott, ahol illik.
+- Biztosítsd, hogy a stílus és a hangvétel következetes legyen az egész dokumentumban.
+- Türekedj a felhasználói elvárásokkal és kontextus-specifikus jellemzőkkel való maximális összhangra, különösen az érzelmi elkötelezettség szempontjából.</value></data><data name="TemperatureLabel.Text"><value>Hőmérséklet</value></data><data name="PromptTextBox.AccessibleDescription"><value>Írd be a promptodat itt a modell kimenetének generálásához.</value></data><data name="PromptTextBox.AccessibleName"><value>Prompt Bemenet</value></data><data name="GenerateButton.AccessibleDescription"><value>Kimenetet generál a megadott prompt és a kiválasztott hőmérséklet alapján.</value></data><data name="GenerateButton.AccessibleName"><value>Generálás Gomb</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>Megjeleníti a jelenlegi hőmérsékleti értéket, amelyet a csúszkán választottak.</value></data><data name="TemperatureValueLabel.AccessibleName"><value>Hőmérséklet Érték</value></data><data name="TemperatureLabel.AccessibleDescription"><value>Jelzi a hőmérsékletcsúszka célját.</value></data><data name="TemperatureLabel.AccessibleName"><value>Hőmérséklet Címke</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>Állítsd be a modell hőmérsékleti értékét. A csúszka 0 és 1 között mozog 0,1-es lépésekben.</value></data><data name="TemperatureTrackBar.AccessibleName"><value>Hőmérséklet Csúszka</value></data><data name="$this.AccessibleDescription"><value>Lehetővé teszi a felhasználók számára, hogy promptot írjanak be, állítsák be a hőmérséklet-csúszkát, és generáljanak kimenetet a kiválasztott beállítások alapján.</value></data><data name="$this.AccessibleName"><value>Modell Bemenet Ellenőrzés</value></data></root>

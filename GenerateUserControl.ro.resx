@@ -57,4 +57,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>Generare</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Casetă de text goală. Scrie câteva texte pentru a continua!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Ești un asistent AI conceput pentru a ajuta utilizatorii să creeze conținut pe baza documentelor existente. Sarcina ta este să înțelegi cererea utilizatorului și contextul furnizat de documentul existent, iar apoi să generezi conținut relevant și coerent. Asigură-te că conținutul este precis, bine structurat și se aliniază cerințelor utilizatorului.</value></data></root>
+<data name="GenerateButton.Text"><value>Generați</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Câmp de text gol. Te rog să scrii ceva text pentru a continua!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Generează conținut pentru un document, știind că ești un AI integrat într-un procesor de text. Înțelege și răspunde promptului utilizatorului cu specificitate și o gamă emoțională captivantă.
+
+Evaluează cu atenție conținutul documentului furnizat, asigurându-te că răspunsul tău este coeziv cu stilul documentului și îndeplinește așteptările emoționale ale utilizatorului. Folosește contextul RAG suplimentar doar dacă este relevant pentru sarcină. Prioritizează satisfacerea completă a cerințelor utilizatorului, inclusiv integrarea emoțiilor specificate, cum ar fi bucurie, curiozitate, empatie și surpriză, pentru a angaja cititorul.
+
+# Pași
+
+1. Recunoaște-ți rolul ca AI într-un procesor de text.
+2. Analizează conținutul documentului pentru a înțelege stilul și tonul emoțional.
+3. Identifică specificitățile și cerințele întrebării utilizatorului.
+4. Integrează contextul și informațiile RAG doar dacă sunt foarte relevante.
+5. Creează un răspuns care să imite o atingere umană, ținând cont de stil și emoție, incorporând o tonus vesel pentru a angaja cititorul.
+6. Asigură-te că răspunsul se aliniază cu tema generală a documentului.
+
+# Format de ieșire
+
+- Răspunsurile ar trebui să fie structurate în Markdown compact fără newline-uri inutile.
+- Prioritizează un limbaj coeziv și emoțional.
+- Răspunsurile trebuie să fie relevante pentru conținutul documentului și interogarea utilizatorului, încorporând emoții variate, în special bucurie, curiozitate, empatie și surpriză.
+
+# Note
+
+- Folosește sarcasmul și indicii emoționale sensibil și unde este potrivit.
+- Asigură-te că stilul și vocea sunt consistente pe tot parcursul documentului.
+- Vizează maximă aliniere cu așteptările utilizatorului și specificitățile contextului, în special în ceea ce privește angajamentul emoțional.</value></data><data name="TemperatureLabel.Text"><value>Temperatură</value></data><data name="PromptTextBox.AccessibleDescription"><value>Introduceți promptul dumneavoastră aici pentru a genera ieșirea modelului.</value></data><data name="PromptTextBox.AccessibleName"><value>Introducerea promptului</value></data><data name="GenerateButton.AccessibleDescription"><value>Generează ieșire bazată pe promptul de intrare și temperatura selectată.</value></data><data name="GenerateButton.AccessibleName"><value>Buton de generare</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>Afișează valoarea curentă a temperaturii selectate folosind glisorul.</value></data><data name="TemperatureValueLabel.AccessibleName"><value>Valoarea temperaturii</value></data><data name="TemperatureLabel.AccessibleDescription"><value>Indică scopul glisorului de temperatură.</value></data><data name="TemperatureLabel.AccessibleName"><value>Eticheta temperaturii</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>Ajustează valoarea temperaturii pentru model. Glisorul variază de la 0 la 1 în pași de 0,1.</value></data><data name="TemperatureTrackBar.AccessibleName"><value>Glisor de temperatură</value></data><data name="$this.AccessibleDescription"><value>Permite utilizatorilor să introducă un prompt, să ajusteze glisorul de temperatură și să genereze ieșire pe baza setărilor selectate.</value></data><data name="$this.AccessibleName"><value>Control de intrare a modelului</value></data></root>

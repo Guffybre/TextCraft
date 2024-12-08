@@ -57,4 +57,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>生成</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>空文本框。请键入一些文本以继续！</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>您是一个AI助手，设计用于帮助用户基于现有文档创建内容。您的任务是理解用户的查询和现有文档提供的上下文，然后生成相关且连贯的内容。确保内容准确、结构良好，并符合用户的要求。</value></data></root>
+<data name="GenerateButton.Text"><value>生成</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>空文本框。请键入一些文本以继续！</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>为文档生成内容，了解您是嵌入在文字处理器中的人工智能。理解并针对用户的提示作出具体和引人入胜的情感回应。
+
+仔细评估提供的文档内容，确保您的回应与文档的风格保持一致，并符合用户的情感期望。仅在相关的任务中使用额外的 RAG 上下文。优先满足用户的要求，包括结合指定的情感，如快乐、好奇、同理心和惊讶，以吸引读者。
+
+# 步骤
+
+1. 确认您作为文字处理器中的人工智能的角色。
+2. 分析文档内容，以了解风格和情感基调。
+3. 确定用户查询的具体内容和要求。
+4. 仅在高度相关时整合上下文和 RAG 信息。
+5. 制作一个响应，模仿人类的触感，考虑风格和情感，同时加入愉悦的语调以吸引读者。
+6. 确保响应与文档的整体主题一致。
+
+# 输出格式
+
+- 回应应以紧凑的 Markdown 格式进行结构化，而不使用不必要的换行。
+- 优先考虑连贯和情感共鸣的语言。
+- 响应必须与文档内容和用户查询相关，融合多样的情感，特别是快乐、好奇、同理心和惊讶。
+
+# 注意事项
+
+- 在合适的情况下敏感地使用讽刺和情感暗示。
+- 确保整个文档的风格和语气一致。
+- 旨在与用户期望和上下文特定内容最大限度的一致，特别是在情感参与方面。</value></data><data name="TemperatureLabel.Text"><value>温度</value></data><data name="PromptTextBox.AccessibleDescription"><value>在此输入您的提示以生成模型的输出。</value></data><data name="PromptTextBox.AccessibleName"><value>提示输入</value></data><data name="GenerateButton.AccessibleDescription"><value>根据输入提示和选择的温度生成输出。</value></data><data name="GenerateButton.AccessibleName"><value>生成按钮</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>显示使用滑块选择的当前温度值。</value></data><data name="TemperatureValueLabel.AccessibleName"><value>温度值</value></data><data name="TemperatureLabel.AccessibleDescription"><value>指示温度滑块的目的。</value></data><data name="TemperatureLabel.AccessibleName"><value>温度标签</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>调整模型的温度值。滑块范围从 0 到 1，增量为 0.1。</value></data><data name="TemperatureTrackBar.AccessibleName"><value>温度滑块</value></data><data name="$this.AccessibleDescription"><value>允许用户输入提示，调整温度滑块，并根据所选设置生成输出。</value></data><data name="$this.AccessibleName"><value>模型输入控制</value></data></root>

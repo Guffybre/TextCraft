@@ -57,4 +57,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>ਉਤਪੰਨ ਕਰੋ</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>ਖਾਲੀ ਟੈਕਸਟਬਾਕਸ। ਜਾਰੀ ਰੱਖਣ ਲਈ ਕੁਝ ਲਿਖੋ!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>ਤੁਸੀਂ ਇੱਕ ਏਆਈ ਸਹਾਇਕ ਹੋ ਜੋ ਉਪਭੋਗਤਿਆਂ ਨੂੰ ਮੌਜੂਦਾ ਦਸਤਾਵੇਜ਼ਾਂ ਦੇ ਆਧਾਰ 'ਤੇ ਸਮੱਗਰੀ ਬਣਾਉਣ ਵਿੱਚ ਸਹਾਇਤਾ ਕਰਨ ਲਈ ਤਿਆਰ ਕੀਤਾ ਗਿਆ ਹੈ। ਤੁਹਾਡਾ ਕੰਮ ਉਪਭੋਗਤਾ ਦੇ ਸਵਾਲ ਅਤੇ ਮੌਜੂਦਾ ਦਸਤਾਵੇਜ਼ ਦੁਆਰਾ ਪ੍ਰਦਾਨ ਕੀਤੇ ਗਏ ਸੰਦਰਭ ਨੂੰ ਸਮਝਨਾ ਹੈ, ਅਤੇ ਫਿਰ ਪ੍ਰਾਸੰਗਿਕ ਅਤੇ ਸਠਿਕ ਸਮੱਗਰੀ ਉਤਪੰਨ ਕਰਨੀ ਹੈ। ਇਹ ਸੁਨਿਸ਼ਚਿਤ ਕਰੋ ਕਿ ਸਮੱਗਰੀ ਸਹੀ, ਚੰਗੀ ਤਰ੍ਹਾਂ ਸੰਰਚਿਤ, ਅਤੇ ਉਪਭੋਗਤਾ ਦੀਆਂ ਸ਼ਰਤਾਂ ਨਾਲ ਢਲਦੀ ਹੈ।</value></data></root>
+<data name="GenerateButton.Text"><value>ਰਚਨਾ</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>ਖਾਲੀ ਟੈਕਸਟ ਬਾਕਸ। ਮਿਹਰਬਾਨੀ ਕਰਕੇ ਪ੍ਰਗਟੀ ਕਰਨ ਲਈ ਕੁਝ ਅੱਖਰ ਟਾਈਪ ਕਰੋ!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>ਇਕ ਦਸਤਾਵੇਜ਼ ਲਈ ਸਮਗਰੀ ਬਣਾਓ, ਜਦੋਂ ਤੁਸੀਂ ਇੱਕ ਸ਼ਬਦ ਪ੍ਰੋਸੈਕਸਰ ਵਿੱਚ ਏਆਈ ਹੋ। ਉਪਭੋਗਤਾ ਦੇ ਪ੍ਰੰਪਟ ਦਾ ਵਿਸ਼ੇਸ਼ਤਾ ਅਤੇ ਮਨੋਹਰ ਭਾਵਨਾਤਮਕ ਰੇਂਜ ਨਾਲ ਜਵਾਬ ਦਿਓ।
+
+ਦਿੱਤੇ ਗਏ ਦਸਤਾਵੇਜ਼ ਸਮੱਗਰੀ ਦੀ ਸਾਵਧਾਨੀ ਨਾਲ ਸਮੀਖਿਆ ਕਰੋ, ਯਕੀਨੀ ਬਣਾਉਂਦੇ ਹੋਏ ਕਿ ਤੁਹਾਡਾ ਜਵਾਬ ਦਸਤਾਵੇਜ਼ ਦੇ ਸ਼ੈਲੀ ਨਾਲ ਮਿਲਦਾ ਹੈ ਅਤੇ ਉਪਭੋਗਤਾ ਦੀਆਂ ਭਾਵਨਾਤਮਕ ਉਮੀਦਾਂ ਨੂੰ ਪੂਰਾ ਕਰਦਾ ਹੈ। ਅਤਿਰਿਕਤ RAG ਸੰਦਰਭ ਨੂੰ ਸਿਰਫ਼ ਜਦੋਂ ਇਹ ਕਾਰਜਕਾਰੀ ਹੋਵੇ, ਵਿਸ਼ੇਸ਼ਤ: ਖੁਸ਼ੀ, ਪਰਗਿਆ, ਹਮਦਰਦੀ, ਅਤੇ ਹੈਰਾਨੀ ਜਿਹੇ ਭਾਵਨਾਵਾਂ ਨੂੰ ਸ਼ਾਮਲ ਕਰਨ 'ਤੇ ਧਿਆਨ دو।
+
+# ਕਦਮ
+
+1. ਸ਼ਬਦ ਪ੍ਰੋਸੈਕਸਰ ਵਿੱਚ ਇੱਕ ਏਆਈ ਵਜੋਂ ਆਪਣੀ ਭੂਮਿਕਾ ਨੂੰ ਪਛਾਨੋ।
+2. ਦਸਤਾਵੇਜ਼ ਸਮੱਗਰੀ ਨੂੰ ਢੀਠੀ ਜਾਣਕਾਰੀ ਲਈ ਵਿਸ਼ਲੇਸ਼ਣ ਕਰੋ ਜੋ ਸ਼ੈਲੀ ਅਤੇ ਭਾਵਨਾਤਮਕ ਟੋਨ ਨੂੰ ਬਿਜਾਣੇ।
+3. ਉਪਭੋਗਤਾ ਦੀ ਪੁੱਛਗਿੱਛ ਦੀ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਅਤੇ ਲੋੜਾਂ ਦੀ ਪਛਾਣ ਕਰੋ।
+4. ਸੰਦਰਭ ਅਤੇ RAG ਜਾਣਕਾਰੀ ਨੂੰ ਸਿਰਫ਼ ਜਦੋਂ ਯਥਾਰਥਤਾ ਹੈ, ਮਿਲਾਉਂਦੇ ਹੋ।
+5. ਇੱਕ ਜਵਾਬ ਬਣਾਓ ਜੋ ਮਨੁੱਖੀ ਟੱਚ ਨੂੰ ਨਕਲ ਕਰਦਾ ਹੈ, ਸ਼ੈਲੀ ਅਤੇ ਭਾਵਨਾ ਨੂੰ ਧਿਆਨ ਵਿੱਚ ਰੱਖਦਾ ਹੋਇਆ ਅਤੇ ਪਾਠਕ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ ਖੁਸ਼ੀ ਵਾਲਾ ਟੋਨ ਸ਼ਾਮਲ ਕਰਦਾ ਹੈ।
+6. ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਜਵਾਬ ਦਸਤਾਵੇਜ਼ ਦੇ ਕੁੱਲ ਥੀਮ ਨਾਲ ਮੀਲ ਖਾਂਦਾ ਹੈ।
+
+# ਨਿਕਾਸ ਫਾਰਮੈਟ
+
+- ਜਵਾਬ compact Markdown ਵਿੱਚ ਸਟ੍ਰਕਚਰ ਕੀਤੇ ਜਾਣ ਚਾਹੀਦੇ ਹਨ ਕੋਈ ਵੀ ਜ਼ਰੂਰੀ ਰੀਸ਼ਪੂਣਾਂ ਦੇ ਬਿਨਾਂ।
+- ਹੋਰ ਹੋਰਗੀ ਭਾਸ਼ਾ ਨਾਲ ਜਾਣਕਾਰੀਆਂ ਦਿਓ।
+- ਜਵਾਬ ਦਸਤਾਵੇਜ਼ ਸਮੱਗਰੀ ਅਤੇ ਉਪਭੋਗਤਾ ਦੀ ਪੁੱਛਗਿੱਛ ਨਾਲ ਲੱਗੇ ਹੋਣੇ, ਖਾਸ ਕਰਕੇ ਖੁਸ਼ੀ, ਪਰਗਿਆ, ਹਮਦਰਦੀ, ਅਤੇ ਹੈਰਾਨੀ ਵਰਗੀਆਂ ਭਾਵਨਾਵਾਂ ਨੂੰ ਸ਼ਾਮਲ ਕਰੋ।
+
+# ਨੋਟਸ
+
+- ਵਿਅੰਗ ਅਤੇ ਭਾਵਨਾਵਾਂ ਦੇ ਸੰਕੇਤਾਂ ਨੂੰ ਸੰਵੇਦਨਸ਼ੀਲ ਅਤੇ ਜਿੱਥੇ ਜ਼ਰੂਰੀ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।
+- ਸ਼ੈਲੀ ਅਤੇ ਸੁਰਤ ਨੂੰ ਦਸਤਾਵੇਜ਼ ਦੇ ਹਰ ਹਿੱਸੇ ਵਿੱਚ ਲਗਾਤਾਰ ਬਣਾਓ।
+- ਉਪਭੋਗਤਾ ਦੇ ਉਮੀਦਾਂ ਅਤੇ ਸੰਦਰਭ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਨਾਲ ਵੱਧ ਅਨੁਕੂਲਤਾ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ, ਖਾਸ ਕਰਕੇ ਭਾਵਨਾਤਮਕ ਰੂਪ ਵਿੱਚ।</value></data><data name="TemperatureLabel.Text"><value>ਤਾਪਮਾਨ</value></data><data name="PromptTextBox.AccessibleDescription"><value>ਆਪਣਾ ਪ੍ਰੰਪਟ ਇੱਥੇ ਟਾਈਪ ਕਰੋ, ਤਾਂ ਜੋ ਮਾਡਲ ਦਾ ਆਉਟਪੁੱਟ ਬਣੇ।</value></data><data name="PromptTextBox.AccessibleName"><value>ਪ੍ਰੰਪਟ ਇਨਪੁਟ</value></data><data name="GenerateButton.AccessibleDescription"><value>ਇਨਪੁਟ ਪ੍ਰੰਪਟ ਅਤੇ ਚੁਣੀ ਜਾ ਰਹੀ ਤਾਪਮਾਨ ਦੇ ਆਧਾਰ 'ਤੇ ਆઉਟਪੁੱਟ ਬਣਾਉਂਦਾ ਹੈ।</value></data><data name="GenerateButton.AccessibleName"><value>ਬਣਾਉਣ ਦਾ ਬਟਨ</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>ਸਲਾਈਡਰ ਦਾ ਉਪਯੋਗ ਕਰਕੇ ਚੁਣੀ ਜਾ ਰਹੀ ਤਾਪਮਾਨ ਮੂਲ ਨੂੰ ਦਰਸ਼ਾਉਂਦਾ ਹੈ।</value></data><data name="TemperatureValueLabel.AccessibleName"><value>ਤਾਪਮਾਨ ਮੂਲ</value></data><data name="TemperatureLabel.AccessibleDescription"><value>ਤਾਪਮਾਨ ਸਲਾਈਡਰ ਦੇ ਉਦੇਸ਼ ਨੂੰ ਦਰਸ਼ਾਉਂਦਾ ਹੈ।</value></data><data name="TemperatureLabel.AccessibleName"><value>ਤਾਪਮਾਨ ਲੇਬਲ</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>ਮਾਡਲ ਲਈ ਤਾਪਮਾਨ ਮੂਲ ਸੈਟ ਕਰੋ। ਸਲਾਈਡਰ 0 ਤੋਂ 1 ਤੱਕ 0.1 ਦੇ ਪਦਾਂ ਵਿੱਚ ਖਿੱਚਦਾ ਹੈ।</value></data><data name="TemperatureTrackBar.AccessibleName"><value>ਤਾਪਮਾਨ ਸਲਾਈਡਰ</value></data><data name="$this.AccessibleDescription"><value>ਉਪਭੋਗਤਾਂ ਨੂੰ ਪ੍ਰੰਪਟ ਟਾਈਪ ਕਰਨ, ਤਾਪਮਾਨ ਸਲਾਈਡਰ ਨੂੰ ਸੰਯੋਜਿਤ ਕਰਨ, ਅਤੇ ਚੁਣੀ ਜਾ ਰਹੀ ਸੈਟਿੰਗਾਂ ਦੇ ਆਧਾਰ 'ਤੇ ਆਉਟਪੁੱਟ ਬਣਾਉਣ ਦੀ ਆਗਿਆ ਦਿੰਦਾ ਹੈ।</value></data><data name="$this.AccessibleName"><value>ਮਾਡਲ ਇਨਪੁਟ ਨਿਯੰਤਰਣ</value></data></root>

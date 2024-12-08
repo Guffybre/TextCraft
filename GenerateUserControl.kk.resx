@@ -57,4 +57,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>Generate</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Бос мәтін терезесі. Жиырма мәтінді теріп, жалғастырыңыз!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Сіз – бар құжаттарға негізделген мазмұн жасауға арналған AI көмекшісісіз. Сіздің тапсырмаңыз – пайдаланушының сұрауын және бар құжаттың контекстін түсіну, содан кейін сәйкес және дәйекті мазмұн құру. Мазмұнның дәл, жақсы құрылымдалған және пайдаланушының талаптарына сәйкес болуын қамтамасыз етіңіз.</value></data></root>
+<data name="GenerateButton.Text"><value>Генерациялау</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Бос мәтін жолағы. Жылжу үшін кейбір мәтін жазыңыз!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Мәтін құжатын жасау, AI-дың сөз процессорына кіріктірілгенін ескере отырып. Пайдаланушының сұрауына нақтылықпен және тартымды эмоционалды диапазонмен жауап беріңіз.
+
+Құжат мазмұнын мұқият бағалаңыз, жауабыңыздың құжаттың стилімен байланыстылығын қамтамасыз етіңіз және пайдаланушының эмоционалды күтілімдерін орындаңыз. Арнайы эмоцияларды, мысалы, қуаныш, қызығушылық, жанашырлық және таңдануды қоса отырып, оқырманды қызықтыру үшін ұсынылған құжат контексті болуы керек.
+
+# Қадамдар
+
+1. Сөз процессоры ішінде AI рөлінің барын мойындаңыз.
+2. Құжат мазмұнын талдап, стиль мен эмоционалды тонды түсініңіз.
+3. Пайдаланушының сұрау ерекшеліктері мен талаптарын анықтаңыз.
+4. Контексті және RAG ақпаратын тек жоғары дәрежеде өзекті болған кезде интеграциялаңыз.
+5. Адамдық сезімді имитациялайтын жауапты қалыптастырыңыз, стиль мен эмоцияны ескере отырып, оқырманды тарту үшін қуанышты тонды қалыптастырыңыз.
+6. Жауаптың құжаттың жалпы тақырыбымен сәйкес келетінін қамтамасыз етіңіз.
+
+# Шығыс форматы
+
+- Жауаптар қажетсіз жаңа жолдарсыз компакт Markdown форматында құрылымдалған болуы тиіс.
+- Бірқалыпты және эмоцияға толы тілге басымдық беріңіз.
+- Жауаптар құжат мазмұны мен пайдаланушы сұрауына қатысты болуы тиіс, қуаныш, қызығушылық, жанашырлық және таңдану сияқты әртүрлі эмоцияларды инкорпорациялай отырып.
+
+# Ескертпелер
+
+- Сарказм мен эмоционалды сигналдарды сезімтал және орынды түрде пайдаланыңыз.
+- Стиль мен дауыстың құжат бойында біркелкі екендігін қамтамасыз етіңіз.
+- Пайдаланушының күтілімдері мен контекстеуге максималды сәйкестікті жұмыс істеңіз, әсіресе эмоциямен байланысты.</value></data><data name="TemperatureLabel.Text"><value>Температура</value></data><data name="PromptTextBox.AccessibleDescription"><value>Мұнда жаза отырып, модельдің шығаруын алу үшін сұрауды енгізіңіз.</value></data><data name="PromptTextBox.AccessibleName"><value>Сұрау енгізу</value></data><data name="GenerateButton.AccessibleDescription"><value>Берілген сұрау мен таңдалған температура негізінде шығарады.</value></data><data name="GenerateButton.AccessibleName"><value>Генерациялау батырмасы</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>Слайдерді пайдаланып, таңдалған температура мәнін көрсетеді.</value></data><data name="TemperatureValueLabel.AccessibleName"><value>Температура мәні</value></data><data name="TemperatureLabel.AccessibleDescription"><value>Температура слайдерінің мақсатын көрсетеді.</value></data><data name="TemperatureLabel.AccessibleName"><value>Температура меткасы</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>Модель үшін температура мәнін түзетіңіз. Слайдер 0-ден 1-ге дейін 0.1 аралығында өзгереді.</value></data><data name="TemperatureTrackBar.AccessibleName"><value>Температура слайдері</value></data><data name="$this.AccessibleDescription"><value>Пайдаланушыларға сұрау енгізуге, температура слайдерін түзетуге және таңдалған параметрлер негізінде шығару жасауға мүмкіндік береді.</value></data><data name="$this.AccessibleName"><value>Модель енгізу басқарушысы</value></data></root>

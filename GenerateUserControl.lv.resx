@@ -57,4 +57,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>Radīt</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Tukša teksta kaste. Ievadiet kādu tekstu, lai turpinātu!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Jūs esat AI asistents, kas izstrādāts, lai palīdzētu lietotājiem radīt saturu, pamatojoties uz esošajiem dokumentiem. Jūsu uzdevums ir saprast lietotāja pieprasījumu un kontekstu, ko sniedz esošais dokuments, un tad radīt attiecīgu un koherentu saturu. Pārliecinieties, ka saturs ir precīzs, labi strukturēts un atbilst lietotāja prasībām.</value></data></root>
+<data name="GenerateButton.Text"><value>Radīt</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Tukša teksta kaste. Lūdzu, ierakstiet dažus tekstus, lai turpinātu!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Radiet saturu dokumentam, apzinoties, ka esat AI, kas ir iekļauts vārdu apstrādātājā. Izprotiet un atbildiet uz lietotāja uzdodīto jautājumu ar specifiku un aizraujošu emociju diapazonu.
+
+Rūpīgi izvērtējiet sniegtā dokumenta saturu, pārliecinoties, ka jūsu atbilde ir saliedēta ar dokumenta stilu un atbilst lietotāja emocionālajām cerībām. Izmantojiet papildu RAG kontekstu tikai tad, ja tas ir saistīts ar uzdevumu. Priekšroku dodiet lietotāja prasību pilnvērtīgai apmierināšanai, tostarp iekļaujot norādītās emocijas, piemēram, prieku, ziņkārību, empātiju un pārsteigumu, lai iesaistītu lasītāju.
+
+# Soli
+
+1. Atpazīstiet savu lomu kā AI vārdu apstrādātajā.
+2. Analizējiet dokumenta saturu, lai saprastu stilu un emocionālo toni.
+3. Identificējiet lietotāja jautājuma specifiku un prasības.
+4. Iekļaujiet kontekstu un RAG informāciju tikai tad, ja tā ir ļoti saistīta.
+5. Izstrādājiet atbildi, kas neatkarīgi no stila un emocijām izceļ cilvēka pieeju, ņemot vērā prieka toni, lai iesaistītu lasītāju.
+6. Pārliecinieties, ka atbilde atbilst dokumenta kopējam tēmai.
+
+# Izvades formāts
+
+- Atbildes jāveido kompakta Markdown formātā bez nevajadzīgiem jaunajiem rindiem.
+- Priekšrocības saliedētas un emocionāli rezonējošas valodas izmantošanai.
+- Atbildēm jābūt saistītām ar dokumenta saturu un lietotāja jautājumu, iekļaujot dažādas emocijas, jo īpaši prieku, ziņkārību, empātiju un pārsteigumu.
+
+# Piezīmes
+
+- Izmantojiet sarkasmu un emocionālus signālus jūtīgi un vietās, kur tas ir piemēroti.
+- Nodrošiniet, ka stils un balss ir konsekventi visā dokumentā.
+- Mērķis ir maksimāla sakritība ar lietotāja gaidām un konteksta specifiku, īpaši attiecībā uz emocionālo iesaisti.</value></data><data name="TemperatureLabel.Text"><value>Temperatūra</value></data><data name="PromptTextBox.AccessibleDescription"><value>Ierakstiet savu ievadi šeit, lai radītu modeļa izvadi.</value></data><data name="PromptTextBox.AccessibleName"><value>Ievades ievade</value></data><data name="GenerateButton.AccessibleDescription"><value>Radīšanas izvade, pamatojoties uz ievades aicinājumu un izvēlēto temperatūru.</value></data><data name="GenerateButton.AccessibleName"><value>Radīt pogu</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>Parāda pašreizējo temperatūras vērtību, kas izvēlēta, izmantojot slīdni.</value></data><data name="TemperatureValueLabel.AccessibleName"><value>Temperatūras vērtība</value></data><data name="TemperatureLabel.AccessibleDescription"><value>Norāda temperatūras slīdņa mērķi.</value></data><data name="TemperatureLabel.AccessibleName"><value>Temperatūras etiķete</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>Regulē modeļa temperatūras vērtību. Slīdnis svārstās no 0 līdz 1 ar 0.1 pieaugumu.</value></data><data name="TemperatureTrackBar.AccessibleName"><value>Temperatūras slīdnis</value></data><data name="$this.AccessibleDescription"><value>Ļauj lietotājiem ievadīt aicinājumu, pielāgot temperatūras slīdni un radīt izvadi, pamatojoties uz izvēlētajām iestatījumiem.</value></data><data name="$this.AccessibleName"><value>Modeļa ievades kontrole</value></data></root>

@@ -151,13 +151,16 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;PromptTextBox.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="GenerateButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
   </data>
   <data name="GenerateButton.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="GenerateButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="GenerateButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 328</value>
@@ -181,6 +184,90 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;GenerateButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TemperatureValueLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="TemperatureValueLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TemperatureValueLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="TemperatureValueLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 105</value>
+  </data>
+  <data name="TemperatureValueLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 25</value>
+  </data>
+  <data name="TemperatureValueLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="TemperatureValueLabel.Text" xml:space="preserve">
+    <value>0.5</value>
+  </data>
+  <data name="TemperatureValueLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;TemperatureValueLabel.Name" xml:space="preserve">
+    <value>TemperatureValueLabel</value>
+  </data>
+  <data name="&gt;&gt;TemperatureValueLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TemperatureValueLabel.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;TemperatureValueLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TemperatureTrackBar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="TemperatureTrackBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 61</value>
+  </data>
+  <data name="TemperatureTrackBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>297, 69</value>
+  </data>
+  <data name="TemperatureTrackBar.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;TemperatureTrackBar.Name" xml:space="preserve">
+    <value>TemperatureTrackBar</value>
+  </data>
+  <data name="&gt;&gt;TemperatureTrackBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TemperatureTrackBar.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;TemperatureTrackBar.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 362</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>297, 130</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="$this.Localizable" type="System.Boolean, mscorlib">
@@ -199,9 +286,107 @@
     <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="[GenerateButton_Click] TextBoxEmptyException #1" xml:space="preserve">
-    <value>Empty textbox. Type in some text to continue!</value>
+    <value>Empty text box. Please type some text to continue!</value>
   </data>
   <data name="(GenerateUserControl.cs) _systemPrompt" xml:space="preserve">
-    <value>You are an AI assistant designed to help users create content based on existing documents. Your task is to understand the user’s query and the context provided by the existing document, and then generate relevant and coherent content. Ensure that the content is accurate, well-structured, and aligns with the user’s requirements.</value>
+    <value>Generate content for a document, knowing you are an AI embedded within a word processor. Understand and respond to the user's prompt with specificity and a captivating emotional range.
+
+Assess the provided document contents carefully, ensuring your response is cohesive with the document's style and meets the user's emotional expectations. Use additional RAG context only if it is relevant to the task. Prioritize satisfying the user's requirements fully, including incorporating specified emotions such as joy, curiosity, empathy, and surprise to engage the reader.
+
+# Steps
+
+1. Recognize your role as an AI within a word processor.
+2. Analyze the document contents to understand the style and emotional tone.
+3. Identify user query specifics and requirements.
+4. Integrate context and RAG information only if highly relevant.
+5. Craft a response that emulates a human touch, accounting for style and emotion while incorporating a joyful tone to engage the reader.
+6. Ensure the response aligns with the overarching theme of the document.
+
+# Output Format
+
+- Responses should be structured in compact Markdown without unnecessary newlines.
+- Prioritize cohesive and emotionally resonant language.
+- Responses must be relevant to the document content and user query, incorporating varied emotions, especially joy, curiosity, empathy, and surprise.
+
+# Notes
+
+- Use sarcasm and emotional cues sensitively and where fitting.
+- Ensure the style and voice are consistent throughout the document.
+- Aim for maximal alignment with user expectations and context specifics, particularly regarding emotional engagement.</value>
+  </data>
+  <data name="TemperatureLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="TemperatureLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TemperatureLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="TemperatureLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 17</value>
+  </data>
+  <data name="TemperatureLabel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 10, 0, 0</value>
+  </data>
+  <data name="TemperatureLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 35</value>
+  </data>
+  <data name="TemperatureLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="TemperatureLabel.Text" xml:space="preserve">
+    <value>Temperature</value>
+  </data>
+  <data name="TemperatureLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;TemperatureLabel.Name" xml:space="preserve">
+    <value>TemperatureLabel</value>
+  </data>
+  <data name="&gt;&gt;TemperatureLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TemperatureLabel.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;TemperatureLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="PromptTextBox.AccessibleDescription" xml:space="preserve">
+    <value>Enter your prompt here to generate the model's output.</value>
+  </data>
+  <data name="PromptTextBox.AccessibleName" xml:space="preserve">
+    <value>Prompt Input</value>
+  </data>
+  <data name="GenerateButton.AccessibleDescription" xml:space="preserve">
+    <value>Generates output based on the input prompt and selected temperature.</value>
+  </data>
+  <data name="GenerateButton.AccessibleName" xml:space="preserve">
+    <value>Generate Button</value>
+  </data>
+  <data name="TemperatureValueLabel.AccessibleDescription" xml:space="preserve">
+    <value>Displays the current temperature value selected using the slider.</value>
+  </data>
+  <data name="TemperatureValueLabel.AccessibleName" xml:space="preserve">
+    <value>Temperature Value</value>
+  </data>
+  <data name="TemperatureLabel.AccessibleDescription" xml:space="preserve">
+    <value>Indicates the purpose of the temperature slider.</value>
+  </data>
+  <data name="TemperatureLabel.AccessibleName" xml:space="preserve">
+    <value>Temperature Label</value>
+  </data>
+  <data name="TemperatureTrackBar.AccessibleDescription" xml:space="preserve">
+    <value>Adjust the temperature value for the model. The slider ranges from 0 to 1 in increments of 0.1.</value>
+  </data>
+  <data name="TemperatureTrackBar.AccessibleName" xml:space="preserve">
+    <value>Temperature Slider</value>
+  </data>
+  <data name="$this.AccessibleDescription" xml:space="preserve">
+    <value>Allows users to input a prompt, adjust the temperature slider, and generate output based on the selected settings.</value>
+  </data>
+  <data name="$this.AccessibleName" xml:space="preserve">
+    <value>Model Input Control</value>
   </data>
 </root>

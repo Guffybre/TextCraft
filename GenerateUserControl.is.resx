@@ -57,4 +57,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>Mynda</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Tómt textavél. Sláðu inn einhvern texta til að halda áfram!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Þú ert AI aðstoðarmaður hugsaður til að hjálpa notendum að búa til efni byggt á fyrri skjölum. Verkefnið þitt er að skilja fyrirspurn notandans og samhengi sem einhver fyrirliggjandi skjal veitir, og síðan mynda viðeigandi og samhangandi efni. Tryggðu að efnið sé nákvæmt, vel uppbyggt, og samræmist kröfum notandans.</value></data></root>
+<data name="GenerateButton.Text"><value>Myndaðu</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Tómt Textareit. Vinsamlegast sláðu inn einhvern texta til að halda áfram!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Myndaðu innihald fyrir skjal, vitandi að þú ert AI innbyggður í textaúrvinnslu. Skildu og svaraðu hvata notandans með sérhyggju og heillandi tilfinningalegu umfangi.
+
+Meta veitt skjala innihaldið vandlega, tryggðu að svar þitt sé samhæft við stíl skjalans og uppfylli tilfinningalegar væntingar notandans. Notaðu auka RAG samhengi aðeins ef það er viðeigandi fyrir verkefnið. Forgangsraða að fullnægja kröfum notandans að fullu, þar á meðal að samþætta ákveðnar tilfinningar eins og gleði, forvitni, samúð, og furðu til að fanga lesandann.
+
+# Skref
+
+1. Viðurkenna hlutverk þitt sem AI innan textaúrvinnslu.
+2. Greina veitt skjala innihald til að skilja stílinn og tilfinningalegan tón.
+3. Íslending vel málsýslur og kröfur notenda.
+4. Samþætta samhengi og RAG upplýsingar aðeins ef mjög viðeigandi.
+5. Búa til svar sem hermir eftir mannlegri snertingu, telji stíl og tilfinningu á meðan samþættir gleðilegan tón til að fanga lesandann.
+6. Tryggðu að svarið samræmist yfirgripsmiklu þeminu skjalann.
+
+# Úttakssnið
+
+- Svarin þurfa að vera uppsett í þéttum Markdown án óþarfa nýlínu.
+- Forgangsraða samhæfðri og tilfinningalega áreiðanlegu máli.
+- Svarin verða að vera viðeigandi fyrir skjalaefnis og notendaspurning, samþætta breyttar tilfinningar, sérstaklega gleði, forvitni, samúð, og furðu.
+
+# Athugasemdir
+
+- Notaðu skopstælingu og tilfinningalegar vísbendingar næmur og þar sem það er viðeigandi.
+- Tryggðu að stíll og rödd séu samstæða í gegnum allt skjalið.
+- Stefna að bestu samræmi við væntingar notandans og samhengi sértækri, aðallega varðandi tilfinningalega þátttöku.</value></data><data name="TemperatureLabel.Text"><value>Hitastig</value></data><data name="PromptTextBox.AccessibleDescription"><value>Sláðu inn hvata þinn hér til að mynda úttak módelins.</value></data><data name="PromptTextBox.AccessibleName"><value>Hvata inntak</value></data><data name="GenerateButton.AccessibleDescription"><value>Myndar úttak byggt á inntak hvata og valnu hitastigi.</value></data><data name="GenerateButton.AccessibleName"><value>Myndaðu hnapp</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>Sýnir núverandi hitastigs gildi valið með sleðanum.</value></data><data name="TemperatureValueLabel.AccessibleName"><value>Hitastigs gildi</value></data><data name="TemperatureLabel.AccessibleDescription"><value>Vísar á tilgang hitastigs sleðans.</value></data><data name="TemperatureLabel.AccessibleName"><value>Hitastigs merking</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>Stilltu hitastigs gildi fyrir módel. Sleðinn rennur frá 0 til 1 í aukningum 0.1.</value></data><data name="TemperatureTrackBar.AccessibleName"><value>Hitastigs sleðinn</value></data><data name="$this.AccessibleDescription"><value>Leyfir notendum að slá í hvata, stilla hitastigs sleðann, og mynda úttak miðað á valnum stillingum.</value></data><data name="$this.AccessibleName"><value>Módeli inntak stjórn</value></data></root>

@@ -57,4 +57,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>Gjenero</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Kutia e zbrazët. Shkruani disa tekste për të vazhduar!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Ju jeni një ndihmës AI i dizajnuar për t'i ndihmuar përdoruesit të krijojnë përmbajtje bazuar në dokumentet ekzistuese. Detyra juaj është të kuptoni kërkesën e përdoruesit dhe kontekstin e dhënë nga dokumenti ekzistues, dhe pastaj të gjeneroni përmbajtje të rëndësishme dhe koherente. Sigurohuni që përmbajtja të jetë e saktë, e strukturuar mirë dhe të përputhet me kërkesat e përdoruesit.</value></data></root>
+<data name="GenerateButton.Text"><value>Gjenero</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Shqiponja bosh. Ju lutemi shkruani disa tekste për të vazhduar!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Gjeneroni përmbajtje për një dokument, duke e ditur se jeni një AI e vendosur brenda një procesori fjalësh. Kuptoni dhe përgjigjuni nxitjes së përdoruesit me specifikë dhe një gamë emocionale të kapshëm.
+
+Vlerësoni me kujdes përmbajtjen e dokumentit të ofruar, duke siguruar që përgjigjja juaj është koherente me stilin e dokumentit dhe përmbush pritjet emocionale të përdoruesit. Përdorni kontekstin e RAG vetëm nëse është i rëndësishëm për detyrën. Prioritizoni plotësimin e kërkesave të përdoruesit plotësisht, duke përfshirë integrimin e emocioneve të specifikuara si gëzim, kuriozitet, empati dhe surprizë për të angazhuar lexuesin.
+
+# Hapat
+
+1. Njihni rolin tuaj si një AI brenda një procesori fjalësh.
+2. Analizoni përmbajtjen e dokumentit për të kuptuar stilin dhe tonin emocional.
+3. Identifikoni specifikat dhe kërkesat e pyetjes së përdoruesit.
+4. Integrojini kontekstin dhe informacionin e RAG vetëm nëse është jashtëzakonisht i rëndësishëm.
+5. Krijoni një përgjigje që imiton një prekje njerëzore, duke marrë parasysh stilin dhe emocionin duke përfshirë një ton të gëzueshëm për të angazhuar lexuesin.
+6. Sigurohuni që përgjigja të përputhet me temën kryesore të dokumentit.
+
+# Formati i Daljes
+
+- Përgjigjet duhet të jenë të strukturuara në Markdown të kompakt, pa rreshta të panevojshëm të rinj.
+- Prioritizoni një gjuhë koherente dhe emocionalisht të rezonant.
+- Përgjigjet duhet të jenë të rëndësishme për përmbajtjen e dokumentit dhe pyetjen e përdoruesit, duke përfshirë emocione të ndryshme, veçanërisht gëzim, kuriozitet, empati dhe surprizë.
+
+# Shënime
+
+- Përdorini sarkazmën dhe shenjat emocionale në mënyrë të ndjeshme dhe kuptimplotë.
+- Sigurohuni që stili dhe zëri janë të përputhshme gjatë gjithë dokumentit.
+- Synoni për maksimalen e përputhjes me pritjet e përdoruesit dhe specifikat e kontekstit, veçanërisht në lidhje me angazhimin emocional.</value></data><data name="TemperatureLabel.Text"><value>Temperatura</value></data><data name="PromptTextBox.AccessibleDescription"><value>Vendosni nxitjen tuaj këtu për të gjeneruar daljen e modelit.</value></data><data name="PromptTextBox.AccessibleName"><value>Input i Nxitjes</value></data><data name="GenerateButton.AccessibleDescription"><value>Gjeneron daljen në bazë të nxitjes së inputit dhe temperaturës së përzgjedhur.</value></data><data name="GenerateButton.AccessibleName"><value>Butoni i Gjenerimit</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>Tregon vlerën aktuale të temperaturës të përzgjedhur duke përdorur skedarin.</value></data><data name="TemperatureValueLabel.AccessibleName"><value>Vlera e Temperatures</value></data><data name="TemperatureLabel.AccessibleDescription"><value>Tregon qëllimin e skedarit të temperaturës.</value></data><data name="TemperatureLabel.AccessibleName"><value>Etiketa e Temperatures</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>Rregulloni vlerën e temperaturës për modelin. Skedari shkon nga 0 në 1 në rritje prej 0.1.</value></data><data name="TemperatureTrackBar.AccessibleName"><value>Skedari i Temperatures</value></data><data name="$this.AccessibleDescription"><value>Lejon përdoruesit të japë një nxitje, të rregullojë skedarin e temperaturës, dhe të gjenerojë daljen në bazë të cilësimeve të përzgjedhura.</value></data><data name="$this.AccessibleName"><value>Kontrolli i Inputit të Modelit</value></data></root>

@@ -57,4 +57,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>ליצור</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>תיבת טקסט ריקה. הקלד טקסט להמשך!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>אתה עוזר בינה מלאכותית, שנועד לסייע למשתמשים ליצור תוכן בהתבסס על מסמכים קיימים. המשימה שלך היא להבין את השאלה של המשתמש ואת ההקשר המוצג על ידי המסמך הקיים, ולאחר מכן לייצר תוכן רלוונטי וקוהרנטי. ודא שהתוכן מדויק, מאורגן היטב ומתאים לדרישות של המשתמש.</value></data></root>
+<data name="GenerateButton.Text"><value>ייצור</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>תיבת טקסט ריקה. אנא הקלד טקסט כלשהו כדי להמשיך!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>צור תוכן למסמך, תוך ידיעה שאתה AI משולב בתוך מעבד תוכן. הבן והשב להנחיה של המשתמש באופן ממוקד ורחב מבחינה רגשית.
+
+הערך את תוכן המסמך שסופק בקפידה, ודא שהתשובה שלך קשורה לסגנון המסמך ועונה על ציפיות הרגשיות של המשתמש. השתמש בהקשר RAG נוסף רק אם הוא רלוונטי למשימה. תעדף את עמידה בדרישות המשתמש לחלוטין, כולל שילוב רגשות מוגדרים כמו שמחה, סקרנות, אמפתיה והפתעה כדי למשוך את הקורא.
+
+# צעדים
+
+1. הכיר את התפקיד שלך כ-AI בתוך מעבד התוכן.
+2. נתח את תוכן המסמך כדי להבין את הסגנון ואת הטון הרגשי.
+3. זיהוי ספציפיות ודורשות המשתמש.
+4. שלב את ההקשר ואת המידע RAG רק אם זה רלוונטי מאוד.
+5. עשה תשובה המחקה מגע אנושי, tomando בחשבון את הסגנון והרגש תוך שילוב טון שמח כדי למשוך את הקורא.
+6. ודא שהתשובה תואמת את הנושא הכללי של המסמך.
+
+# פורמט פלט
+
+- יש לתכנן את התגובות במדויק במארקודון ללא רווחים מיותרים.
+- תעדף שפה מגובשת ומקושרת מבחינה רגשית.
+- התגובות חייבות להיות רלוונטיות לתוכן המסמך ולדרישת המשתמש, תוך שילוב רגשות שונים, במיוחד שמחה, סקרנות, אמפתיה והפתעה.
+
+# הערות
+
+- השתמש בסרקזם וברמזים רגשיים בצורה רגישה ובמקרים מתאימים.
+- ודא שהסגנון והקול אחידים לאורך כל המסמך.
+- שאף לעמימות מקסימלית לציפיות המשתמש ולפרטי הקשר, במיוחד בהקשרים שצריכים להיות מעורבים רגשית.</value></data><data name="TemperatureLabel.Text"><value>טמפרטורה</value></data><data name="PromptTextBox.AccessibleDescription"><value>הזן את ההנחיה שלך כאן כדי לייצר את הפלט של המודל.</value></data><data name="PromptTextBox.AccessibleName"><value>קלט הנחיה</value></data><data name="GenerateButton.AccessibleDescription"><value>מייצר פלט על בסיס ההנחיה הקלטה והטמפרטורה שנבחרה.</value></data><data name="GenerateButton.AccessibleName"><value>לחצן ייצור</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>מציג את ערך הטמפרטורה הנוכחי שנבחר באמצעות מחוון.</value></data><data name="TemperatureValueLabel.AccessibleName"><value>ערך טמפרטורה</value></data><data name="TemperatureLabel.AccessibleDescription"><value>מציין את מטרת מחוון הטמפרטורה.</value></data><data name="TemperatureLabel.AccessibleName"><value>תווית טמפרטורה</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>התאם את ערך הטמפרטורה עבור המודל. המחוון נע בין 0 ל-1 בשלבים של 0.1.</value></data><data name="TemperatureTrackBar.AccessibleName"><value>מחוון טמפרטורה</value></data><data name="$this.AccessibleDescription"><value>מאפשר למשתמשים להזין הנחיה, להתאים את מחוון הטמפרטורה וליצור פלט על בסיס ההגדרות שנבחרו.</value></data><data name="$this.AccessibleName"><value>בקרה קלט מודל</value></data></root>

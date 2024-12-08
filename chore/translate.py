@@ -149,9 +149,16 @@ resource_files = {
         "(WordMarkdown.cs) [ApplyImageFormatting] ArgumentException #1",
         "(WordMarkdown.cs) [ApplyHeadingFormatting] ArgumentException #1",
         "[AnalyzeText] InvalidRangeException #1",
+        "[AnalyzeText] UserChatMessage #1",
+        "[AddStreamingChatContentToRange] MessageBox Text #1",
+        "[AddStreamingChatContentToRange] MessageBox Caption #1",
+        "[AddStreamingImageContentToRange] Exception #1",
+        "[GetPictureAddress] InvalidDataException #1",
+        "[GetPictureAddress] InvalidOperationException #1",
         "this.CommentSystemPrompt",
         "(CommentHandler.cs) [AICommentReplyTask] UserChatMessage #1",
         "(CommentHandler.cs) [AICommentReplyTask] UserChatMessage #2",
+        "(CommentHandler.cs) [AICommentReplyTask] UserChatMessage #3",
         "[ProofreadButton_Click] SystemPrompt",
         "[ProofreadButton_Click] UserPrompt",
         "[RewriteButton_Click] SystemPrompt",
@@ -170,6 +177,19 @@ resource_files = {
         "OutputLabel.Text",
         "PreviewButton.Text",
         "$this.Text",
+        "$this.AccessibleName",
+        "$this.AccessibleDescription",
+        "TemperatureLabel.Text",
+        "GenerateButton.AccessibleName",
+        "GenerateButton.AccessibleDescription",
+        "PromptTextBox.AccessibleName",
+        "PromptTextBox.AccessibleDescription",
+        "TemperatureLabel.AccessibleName",
+        "TemperatureLabel.AccessibleDescription",
+        "TemperatureTrackBar.AccessibleName",
+        "TemperatureTrackBar.AccessibleDescription",
+        "TemperatureValueLabel.AccessibleName",
+        "TemperatureValueLabel.AccessibleDescription",
     ],
     "PasswordPrompt": [
         "PasswordTextBox.AccessibleDescription",
@@ -204,6 +224,7 @@ resource_files = {
         "$this.Text",
     ],
 }
+
 
 # Base XML template
 RESX_TEMPLATE = """<?xml version="1.0" encoding="utf-8"?>
@@ -269,52 +290,71 @@ RESX_TEMPLATE = """<?xml version="1.0" encoding="utf-8"?>
 </root>
 """
 
+
 # Translate multiple texts
 def translate_batch(texts, target_language):
     # Add numbering to the texts
     prompt = (
-        "Translate the following text into the target language. Each translated line must match the numbering and order of the input:\n\n"
+        "Translate the following text into the target language. Each translated line must match the numbering and order of the input. "
+        "Preserve newlines within each translated text to maintain the original formatting.\n\n"
         + "\n".join([f"{i + 1}. {text}" for i, text in enumerate(texts)])
         + f"\n\nTarget language: '{target_language}'"
     )
 
     try:
         response = client.chat.completions.create(
-            model="gpt-4o-mini",
+            model="gpt-4o-mini-2024-07-18",
             messages=[
                 {
-                        "role": "system",
-                        "content": (
-                            "You are an advanced language translation model specializing in accurate and regionally appropriate translations. "
-                            "Your task is to translate each input text into the specified target language, ensuring fidelity to the original meaning. "
-                            "If the target language includes a localization (e.g., 'Spanish (Mexico)' or 'French (Canada)'), ensure the translation aligns with that regional variant. "
-                            "The input will be provided as a numbered list, and your output must preserve this numbering and the exact order of the input texts. "
-                            "Each translated line should correspond to the same numbered input line and should not include any additional commentary, explanation, or meta-information. "
-                            "The output must be strictly formatted with each translation appearing on a new line, separated by '\\n', and matching the input order exactly. "
-                            "For example:\n\n"
-                            "Input:\n"
-                            "1. Hello, how are you?\n"
-                            "2. Thank you for your help.\n"
-                            "Target language: 'Spanish (Mexico)'\n\n"
-                            "Output:\n"
-                            "1. Hola, ¿cómo estás?\n"
-                            "2. Gracias por tu ayuda."
-                        )
+                    "role": "system",
+                    "content": (
+                        "You are an advanced language translation model specializing in accurate and regionally appropriate translations. "
+                        "Your task is to translate each input text into the specified target language, ensuring fidelity to the original meaning. "
+                        "If the target language includes a localization (e.g., 'Spanish (Mexico)' or 'French (Canada)'), ensure the translation aligns with that regional variant. "
+                        "The input will be provided as a numbered list, and your output must preserve this numbering and the exact order of the input texts. "
+                        "Each translated line should correspond to the same numbered input line and should not include any additional commentary, explanation, or meta-information. "
+                        "The output must be strictly formatted with each translation appearing on a new line, separated by '\\n', and matching the input order exactly. "
+                        "Preserve newlines within each translated text to maintain the original formatting. "
+                        "For example:\n\n"
+                        "Input:\n"
+                        "1. Hello, how are you?\n"
+                        "   This is a multiline text.\n"
+                        "2. Thank you for your help.\n"
+                        "Target language: 'Spanish (Mexico)'\n\n"
+                        "Output:\n"
+                        "1. Hola, ¿cómo estás?\n"
+                        "   Este es un texto multilínea.\n"
+                        "2. Gracias por tu ayuda."
+                    )
                 },
                 {"role": "user", "content": prompt},
             ],
         )
 
-        # Process response to verify order
+        # Process response to verify order and handle multiline texts
         translated_texts = response.choices[0].message.content.strip().split("\n")
-        if len(translated_texts) != len(texts):
-            raise ValueError("Mismatched translation count.")
+        cleaned_translations = []
+        current_translation = ""
+        current_number = 1
+        in_translation = False
 
-        # Remove numbering and extra spaces from the output
-        cleaned_translations = [
-            " ".join(line.split(". ", 1)[1].split()) if ". " in line else " ".join(line.split())
-            for line in translated_texts
-        ]
+        for line in translated_texts:
+            if line.strip().startswith(f"{current_number}."):
+                if current_translation:
+                    cleaned_translations.append(current_translation.strip())
+                current_translation = line.strip()[len(str(current_number)) + 1:].strip()
+                current_number += 1
+                in_translation = True
+            elif in_translation:
+                current_translation += "\n" + line.strip()
+
+        # Add the last translation
+        if current_translation:
+            cleaned_translations.append(current_translation.strip())
+
+        if len(cleaned_translations) != len(texts):
+            raise ValueError(f"Mismatched translation count. Expected {len(texts)}, got {len(cleaned_translations)}.")
+
         return cleaned_translations
 
     except Exception as e:

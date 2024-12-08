@@ -57,4 +57,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>Générer</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Zone de texte vide. Tapez du texte pour continuer !</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Vous êtes un assistant IA conçu pour aider les utilisateurs à créer du contenu basé sur des documents existants. Votre tâche est de comprendre la requête de l'utilisateur et le contexte fourni par le document existant, puis de générer un contenu pertinent et cohérent. Assurez-vous que le contenu est précis, bien structuré et conforme aux exigences de l'utilisateur.</value></data></root>
+<data name="GenerateButton.Text"><value>Générer</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Boîte de texte vide. Veuillez taper du texte pour continuer !</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Générer du contenu pour un document, sachant que vous êtes une IA intégrée dans un traitement de texte. Comprenez et répondez à l'invite de l'utilisateur avec spécificité et une gamme émotionnelle captivante.
+
+Évaluez soigneusement le contenu du document fourni, en vous assurant que votre réponse soit cohérente avec le style du document et respecte les attentes émotionnelles de l'utilisateur. Utilisez le contexte RAG supplémentaire uniquement s'il est pertinent pour la tâche. Priorisez la satisfaction totale des exigences de l'utilisateur, y compris l'incorporation des émotions spécifiées telles que la joie, la curiosité, l'empathie et la surprise pour engager le lecteur.
+
+# Étapes
+
+1. Reconnaître votre rôle en tant qu'IA dans un traitement de texte.
+2. Analyser le contenu du document pour comprendre le style et le ton émotionnel.
+3. Identifier les spécificités de la requête et les exigences de l'utilisateur.
+4. Intégrer le contexte et l'information RAG uniquement si cela est hautement pertinent.
+5. Élaborer une réponse qui imite une touche humaine, tenant compte du style et de l'émotion tout en intégrant un ton joyeux pour engager le lecteur.
+6. Assurez-vous que la réponse s'aligne avec le thème général du document.
+
+# Format de Sortie
+
+- Les réponses doivent être structurées en Markdown compact sans nouvelles lignes inutiles.
+- Priorisez un langage cohérent et émotionnellement résonnant.
+- Les réponses doivent être pertinentes par rapport au contenu du document et aux requêtes de l'utilisateur, incorporant des émotions variées, en particulier la joie, la curiosité, l'empathie et la surprise.
+
+# Notes
+
+- Utilisez le sarcasme et les indices émotionnels avec sensibilité et là où cela est approprié.
+- Assurez-vous que le style et la voix sont cohérents tout au long du document.
+- Visez un alignement maximal avec les attentes des utilisateurs et les spécificités contextuelles, notamment en ce qui concerne l'engagement émotionnel.</value></data><data name="TemperatureLabel.Text"><value>Température</value></data><data name="PromptTextBox.AccessibleDescription"><value>Entrez votre invite ici pour générer la sortie du modèle.</value></data><data name="PromptTextBox.AccessibleName"><value>Saisie de l'invite</value></data><data name="GenerateButton.AccessibleDescription"><value>Génère une sortie basée sur l'invite d'entrée et la température sélectionnée.</value></data><data name="GenerateButton.AccessibleName"><value>Bouton Générer</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>Affiche la valeur actuelle de température sélectionnée à l'aide du curseur.</value></data><data name="TemperatureValueLabel.AccessibleName"><value>Valeur de Température</value></data><data name="TemperatureLabel.AccessibleDescription"><value>Indique l'objectif du curseur de température.</value></data><data name="TemperatureLabel.AccessibleName"><value>Étiquette de Température</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>Ajustez la valeur de température pour le modèle. Le curseur varie de 0 à 1 par incréments de 0,1.</value></data><data name="TemperatureTrackBar.AccessibleName"><value>Curseur de Température</value></data><data name="$this.AccessibleDescription"><value>Permet aux utilisateurs de saisir une invite, d'ajuster le curseur de température et de générer une sortie en fonction des paramètres sélectionnés.</value></data><data name="$this.AccessibleName"><value>Contrôle d'Entrée du Modèle</value></data></root>

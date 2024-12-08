@@ -36,7 +36,6 @@ def delete_localized_resx_files(directory, base_file_name):
 directory_path = "../"
 delete_localized_resx_files(directory_path, "AboutBox")
 delete_localized_resx_files(directory_path, "Forge")
-delete_localized_resx_files(directory_path, "Forge")
 delete_localized_resx_files(directory_path, "GenerateUserControl")
 delete_localized_resx_files(directory_path, "RAGControl")
 delete_localized_resx_files(directory_path, "PasswordPrompt")

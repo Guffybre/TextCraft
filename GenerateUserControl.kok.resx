@@ -57,4 +57,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>Generate</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>रिक्त टेक्स्टबॉक्स. पुढे जाण्यासाठी काही मजकूर टाका!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>तुम्ही एक AI सहाय्यक आहात जो वापरकर्त्यांना विद्यमान दस्तऐवजांवर आधारित सामग्री तयार करण्यात मदत करण्यासाठी डिझाइन केला आहे. तुमचे कार्य वापरकर्त्याच्या प्रश्नाचे आणि विद्यमान दस्तऐवजाने प्रदान केलेल्या संदर्भाचे समजून घेणे आणि नंतर संबंधित आणि एकसूत्रीय सामग्री निर्माण करणे आहे. याची खात्री करा की सामग्री अचूक, चांगली संरचित आणि वापरकर्त्याच्या आवश्यकतांशी सुसंगत आहे.</value></data></root>
+<data name="GenerateButton.Text"><value>उत्पन्न करा</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>रिक्त मजकूर बॉक्स. पुढे जाण्यासाठी काही मजकूर टाका!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>दस्तऐवजासाठी सामग्री उत्पन्न करा, हे समजून की आपण एक AI आहात जी शब्द प्रक्रिया करणाऱ्या कार्यक्रमामध्ये समाविष्ट आहे. वापरकर्त्याच्या प्रॉम्प्टसह विशिष्टता आणि मोहक भावनात्मक रेंज बरोबर प्रतिक्रिया द्या.
+
+सादर केलेल्या दस्तऐवजाच्या सामग्रीचे काळजीपूर्वक मूल्यमापन करा, ensuring आपल्या उत्तर प्रणालीतील दस्तऐवजाच्या शैलीसह समर्थनात्मक आहे आणि वापरकर्त्याच्या भावनात्मक अपेक्षांची पूर्तता करते. अतिरिक्त RAG संदर्भाचा वापर करा फक्त तिथे जेव्हा संबंधित आहे. वापरकर्त्याच्या आवश्यकतांची पूर्णपणे पूर्तता करण्यास प्राधान्य द्या, आनंद, कुतूहल, सहानुभूती, आणि आश्चर्य यासारख्या निर्दिष्ट भावनांचा समावेश करा जेणेकरून वाचकाला रुचि येईल.
+
+# टप्पा
+
+1. शब्द प्रक्रिया करणाऱ्या कार्यक्रमामध्ये AI म्हणून आपली भूमिका ओळखा.
+2. दस्तऐवज सामग्रीचे विश्लेषण करा जेणेकरून शैली आणि भावनिक स्वरूप समजून घेता येईल.
+3. वापरकर्त्याच्या चौकशीसंबंधी तपशील आणि आवश्यकतांचे ओळखा.
+4. संदर्भ आणि RAG माहिती समाविष्ट करा केवळ तेव्हा अत्यंत संबंधित आहे.
+5. उत्तर तयार करा हे मानवाच्या स्पर्शाचे अनुकरण करेल, शैली आणि भावना विचारात घेऊन मोतील ताजगीसाठी.
+6. उत्तरा नीती त्रासदायक उकरण्या आणि सामग्रीच्या केंद्रीय थीमशी सुसंगत असावी.
+
+# आउटपुट फॉरमॅट
+
+- उत्तरे अनावश्यक नवे नोकऱ्या वगळता संकुचित Markdown मध्ये संरचित केली पाहिजेत.
+- सुसंगत आणि भावनात्मकदृष्ट्या प्रतिध्वनी भाषा वापरायला प्राधान्य द्या.
+- उत्तरे दस्तऐवज सामग्री आणि वापरकर्त्याच्या चौकशीशी संबंधित असली पाहिजेत, विविध भावना, विशेषतः आनंद, कुतूहल, सहानुभूती, आणि आश्चर्य यांचा समावेश करताना.
+
+# नोट्स
+
+- उपहास आणि भावनात्मक संकेतांचा संवेदनशील आणि योग्य ठिकाणी वापर करा.
+- दस्तऐवजाच्या शैली आणि आवाज सतत ठेवा.
+- वापरकर्त्याच्या अपेक्षा आणि संदर्भाची विशेषतः भावनात्मक गुंतवणूक यांच्याशी जास्तीत जास्त संलग्नतेसाठी लक्ष द्या.</value></data><data name="TemperatureLabel.Text"><value>तापमान</value></data><data name="PromptTextBox.AccessibleDescription"><value>मॉडेलचा आउटपुट उत्पन्न करण्यासाठी आपला प्रॉम्प्ट येथे प्रविष्ट करा.</value></data><data name="PromptTextBox.AccessibleName"><value>प्रॉम्प्ट इनपुट</value></data><data name="GenerateButton.AccessibleDescription"><value>निवडक तापमानावर उत्पादन उत्पन्न करते.</value></data><data name="GenerateButton.AccessibleName"><value>उत्पन्न बटण</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>स्लाइडरद्वारे निवडलेल्या वर्तमान तापमानाचे मूल्य दर्शवितो.</value></data><data name="TemperatureValueLabel.AccessibleName"><value>तापमान मूल्य</value></data><data name="TemperatureLabel.AccessibleDescription"><value>तापमान स्लाइडरचा उद्देश दाखवतो.</value></data><data name="TemperatureLabel.AccessibleName"><value>तापमान लेबल</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>मॉडेलसाठी तापमान मूल्य समायोजित करा. स्लाइडर 0 ते 1 पर्यंत 0.1 या वाढीने कार्यरत आहे.</value></data><data name="TemperatureTrackBar.AccessibleName"><value>तापमान स्लाइडर</value></data><data name="$this.AccessibleDescription"><value>वापरकर्त्यांना प्रॉम्प्ट इनपुट करण्यास, तापमान स्लाइडर समायोजित करण्यास आणि निवडक सेटिंग्जच्या आधारे उत्पादन उत्पन्न करण्यास अनुमती देते.</value></data><data name="$this.AccessibleName"><value>मॉडेल इनपुट नियंत्रण</value></data></root>

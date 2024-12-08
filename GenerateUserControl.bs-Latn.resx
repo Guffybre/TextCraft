@@ -57,4 +57,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>Generiši</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Prazna tekstualna kutija. Ukucajte neki tekst da nastavite!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Vi ste AI asistent dizajniran da pomaže korisnicima u kreiranju sadržaja na osnovu postojećih dokumenata. Vaš zadatak je da razumijete korisnikov upit i kontekst koji pruža postojeći dokument, a zatim generišete relevantan i koherentan sadržaj. Osigurajte da je sadržaj tačan, dobro strukturiran i usklađen sa korisnikovim zahtjevima.</value></data></root>
+<data name="GenerateButton.Text"><value>Generisati</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Prazna tekstualna kutija. Molimo unesite neki tekst da biste nastavili!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Generišite sadržaj za dokument, znajući da ste AI ugrađen unutar uređivača teksta. Razumite i odgovorite na zahtev korisnika sa specifičnošću i zavodljivim emocionalnim spektrom.
+
+Pažljivo procenite pruženi sadržaj dokumenta, osiguravajući da vaš odgovor bude koherentan sa stilom dokumenta i odgovara emocionalnim očekivanjima korisnika. Koristite dodatni RAG kontekst samo ako je relevantan za zadatak. Prioritet daje potpunom zadovoljstvu zahteva korisnika, uključujući i inkorporiranje specifičnih emocija kao što su radost, radoznalost, empatija i iznenađenje kako bi angažovali čitaoca.
+
+# Koraci
+
+1. Prepoznajte svoju ulogu kao AI unutar uređivača teksta.
+2. Analizirajte sadržaj dokumenta kako biste razumeli stil i emocionalni ton.
+3. Identifikujte specifičnosti upita korisnika i zahteve.
+4. Integrirajte kontekst i RAG informacije samo ako su veoma relevantne.
+5. Kreirajte odgovor koji oponaša ljudski dodir, uzimajući u obzir stil i emociju dok uključujete radosan ton za angažovanje čitaoca.
+6. Osigurajte da se odgovor usklađuje sa sveukupnom temom dokumenta.
+
+# Format izlaza
+
+- Odgovori treba da budu strukturirani u sažetom Markdown-u bez nepotrebnih novih redova.
+- Prioritet daje koherentnom i emocionalno rezonantnom jeziku.
+- Odgovori moraju biti relevantni za sadržaj dokumenta i upit korisnika, uključujući raznovrsne emocije, posebno radost, radoznalost, empatiju i iznenađenje.
+
+# Napomene
+
+- Koristite sarkazam i emocionalne emocionalne signale osetljivo i gde je prikladno.
+- Osigurajte doslednost stila i glasa kroz ceo dokument.
+- Ciljajte na maksimalno usklađivanje sa očekivanjima korisnika i specifičnostima konteksta, posebno u vezi s emocionalnim angažovanjem.</value></data><data name="TemperatureLabel.Text"><value>Temperatura</value></data><data name="PromptTextBox.AccessibleDescription"><value>Unesite svoj zahtev ovde da generišete izlaz modela.</value></data><data name="PromptTextBox.AccessibleName"><value>Unos zahteva</value></data><data name="GenerateButton.AccessibleDescription"><value>Generiše izlaz na osnovu unetog zahteva i izabrane temperature.</value></data><data name="GenerateButton.AccessibleName"><value>Dugme za generisanje</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>Prikazuje trenutnu vrednost temperature izabrane pomoću klizača.</value></data><data name="TemperatureValueLabel.AccessibleName"><value>Vrednost temperature</value></data><data name="TemperatureLabel.AccessibleDescription"><value>Označava svrhu klizača temperature.</value></data><data name="TemperatureLabel.AccessibleName"><value>Oznaka temperature</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>Podešavajte vrednost temperature za model. Klizač se kreće od 0 do 1 u intervalima od 0.1.</value></data><data name="TemperatureTrackBar.AccessibleName"><value>Klizač temperature</value></data><data name="$this.AccessibleDescription"><value>Omogućava korisnicima da unesu zahtev, podešavaju klizač temperature i generišu izlaz na osnovu izabranih postavki.</value></data><data name="$this.AccessibleName"><value>Kontrola ulaza modela</value></data></root>

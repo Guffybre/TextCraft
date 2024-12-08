@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading;
 using System.Windows.Forms;
 using OpenAI.Chat;
 
@@ -14,6 +15,7 @@ namespace TextForge
             try
             {
                 InitializeComponent();
+                MatchScrollBarTemperature(); // for floating-point localization
             }
             catch (Exception ex)
             {
@@ -27,7 +29,7 @@ namespace TextForge
             {
                 string textBoxContent = this.PromptTextBox.Text;
                 if (textBoxContent.Length == 0)
-                    throw new TextBoxEmptyException(CultureHelper.GetLocalizedString("[GenerateButton_Click] TextBoxEmptyException #1"));
+                    throw new EmptyTextBoxException(CultureHelper.GetLocalizedString("[GenerateButton_Click] TextBoxEmptyException #1"));
 
                 /*
                  * So, If the user changes the selection carot in Word after clicking "generate" (bc it takes so long to generate text).
@@ -54,14 +56,15 @@ namespace TextForge
                     var streamingAnswer = RAGControl.AskQuestion(
                         new SystemChatMessage(ThisAddIn.SystemPromptLocalization["(GenerateUserControl.cs) _systemPrompt"]),
                         new List<UserChatMessage> { new UserChatMessage(textBoxContent) },
-                        docRange
+                        docRange,
+                        GetTemperature()
                     );
                     await Forge.AddStreamingChatContentToRange(streamingAnswer, rangeBeforeChat);
                 }
 
                 Globals.ThisAddIn.Application.Selection.SetRange(rangeBeforeChat.Start, rangeBeforeChat.End);
             }
-            catch (TextBoxEmptyException ex)
+            catch (EmptyTextBoxException ex)
             {
                 CommonUtils.DisplayInformation(ex);
             }
@@ -125,10 +128,25 @@ namespace TextForge
                 CommonUtils.DisplayError(ex);
             }
         }
+
+        private void TemperatureTrackBar_Scroll(object sender, EventArgs e)
+        {
+            MatchScrollBarTemperature();
+        }
+
+        private void MatchScrollBarTemperature()
+        {
+            this.TemperatureValueLabel.Text = GetTemperature().ToString("0.0", Thread.CurrentThread.CurrentUICulture);
+        }
+
+        private float GetTemperature()
+        {
+            return this.TemperatureTrackBar.Value / 10f;
+        }
     }
 
-    public class TextBoxEmptyException : ArgumentException
+    public class EmptyTextBoxException : ArgumentException
     {
-        public TextBoxEmptyException(string message) : base(message) { }
+        public EmptyTextBoxException(string message) : base(message) { }
     }
 }

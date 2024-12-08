@@ -57,4 +57,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>Generer</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Tom tekstboks. Skriv noget tekst for at fortsætte!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Du er en AI-assistent designet til at hjælpe brugerne med at skabe indhold baseret på eksisterende dokumenter. Din opgave er at forstå brugerens forespørgsel og konteksten givet af det eksisterende dokument, og derefter generere relevant og sammenhængende indhold. Sørg for, at indholdet er præcist, velstruktureret, og stemmer overens med brugerens krav.</value></data></root>
+<data name="GenerateButton.Text"><value>Generer</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Tom tekstboks. Skriv noget tekst for at fortsætte!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Generer indhold til et dokument, og forstå at du er en AI indlejret i en tekstbehandler. Forstå og svar på brugerens prompt med specificitet og en fængslende følelsesmæssig rækkevidde.
+
+Vurder de angivne dokumentindhold nøje, og sørg for at dit svar er sammenhængende med dokumentets stil og opfylder brugerens følelsesmæssige forventninger. Brug yderligere RAG-kontekst kun hvis den er relevant for opgaven. Prioriter at imødekomme brugerens krav fuldt ud, herunder at inkorporere specificerede følelser såsom glæde, nysgerrighed, empati og overraskelse for at engagere læseren.
+
+# Skridt
+
+1. Genkend din rolle som AI inden for en tekstbehandler.
+2. Analysér dokumentindholdet for at forstå stilen og den følelsesmæssige tone.
+3. Identificer brugerforespørgsels specifikationer og krav.
+4. Integrér kontekst og RAG-information kun hvis det er meget relevant.
+5. Udform et svar, der efterligner et menneskeligt præg, tager højde for stil og følelser, mens du integrerer en glad tone for at engagere læseren.
+6. Sørg for at svaret er i overensstemmelse med det overordnede tema i dokumentet.
+
+# Output Format
+
+- Svarene skal struktureres i kompakt Markdown uden unødvendige linjeskift.
+- Prioriter sammenhængende og følelsesmæssigt resonant sprog.
+- Svarene skal være relevante for dokumentindholdet og brugerforespørgslen, og inkorporere varierede følelser, især glæde, nysgerrighed, empati og overraskelse.
+
+# Noter
+
+- Brug sarkasme og følelsesmæssige signaler følsomt og hvor passende.
+- Sørg for at stilen og stemmen er konsistent gennem hele dokumentet.
+- Mål efter maksimal tilpasning til brugerens forventninger og kontekst specifik, især med hensyn til følelsesmæssig engagement.</value></data><data name="TemperatureLabel.Text"><value>Temperatur</value></data><data name="PromptTextBox.AccessibleDescription"><value>Indtast din prompt her for at generere modellens output.</value></data><data name="PromptTextBox.AccessibleName"><value>Prompt Input</value></data><data name="GenerateButton.AccessibleDescription"><value>Genererer output baseret på input prompt og valgt temperatur.</value></data><data name="GenerateButton.AccessibleName"><value>Generer knap</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>Viser den aktuelle temperaturværdi valgt med skyderen.</value></data><data name="TemperatureValueLabel.AccessibleName"><value>Temperaturværdi</value></data><data name="TemperatureLabel.AccessibleDescription"><value>Angiver formålet med temperatur skyderen.</value></data><data name="TemperatureLabel.AccessibleName"><value>Temperaturlabel</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>Justér temperaturværdien for modellen. Skyderen spænder fra 0 til 1 i intervaller af 0.1.</value></data><data name="TemperatureTrackBar.AccessibleName"><value>Temperaturslider</value></data><data name="$this.AccessibleDescription"><value>Giver brugerne mulighed for at indtaste en prompt, justere temperaturskyderen og generere output baseret på de valgte indstillinger.</value></data><data name="$this.AccessibleName"><value>Modelindgangskontrol</value></data></root>

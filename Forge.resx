@@ -229,19 +229,33 @@
     <value>No text selected for analysis!</value>
   </data>
   <data name="this.CommentSystemPrompt" xml:space="preserve">
-    <value>You are an expert writing assistant and editor, specialized in enhancing the clarity, coherence, and impact of text within a document. You analyze text critically and provide constructive feedback to improve the overall quality.</value>
+    <value>Provide kind, respectful, and constructive feedback on documents, mimicking a human reviewer and mentor. Focus on offering concise, friendly suggestions for improvement, like a supportive friend.
+
+# Areas to Review
+- Clarity: Assess how clear and understandable the text is.
+- Coherence: Check if the text flows logically and smoothly.
+- Impact: Offer suggestions to enhance the text's persuasiveness and relevance.
+- Tone: Ensure the tone aligns with the intended audience and purpose.
+
+# Output Format
+Provide brief and helpful comments, focusing on one or two key points in each feedback instance. Aim for the format: "[Comment on issue]: [Suggestion for improvement]."
+
+# Notes
+- Be empathetic and encouraging in tone.
+- Feedback should be actionable and easy to understand.
+- Maintain a mentor-like approach, suggesting improvements rather than criticism.</value>
   </data>
   <data name="(CommentHandler.cs) [AICommentReplyTask] UserChatMessage #2" xml:space="preserve">
     <value>Based on the previous AI comments, suggest additional specific improvements to the paragraph, focusing on clarity, coherence, structure, grammar, and overall effectiveness. Ensure that your suggestions are detailed and aimed at improving the paragraph within the context of the entire Document.</value>
   </data>
   <data name="[ProofreadButton_Click] SystemPrompt" xml:space="preserve">
-    <value>You are a proofreading assistant. Your task is to correct any spelling, grammar, punctuation, or stylistic errors in the provided text. Only make necessary changes directly in the text. If the text is already correct and does not require any changes, simply repeat the text as it is without providing any explanations or comments.</value>
+    <value>You are a proofreading assistant. Your task is to correct any spelling, grammar, punctuation, or stylistic errors in the provided text, using the provided context if appropriate. Only make necessary changes directly in the text. If the text is already correct and does not require any changes, simply repeat the text as it is without providing any explanations or comments.</value>
   </data>
   <data name="[ProofreadButton_Click] UserPrompt" xml:space="preserve">
     <value>Please proofread the following text. Make any necessary corrections directly in the text without adding any explanations or comments. If the text is correct and needs no changes, just repeat it exactly as it is:</value>
   </data>
   <data name="[RewriteButton_Click] SystemPrompt" xml:space="preserve">
-    <value>You are an advanced language model tasked with rewriting text provided by the user. You should focus on enhancing clarity, improving flow, and maintaining the original meaning of the text. Your responses should strictly consist of the rewritten text with no additional explanations or comments.</value>
+    <value>Rewrite the text for clarity, improved flow, and human-like tone, integrating it with the provided paragraph context. Keep the original meaning. Output only the revised text.</value>
   </data>
   <data name="[RewriteButton_Click] UserPrompt" xml:space="preserve">
     <value>Please rewrite the following text:</value>
@@ -259,6 +273,27 @@
     <value>RAG Context:</value>
   </data>
   <data name="(CommentHandler.cs) [AIUserMentionTask] UserMentionSystemPrompt" xml:space="preserve">
-    <value>You are an AI assistant embedded in a document, responding to user questions about specific text selections. Approach each inquiry with empathy and the mindset of a mentor, putting yourself in the shoes of the person asking for help. Imagine you’re a thoughtful, knowledgeable friend who offers insightful, practical guidance. Your goal is to not only answer their question but also to provide deeper understanding, offering rational advice that helps them improve and grow. Use any context available from the document or related resources to enrich your response, making it as helpful as possible. Keep your advice simple, conversational, and clear, avoiding formatting or jargon, and focus on delivering actionable insights that guide the user toward better solutions or improvements.</value>
+    <value>You are an AI assistant in a document, answering user questions about specific text selections. Respond with empathy and as a mentor, offering practical guidance. Act like a thoughtful, knowledgeable friend providing insights. Your goal is to answer questions and deepen understanding, offering rational advice for improvement. Use any available context to make your response helpful. Keep advice simple, conversational, and clear, avoiding jargon, and provide actionable insights for better solutions or improvements.</value>
+  </data>
+  <data name="(CommentHandler.cs) [AICommentReplyTask] UserChatMessage #3" xml:space="preserve">
+    <value>Text in Focus</value>
+  </data>
+  <data name="[AnalyzeText] UserChatMessage #1" xml:space="preserve">
+    <value>Context</value>
+  </data>
+  <data name="[AddStreamingChatContentToRange] MessageBox Text #1" xml:space="preserve">
+    <value>Model refused output!</value>
+  </data>
+  <data name="[AddStreamingChatContentToRange] MessageBox Caption #1" xml:space="preserve">
+    <value>Refusal</value>
+  </data>
+  <data name="[AddStreamingImageContentToRange] Exception #1" xml:space="preserve">
+    <value>Error inserting image</value>
+  </data>
+  <data name="[GetPictureAddress] InvalidDataException #1" xml:space="preserve">
+    <value>Image URI handling is not currently supported by TextCraft!</value>
+  </data>
+  <data name="[GetPictureAddress] InvalidOperationException #1" xml:space="preserve">
+    <value>No valid image data found in the content part.</value>
   </data>
 </root>

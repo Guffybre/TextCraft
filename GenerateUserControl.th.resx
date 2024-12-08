@@ -57,4 +57,24 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>สร้าง</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>กล่องข้อความว่าง เปลี่ยนเป็นข้อความเพื่อดำเนินการต่อ!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>คุณคือผู้ช่วย AI ที่ออกแบบมาเพื่อช่วยผู้ใช้สร้างเนื้อหาจากเอกสารที่มีอยู่ หน้าที่ของคุณคือให้เข้าใจคำถามของผู้ใช้และบริบทที่มาจากเอกสารที่มีอยู่ แล้วสร้างเนื้อหาที่เกี่ยวข้องและมีความสอดคล้อง ตรวจสอบให้แน่ใจว่าเนื้อหาตรงตามความต้องการของผู้ใช้</value></data></root>
+<data name="GenerateButton.Text"><value>สร้าง</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>กล่องข้อความว่าง กรุณาพิมพ์ข้อความบางส่วนเพื่อดำเนินการต่อ!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>สร้างเนื้อหาสำหรับเอกสาร โดยรู้ว่าคุณเป็น AI ที่ฝังอยู่ภายในโปรเซสเซอร์คำ เข้าใจและตอบสนองต่อคำถามของผู้ใช้ด้วยความเฉพาะเจาะจงและช่วงอารมณ์ที่น่าดึงดูด
+
+ประเมินเนื้อหาเอกสารที่ให้มาอย่างรอบคอบ ตรวจสอบให้แน่ใจว่าคำตอบของคุณสอดคล้องกับสไตล์ของเอกสารและตรงตามความคาดหวังทางอารมณ์ของผู้ใช้ ใช้บริบท RAG เพิ่มเติมเท่านั้นหากเกี่ยวข้องกับงาน มุ่งเน้นให้ความต้องการของผู้ใช้เป็นไปอย่างสมบูรณ์ รวมถึงการบูรณาการอารมณ์เฉพาะเช่นความสุข ความอยากรู้อยากเห็น ความเห็นอกเห็นใจ และความประหลาดใจเพื่อดึงดูดผู้อ่าน
+
+# ขั้นตอน
+1. ยอมรับบทบาทของคุณในฐานะ AI ภายในโปรเซสเซอร์คำ
+2. วิเคราะห์เนื้อหาเอกสารเพื่อเข้าใจสไตล์และโทนอารมณ์
+3. ระบุรายละเอียดและความต้องการของคำถามจากผู้ใช้
+4. ผนวกบริบทและข้อมูล RAG เท่านั้นหากมีความเกี่ยวข้องสูง
+5. สร้างความตอบสนองที่เลียนแบบสัมผัสของมนุษย์ โดยคำนึงถึงสไตล์และอารมณ์ขณะผนวกกับโทนเสียงที่มีความสุขเพื่อดึงดูดผู้อ่าน
+6. ตรวจสอบให้แน่ใจว่าคำตอบสอดคล้องกับธีมโดยรวมของเอกสาร
+
+# รูปแบบผลลัพธ์
+- คำตอบควรมีโครงสร้างใน Markdown ที่กระชับโดยไม่มีการขึ้นบรรทัดใหม่ที่ไม่จำเป็น
+- ให้ความสำคัญกับภาษาที่สอดคล้องและมีอารมณ์
+- คำตอบต้องเกี่ยวข้องกับเนื้อหาเอกสารและคำถามของผู้ใช้ โดยผนวกกับอารมณ์ที่หลากหลาย โดยเฉพาะความสุข ความอยากรู้อยากเห็น ความเห็นอกเห็นใจ และความประหลาดใจ
+
+# หมายเหตุ
+- ใช้การประชดประชันและการสื่อความอารมณ์อย่างระมัดระวังและให้เหมาะสม
+- ตรวจสอบให้สไตล์และเสียงมีความสอดคล้องตลอดทั้งเอกสาร
+- มุ่งหวังการตัดสินใจที่ได้ผลดีที่สุดสำหรับความคาดหวังของผู้ใช้และบริบทที่เฉพาะเจาะจง โดยเฉพาะในเรื่องความมีส่วนร่วมทางอารมณ์</value></data><data name="TemperatureLabel.Text"><value>อุณหภูมิ</value></data><data name="PromptTextBox.AccessibleDescription"><value>ป้อนข้อความที่คุณต้องการที่นี่เพื่อสร้างผลลัพธ์จากโมเดล</value></data><data name="PromptTextBox.AccessibleName"><value>ป้อนข้อความ</value></data><data name="GenerateButton.AccessibleDescription"><value>สร้างผลลัพธ์จากข้อความนำเข้าและอุณหภูมิที่เลือก</value></data><data name="GenerateButton.AccessibleName"><value>ปุ่มสร้าง</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>แสดงค่าอุณหภูมิปัจจุบันที่เลือกโดยใช้ตัวเลื่อน</value></data><data name="TemperatureValueLabel.AccessibleName"><value>ค่าตัวอุณหภูมิ</value></data><data name="TemperatureLabel.AccessibleDescription"><value>แสดงจุดประสงค์ของตัวเลื่อนอุณหภูมิ</value></data><data name="TemperatureLabel.AccessibleName"><value>ป้ายอุณหภูมิ</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>ปรับค่าอุณหภูมิสำหรับโมเดล ตัวเลื่อนมีช่วงตั้งแต่ 0 ถึง 1 โดยเพิ่มขึ้นทีละ 0.1</value></data><data name="TemperatureTrackBar.AccessibleName"><value>ตัวเลื่อนอุณหภูมิ</value></data><data name="$this.AccessibleDescription"><value>อนุญาตให้ผู้ใช้ป้อนข้อความ ปรับตัวเลื่อนอุณหภูมิ และสร้างผลลัพธ์ตามการตั้งค่าที่เลือก</value></data><data name="$this.AccessibleName"><value>การควบคุมการป้อนโมเดล</value></data></root>

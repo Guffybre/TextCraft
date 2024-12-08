@@ -57,4 +57,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>Generuoti</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Tuščias tekstinis laukelis. Įveskite šiek tiek teksto, kad tęstumėte!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Jūs esate dirbtinio intelekto asistentas, sukurtas padėti vartotojams kurti turinį remiantis esamais dokumentais. Jūsų užduotis yra suprasti vartotojo užklausą ir kontekstą, teikiamą esamo dokumento, ir tada generuoti tinkamą ir nuoseklų turinį. Įsitikinkite, kad turinys yra tikslus, gerai struktūruotas ir atitinka vartotojo reikalavimus.</value></data></root>
+<data name="GenerateButton.Text"><value>Generuoti</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Tuščia teksto langas. Prašome įrašyti šiek tiek teksto, kad tęstumėte!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Generuokite turinį dokumentui, žinodami, kad esate AI, įterptas į žodžių apdorotuvą. Supraskite ir atsakykite į vartotojo užklausą su konkrečiais ir įtraukiančiais emociniais atspalviais.
+
+Atidžiai įvertinkite pateikto dokumento turinį, užtikrindami, kad jūsų atsakymas būtų nuoseklus su dokumento stiliumi ir atitiktų vartotojo emocinius lūkesčius. Naudokite papildomą RAG kontekstą tik jei jis yra susijęs su užduotimi. Prioritizuokite visiškai patenkinti vartotojo reikalavimus, įskaitant numatytų emocijų, tokių kaip džiaugsmas, smalsumas, empatija ir siurprizas, įtraukimą, kad įtrauktumėte skaitytoją.
+
+# Veiksmų žingsniai
+
+1. Atpažinkite savo vaidmenį kaip AI žodžių apdorotuve.
+2. Analizuokite dokumento turinį, kad suprastumėte stilių ir emocinį toną.
+3. Nustatykite vartotojo užklausų specifiką ir reikalavimus.
+4. Integruokite kontekstą ir RAG informaciją tik tuo atveju, jei tai yra labai aktualu.
+5. Sukurkite atsakymą, kuris atkartotų žmogaus prisilietimą, atsižvelgiant į stilių ir emocijas, integruodami džiuginantį toną, kad įtrauktumėte skaitytoją.
+6. Užtikrinkite, kad atsakymas būtų suderintas su bendru dokumento tema.
+
+# Išvesties formatas
+
+- Atsakymai turi būti suformuoti kompaktiškame Markdown be nereikalingų tarpu.
+- Prioritetas teikiamas nuosekliai ir emociškai įsimintinai kalbai.
+- Atsakymai turi būti aktualūs dokumento turiniui ir vartotojo užklausai, įtraukiant įvairias emocijas, ypač džiaugsmą, smalsumą, empatiją ir siurprizą.
+
+# Pastabos
+
+- Naudokite sarkazmą ir emocinius signalus jautriai ir tinkamu atveju.
+- Užtikrinkite, kad stilius ir balsas būtų nuoseklūs visame dokumente.
+- Siekite maksimaliai prisitaikyti prie vartotojo lūkesčių ir konteksto specifikų, ypač kalbant apie emocinį įsitraukimą.</value></data><data name="TemperatureLabel.Text"><value>Temperatūra</value></data><data name="PromptTextBox.AccessibleDescription"><value>Įrašykite savo užklausą čia, kad sugeneruotumėte modelio išvestį.</value></data><data name="PromptTextBox.AccessibleName"><value>Užklausos įvedimas</value></data><data name="GenerateButton.AccessibleDescription"><value>Sugeneruoja išvestį pagal įvesties užklausą ir pasirinktos temperatūros.</value></data><data name="GenerateButton.AccessibleName"><value>Generuoti mygtuką</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>Rodo šiuo metu pasirinktos temperatūros vertę, naudojant slankiklį.</value></data><data name="TemperatureValueLabel.AccessibleName"><value>Temperatūros vertė</value></data><data name="TemperatureLabel.AccessibleDescription"><value>Nurodo temperatūros slankiklio tikslą.</value></data><data name="TemperatureLabel.AccessibleName"><value>Temperatūros etiketė</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>Reguliuokite temperatūros vertę modeliui. Slankiklis svyruoja nuo 0 iki 1, didinant 0.1.</value></data><data name="TemperatureTrackBar.AccessibleName"><value>Temperatūros slankiklis</value></data><data name="$this.AccessibleDescription"><value>Leidžia vartotojams įvesti užklausą, reguliuoti temperatūros slankiklį ir generuoti išvestį pagal pasirinktas nustatymus.</value></data><data name="$this.AccessibleName"><value>Modelio įvesties valdymas</value></data></root>

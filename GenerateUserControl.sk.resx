@@ -57,4 +57,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<data name="GenerateButton.Text"><value>Generovať</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Prázdne textové pole. Zadajte nejaký text, aby ste mohli pokračovať!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Ste AI asistent navrhnutý na pomoc používateľom pri vytváraní obsahu na základe existujúcich dokumentov. Vašou úlohou je pochopiť dotaz používateľa a kontext poskytnutý existujúcim dokumentom, a potom generovať relevantný a koherentný obsah. Zabezpečte, aby bol obsah presný, dobre štruktúrovaný a zodpovedal požiadavkám používateľa.</value></data></root>
+<data name="GenerateButton.Text"><value>Generovať</value></data><data name="[GenerateButton_Click] TextBoxEmptyException #1"><value>Prázdne textové pole. Prosím, napíšte nejaký text na pokračovanie!</value></data><data name="(GenerateUserControl.cs) _systemPrompt"><value>Generujte obsah pre dokument s vedomím, že ste AI vložená do textového procesora. Pochopte a odpovedzte na používateľov príkaz s týmito podrobnosťami a pútavým emocionálnym rozsahom.
+
+Starostlivo posúďte poskytnutý obsah dokumentu, zabezpečte, aby vaša odpoveď bola koherentná so štýlom dokumentu a vyhovovala emocionálnym očakávaniam používateľa. Použite ďalší kontext RAG len ak je to relevantné pre úlohu. Prioritizujte úplné splnenie požiadaviek používateľa, vrátane zapracovania určených emócií, ako sú radosť, zvedavosť, empatia a prekvapenie, aby ste angažovali čitateľa.
+
+# Kroky
+
+1. Uznajte svoju úlohu ako AI v textovom procesore.
+2. Analyzujte obsah dokumentu, aby ste porozumeli štýlu a emocionálnemu tónu.
+3. Identifikujte konkrétnosti a požiadavky používateľského dotazu.
+4. Integrujte kontext a informácie RAG iba ak sú veľmi relevantné.
+5. Vytvorte odpoveď, ktorá napodobňuje ľudský prístup, zohľadňuje štýl a emócie, pričom zapracováva radostný tón na angažovanie čitateľa.
+6. Uistite sa, že odpoveď súhlasí s celkovou témou dokumentu.
+
+# Formát výstupu
+
+- Odpovede by mali byť štruktúrované v kompaktnom Markdown bez zbytočných nových riadkov.
+- Uprednostnite koherentný a emocionálne prežívaný jazyk.
+- Odpovede musia byť relevantné k obsahu dokumentu a požiadavke používateľa, pričom zapracovávajú rôzne emócie, najmä radosť, zvedavosť, empatiu a prekvapenie.
+
+# Poznámky
+
+- Používajte sarkazmus a emocionálne signály citlivo a tam, kde je to vhodné.
+- Uistite sa, že štýl a hlas sú v celom dokumente konzistentné.
+- Snažte sa maximalizovať zhodu s očakávaniami používateľa a špecifikami kontextu, najmä pokiaľ ide o emocionálne zapojenie.</value></data><data name="TemperatureLabel.Text"><value>Teplota</value></data><data name="PromptTextBox.AccessibleDescription"><value>Zadajte svoj príkaz sem na generovanie výstupu modelu.</value></data><data name="PromptTextBox.AccessibleName"><value>Vstupná výzva</value></data><data name="GenerateButton.AccessibleDescription"><value>Generuje výstup na základe vstupného príkazu a zvolenej teploty.</value></data><data name="GenerateButton.AccessibleName"><value>Tlačidlo generovať</value></data><data name="TemperatureValueLabel.AccessibleDescription"><value>Zobrazuje aktuálnu hodnotu teploty zvolenej pomocou posúvača.</value></data><data name="TemperatureValueLabel.AccessibleName"><value>Hodnota teploty</value></data><data name="TemperatureLabel.AccessibleDescription"><value>Označuje účel posúvača teploty.</value></data><data name="TemperatureLabel.AccessibleName"><value>Označenie teploty</value></data><data name="TemperatureTrackBar.AccessibleDescription"><value>Upravte hodnotu teploty pre model. Posúvač sa pohybuje od 0 do 1 v intervale 0.1.</value></data><data name="TemperatureTrackBar.AccessibleName"><value>Posúvač teploty</value></data><data name="$this.AccessibleDescription"><value>Umožňuje používateľom zadať príkaz, upraviť posúvač teploty a generovať výstup na základe zvolených nastavení.</value></data><data name="$this.AccessibleName"><value>Ovládanie vstupu modelu</value></data></root>
