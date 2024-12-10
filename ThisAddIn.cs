@@ -26,9 +26,10 @@ namespace TextForge
         public static CancellationTokenSource CancellationTokenSource { get { return _cancellationTokenSource; } set { _cancellationTokenSource = value; } }
         public static bool IsAddinInitialized { get { return _isAddinInitialized; } set { _isAddinInitialized = value; } }
         public static OpenAIModelCollection ModelList { get { return _modelList; } }
+        public static IEnumerable<string> LanguageModelList { get { return _languageModelList; } }
         public static Dictionary<Word.Document, Tuple<CustomTaskPane, CustomTaskPane, RAGControl>> AllTaskPanes {  get { return _allTaskPanes; } }
         public static Dictionary<string, string> SystemPromptLocalization { get { return _systemPromptLocalization; } }
-
+        
         // Private
         private static string _openAIEndpoint = "http://localhost:11434/v1"; // Ollama endpoint
         private static string _apiKey = "dummy_key";
@@ -40,6 +41,7 @@ namespace TextForge
         private static CancellationTokenSource _cancellationTokenSource = new CancellationTokenSource();
         private static bool _isAddinInitialized = false;
         private static OpenAIModelCollection _modelList;
+        private static IEnumerable<string> _languageModelList;
         private static Dictionary<Word.Document, Tuple<CustomTaskPane, CustomTaskPane, RAGControl>> _allTaskPanes = new();
         private static Dictionary<string, string> _systemPromptLocalization = new();
 
@@ -237,13 +239,17 @@ namespace TextForge
 
             OpenAIModelClient modelRetriever = new OpenAIModelClient(new ApiKeyCredential(_apiKey), _clientOptions);
             _modelList = modelRetriever.GetModels().Value;
+            _languageModelList = ModelProperties.GetLanguageModelList(_modelList);
+
+            if (_languageModelList.Count() == 0)
+                throw new ArgumentException(Forge.CultureHelper.GetLocalizedString("(ThisAddIn.cs) [InitializeEnvironmentVariables] ArgumentException #1"));
 
             string defaultModel = Properties.Settings.Default.DefaultModel;
-            _model = _modelList.Any(model => model.Id == defaultModel) ? defaultModel : _modelList.First().Id;
+            _model = _modelList.Any(model => model.Id == defaultModel) ? defaultModel : _languageModelList.First();
             _contextLength = ModelProperties.GetContextLength(_model, _modelList);
 
             // Set embed model
-            SetEmbedModelAutomatically();
+            ConfigureEmbedModel();
         }
 
         private static void AssignIfNotEmptyPrompt(string key, string value)
@@ -271,7 +277,7 @@ namespace TextForge
             }
         }
 
-        private static void SetEmbedModelAutomatically()
+        private static void ConfigureEmbedModel()
         {
             if (string.IsNullOrEmpty(_embedModel))
             {

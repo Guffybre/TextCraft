@@ -131,7 +131,13 @@ namespace TextForge
 
         private void TemperatureTrackBar_Scroll(object sender, EventArgs e)
         {
-            MatchScrollBarTemperature();
+            try
+            {
+                MatchScrollBarTemperature();
+            } catch (Exception ex)
+            {
+                CommonUtils.DisplayError(ex);
+            }
         }
 
         private void MatchScrollBarTemperature()

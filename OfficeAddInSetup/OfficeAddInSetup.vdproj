@@ -117,18 +117,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_4955914AF52FD80344065647B7CA20E3"
-        "OwnerKey" = "8:_9637F23C34595B97417DBC52C568A396"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_4955914AF52FD80344065647B7CA20E3"
-        "OwnerKey" = "8:_5DA1C96D6C89410AA5F3D85C50EA4EE0"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_4F360156441415F40819E5462D0A6128"
         "OwnerKey" = "8:_5DA1C96D6C89410AA5F3D85C50EA4EE0"
         "MsmSig" = "8:_UNDEFINED"
@@ -142,7 +130,7 @@
         "Entry"
         {
         "MsmKey" = "8:_4F769C2D11D83AFADFB8DADDA14450CD"
-        "OwnerKey" = "8:_9637F23C34595B97417DBC52C568A396"
+        "OwnerKey" = "8:_D256772372F83CFC5EAFF2F4F7345C1F"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -190,7 +178,7 @@
         "Entry"
         {
         "MsmKey" = "8:_5C6B0E1DD3DDFEB1C509E3A5F41B8225"
-        "OwnerKey" = "8:_4955914AF52FD80344065647B7CA20E3"
+        "OwnerKey" = "8:_94378CC3CBD6DDE946CA55D3895396E3"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -261,14 +249,20 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_94C086B7088843DD8140440BA4FA2646"
-        "OwnerKey" = "8:_UNDEFINED"
+        "MsmKey" = "8:_94378CC3CBD6DDE946CA55D3895396E3"
+        "OwnerKey" = "8:_D256772372F83CFC5EAFF2F4F7345C1F"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_9637F23C34595B97417DBC52C568A396"
+        "MsmKey" = "8:_94378CC3CBD6DDE946CA55D3895396E3"
         "OwnerKey" = "8:_5DA1C96D6C89410AA5F3D85C50EA4EE0"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_94C086B7088843DD8140440BA4FA2646"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -406,6 +400,12 @@
         "Entry"
         {
         "MsmKey" = "8:_CC0708ED1FCE2BF93BD1A209EAC99639"
+        "OwnerKey" = "8:_5DA1C96D6C89410AA5F3D85C50EA4EE0"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D256772372F83CFC5EAFF2F4F7345C1F"
         "OwnerKey" = "8:_5DA1C96D6C89410AA5F3D85C50EA4EE0"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -622,7 +622,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_9637F23C34595B97417DBC52C568A396"
+        "OwnerKey" = "8:_D256772372F83CFC5EAFF2F4F7345C1F"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -1165,37 +1165,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_4955914AF52FD80344065647B7CA20E3"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:MessagePack.Annotations, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_4955914AF52FD80344065647B7CA20E3"
-                    {
-                    "Name" = "8:MessagePack.Annotations.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:MessagePack.Annotations.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_AF016B7856C74F08A06EC9F3AA46C574"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_4F360156441415F40819E5462D0A6128"
             {
             "AssemblyRegister" = "3:1"
@@ -1619,6 +1588,37 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_94378CC3CBD6DDE946CA55D3895396E3"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:MessagePack.Annotations, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_94378CC3CBD6DDE946CA55D3895396E3"
+                    {
+                    "Name" = "8:MessagePack.Annotations.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:MessagePack.Annotations.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_AF016B7856C74F08A06EC9F3AA46C574"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_94C086B7088843DD8140440BA4FA2646"
             {
             "SourcePath" = "8:..\\bin\\Release\\TextCraft.dll.manifest"
@@ -1637,37 +1637,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_9637F23C34595B97417DBC52C568A396"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:MessagePack, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_9637F23C34595B97417DBC52C568A396"
-                    {
-                    "Name" = "8:MessagePack.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:MessagePack.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_AF016B7856C74F08A06EC9F3AA46C574"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_98A20B7F57D405C8FDFD6678B1A80029"
@@ -1989,6 +1958,37 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_D256772372F83CFC5EAFF2F4F7345C1F"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:MessagePack, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_D256772372F83CFC5EAFF2F4F7345C1F"
+                    {
+                    "Name" = "8:MessagePack.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:MessagePack.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_AF016B7856C74F08A06EC9F3AA46C574"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_D6DCC622A4634ECBD4733DB016770C60"
             {
             "AssemblyRegister" = "3:1"
@@ -2254,15 +2254,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:TextCraft"
-        "ProductCode" = "8:{03ABDD83-194C-4F1D-A76E-A8F6F20FFEE2}"
-        "PackageCode" = "8:{3E653890-A0A0-48DE-810F-4BBFEBC39AD4}"
+        "ProductCode" = "8:{A7A6A472-6BB7-4B63-8367-FAB7ED0F8557}"
+        "PackageCode" = "8:{56823881-3535-4537-B5E0-20B8118208D3}"
         "UpgradeCode" = "8:{E36CBC33-F0C8-472A-99B5-D882A25CC883}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.0.7"
+        "ProductVersion" = "8:1.0.8"
         "Manufacturer" = "8:suncloudsmoon"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:https://github.com/suncloudsmoon/TextCraft"

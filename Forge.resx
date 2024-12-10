@@ -296,4 +296,7 @@ Provide brief and helpful comments, focusing on one or two key points in each fe
   <data name="[GetPictureAddress] InvalidOperationException #1" xml:space="preserve">
     <value>No valid image data found in the content part.</value>
   </data>
+  <data name="(ThisAddIn.cs) [InitializeEnvironmentVariables] ArgumentException #1" xml:space="preserve">
+    <value>Could not find any language models from the API.</value>
+  </data>
 </root>

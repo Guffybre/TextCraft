@@ -138,6 +138,7 @@ resource_files = {
         "this.OptionsGroup.Label",
         "this.InfoGroup.Label",
         "(ThisAddIn.cs) [InitializeAddIn] ArgumentException #1",
+        "(ThisAddIn.cs) [InitializeEnvironmentVariables] ArgumentException #1",
         "[WritingToolsGallery_ButtonClick] ArgumentOutOfRangeException #1",
         "[ReviewButton_Click] MessageBox #1 (text)",
         "[ReviewButton_Click] MessageBox #1 (caption)",

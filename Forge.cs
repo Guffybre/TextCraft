@@ -21,9 +21,9 @@ namespace TextForge
     public partial class Forge
     {
         // Public
+        public static SystemChatMessage CommentSystemPrompt;
         public static readonly CultureLocalizationHelper CultureHelper = new CultureLocalizationHelper("TextForge.Forge", typeof(Forge).Assembly);
         public static readonly object InitializeDoor = new object();
-        public static SystemChatMessage CommentSystemPrompt;
 
         // Private
         private AboutBox _box;
@@ -57,8 +57,7 @@ namespace TextForge
                     
                     CommentSystemPrompt = new SystemChatMessage(ThisAddIn.SystemPromptLocalization["this.CommentSystemPrompt"]);
 
-                    List<string> modelList = new List<string>(ModelProperties.GetLanguageModelList(ThisAddIn.ModelList));
-                    PopulateDropdownList(modelList);
+                    PopulateDropdownList(ThisAddIn.LanguageModelList);
                 }
                 _box = new AboutBox();
                 _optionsBox = this.OptionsGroup;
@@ -290,10 +289,11 @@ namespace TextForge
         {
             var selectionRange = Globals.ThisAddIn.Application.Selection.Range;
             var range = (selectionRange.End - selectionRange.Start > 0) ? selectionRange : throw new InvalidRangeException(CultureHelper.GetLocalizedString("[AnalyzeText] InvalidRangeException #1"));
+            string selectedText = range.Text;
 
             ChatClient client = new ChatClient(ThisAddIn.Model, new ApiKeyCredential(ThisAddIn.ApiKey), ThisAddIn.ClientOptions);
             var streamingAnswer = client.CompleteChatStreamingAsync(
-                new List<ChatMessage>() { new SystemChatMessage(systemPrompt), new UserChatMessage($@"{CultureHelper.GetLocalizedString("[AnalyzeText] UserChatMessage #1")}:\n{GetTextFromParagraphs(selectionRange.Paragraphs)}"), new UserChatMessage(@$"{userPrompt}:\n{range.Text}") },
+                new List<ChatMessage>() { new SystemChatMessage(systemPrompt), new UserChatMessage($@"{CultureHelper.GetLocalizedString("[AnalyzeText] UserChatMessage #1")}:\n{GetTextFromParagraphs(selectionRange.Paragraphs)}"), new UserChatMessage(@$"{userPrompt}:\n{selectedText}") },
                 new ChatCompletionOptions() { Temperature = temperature * 2 },
                 ThisAddIn.CancellationTokenSource.Token
             );
@@ -302,6 +302,8 @@ namespace TextForge
             try
             {
                 await AddStreamingChatContentToRange(streamingAnswer, range);
+                if (selectedText.EndsWith("\r"))
+                    range.Text += Environment.NewLine;
             }
             catch (OperationCanceledException ex)
             {
