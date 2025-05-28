@@ -246,7 +246,14 @@ namespace TextForge
                 {
                     Forge.CancelButtonVisibility(false);
                 }
-                c.Range.Text = WordMarkdown.RemoveMarkdownSyntax(comment.ToString());
+                // Once streaming is done, remove any complete <think>...</think> blocks
+                string fullComment = comment.ToString();
+                string cleaned = System.Text.RegularExpressions.Regex
+                    .Replace(fullComment, @"<think>.*?</think>", string.Empty,
+                             System.Text.RegularExpressions.RegexOptions.Singleline);
+
+
+                c.Range.Text = WordMarkdown.RemoveMarkdownSyntax(cleaned.ToString());
             });
         }
     }
